@@ -6,24 +6,29 @@ You'll need to download and install the following to build yuzu:
   - Deb: `apt-get install sdl2` or `apt-get install libsdl2-2.0-0` or `apt-get install libsdl2-dev`
   - Arch: `pacman -S sdl2`
   - Fedora: `dnf install SDL2-devel`
+  - Gentoo: `emerge media-libs/libsdl2`
 * [Qt](http://qt-project.org/downloads)
   - Deb: `apt-get install qtbase5-dev libqt5opengl5-dev`
   - Arch: `pacman -S qt5`
   - Fedora: `dnf install qt5-qtbase qt5-qtbase-devel`
+  - Gentoo: `emerge dev-qt/qtcore dev-qt/qtopengl`
 * GCC v5+ (for C++14 support)
   - Deb: `apt-get install build-essential`
   - Arch: `pacman -S base-devel`
-  - Fedora: `dnf install gcc-c++`
+  - Fedora: `dnf install sys-devel/gcc`
 * [CMake](http://www.cmake.org/) 3.6+
   - Deb: `apt-get install cmake`
   - Arch: `pacman -S cmake`
   - Fedora: `dnf install cmake`
+  - Gentoo: `emerge dev-util/cmake`
 * [Clang](https://github.com/llvm-mirror/clang) 3.8 (optional build alternative)
   - Deb: `apt-get install clang libc++-dev` (in some distros, clang-3.8).
   - Arch: `pacman -S clang`, `libc++` is in the AUR. Use pacaur or yaourt to install it.
+  - Gentoo: `emerge sys-devel/clang sys-libs/libcxx`
 * Curl
   - Deb: `apt-get install libcurl4-openssl-dev`
-  - Arch `pacman -S libcurl-compat`
+  - Arch: `pacman -S libcurl-compat`
+  - Gentoo: `emerge net-misc/curl`
 
 ### Cloning yuzu in Git:
 
