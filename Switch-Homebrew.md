@@ -1,3 +1,3 @@
 Welcome to the fun and exciting world of Switch homebrew! Things here are brand new and highly technical, so we highly reccomend that you don't proceed unless you'd like to get your hands dirty. If so, here are the best resources for getting started:
 * [LibTransistor](https://github.com/reswitched/libtransistor), the homebrew library from the [ReSwitched](https://reswitched.tech/) team.
-* [LibNx](https://github.com/switchbrew/libnx), the homebrew library from the [SwitchBrew}(http://switchbrew.org/index.php?title=Main_Page) team.
+* [LibNx](https://github.com/switchbrew/libnx), the homebrew library from the [SwitchBrew](http://switchbrew.org/index.php?title=Main_Page) team.
