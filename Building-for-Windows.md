@@ -18,7 +18,7 @@ On Windows, all library dependencies are automatically included within the "exte
 git clone --recursive https://github.com/yuzu-emu/yuzu.git
 cd yuzu
 ```
-![9](http://i.imgur.com/Yb5ahlL.jpg)
+![9](https://i.imgur.com/xq15xTB.png)
 
 NOTE: yuzu by default downloads to C:\Users\<user-name>\yuzu
 
