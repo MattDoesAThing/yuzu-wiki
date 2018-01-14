@@ -4,7 +4,7 @@ It's recommended that you use [homebrew](http://brew.sh/) to install dependencie
 You'll need to download and install the following to build yuzu:
 
 * [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/) (`brew install pkgconfig`)
-* [SDL2](https://www.libsdl.org/download-2.0.php) (`brew install sdl2`, or download [this dmg](https://www.libsdl.org/release/SDL2-2.0.4.dmg))
+* [SDL2](https://www.libsdl.org/download-2.0.php) (`brew install sdl2`)
 * [Qt5](https://www.qt.io/download/) (`brew install qt5`) (**Note:** If you have Qt4 installed, then you will need to remove it before building. `brew unlink qt4`)
 * [CMake](https://cmake.org/) (`brew install cmake`)
 * A recent version of Xcode and the Xcode command line tools
@@ -15,6 +15,17 @@ You'll need to download and install the following to build yuzu:
 git clone --recursive https://github.com/yuzu-emu/yuzu
 cd yuzu
 git submodule update --init --recursive
+```
+
+### Building unicorn:
+
+```
+pushd externals
+git clone https://github.com/yuzu-emu/unicorn
+cd unicorn
+UNICORN_ARCHS=aarch64 ./make.sh macos-universal-no
+export UNICORNDIR=$(pwd)
+popd
 ```
 
 ### Using CMake:
