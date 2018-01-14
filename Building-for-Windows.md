@@ -1,1 +1,127 @@
-placeholder
+## MSVC Build for Windows
+### Minimal Dependencies
+On Windows, all library dependencies are automatically included within the "externals" folder or can be downloaded on-demand. To build yuzu, you simply need to install:
+
+* **[Visual Studio 2017 Community](https://www.visualstudio.com/products/visual-studio-community-vs)** - **Make sure to select C++ support in the installer**.
+* **[CMake](http://www.cmake.org/cmake/resources/software.html)** - Used to generate Visual Studio project files.
+![2](http://i.imgur.com/vSIXMHd.jpg)
+* **Git** - We recommend [msysgit](http://msysgit.github.io/).
+![3](http://i.imgur.com/joCBhIB.jpg)
+* While installing Git Bash, you should tell it to include Git in your system path. (Choose the "Use Git from the Windows Command Prompt" option.) If you missed that, don't worry, you'll just have to manually tell CMake where your git.exe is, since it's used to include version info into the built executable.
+
+![4](http://i.imgur.com/th8sFud.jpg)
+
+
+### Cloning yuzu in Git:
+
+```
+git clone --recursive https://github.com/yuzu-emu/yuzu.git
+cd yuzu
+```
+![9](http://i.imgur.com/Yb5ahlL.jpg)
+
+NOTE: yuzu by default downloads to C:\Users\<user-name>\yuzu
+
+### Building
+* Open cmake-gui and point it to the yuzu directory. Default: C:\Users\<user name>\yuzu
+![10](http://i.imgur.com/uFKhnKO.jpg)
+![11](http://i.imgur.com/DeafFmS.jpg)
+  * For the build directory, use a `build/` subdirectory inside the source directory or some other directory of your choice. (Tell CMake to create it.)
+
+  * Click the "Configure" button and choose "Visual Studio 15 2017 Win64"
+![12](http://i.imgur.com/RvVcyCP.jpg)
+
+  * When CMake gives you an error, find the yuzu_USE_BUNDLED_SDL2 and yuzu_USE_BUNDLED_QT options on the list and check their respective checkboxes. Click configure again. CMake will now download the required libraries.
+![13](http://i.imgur.com/nyHvJSJ.jpg)
+    * NOTE: If you used github's own app to clone, run "git submodule update --init --recursive" to get remaining dependencies.
+  * Click "Generate" to create the project files.
+
+![14](http://i.imgur.com/CkZgD4p.jpg)
+
+* Open the solution file yuzu.sln in Visual Studio 2017, which is located in the build folder.
+
+![15](http://i.imgur.com/sCWIZcK.jpg)
+
+  * Depending on which frontend (SDL2 or Qt) you want to build or run, select "yuzu" or "yuzu-qt" in the Solution Explorer, right-click and "Set as StartUp Project".
+
+![16](http://i.imgur.com/0Bvz9za.jpg)
+
+![17](http://i.imgur.com/FkuAwd8.jpg)
+
+  * Select the appropriate build type, Debug for debug purposes or Release for performance (in case of doubt choose the latter).
+
+![18](http://i.imgur.com/Gqifkc0.jpg)
+
+  * Press F5 or select Build → Rebuild Solution in the menu.
+
+![19](http://i.imgur.com/7ro9uSB.jpg)
+
+* NOTE: Please refer to [Common Issues](https://github.com/yuzu-emu/yuzu/wiki/Common-Issues) if any errors. If you did not find a solution feel free to ask us in the IRC channel: #yuzu @ [Freenode](https://webchat.freenode.net/).
+
+## MinGW-w64 Build with MSYS2
+
+### Note that these instructions are a draft, and are dependent on the MinGW build changes to be merged
+
+#### Prerequisites to install
+ * [MSYS2](http://msys2.github.io/)
+
+Make sure to follow the instructions and update to the latest version by running `pacman -Syu` as many times as needed.
+
+#### Install yuzu dependencies for MinGW-w64
+ * Open the "MSYS2 MinGW 64-bit" (mingw64.exe) shell
+ * Download and install all dependencies using: `pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-qt5 mingw-w64-x86_64-SDL2 mingw-w64-x86_64-cmake mingw-w64-x86_64-curl git`
+
+#### Clone the yuzu repository with git.
+
+ * `git clone --recursive https://github.com/yuzu-emu/yuzu.git`
+ * `cd yuzu`
+
+#### Run the following commands to build yuzu (dynamic linked build)
+```bash
+mkdir build && cd build
+cmake -G "MSYS Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=mingw32-make -DCMAKE_CXX_FLAGS="-DMICROPROFILE_ENABLED=0" -DUSE_SYSTEM_CURL=1 ..
+# should we use `make`?
+mingw32-make -j4
+# test yuzu out with
+./src/yuzu_qt/yuzu-qt.exe
+```
+
+##### Note! This build is not a static build meaning that you need to include all of the dlls with the exe in order to use it.
+
+#### Creating a static build (Optional)
+
+  * Instead of installing `mingw-w64-x86_64-qt5` install `mingw-w64-x86_64-qt5-static`
+  * Add `-DMINGW_STATIC_BUILD=1` to the cmake command line
+
+#### Building without Qt (Optional)
+
+Doesn't require the rather large Qt dependency, but you will lack a GUI frontend.
+
+* Pass the `-DENABLE_QT=no` flag to cmake
+
+
+## Clang build using clang-cl
+
+:warning: This section is outdated and may not work
+
+#### Prerequisites to install
+ * **[LLVM](http://releases.llvm.org/download.html#3.9.0)** - The clang compiler
+ * **[Visual Studio 2015 Community](https://www.visualstudio.com/products/visual-studio-community-vs)** - **Make sure to select C++ support in the installer**.
+ * **[CMake](http://www.cmake.org/cmake/resources/software.html)** - Used to generate Visual Studio project files.
+ * **Git** - We recommend [msysgit](http://msysgit.github.io/).
+Follow the installers instructions.
+
+#### Clone the yuzu repository with git.
+
+ * `git clone --recursive https://github.com/yuzu-emu/yuzu.git`
+ * `cd yuzu`
+
+#### Run the following commands to build yuzu 
+```
+mkdir build
+cd build
+cmake.exe .. -TLLVM-vs2014 -G"Visual Studio 15 2017 Win64" -Dyuzu_USE_BUNDLED_SDL2=1 -Dyuzu_USE_BUNDLED_QT=1 -DCMAKE_BUILD_TYPE=Release
+cmake --build . --target yuzu-qt
+# test yuzu out with
+.\bin\Release\yuzu-qt 
+```
