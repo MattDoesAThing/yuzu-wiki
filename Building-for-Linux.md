@@ -45,6 +45,8 @@ export UNICORNDIR=$(pwd)
 cd ../..
 ```
 
+For platforms which use python3 by default, you manually have to configure `UNICORN_QEMU_FLAGS` before running `./make.sh`. Example: `UNICORN_QEMU_FLAGS="--python=/usr/bin/python2" UNICORN_ARCHS=aarch64 ./make.sh`
+
 ### Building yuzu in Debug Mode (Slow):
 
 **Using gcc:**
