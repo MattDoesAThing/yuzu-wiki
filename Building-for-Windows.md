@@ -31,7 +31,7 @@ NOTE: yuzu by default downloads to C:\Users\<user-name>\yuzu
   * Click the "Configure" button and choose "Visual Studio 15 2017 Win64"
 ![12](http://i.imgur.com/RvVcyCP.jpg)
 
-  * When CMake gives you an error, find the yuzu_USE_BUNDLED_SDL2 and yuzu_USE_BUNDLED_QT options on the list and check their respective checkboxes. Click configure again. CMake will now download the required libraries.
+  * When CMake gives you an error, find the yuzu_USE_BUNDLED_SDL2, yuzu_USE_BUNDLED_QT and YUZU_USE_BUNDLED_UNICORN options on the list and check their respective checkboxes. Click configure again. CMake will now download the required libraries.
 ![13](http://i.imgur.com/nyHvJSJ.jpg)
     * NOTE: If you used github's own app to clone, run "git submodule update --init --recursive" to get remaining dependencies.
   * Click "Generate" to create the project files.
@@ -120,7 +120,7 @@ Follow the installers instructions.
 ```
 mkdir build
 cd build
-cmake.exe .. -TLLVM-vs2014 -G"Visual Studio 15 2017 Win64" -Dyuzu_USE_BUNDLED_SDL2=1 -Dyuzu_USE_BUNDLED_QT=1 -DCMAKE_BUILD_TYPE=Release
+cmake.exe .. -TLLVM-vs2014 -G"Visual Studio 15 2017 Win64" -Dyuzu_USE_BUNDLED_SDL2=1 -Dyuzu_USE_BUNDLED_QT=1 -DYUZU_USE_BUNDLED_UNICORN=1 -DCMAKE_BUILD_TYPE=Release
 cmake --build . --target yuzu-qt
 # test yuzu out with
 .\bin\Release\yuzu-qt 
