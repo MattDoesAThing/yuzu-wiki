@@ -34,6 +34,17 @@ cd yuzu
 
 The `--recursive` option automatically clones the required Git submodules too.
 
+### Building unicorn:
+
+```
+pushd externals
+git clone https://github.com/yuzu-emu/unicorn
+cd unicorn
+UNICORN_ARCHS=aarch64 ./make.sh
+export UNICORNDIR=$(pwd)
+popd
+```
+
 ### Building yuzu in Debug Mode (Slow):
 
 **Using gcc:**
