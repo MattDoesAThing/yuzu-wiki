@@ -4,7 +4,7 @@ On Windows, all library dependencies are automatically included within the "exte
 
 * **[Visual Studio 2017 Community](https://www.visualstudio.com/products/visual-studio-community-vs)** - **Make sure to select C++ support in the installer**.
 * **[CMake](http://www.cmake.org/cmake/resources/software.html)** - Used to generate Visual Studio project files.
-![2](http://i.imgur.com/vSIXMHd.jpg)
+![2](https://i.imgur.com/S1NH63P.png)
 * **Git** - We recommend [msysgit](http://msysgit.github.io/).
 ![3](http://i.imgur.com/joCBhIB.jpg)
 * While installing Git Bash, you should tell it to include Git in your system path. (Choose the "Use Git from the Windows Command Prompt" option.) If you missed that, don't worry, you'll just have to manually tell CMake where your git.exe is, since it's used to include version info into the built executable.
@@ -24,37 +24,39 @@ NOTE: yuzu by default downloads to C:\Users\<user-name>\yuzu
 
 ### Building
 * Open cmake-gui and point it to the yuzu directory. Default: C:\Users\<user name>\yuzu
-![10](http://i.imgur.com/uFKhnKO.jpg)
-![11](http://i.imgur.com/DeafFmS.jpg)
+![10](https://i.imgur.com/YKmNs1p.png)
+![11](https://i.imgur.com/SWxOVKB.png)
   * For the build directory, use a `build/` subdirectory inside the source directory or some other directory of your choice. (Tell CMake to create it.)
 
   * Click the "Configure" button and choose "Visual Studio 15 2017 Win64"
 ![12](http://i.imgur.com/RvVcyCP.jpg)
 
   * When CMake gives you an error, find the yuzu_USE_BUNDLED_SDL2, yuzu_USE_BUNDLED_QT and YUZU_USE_BUNDLED_UNICORN options on the list and check their respective checkboxes. Click configure again. CMake will now download the required libraries.
-![13](http://i.imgur.com/nyHvJSJ.jpg)
+
+![13](https://i.imgur.com/BX3Ek4h.png)
+![14](https://i.imgur.com/K2E8y8s.png)
     * NOTE: If you used github's own app to clone, run "git submodule update --init --recursive" to get remaining dependencies.
   * Click "Generate" to create the project files.
 
-![14](http://i.imgur.com/CkZgD4p.jpg)
+![15](http://i.imgur.com/CkZgD4p.jpg)
 
 * Open the solution file yuzu.sln in Visual Studio 2017, which is located in the build folder.
 
-![15](http://i.imgur.com/sCWIZcK.jpg)
+![16](https://i.imgur.com/q4dSKXR.png)
 
-  * Depending on which frontend (SDL2 or Qt) you want to build or run, select "yuzu" or "yuzu-qt" in the Solution Explorer, right-click and "Set as StartUp Project".
+  * Depending on which frontend (SDL2 or Qt) you want to build or run, select "yuzu" or "yuzu-cmd" in the Solution Explorer, right-click and "Set as StartUp Project".
 
-![16](http://i.imgur.com/0Bvz9za.jpg)
+![17](https://i.imgur.com/2h8q6at.png)
 
-![17](http://i.imgur.com/FkuAwd8.jpg)
+![18](http://i.imgur.com/FkuAwd8.jpg)
 
   * Select the appropriate build type, Debug for debug purposes or Release for performance (in case of doubt choose the latter).
 
-![18](http://i.imgur.com/Gqifkc0.jpg)
+![19](http://i.imgur.com/Gqifkc0.jpg)
 
   * Press F5 or select Build → Rebuild Solution in the menu.
 
-![19](http://i.imgur.com/7ro9uSB.jpg)
+![20](http://i.imgur.com/7ro9uSB.jpg)
 
 * NOTE: Please refer to [Common Issues](https://github.com/yuzu-emu/yuzu/wiki/Common-Issues) if any errors. If you did not find a solution feel free to ask us in the IRC channel: #yuzu @ [Freenode](https://webchat.freenode.net/).
 
