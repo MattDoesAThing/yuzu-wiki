@@ -52,6 +52,14 @@ This builds a fat binary that has slices targeting early and late x64 machines.
 make -j4
 ```
 
+Temporary unicorn fixup:
+
+```
+# copy libunicorn.1.dylib into yuzu.app/Contents/MacOS 
+# then run:
+install_name_tool -change libunicorn.1.dylib @executable_path/libunicorn.1.dylib yuzu.app/Contents/MacOS/yuzu
+```
+
 A `yuzu_qt.app` application bundle will now be present under `build/src/yuzu_qt/`. Note that this is non-portable and only works on your machine.
 
 For portability of the appbundle between machines please refer to [this script](https://github.com/yuzu-emu/yuzu/blob/master/.travis/macos/upload.sh).
