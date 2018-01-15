@@ -62,7 +62,7 @@ NOTE: yuzu by default downloads to C:\Users\<user-name>\yuzu
 
 ## MinGW-w64 Build with MSYS2
 
-### Note that these instructions are a draft, and are dependent on the MinGW build changes to be merged
+### ***NOTE THAT THESE INSTRUCTIONS ARE FOR CITRA AND ARE LIKELY OUTDATED FOR YUZU. EXPECT TO HAVE TO FIX UNICORN LINKING ***
 
 #### Prerequisites to install
  * [MSYS2](http://msys2.github.io/)
