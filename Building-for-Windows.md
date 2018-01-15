@@ -44,7 +44,7 @@ NOTE: yuzu by default downloads to C:\Users\<user-name>\yuzu
 
 ![16](https://i.imgur.com/q4dSKXR.png)
 
-  * Depending on which frontend (SDL2 or Qt) you want to build or run, select "yuzu" or "yuzu-cmd" in the Solution Explorer, right-click and "Set as StartUp Project".
+  * Depending if you want a graphical user interface or not ("yuzu" is with a graphical user interface, while "yuzu-cmd" is just the command line version of it), select "yuzu" or "yuzu-cmd" in the Solution Explorer, right-click and "Set as StartUp Project".
 
 ![17](https://i.imgur.com/2h8q6at.png)
 
