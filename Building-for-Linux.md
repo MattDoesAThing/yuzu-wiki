@@ -25,10 +25,6 @@ You'll need to download and install the following to build yuzu:
   - Deb: `apt-get install clang libc++-dev` (in some distros, clang-3.8).
   - Arch: `pacman -S clang`, `libc++` is in the AUR. Use pacaur or yaourt to install it.
   - Gentoo: `emerge sys-devel/clang sys-libs/libcxx`
-* Curl
-  - Deb: `apt-get install libcurl4-openssl-dev`
-  - Arch: `pacman -S libcurl-compat`
-  - Gentoo: `emerge net-misc/curl`
 
 ### Cloning yuzu in Git:
 
@@ -39,26 +35,13 @@ cd yuzu
 
 The `--recursive` option automatically clones the required Git submodules too.
 
-### Building unicorn:
-
-```
-cd externals
-git clone https://github.com/yuzu-emu/unicorn
-cd unicorn
-UNICORN_ARCHS=aarch64 ./make.sh
-export UNICORNDIR=$(pwd)
-cd ../..
-```
-
-For platforms which use python3 by default, you manually have to configure `UNICORN_QEMU_FLAGS` before running `./make.sh`. Example: `UNICORN_QEMU_FLAGS="--python=/usr/bin/python2" UNICORN_ARCHS=aarch64 ./make.sh`
-
 ### Building yuzu in Debug Mode (Slow):
 
 **Using gcc:**
 
 ```
 mkdir build && cd build
-cmake ../ -DUSE_SYSTEM_CURL=1
+cmake ../
 make
 sudo make install
 ```
@@ -73,7 +56,7 @@ mkdir build && cd build
 cmake  -DCMAKE_CXX_COMPILER=clang++-3.8 \
 	-DCMAKE_C_COMPILER=clang-3.8 \
 	-DCMAKE_CXX_FLAGS="-O2 -g -stdlib=libc++" \
-        -DUSE_SYSTEM_CURL=1  ..
+        ..
 make
 sudo make install (currently doesn't work, needs to be fixed)
 ```
@@ -98,7 +81,7 @@ do `sudo apt-get install libc++abi-dev && sudo ln -s /usr/include/libcxxabi/__cx
 
 ```
 mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release -DUSE_SYSTEM_CURL=1
+cmake .. -DCMAKE_BUILD_TYPE=Release
 make
 sudo make install (currently doesn't work, needs to be fixed)
 ```
@@ -106,7 +89,7 @@ sudo make install (currently doesn't work, needs to be fixed)
 ### Building with debug symbols:
 
 ```
-cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo -DUSE_SYSTEM_CURL=1
+cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo
 make
 ```
 
