@@ -58,7 +58,7 @@ NOTE: yuzu by default downloads to C:\Users\<user-name>\yuzu
 
 ![20](http://i.imgur.com/7ro9uSB.jpg)
 
-* NOTE: Please refer to [Common Issues](https://github.com/yuzu-emu/yuzu/wiki/Common-Issues) if any errors. If you did not find a solution feel free to ask us in the IRC channel: #yuzu @ [Freenode](https://webchat.freenode.net/).
+Feel free to ask us in the IRC channel #yuzu @ [Freenode](https://webchat.freenode.net/) or on [Discord](https://discord.gg/XQV6dn9) if you have issues.
 
 ## MinGW-w64 Build with MSYS2
 
