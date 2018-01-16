@@ -31,7 +31,7 @@ NOTE: yuzu by default downloads to C:\Users\<user-name>\yuzu
   * Click the "Configure" button and choose "Visual Studio 15 2017 Win64"
 ![12](http://i.imgur.com/RvVcyCP.jpg)
 
-  * When CMake gives you an error, find the YUZU_USE_BUNDLED_SDL2, YUZU_USE_BUNDLED_QT and YUZU_USE_BUNDLED_UNICORN options on the list and check their respective checkboxes. Click configure again. CMake will now download the required libraries.
+  * When CMake gives you an error, find the YUZU_USE_BUNDLED_SDL2 and YUZU_USE_BUNDLED_QT options on the list and check their respective checkboxes. Click configure again. CMake will now download the required libraries.
 
 ![13](https://i.imgur.com/BX3Ek4h.png)
 ![14](https://i.imgur.com/K2E8y8s.png)
@@ -71,7 +71,7 @@ Make sure to follow the instructions and update to the latest version by running
 
 #### Install yuzu dependencies for MinGW-w64
  * Open the "MSYS2 MinGW 64-bit" (mingw64.exe) shell
- * Download and install all dependencies using: `pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-qt5 mingw-w64-x86_64-SDL2 mingw-w64-x86_64-cmake mingw-w64-x86_64-curl git`
+ * Download and install all dependencies using: `pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-qt5 mingw-w64-x86_64-SDL2 mingw-w64-x86_64-cmake make git`
 
 #### Clone the yuzu repository with git.
 
@@ -81,19 +81,13 @@ Make sure to follow the instructions and update to the latest version by running
 #### Run the following commands to build yuzu (dynamic linked build)
 ```bash
 mkdir build && cd build
-cmake -G "MSYS Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=mingw32-make -DCMAKE_CXX_FLAGS="-DMICROPROFILE_ENABLED=0" -DUSE_SYSTEM_CURL=1 ..
-# should we use `make`?
-mingw32-make -j4
+cmake -G "MSYS Makefiles" -DCMAKE_BUILD_TYPE=Release ..
+make -j4
 # test yuzu out with
-./src/yuzu_qt/yuzu-qt.exe
+./bin/yuzu-qt.exe
 ```
 
 ##### Note! This build is not a static build meaning that you need to include all of the dlls with the exe in order to use it.
-
-#### Creating a static build (Optional)
-
-  * Instead of installing `mingw-w64-x86_64-qt5` install `mingw-w64-x86_64-qt5-static`
-  * Add `-DMINGW_STATIC_BUILD=1` to the cmake command line
 
 #### Building without Qt (Optional)
 
