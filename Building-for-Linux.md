@@ -15,7 +15,8 @@ You'll need to download and install the following to build yuzu:
 * GCC v7 (for C++17 support)
   - Deb: `apt-get install build-essential`
   - Arch: `pacman -S base-devel`
-  - Fedora: `dnf install sys-devel/gcc`
+  - Fedora: `dnf install gcc`
+  - Gentoo: `emerge sys-devel/gcc`
 * [CMake](http://www.cmake.org/) 3.6+
   - Deb: `apt-get install cmake`
   - Arch: `pacman -S cmake`
