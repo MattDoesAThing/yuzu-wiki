@@ -1,29 +1,18 @@
-Q: What's this project?
+### **What's this project?**
+_yuzu is an experimental open-source emulator for the Nintendo Switch from the creators of Citra._
+_It is written in C++ with portability in mind, with builds actively maintained for Windows, Linux and macOS. The emulator is currently only useful for homebrew development and research purposes._
 
-A: yuzu is an experimental open-source emulator for the Nintendo Switch from the creators of Citra.
-It is written in C++ with portability in mind, with builds actively maintained for Windows, Linux and macOS. The emulator is currently only useful for homebrew development and research purposes.
+### **What is yuzu’s License?**
+_yuzu is an open-source project, licensed under the GPLv2 (or any later version). Refer to the license document for more information._
 
+### **Which platforms does yuzu support?**
+_yuzu is actively tested and supported on various 64-bit version of Windows (7 and up), Linux and macOS._
 
-Q: What is yuzu’s License?
+### **How to build Yuzu by myself in my OS?**
+_You can take a look on the following guides to do it to any of the following platforms:_
+_[Windows](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Windows),_
+_[Linux](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Linux),_
+_[macOS](https://github.com/yuzu-emu/yuzu/wiki/Building-for-macOS)._
 
-yuzu is an open-source project, licensed under the GPLv2 (or any later version). Refer to the license document for more information.
-
-Q: Which platforms does yuzu support?
-
-yuzu is actively tested and supported on various 64-bit version of Windows (7 and up), Linux and macOS.
-
-
-Q: How to build Yuzu by myself in my OS?
-
-A: You can take a look on the following guides to do it
-
-For Windows users, take a look [here](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Windows)
-
-For Linux users, take a look [here](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Linux)
-
-For macOS users, take a look [here](https://github.com/yuzu-emu/yuzu/wiki/Building-for-macOS)
-
-
-Q: Who made yuzu?
-
-A: yuzu has an active team of open-source developers. The list of contributors can be found on GitHub.
+### **Who made yuzu?**
+_yuzu has an active team of open-source developers. The list of contributors can be found on GitHub._
