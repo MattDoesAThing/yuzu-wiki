@@ -15,4 +15,4 @@ _[Linux](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Linux),_
 _[macOS](https://github.com/yuzu-emu/yuzu/wiki/Building-for-macOS)._
 
 ### **Who made yuzu?**
-_yuzu has an active team of open-source developers. The list of contributors can be found on GitHub._
+_yuzu has an active team of open-source developers. The list of contributors can be [found on GitHub](https://github.com/yuzu-emu/yuzu/graphs/contributors)._
