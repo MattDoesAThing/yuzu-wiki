@@ -17,17 +17,6 @@ cd yuzu
 git submodule update --init --recursive
 ```
 
-### Building unicorn:
-
-```
-pushd externals
-git clone https://github.com/yuzu-emu/unicorn
-cd unicorn
-UNICORN_ARCHS=aarch64 ./make.sh macos-universal-no
-export UNICORNDIR=$(pwd)
-popd
-```
-
 ### Using CMake:
 
 First of all, you have to tell CMake where your Qt5 is installed (add this line to ~/.profile if you want to make this permanent.):
@@ -41,7 +30,7 @@ Now you can generate makefiles for the build:
 export MACOSX_DEPLOYMENT_TARGET=10.9
 mkdir build
 cd build
-cmake .. -DUSE_SYSTEM_CURL=ON -DCMAKE_OSX_ARCHITECTURES="x86_64;x86_64h" -DCMAKE_BUILD_TYPE=Release
+cmake .. -DCMAKE_OSX_ARCHITECTURES="x86_64;x86_64h" -DCMAKE_BUILD_TYPE=Release
 ```
 
 This builds a fat binary that has slices targeting early and late x64 machines.
