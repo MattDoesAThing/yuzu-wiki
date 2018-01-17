@@ -30,10 +30,8 @@ Now you can generate makefiles for the build:
 export MACOSX_DEPLOYMENT_TARGET=10.9
 mkdir build
 cd build
-cmake .. -DCMAKE_OSX_ARCHITECTURES="x86_64;x86_64h" -DCMAKE_BUILD_TYPE=Release
+cmake .. -DCMAKE_BUILD_TYPE=Release
 ```
-
-This builds a fat binary that has slices targeting early and late x64 machines.
 
 ### Building yuzu
 
