@@ -31,7 +31,7 @@ Note: Depending on your distro, the version of CMake you get may not be what's r
 
 ### Cloning yuzu in Git:
 
-```
+```bash
 git clone --recursive https://github.com/yuzu-emu/yuzu
 cd yuzu
 ```
@@ -42,7 +42,7 @@ The `--recursive` option automatically clones the required Git submodules too.
 
 **Using gcc:**
 
-```
+```bash
 mkdir build && cd build
 cmake ../
 make
@@ -54,7 +54,7 @@ Optionally, you can use "cmake -i .." to adjust various options (e.g. disable th
 
 Note: It is important you use libc++ vs. , otherwise your build will likely fail. libc++ is not 100% complete on GNU/Linux, but works well for this build. The libstdc++ std::string is a different data structure than the libc++ std::string. See: [LLVLM.org](https://llvm.org/svn/llvm-project/www-releases/trunk/3.8.0/projects/libcxx/docs/UsingLibcxx.html). If libc++ is not used, some warnings are treated as errors. Using clang is only really recommended for users not using GCC >= 5. Also see [Clang Comparison](http://clang.llvm.org/comparison.html).
 
-```
+```bash
 mkdir build && cd build
 cmake  -DCMAKE_CXX_COMPILER=clang++-3.8 \
 	-DCMAKE_C_COMPILER=clang-3.8 \
@@ -63,12 +63,13 @@ cmake  -DCMAKE_CXX_COMPILER=clang++-3.8 \
 make
 sudo make install (currently doesn't work, needs to be fixed)
 ```
+
 Debian/Ubuntu: Owing to bug [#808086](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=808086) the build might
 fail. To have it build, add the following after line 1938 of `/usr/include/c++/v1/string`. (see discussion on
 [StackOverflow](http://stackoverflow.com/questions/37096062/get-a-basic-c-program-to-compile-using-clang-on-ubuntu-16)
 for more details.)
 
-```
+```cpp
 #if _LIBCPP_STD_VER <= 14
     _NOEXCEPT_(is_nothrow_copy_constructible<allocator_type>::value)
 #else
@@ -76,13 +77,15 @@ for more details.)
 #endif
 ```
 
-Additionally, on Ubuntu,
-do `sudo apt-get install libc++abi-dev && sudo ln -s /usr/include/libcxxabi/__cxxabi_config.h /usr/include/c++/v1/__cxxabi_config.h`
+Additionally, on Ubuntu, do:
+```bash
+sudo apt-get install libc++abi-dev && sudo ln -s /usr/include/libcxxabi/__cxxabi_config.h /usr/include/c++/v1/__cxxabi_config.h
+```
 
 
 ### Building yuzu in Release Mode (Optimized):
 
-```
+```bash
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make
@@ -91,7 +94,7 @@ sudo make install (currently doesn't work, needs to be fixed)
 
 ### Building with debug symbols:
 
-```
+```bash
 cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo
 make
 ```
@@ -100,7 +103,7 @@ make
 
 After building, the binaries `yuzu` and `yuzu-qt` (depending on your build options) will end up in `build/src/<binary_name>/`. 
 
-```
+```bash
 # SDL
 cd build/src/yuzu/
 ./yuzu
@@ -112,7 +115,7 @@ cd build/src/yuzu_qt/
 
 ### Debugging:
 
-```
+```bash
 cd data
 gdb ../build/src/yuzu_qt/yuzu-qt
 (gdb) run
