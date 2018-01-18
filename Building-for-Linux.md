@@ -119,8 +119,8 @@ cd build/src/yuzu_qt/
 
 ```bash
 cd data
-gdb ../build/src/yuzu_qt/yuzu-qt
-(gdb) run
+gdb ../build/src/yuzu_qt/yuzu-qt # Start GDB
+(gdb) run                        # Run yuzu under GDB 
 <crash>
-(gdb) bt
+(gdb) bt                         # Print a backtrace of the entire callstack to see which codepath the crash occurred on
 ```
