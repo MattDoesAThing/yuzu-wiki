@@ -48,7 +48,8 @@ cmake ../
 make
 sudo make install
 ```
-Optionally, you can use "cmake -i .." to adjust various options (e.g. disable the Qt GUI).
+
+Optionally, you can use `cmake -i ..` to adjust various options (e.g. disable the Qt GUI).
 
 **Using clang:**
 
