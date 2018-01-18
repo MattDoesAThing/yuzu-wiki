@@ -1,4 +1,4 @@
-### Dependencies:
+### Dependencies
 
 You'll need to download and install the following to build yuzu:
 
@@ -24,12 +24,13 @@ You'll need to download and install the following to build yuzu:
   - Gentoo: `emerge dev-util/cmake`
 
 Note: Depending on your distro, the version of CMake you get may not be what's required to build yuzu. Check with cmake --version. Version 3.6 or greater is required for you to be able to build!
+
 - [Clang](https://github.com/llvm-mirror/clang) 3.8 (optional build alternative)
   - Arch: `pacman -S clang`, `libc++` is in the AUR. Use pacaur or yaourt to install it.
   - Debian: `apt-get install clang libc++-dev` (in some distros, clang-3.8).
   - Gentoo: `emerge sys-devel/clang sys-libs/libcxx`
 
-### Cloning yuzu in Git:
+### Cloning yuzu in Git
 
 ```bash
 git clone --recursive https://github.com/yuzu-emu/yuzu
@@ -38,9 +39,9 @@ cd yuzu
 
 The `--recursive` option automatically clones the required Git submodules too.
 
-### Building yuzu in Debug Mode (Slow):
+### Building yuzu in Debug Mode (Slow)
 
-**Using gcc:**
+#### Using GCC
 
 ```bash
 mkdir build && cd build
@@ -51,18 +52,18 @@ sudo make install
 
 Optionally, you can use `cmake -i ..` to adjust various options (e.g. disable the Qt GUI).
 
-**Using clang:**
+#### Using clang
 
 Note: It is important you use libc++ vs. , otherwise your build will likely fail. libc++ is not 100% complete on GNU/Linux, but works well for this build. The libstdc++ std::string is a different data structure than the libc++ std::string. See: [LLVLM.org](https://llvm.org/svn/llvm-project/www-releases/trunk/3.8.0/projects/libcxx/docs/UsingLibcxx.html). If libc++ is not used, some warnings are treated as errors. Using clang is only really recommended for users not using GCC >= 5. Also see [Clang Comparison](http://clang.llvm.org/comparison.html).
 
 ```bash
 mkdir build && cd build
-cmake  -DCMAKE_CXX_COMPILER=clang++-3.8 \
-	-DCMAKE_C_COMPILER=clang-3.8 \
-	-DCMAKE_CXX_FLAGS="-O2 -g -stdlib=libc++" \
-        ..
+cmake -DCMAKE_CXX_COMPILER=clang++-3.8 \
+      -DCMAKE_C_COMPILER=clang-3.8 \
+      -DCMAKE_CXX_FLAGS="-O2 -g -stdlib=libc++" \
+      ..
 make
-sudo make install (currently doesn't work, needs to be fixed)
+sudo make install # (currently doesn't work, needs to be fixed)
 ```
 
 Debian/Ubuntu: Owing to bug [#808086](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=808086) the build might
@@ -79,12 +80,12 @@ for more details.)
 ```
 
 Additionally, on Ubuntu, do:
+
 ```bash
 sudo apt-get install libc++abi-dev && sudo ln -s /usr/include/libcxxabi/__cxxabi_config.h /usr/include/c++/v1/__cxxabi_config.h
 ```
 
-
-### Building yuzu in Release Mode (Optimized):
+### Building yuzu in Release Mode (Optimized)
 
 ```bash
 mkdir build && cd build
@@ -93,16 +94,16 @@ make
 sudo make install (currently doesn't work, needs to be fixed)
 ```
 
-### Building with debug symbols:
+### Building with debug symbols
 
 ```bash
 cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo
 make
 ```
 
-### Running without installing:
+### Running without installing
 
-After building, the binaries `yuzu` and `yuzu-qt` (depending on your build options) will end up in `build/src/<binary_name>/`. 
+After building, the binaries `yuzu` and `yuzu-qt` (depending on your build options) will end up in `build/src/<binary_name>/`.
 
 ```bash
 # SDL
@@ -114,7 +115,7 @@ cd build/src/yuzu_qt/
 ./yuzu-qt
 ```
 
-### Debugging:
+### Debugging
 
 ```bash
 cd data
