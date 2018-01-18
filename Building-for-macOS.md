@@ -1,6 +1,6 @@
-### Dependencies:
+### Dependencies
 
-It's recommended that you use [homebrew](http://brew.sh/) to install dependencies.
+It's recommended that you use [Homebrew](http://brew.sh/) to install dependencies.
 You'll need to download and install the following to build yuzu:
 
 * [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/) (`brew install pkgconfig`)
@@ -9,24 +9,25 @@ You'll need to download and install the following to build yuzu:
 * [CMake](https://cmake.org/) (`brew install cmake`)
 * A recent version of Xcode and the Xcode command line tools
 
-### Cloning yuzu in Git:
+### Cloning yuzu with Git
 
-```
+```bash
 git clone --recursive https://github.com/yuzu-emu/yuzu
 cd yuzu
 git submodule update --init --recursive
 ```
 
-### Using CMake:
+### Using CMake
 
-First of all, you have to tell CMake where your Qt5 is installed (add this line to ~/.profile if you want to make this permanent.):
+First of all, you have to tell CMake where Qt5 is installed (add this line to ~/.profile if you want to make this permanent):
 
-```
+```bash
 export Qt5_DIR=$(brew --prefix)/opt/qt5
 ```
 
 Now you can generate makefiles for the build:
-```
+
+```bash
 export MACOSX_DEPLOYMENT_TARGET=10.9
 mkdir build
 cd build
@@ -35,14 +36,14 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 
 ### Building yuzu
 
-```
+```bash
 make -j4
 ```
 
 Temporary unicorn fixup:
 
-```
-# copy libunicorn.1.dylib into yuzu.app/Contents/MacOS 
+```bash
+# copy libunicorn.1.dylib into yuzu.app/Contents/MacOS
 # then run:
 install_name_tool -change libunicorn.1.dylib @executable_path/libunicorn.1.dylib yuzu.app/Contents/MacOS/yuzu
 ```
