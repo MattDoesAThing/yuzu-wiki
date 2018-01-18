@@ -30,7 +30,7 @@ Note: Depending on your distro, the version of CMake you get may not be what's r
   - Debian: `apt-get install clang libc++-dev` (in some distros, clang-3.8).
   - Gentoo: `emerge sys-devel/clang sys-libs/libcxx`
 
-### Cloning yuzu in Git
+### Cloning yuzu with Git
 
 ```bash
 git clone --recursive https://github.com/yuzu-emu/yuzu
