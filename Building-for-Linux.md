@@ -3,30 +3,30 @@
 You'll need to download and install the following to build yuzu:
 
 * [SDL2](https://www.libsdl.org/download-2.0.php)
-  - Deb: `apt-get install sdl2` or `apt-get install libsdl2-2.0-0` or `apt-get install libsdl2-dev`
   - Arch: `pacman -S sdl2`
+  - Debian: `apt-get install sdl2` or `apt-get install libsdl2-2.0-0` or `apt-get install libsdl2-dev`
   - Fedora: `dnf install SDL2-devel`
   - Gentoo: `emerge media-libs/libsdl2`
 * [Qt](http://qt-project.org/downloads)
-  - Deb: `apt-get install qtbase5-dev libqt5opengl5-dev`
   - Arch: `pacman -S qt5`
+  - Debian: `apt-get install qtbase5-dev libqt5opengl5-dev`
   - Fedora: `dnf install qt5-qtbase qt5-qtbase-devel`
   - Gentoo: `emerge dev-qt/qtcore dev-qt/qtopengl`
-* GCC v7 (for C++17 support)
-  - Deb: `apt-get install build-essential`
+* GCC v7+ (for C++17 support)
   - Arch: `pacman -S base-devel`
+  - Debian: `apt-get install build-essential`
   - Fedora: `dnf install gcc`
   - Gentoo: `emerge =sys-devel/gcc-7.1.0`
 * [CMake](http://www.cmake.org/) 3.6+
-  - Deb: `apt-get install cmake`
   - Arch: `pacman -S cmake`
+  - Debian: `apt-get install cmake`
   - Fedora: `dnf install cmake`
   - Gentoo: `emerge dev-util/cmake`
 
-Note: Depending on your distro, the version of CMake you get may not be what's required to build yuzu. Check with cmake --version. Version 3.5 or greater is required for you to be able to build!
+Note: Depending on your distro, the version of CMake you get may not be what's required to build yuzu. Check with cmake --version. Version 3.6 or greater is required for you to be able to build!
 * [Clang](https://github.com/llvm-mirror/clang) 3.8 (optional build alternative)
-  - Deb: `apt-get install clang libc++-dev` (in some distros, clang-3.8).
   - Arch: `pacman -S clang`, `libc++` is in the AUR. Use pacaur or yaourt to install it.
+  - Debian: `apt-get install clang libc++-dev` (in some distros, clang-3.8).
   - Gentoo: `emerge sys-devel/clang sys-libs/libcxx`
 
 ### Cloning yuzu in Git:
