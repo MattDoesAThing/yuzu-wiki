@@ -91,7 +91,7 @@ sudo apt-get install libc++abi-dev && sudo ln -s /usr/include/libcxxabi/__cxxabi
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make
-sudo make install (currently doesn't work, needs to be fixed)
+sudo make install # (currently doesn't work, needs to be fixed)
 ```
 
 ### Building with debug symbols
