@@ -4,8 +4,8 @@
 
 Available homebrew demos:
 
-| Name        | Download (.nso)                      | License | Source           | Notes
+| Name        | Download                             | License | Source           | Notes
 |-------------|--------------------------------------|---------|------------------|-------------------------
-| Spacenx     | https://github.com/vgmoose/spacenx/releases/download/v0.5/spacenx.nso | MIT | https://github.com/vgmoose/spacenx | 
-| Oxidgb      | https://github.com/j-selby/oxidgb/releases/download/v0.0.1/oxidgb.10-print.nso | MIT     | http://github.com/j-selby/oxidgb/tree/libtransistor | No controls, no audio. Contains https://github.com/svendahlstrand/10-print-game-boy |
+| Spacenx     | https://github.com/vgmoose/spacenx/releases/latest | MIT | https://github.com/vgmoose/spacenx | Download the `NSO` file.
+| Oxidgb      | https://github.com/j-selby/oxidgb/releases/latest | MIT     | http://github.com/j-selby/oxidgb/tree/libtransistor | No controls, no audio. Contains https://github.com/svendahlstrand/10-print-game-boy |
 | Kgdoom      | https://github.com/kgsws/kgdoom/raw/master/temp/kgdoom/kgdoom.nro | MIT | https://github.com/kgsws/kgdoom | Crashes on startup due to unimplemented function |
