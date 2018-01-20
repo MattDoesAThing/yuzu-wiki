@@ -6,6 +6,7 @@ Available homebrew demos:
 
 | Name        | Download                             | License | Source           | Notes
 |-------------|--------------------------------------|---------|------------------|-------------------------
-| Spacenx     | https://github.com/vgmoose/spacenx/releases/latest | MIT | https://github.com/vgmoose/spacenx | Download the `NSO` file.
+| Spacenx     | https://github.com/vgmoose/spacenx/releases/latest | MIT | https://github.com/vgmoose/spacenx | Download the `NRO` file.
 | Oxidgb      | https://github.com/j-selby/oxidgb/releases/latest | MIT     | http://github.com/j-selby/oxidgb/tree/libtransistor | No controls, no audio. Contains https://github.com/svendahlstrand/10-print-game-boy |
 | Kgdoom      | https://github.com/kgsws/kgdoom/raw/master/temp/kgdoom/kgdoom.nro | MIT | https://github.com/kgsws/kgdoom | Crashes on startup due to unimplemented function |
+| Push A NX   | https://github.com/Maschell/PushA_NX/blob/master/hello.nro | Open Source | https://github.com/Maschell/PushA_NX | |
