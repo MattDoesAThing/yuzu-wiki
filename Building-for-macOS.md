@@ -31,7 +31,7 @@ Now you can generate makefiles for the build:
 export MACOSX_DEPLOYMENT_TARGET=10.9
 mkdir build
 cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake .. -DCMAKE_BUILD_TYPE=Release -DYUZU_BUILD_UNICORN=ON
 ```
 
 ### Building yuzu
