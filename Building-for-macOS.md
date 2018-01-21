@@ -31,7 +31,7 @@ Now you can generate makefiles for the build:
 export MACOSX_DEPLOYMENT_TARGET=10.9
 mkdir build
 cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release -DYUZU_BUILD_UNICORN=ON
+cmake .. -DCMAKE_BUILD_TYPE=Release
 ```
 
 ### Building yuzu
@@ -40,14 +40,6 @@ cmake .. -DCMAKE_BUILD_TYPE=Release -DYUZU_BUILD_UNICORN=ON
 make -j4
 ```
 
-Temporary unicorn fixup:
-
-```bash
-# copy libunicorn.1.dylib into yuzu.app/Contents/MacOS
-# then run:
-install_name_tool -change libunicorn.1.dylib @executable_path/libunicorn.1.dylib yuzu.app/Contents/MacOS/yuzu
-```
-
-A `yuzu_qt.app` application bundle will now be present under `build/src/yuzu_qt/`. Note that this is non-portable and only works on your machine.
+A `yuzu_qt.app` application bundle will now be present under `build/bin/`. Note that this is non-portable and only works on your machine.
 
 For portability of the appbundle between machines please refer to [this script](https://github.com/yuzu-emu/yuzu/blob/master/.travis/macos/upload.sh).
