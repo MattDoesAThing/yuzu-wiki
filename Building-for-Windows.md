@@ -68,8 +68,6 @@ Feel free to ask us in the IRC channel #yuzu @ [Freenode](https://webchat.freeno
 
 ## MinGW-w64 Build with MSYS2
 
-:warning: Note that these instructions are for citra and are likely outdated for yuzu. Expect to have to fix unicorn linkage issues.
-
 ### Prerequisites to install
 
 * [MSYS2](http://msys2.github.io/)
