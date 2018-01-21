@@ -41,11 +41,6 @@ NOTE: yuzu by default downloads to C:\Users\<user-name>\yuzu
 
 ![12](http://i.imgur.com/RvVcyCP.jpg)
 
-* When CMake gives you an error, find the YUZU_USE_BUNDLED_SDL2 and YUZU_USE_BUNDLED_QT options on the list and check their respective checkboxes. Click configure again. CMake will now download the required libraries.
-
-![13](https://i.imgur.com/BX3Ek4h.png)
-![14](https://i.imgur.com/K2E8y8s.png)
-
 * NOTE: If you used GitHub's own app to clone, run `git submodule update --init --recursive` to get the remaining dependencies.
 * Click "Generate" to create the project files.
 
