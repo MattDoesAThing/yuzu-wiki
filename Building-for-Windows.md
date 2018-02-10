@@ -91,7 +91,7 @@ mkdir build && cd build
 cmake -G "MSYS Makefiles" -DCMAKE_BUILD_TYPE=Release ..
 make -j4
 # test yuzu out with
-./bin/yuzu-qt.exe
+./bin/yuzu.exe
 ```
 
 **Note! This build is not a static build meaning that you need to include all of the dlls with the exe in order to use it.**
