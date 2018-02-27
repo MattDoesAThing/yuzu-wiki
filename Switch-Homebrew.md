@@ -14,5 +14,5 @@ Available homebrew demos:
 | Pixel Paint | https://github.com/16BitWonder/Pixel-Painter-Switch/releases/download/v1.5.0/Pixel-Painter.zip | MIT | https://github.com/16BitWonder/Pixel-Painter-Switch | A pixel paint application with 7 colors to choose from, uses LibNX |
 | Tic Tac Toe | https://sh3rlock.ch/ttt.nro | Unlicensed | https://sh3rlock.ch/ttt.zip | A simple tic-tac-toe game, uses LibNX |
 | pFBA        | http://files.mydedibox.fr/files/Dev/nx/pfba-1.0.nro | Unlicensed | https://github.com/Cpasjuste/pfba/tree/new | Portable Final Burn Alpha, a watered down version of MAME, uses LibNX |
-| FCEUmm RA   | https://gbatemp.net/attachments/retroarch_switch_nes-zip.115761/ | GPL-2.0 | https://github.com/libretro/libretro-fceumm | An NES emulator for RetroArch. ROMs need to be provided seperately, uses LibTransistor |
+| FCEUmm      | https://gbatemp.net/attachments/retroarch_switch_nes-zip.115761/ | GPL-2.0 | https://github.com/libretro/libretro-fceumm | An NES emulator for RetroArch. ROMs need to be provided seperately, uses LibTransistor |
 | Snes9x-2010 | https://gbatemp.net/attachments/retroarch_switch-nro-zip.115733/ | Unlicensed | https://github.com/libretro/snes9x2010 | An SNES emulator for RetroArch. ROMs need to be provided seperately, uses LibTransistor |
