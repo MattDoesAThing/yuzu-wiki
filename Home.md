@@ -26,7 +26,7 @@ If you want to contribute please take a look at the [Contributor's Guide](CONTRI
 
 Download Yuzu
 
-The nightly build of Citra contains already reviewed and tested features. If you require support with the installation or use of Yuzu, or you want to report bugs you should use this version. This version is still in development, so expect crashes and bugs.
+The nightly build of Yuzu contains already reviewed and tested features. If you require support with the installation or use of Yuzu, or you want to report bugs you should use this version. This version is still in development, so expect crashes and bugs.
 
 The Canary build of Yuzu is the same as our nightly builds, with additional features that are still waiting on review before making it into the official Yuzu builds. We will not provide support for issues found only in this version. If you believe you’ve found a bug, please retest on our nightly builds. This version is still in development, so expect crashes and bugs.
 The Yuzu updater provides a easy interface to install, update and manage Yuzu. Unless you know what you are doing, this is likely what you are looking for. Yuzu currently does not support Android or iOS, only desktop x64 systems.
