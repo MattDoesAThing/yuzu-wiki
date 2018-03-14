@@ -12,20 +12,21 @@ Check out our [website](https://yuzu-emu.org/)!
 
 For development discussion, please join us on [Discord](https://discord.gg/XQV6dn9).
 
-### Development
+## Development
 
 Most of the development happens on GitHub. It's also where [our central repository](https://github.com/yuzu-emu/yuzu) is hosted.
 
 If you want to contribute please take a look at the [Contributor's Guide](CONTRIBUTING.md) and [Developer Information](https://github.com/yuzu-emu/yuzu/wiki/Developer-Information). You should as well contact any of the developers on Discord in order to know about the current state of the emulator.
 
-### Building
+## Usage
+You may download a precompiled binary from [our website](https://yuzu-emu.org/download/), or you can build it yourself from the source code.
 
 * __Windows__: [Windows Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Windows)
 * __Linux__: [Linux Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Linux)
 * __macOS__: [macOS Build](https://github.com/yuzu-emu/yuzu/wiki/Building-for-macOS)
 
 
-### Support
+## Support
 We happily accept monetary donations or donated games and hardware. Please see our [donations page](https://yuzu-emu.org/donate/) for more information on how you can contribute to yuzu. Any donations received will go towards things like:
 * Switch consoles to explore and reverse-engineer the hardware
 * Switch games for testing, reverse-engineering, and implementing new features
