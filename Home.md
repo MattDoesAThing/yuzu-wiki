@@ -19,7 +19,7 @@ Most of the development happens on GitHub. It's also where [our central reposito
 If you want to contribute please take a look at the [Contributor's Guide](CONTRIBUTING.md) and [Developer Information](https://github.com/yuzu-emu/yuzu/wiki/Developer-Information). You should as well contact any of the developers on Discord in order to know about the current state of the emulator.
 
 ## Usage
-You may download a precompiled binary from [our website](https://yuzu-emu.org/download/), or you can build it yourself from the source code.
+You may download a precompiled binary from [our website](https://yuzu-emu.org/downloads/), or you can build it yourself from the source code.
 
 * __Windows__: [Windows Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Windows)
 * __Linux__: [Linux Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Linux)
