@@ -101,3 +101,13 @@ make -j4
 Doesn't require the rather large Qt dependency, but you will lack a GUI frontend.
 
 * Pass the `-DENABLE_QT=no` flag to cmake
+
+## Building from the command line with MSVC
+
+```
+git clone --recursive https://github.com/yuzu-emu/yuzu
+mkdir build
+cd build
+cmake .. -G "Visual Studio 15 2017 Win64"
+cmake --build .
+```
