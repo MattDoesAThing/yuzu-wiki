@@ -101,32 +101,3 @@ make -j4
 Doesn't require the rather large Qt dependency, but you will lack a GUI frontend.
 
 * Pass the `-DENABLE_QT=no` flag to cmake
-
-## Clang build using clang-cl
-
-:warning: This section is outdated and may not work
-
-### Prerequisites to install
-
-* **[LLVM](http://releases.llvm.org/download.html#3.9.0)** - The clang compiler
-* **[Visual Studio 2015 Community](https://www.visualstudio.com/products/visual-studio-community-vs)** - **Make sure to select C++ support in the installer**.
-* **[CMake](http://www.cmake.org/cmake/resources/software.html)** - Used to generate Visual Studio project files.
-* **Git** - We recommend [msysgit](http://msysgit.github.io/).
-
-Follow the installers instructions.
-
-### Clone the yuzu repository with Git
-
-* `git clone --recursive https://github.com/yuzu-emu/yuzu.git`
-* `cd yuzu`
-
-### Run the following commands to build yuzu
-
-```cmd
-mkdir build
-cd build
-cmake.exe .. -TLLVM-vs2014 -G"Visual Studio 15 2017 Win64" -Dyuzu_USE_BUNDLED_SDL2=1 -Dyuzu_USE_BUNDLED_QT=1 -DYUZU_USE_BUNDLED_UNICORN=1 -DCMAKE_BUILD_TYPE=Release
-cmake --build . --target yuzu-qt
-# test yuzu out with
-.\bin\Release\yuzu-qt
-```
