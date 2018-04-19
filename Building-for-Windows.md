@@ -88,8 +88,8 @@ Make sure to follow the instructions and update to the latest version by running
 
 ```cmd
 mkdir build && cd build
-cmake -G "MSYS Makefiles" -DCMAKE_BUILD_TYPE=Release ..
-make -j4
+cmake -G "MSYS Makefiles" -DCMAKE_MAKE_PROGRAM=mingw32-make -DCMAKE_BUILD_TYPE=Release ..
+mingw32-make -j4
 # test yuzu out with
 ./bin/yuzu.exe
 ```
