@@ -8,6 +8,9 @@ _yuzu is an open-source project, licensed under the GPLv2 (or any later version)
 ### **Which platforms does yuzu support?**
 _yuzu is actively tested and supported on various 64-bit versions of Windows (7 and up), Linux and macOS._
 
+### **What are the system requirements for yuzu?**
+_yuzu currently requires a OpenGL 4.3 capable GPU and a CPU that has high single core performance.
+
 ### **How do I build yuzu for the OS that I use?**
 _Take a look at the following guides for steps on building yuzu for the following platforms:_
   - _[Linux](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Linux)_
