@@ -16,7 +16,7 @@ For development discussion, please join us on [Discord](https://discord.gg/XQV6d
 
 Most of the development happens on GitHub. It's also where [our central repository](https://github.com/yuzu-emu/yuzu) is hosted.
 
-If you want to contribute please take a look at the [Contributor's Guide](CONTRIBUTING.md) and [Developer Information](https://github.com/yuzu-emu/yuzu/wiki/Developer-Information). You should as well contact any of the developers on Discord in order to know about the current state of the emulator.
+If you want to contribute please take a look at the [Contributor's Guide](https://github.com/yuzu-emu/yuzu/blob/master/CONTRIBUTING.md) and [Developer Information](https://github.com/yuzu-emu/yuzu/wiki/Developer-Information). You should as well contact any of the developers on Discord in order to know about the current state of the emulator.
 
 ## Usage
 You may download a precompiled binary from [our website](https://yuzu-emu.org/downloads/), or you can build it yourself from the source code.
