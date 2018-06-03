@@ -34,4 +34,4 @@ We happily accept monetary donations or donated games and hardware. Please see o
 * Software licenses (e.g. Visual Studio, IDA Pro, etc.)
 * Additional hardware (e.g. GPUs as-needed to improve rendering support, other peripherals to add support for, etc.)
 
-We also more than gladly accept used Switch consoles, preferably ones with firmware 3.0.0 or lower! If you would like to give yours away, don't hesitate to join our [Discord](https://discord.gg/XQV6dn9) and talk to bunnei. You may also contact: donations@yuzu-emu.org.
+We also more than gladly accept used Switch consoles, preferably ones with firmware 3.0.0 or lower! If you would like to give yours away, don't hesitate to join our [Discord](https://discord.gg/XQV6dn9) and talk to bunnei. You may also contact: [donations@yuzu-emu.org](mailto:donations@yuzu-emu.org).
