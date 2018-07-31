@@ -11,7 +11,7 @@ Place it in:
  
  `~/.local/share/yuzu-emu/keys` _(for macOS and Linux)_
 
-##### Diagram showing the correct location of the decryption keys in Yuzu's [[User Directory]].
+##### Diagram showing the correct location of the decryption keys in yuzu's [[User Directory]].
 
 ```
 "User Directory"
