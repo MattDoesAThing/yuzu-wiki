@@ -4,13 +4,19 @@ As a means to help with testing and verifying, this page serves to list a handfu
 
 ## acc
 
-### GetUserCount
+#### GetUserCount
 
 - Pokken Tournament DX
 
-## am
+### IProfile
 
-### SetScreenShotImageOrientation
+#### LoadImage
+
+ - Nintendo Labo Toycon
+
+### am
+
+#### SetScreenShotImageOrientation
 
 - Super Mario Odyssey
 
