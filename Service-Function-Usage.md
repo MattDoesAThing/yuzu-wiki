@@ -8,7 +8,7 @@ As a means to help with testing and verifying, this page serves to list a handfu
 
 - Pokken Tournament DX
 
-### IProfile
+### acc::IProfile
 
 #### LoadImage
 
