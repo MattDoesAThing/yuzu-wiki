@@ -28,3 +28,8 @@ As a means to help with testing and verifying, this page serves to list a handfu
 
 - Retro City Rampage (needed to go in-game)
 
+## hid
+
+#### DisconnectNpad
+
+- ARMS (required to go in-game)
