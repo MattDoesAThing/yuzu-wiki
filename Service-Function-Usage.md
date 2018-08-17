@@ -22,6 +22,10 @@ As a means to help with testing and verifying, this page serves to list a handfu
 
 ### ISelfController
 
+#### GetIdleTimeDetectionExtension
+
+- Mario Tennis Aces
+
 #### SetIdleTimeDetectionExtension 
 
 - Mario Tennis Aces
