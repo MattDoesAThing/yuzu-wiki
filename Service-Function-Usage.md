@@ -8,13 +8,6 @@ As a means to help with testing and verifying, this page serves to list a handfu
 
 - Pokken Tournament DX
 
-### ICommonStateGetter
-
-#### GetDefaultDisplayResolutionChangeEvent 
-
-- Toki Tori
-- Toki Tori 2
-
 ### IProfile
 
 #### LoadImage
@@ -26,6 +19,13 @@ As a means to help with testing and verifying, this page serves to list a handfu
 #### SetScreenShotImageOrientation
 
 - Super Mario Odyssey
+
+### ICommonStateGetter
+
+#### GetDefaultDisplayResolutionChangeEvent 
+
+- Toki Tori
+- Toki Tori 2
 
 ### ISelfController
 
