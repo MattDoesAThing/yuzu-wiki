@@ -20,6 +20,12 @@ As a means to help with testing and verifying, this page serves to list a handfu
 
 - Super Mario Odyssey
 
+### IApplicationFunctions
+
+#### GetSaveDataSize 
+
+- Skyrim
+
 ### ICommonStateGetter
 
 #### GetBootMode
