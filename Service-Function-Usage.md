@@ -22,6 +22,10 @@ As a means to help with testing and verifying, this page serves to list a handfu
 
 ### ICommonStateGetter
 
+#### GetBootMode
+
+- Taiko no Tatsujin
+
 #### GetDefaultDisplayResolutionChangeEvent 
 
 - Toki Tori
