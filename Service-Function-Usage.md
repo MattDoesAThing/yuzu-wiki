@@ -60,3 +60,11 @@ As a means to help with testing and verifying, this page serves to list a handfu
 #### DisconnectNpad
 
 - ARMS (required to go in-game)
+
+## pctl
+
+### IParentalControlService
+
+#### CheckFreeCommunicationPermission
+
+- Required for save files to load properly in Splatoon 2
