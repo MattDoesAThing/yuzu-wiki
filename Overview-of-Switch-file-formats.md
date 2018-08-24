@@ -1,0 +1,1 @@
+![](https://cdn.discordapp.com/attachments/451185149032529930/482693990240485429/Switch_Game_Formats.jpg)
