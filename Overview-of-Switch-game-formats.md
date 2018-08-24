@@ -7,5 +7,5 @@
 - NCA: A raw format that can contain a multitude of things (most similar to a ZIP file on your computer)
         Use: System Archives
 - Deconstructed Rom Directory: An NCA that has been expanded into its component parts.
-        Use: Developers and Power Users with more advanced applications? (idk reword this.)
+        Use: Developers and Power Users with more advanced applications
 - NSO/NRO Homebrew: Cool and neat applications made unofficially by members of the community
