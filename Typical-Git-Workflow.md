@@ -42,7 +42,7 @@ It's appreciated if every single commit in a branch on its own compiles on all s
 
 ## Scenario C: I made a commit and want to add other changes to it
 
-To append changes to the most recently made commit, simply:
+To append changes to the most recently made commit, simply perform the following:
 
 1. Stage the changed files to append to the commit with either:
     * `git add <list of files separated by spaces>`
