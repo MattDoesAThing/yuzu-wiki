@@ -106,6 +106,7 @@ Doesn't require the rather large Qt dependency, but you will lack a GUI frontend
 
 ```
 git clone --recursive https://github.com/yuzu-emu/yuzu
+cd yuzu
 mkdir build
 cd build
 cmake .. -G "Visual Studio 15 2017 Win64"
