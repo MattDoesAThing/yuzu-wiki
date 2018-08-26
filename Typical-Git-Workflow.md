@@ -40,6 +40,20 @@ It's appreciated if every single commit in a branch on its own compiles on all s
     * `git checkout new-branch-name`
     * `git rebase -i upstream/master`
 
+## Scenario C: I made a commit and want to add other changes to it
+
+To append changes to the most recently made commit, simply:
+
+1. Stage the changed files to append to the commit with either:
+    * `git add <list of files separated by spaces>`
+    * or `git add -u` to stage all modified files.
+
+2. Enter:
+    * `git commit --amend` — if you want to also change your commit message
+    * `git commit --amend --no-edit` — if you want to append your changes to the commit and make no changes to the commit message
+
+3. Done
+
 ## Your branch is getting near completion, now you're ready for a pull request!
 
 1. From your branch, rebase `upstream/master`
