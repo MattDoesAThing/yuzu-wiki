@@ -4,7 +4,7 @@ In Short:
 ### Short Descriptions of Yuzu-supported Formats
 - XCI: Represents a dump of a game cartridge. Contains icons, metadata, and a switch game. Sometimes contains updates to the game as well. *Used For:* Dumps of Gamecards you own
 - NSP: Contains all of the files and data needed to display icons, a title and a game. 
-*Used For*: Dumps of SD and NAND games
+*Used For*: Dumps of SD and NAND games, Updates
 - NCA: A raw format that can contain a multitude of things (most similar to a ZIP file on your computer)
 *Used For*: System Archives
 - Deconstructed Rom Directory: An NCA that has been expanded into its component parts.
