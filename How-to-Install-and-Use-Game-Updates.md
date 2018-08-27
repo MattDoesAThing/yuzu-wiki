@@ -18,3 +18,7 @@
 ## Repacking to NSP
 
 - If you only have games in directory format, and re dumping is not an option (it's much easier/safer), and you can guarantee that the romfs hasn't been updated or modified in any way, then you can trick yuzu into patching it. First download this [python script](https://github.com/CVFireDragon/nspBuild/releases/latest). You will need Python to execute it. Then copy it to the romfs directory and execute the following in command prompt: `python nspBuild.py out.nsp ...` where ... are the names of all the game files in the dir (`main`, `main.npdm`, `sdk`, `rtld`, `subsdk*`, and `game.romfs`). Then `out.nsp` will contain your packed games and updates will apply to it.
+
+## Adding a Version Number to NCA Updates
+**WARNING: For advanced users only**
+- Go to `%YUZU_DIR%/nand/user/yuzu_meta`. Find the file called `Patch_<>.cnmt` where <> is the title ID of the update. Open this file in a hex editor. Edit the four bytes starting at offset 0x8 to the version you want. This is a LE u32 value. To remove this custom version, make the value 0.
