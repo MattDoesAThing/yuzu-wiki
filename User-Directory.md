@@ -1,3 +1,5 @@
+### Please note: This page is unfinished and still contains references to the Citra emulator and the Nintendo 3ds!
+
 ## The User Directory
 
 yuzu's user directory is where the emulator persists the emulated Switchs NAND, save data, extra data, and a host of other files necessary for yuzu to run properly. The path of the user directory varies on different systems:
