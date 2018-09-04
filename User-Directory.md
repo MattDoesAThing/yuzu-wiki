@@ -1,12 +1,12 @@
 ## The User Directory
 
-yuzu's user directory is where the emulator persists the emulated 3DS NAND, save data, extra data, and a host of other files necessary for yuzu to run properly. The path of the user directory varies on different systems:
+yuzu's user directory is where the emulator persists the emulated Switchs NAND, save data, extra data, and a host of other files necessary for yuzu to run properly. The path of the user directory varies on different systems:
 
  - on Windows, the path is `C:/Users/[your-user-name]/AppData/Roaming/yuzu/`. Note that the folder `AppData` is hidden by default, so you need to change the configuration to view it.
    - in old version of yuzu, the user directory used to be the `user` folder in the same directory as the yuzu executable.
  - on macOS and Linux, the path is `~/.local/share/citra-emu/`. Note that the folder `.local` is hidden on most machines, so you need to change the configuration to view it. **Additionally, the `config` folder is located in `~/.config/citra-emu/`**.
 
-There are at least three directories within the user directory: `config`, `nand`, and `sdmc`. For users that have dumped the shared fonts from a 3DS console, there will also be a `sysdata` directory. See below for details about each directory and what data is stored within.
+There are at least three directories within the user directory: `config`, `nand`, and `sdmc`. For users that have dumped the shared fonts from a Switch console, there will also be a `sysdata` directory. See below for details about each directory and what data is stored within.
 
 ##### Diagram of yuzu's User Directory
 ```
@@ -18,7 +18,7 @@ There are at least three directories within the user directory: `config`, `nand`
 │       ├── sysdata
 │       └── extdata
 ├── sdmc
-│   └── Nintendo 3DS
+│   └── Nintendo
 │       ├── 00000000000000000000000000000000
 │       |   └── 00000000000000000000000000000000
 │       |       ├── title
@@ -27,15 +27,13 @@ There are at least three directories within the user directory: `config`, `nand`
 └── sysdata (optional)
 ```
 
-### Dumping files from a 3DS
+### Dumping files from a Switch
 
-Included in this guide are instructions on how to dump various files from a 3DS console to put into the yuzu user directory. These files are optional in terms of yuzu's ability to run, but depending on certain circumstances some may be required in order to run a particular game or get past a certain point in the game. In general, dumping files from a 3DS will require an SD card reader or some way to use wireless file transfer from a 3DS to a computer and that the 3DS being dumped from has [Homebrew Launcher](http://smealum.github.io/3ds/) access. More advanced users will also have [custom firmware](https://3ds.guide/) and [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP) installed to their 3DS.
+Included in this guide are instructions on how to dump various files from a Switch console to put into the yuzu user directory. These files are optional in terms of yuzu's ability to run, but depending on certain circumstances some may be required in order to run a particular game or get past a certain point in the game. In general, dumping files from a 3DS will require an SD card reader or some way to use wireless file transfer from a 3DS to a computer and that the 3DS being dumped from has [Homebrew Launcher](http://smealum.github.io/Switch/) access. More advanced users will also have [custom firmware](https://Switch.guide/) and [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP) installed to their 3DS.
 
 If the below articles are too wordy, consult the below tutorials for obtaining optional files to improve the yuzu experience:
 * [[Dumping System Archives and the Shared Fonts from a 3DS Console]]
-* [[Dumping Config Savegame from a 3DS Console]]
 * [[Dumping Save Data from a 3DS Console]]
-* [[Dumping Extra Data from a 3DS Console]]
 
 ---
 
@@ -77,7 +75,7 @@ This folder, named `00000000000000000000000000000000`, will only exist if the sy
 
 ### sdmc
 
-This directory is the equivalent of the SD card inserted into a physical 3DS, which stores game save and extra data and any titles installed to the SD card in encrypted format, though yuzu does not currently emulate installing titles to SD and instead runs decrypted .3ds, .app, and .cxi files directly from the computer's filesystem. Inside the `sdmc` folder, just like on a real 3DS console, is a `Nintendo 3DS` directory, which contains two more directories, `Private` and `00000000000000000000000000000000`.
+This directory is the equivalent of the SD card inserted into a physical 3DS, which stores game save and extra data and any titles installed to the SD card in encrypted format, though yuzu does not currently emulate installing titles to SD and instead runs decrypted .Switch, .app, and .cxi files directly from the computer's filesystem. Inside the `sdmc` folder, just like on a real 3DS console, is a `Nintendo 3DS` directory, which contains two more directories, `Private` and `00000000000000000000000000000000`.
 
 #### Private
 
@@ -105,6 +103,6 @@ If a real SD card is compared to yuzu's emulated SD card, yuzu may appear to be 
 
 This directory can contain two files.
 
- - `shared_font.bin`: this was a legacy system font data dumped from old versions of 3dsutils and is no longer supported. If the user does not have shared font installed, yuzu will use the open source font replacement instead. Users should redump their shared font since the open source font replacement may not always look accurate. See [[Dumping System Archives and the Shared Fonts from a 3DS Console]] for more information.
+ - `shared_font.bin`: this was a legacy system font data dumped from old versions of Switchutils and is no longer supported. If the user does not have shared font installed, yuzu will use the open source font replacement instead. Users should redump their shared font since the open source font replacement may not always look accurate. See [[Dumping System Archives and the Shared Fonts from a 3DS Console]] for more information.
 
  - `aes_keys.txt`: this file is reserved for future use to hold decryption keys.
