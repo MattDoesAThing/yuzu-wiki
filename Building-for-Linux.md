@@ -26,7 +26,7 @@ You'll need to download and install the following to build yuzu:
 Note: Depending on your distro, the version of CMake you get may not be what's required to build yuzu. Check with cmake --version. Version 3.6 or greater is required for you to be able to build!
 
 - [Clang](https://github.com/llvm-mirror/clang) 3.8 (optional build alternative)
-  - Arch: `pacman -S clang`, `libc++` is in the AUR. Use pacaur or yaourt to install it.
+  - Arch: `pacman -S clang`, `libc++` is in the AUR. Use yay to install it.
   - Debian: `apt-get install clang libc++-dev` (in some distros, clang-3.8).
   - Gentoo: `emerge sys-devel/clang sys-libs/libcxx`
 
