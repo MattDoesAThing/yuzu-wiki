@@ -103,23 +103,23 @@ make
 
 ### Running without installing
 
-After building, the binaries `yuzu` and `yuzu-qt` (depending on your build options) will end up in `build/bin/`.
+After building, the binaries `yuzu` and `yuzu-cmd` (depending on your build options) will end up in `build/bin/`.
 
 ```bash
 # SDL
 cd build/bin/
-./yuzu
+./yuzu-cmd
 
 # Qt
 cd build/bin/
-./yuzu-qt
+./yuzu
 ```
 
 ### Debugging
 
 ```bash
 cd data
-gdb ../build/bin/yuzu-qt         # Start GDB
+gdb ../build/bin/yuzu            # Start GDB
 (gdb) run                        # Run yuzu under GDB 
 <crash>
 (gdb) bt                         # Print a backtrace of the entire callstack to see which codepath the crash occurred on
