@@ -79,7 +79,7 @@ Make sure to follow the instructions and update to the latest version by running
 ### Install yuzu dependencies for MinGW-w64
 
 * Open the "MSYS2 MinGW 64-bit" (mingw64.exe) shell
-* Download and install all dependencies using: `pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-qt5 mingw-w64-x86_64-SDL2 mingw-w64-x86_64-cmake make git`
+* Download and install all dependencies using: `pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-qt5 mingw-w64-x86_64-SDL2 mingw-w64-x86_64-cmake make git python2`
 
 ### Clone the yuzu repository with Git
 
