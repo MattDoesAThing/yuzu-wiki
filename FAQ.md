@@ -6,7 +6,7 @@ _It is written in C++ with portability in mind, with builds actively maintained 
 _yuzu is an open-source project, licensed under the GPLv2 (or any later version). Refer to the license document for more information._
 
 ### **Which platforms does yuzu support?**
-_yuzu is actively tested and supported on various 64-bit versions of Windows (7 and up), Linux and macOS._
+_yuzu is actively tested and supported on various 64-bit versions of Windows (7 and up) and Linux. macOS is no longer supported due to Apple deprecating OpenGL._
 
 ### **What are the system requirements for yuzu?**
 _yuzu currently requires a OpenGL 4.3 capable GPU and a CPU that has high single core performance. It also requires a minimum of 4 GB of RAM._
