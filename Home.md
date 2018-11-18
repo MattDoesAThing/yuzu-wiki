@@ -2,7 +2,7 @@ yuzu emulator
 =============
 yuzu is an experimental open-source emulator for the Nintendo Switch from the creators of [Citra](https://citra-emu.org/).
 
-It is written in C++ with portability in mind, with builds actively maintained for Windows, Linux and macOS. The emulator is currently only useful for homebrew development and research purposes.
+It is written in C++ with portability in mind, with builds actively maintained for Windows and Linux. The emulator is currently only useful for homebrew development and research purposes.
 
 yuzu only emulates a subset of Switch hardware and therefore is generally only useful for running/debugging homebrew applications. At this time, yuzu cannot play a majority of commercial games without major problems. yuzu can boot some commercial Switch games to varying degrees of success, but your experience may vary between games and for different combinations of host hardware.
 
@@ -25,6 +25,7 @@ You may download a precompiled binary from [our website](https://yuzu-emu.org/do
 * __Linux__: [Linux Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Linux)
 * __macOS__: [macOS Build](https://github.com/yuzu-emu/yuzu/wiki/Building-for-macOS)
 
+**Note: macOS is no longer supported due to Apple deprecating OpenGL and their current version not supporting the OpenGL extensions we require.** ([source](https://www.anandtech.com/show/12894/apple-deprecates-opengl-across-all-oses))
 
 ## Support
 We happily accept monetary donations or donated games and hardware. Please see our [donations page](https://yuzu-emu.org/donate/) for more information on how you can contribute to yuzu. Any donations received will go towards things like:
