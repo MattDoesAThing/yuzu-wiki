@@ -1,3 +1,5 @@
+**Note: Mac OS is no longer supported due to Apple deprecating OpenGL and their current version not supporting the OpenGL extensions we require.**
+
 ### Dependencies
 
 It's recommended that you use [Homebrew](http://brew.sh/) to install dependencies.
