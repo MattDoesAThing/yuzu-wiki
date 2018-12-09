@@ -1,6 +1,6 @@
 ### **What is yuzu?**
 _yuzu is an experimental open-source emulator for the Nintendo Switch from the creators of Citra._
-_It is written in C++ with portability in mind, with builds actively maintained for Windows, Linux and macOS. The emulator is currently only useful for homebrew development and research purposes._
+_It is written in C++ with portability in mind, with builds actively maintained for Windows, Linux and macOS. The emulator currently can play various commercial titles and homebrew applications with varying degrees of success._
 
 ### **Which software license is yuzu licensed under?**
 _yuzu is an open-source project, licensed under the GPLv2 (or any later version). Refer to the license document for more information._
