@@ -1,0 +1,8 @@
+- 2018-11-20 _Jon S._ has posted a **Bounty for $3********00** to fix major rendering issues with BOTW (Should look pretty good, can still be minor issues, e.g. like SMO is today. Does not include performance) (Expires March 1, 2019)
+- 2018-11-20 _Flame Sage_ has posted a **Bounty for $50** to fix text and random hangs in Pokemon Let's Go.
+- 2018-11-20 _Flame Sage_ has posted a **Bounty for $50** to get Octopath Traveler playable in game.
+- 2018-11-21 _Wes_ has posted a **Bounty for $50** to fix the random black screens on Ultra Street Fighter 2.
+- 2018-12-10 _Marie_ has posted a **Bounty for $200** to get Smash Brothers Ultimate in-game (fights/matches running in the emulator) (Expires January 10th, 2019)
+- 2018-12-10 _Marie_ has posted a **Bounty for $150** to fix Pokemon Let's Go text (Expires January 10th, 2019)
+- 2018-12-10 _Marie_ has posted a **Bounty for $50** to fix crashes on OpenGL 4.4 Integrated GPUs (Expires March 3rd, 2019)
+- 2018-12-10 _Marie_ has posted a **Bounty for $60** to fix core timing issues in Snipperclips, Cut it out Together! (Expires June 15th, 2019)
