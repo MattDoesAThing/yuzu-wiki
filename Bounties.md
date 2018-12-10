@@ -1,4 +1,4 @@
-- 2018-11-20 _Jon S._ has posted a **Bounty for $3********00** to fix major rendering issues with BOTW (Should look pretty good, can still be minor issues, e.g. like SMO is today. Does not include performance) (Expires March 1, 2019)
+- 2018-11-20 _Jon S._ has posted a **Bounty for $300** to fix major rendering issues with BOTW (Should look pretty good, can still be minor issues, e.g. like SMO is today. Does not include performance) (Expires March 1, 2019)
 - 2018-11-20 _Flame Sage_ has posted a **Bounty for $50** to fix text and random hangs in Pokemon Let's Go.
 - 2018-11-20 _Flame Sage_ has posted a **Bounty for $50** to get Octopath Traveler playable in game.
 - 2018-11-21 _Wes_ has posted a **Bounty for $50** to fix the random black screens on Ultra Street Fighter 2.
