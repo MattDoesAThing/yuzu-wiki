@@ -31,8 +31,8 @@ There are at least three directories within the user directory: `config`, `nand`
 
 ### Dumping files from a Switch
 
-Included in this guide are instructions on how to dump various files from a Switch console to put into the yuzu user directory. These files are optional in terms of yuzu's ability to run, but depending on certain circumstances some may be required in order to run a particular game or get past a certain point in the game. In general, dumping files from a Switch will require an SD card reader or some way to use wireless file transfer from a Switch to a computer and that the Switch being dumped from has [Custom Firmware](https://guide.sdsetup.com) installed.
-Optionally, more advanced users can use [HacDiskMount](https://switchtools.sshnuke.net/) to access a NAND Backup (https://guide.sdsetup.com/#/configuringhekate) instead of accessing the Switch directly. 
+Included in this guide are instructions on how to dump various files from a Switch console to put into the yuzu user directory. These files are optional in terms of yuzu's ability to run, but depending on certain circumstances some may be required in order to run a particular game or get past a certain point in the game. In general, dumping files from a Switch will require an SD card reader or some way to use wireless file transfer from a Switch to a computer like the [FTP System Module](https://github.com/jakibaki/sys-ftpd) or the [FTPd Homebrew](https://github.com/mtheall/ftpd) and that the Switch being dumped from has [Custom Firmware](https://guide.sdsetup.com) installed.
+Optionally, more advanced users can use [HacDiskMount](https://switchtools.sshnuke.net/) to access a [NAND Backup] (https://guide.sdsetup.com/#/configuringhekate) instead of accessing the Switch directly. 
 
 If the below articles are too wordy, consult the below tutorials for obtaining optional files to improve the yuzu experience:
 * [[Dumping System Archives and the Shared Fonts from a Switch Console]]
