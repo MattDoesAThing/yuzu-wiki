@@ -32,7 +32,7 @@ cd yuzu
 ```
 cmd
 git clone --recursive https://github.com/yuzu-emu/yuzu-canary.git
-cd yuzu
+cd yuzu-canary
 ```
 
 ![9](https://i.imgur.com/xq15xTB.png)
