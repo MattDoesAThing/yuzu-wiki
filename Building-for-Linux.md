@@ -49,6 +49,7 @@ cmake ../
 make
 sudo make install
 ```
+Note: you can use **make -jN** where N is the number of processors available to accelerate the building
 
 Optionally, you can use `cmake -i ..` to adjust various options (e.g. disable the Qt GUI).
 
