@@ -41,7 +41,7 @@ NOTE: yuzu by default downloads to `C:\Users\<user-name>\yuzu` (Nightly) or `C:\
 
 ### Building
 
-* Open cmake-gui and point it to the yuzu directory.
+* Open cmake-gui and point it to the `yuzu` (Nightly) or `yuzu-canary` (Canary) directory.
 
 ![10](https://i.imgur.com/YKmNs1p.png)
 ![11](https://i.imgur.com/SWxOVKB.png)
