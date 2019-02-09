@@ -28,7 +28,7 @@ git clone --recursive https://github.com/yuzu-emu/yuzu.git
 cd yuzu
 ```
 
-**Canary**
+**Canary:**
 ```
 cmd
 git clone --recursive https://github.com/yuzu-emu/yuzu-canary.git
