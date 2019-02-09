@@ -21,18 +21,27 @@ On Windows, all library dependencies are automatically included within the "exte
 
 ### Cloning yuzu with Git
 
-```cmd
+**Nightly (master):**
+```
+cmd
 git clone --recursive https://github.com/yuzu-emu/yuzu.git
+cd yuzu
+```
+
+**Canary**
+```
+cmd
+git clone --recursive https://github.com/yuzu-emu/yuzu-canary.git
 cd yuzu
 ```
 
 ![9](https://i.imgur.com/xq15xTB.png)
 
-NOTE: yuzu by default downloads to C:\Users\<user-name>\yuzu
+NOTE: yuzu by default downloads to `C:\Users\<user-name>\yuzu` (Nightly) or `C:\Users\<user-name>\yuzu-canary` (Canary)
 
 ### Building
 
-* Open cmake-gui and point it to the yuzu directory. Default: C:\Users\<user name>\yuzu
+* Open cmake-gui and point it to the yuzu directory.
 
 ![10](https://i.imgur.com/YKmNs1p.png)
 ![11](https://i.imgur.com/SWxOVKB.png)
@@ -83,8 +92,17 @@ Make sure to follow the instructions and update to the latest version by running
 
 ### Clone the yuzu repository with Git
 
-* `git clone --recursive https://github.com/yuzu-emu/yuzu.git`
-* `cd yuzu`
+**Nightly (master):**
+```
+git clone --recursive https://github.com/yuzu-emu/yuzu.git
+cd yuzu
+```
+
+**Canary:**
+```
+git clone --recursive https://github.com/yuzu-emu/yuzu-canary.git
+cd yuzu-canary
+```
 
 ### Run the following commands to build yuzu (dynamic linked build)
 
