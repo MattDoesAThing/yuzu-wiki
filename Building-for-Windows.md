@@ -1,23 +1,23 @@
 ## THIS GUIDE IS INTENDED FOR DEVELOPERS ONLY, SUPPORT WILL ONLY BE GIVEN IF YOU'RE A DEVELOPER.
 
-## MSVC Build for Windows
+## Method I: MSVC Build for Windows
 
 ### Minimal Dependencies
 
 On Windows, all library dependencies are automatically included within the "externals" folder or can be downloaded on-demand. To build yuzu, you simply need to install:
 
-* **[Visual Studio 2017 Community](https://www.visualstudio.com/products/visual-studio-community-vs)** - **Make sure to select C++ support in the installer**.
-* **[CMake](http://www.cmake.org/cmake/resources/software.html)** - Used to generate Visual Studio project files.
+* **[Visual Studio 2017 Community](https://visualstudio.microsoft.com/downloads/)** - **Make sure to select C++ support in the installer. Visual Studio 2019 is not yet supported.**
+* **[CMake](https://cmake.org/download/)** - Used to generate Visual Studio project files. Does not matter if either 32-bit or 64-bit version is installed.
 
-![2](https://i.imgur.com/S1NH63P.png)
+![2](https://i.imgur.com/giDwuTm.png)
 
-* **Git** - We recommend [msysgit](http://msysgit.github.io/).
+* **Git** - We recommend [Git for Windows](https://gitforwindows.org/).
 
-![3](http://i.imgur.com/joCBhIB.jpg)
+![3](https://i.imgur.com/UeSzkBw.png)
 
-* While installing Git Bash, you should tell it to include Git in your system path. (Choose the "Use Git from the Windows Command Prompt" option.) If you missed that, don't worry, you'll just have to manually tell CMake where your git.exe is, since it's used to include version info into the built executable.
+* While installing Git Bash, you should tell it to include Git in your system path. (Choose the "Git from the command line and also from 3rd-party software" option.) If you missed that, don't worry, you'll just have to manually tell CMake where your git.exe is, since it's used to include version info into the built executable.
 
-![4](http://i.imgur.com/th8sFud.jpg)
+![4](https://i.imgur.com/x0rRs1t.png)
 
 ### Cloning yuzu with Git
 
@@ -35,53 +35,53 @@ git clone --recursive https://github.com/yuzu-emu/yuzu-canary.git
 cd yuzu-canary
 ```
 
-![9](https://i.imgur.com/xq15xTB.png)
+![9](https://i.imgur.com/CcxIAht.png)
 
-NOTE: yuzu by default downloads to `C:\Users\<user-name>\yuzu` (Nightly) or `C:\Users\<user-name>\yuzu-canary` (Canary)
+* *(Note: yuzu by default downloads to `C:\Users\<user-name>\yuzu` (Nightly) or `C:\Users\<user-name>\yuzu-canary` (Canary)*
 
 ### Building
 
-* Open cmake-gui and point it to the `yuzu` (Nightly) or `yuzu-canary` (Canary) directory.
+* Open the CMake GUI application and point it to the `yuzu` (Nightly) or `yuzu-canary` (Canary) directory.
 
-![10](https://i.imgur.com/YKmNs1p.png)
-![11](https://i.imgur.com/SWxOVKB.png)
+![10](https://i.imgur.com/qOslIWv.png)
 
-* For the build directory, use a `build/` subdirectory inside the source directory or some other directory of your choice. (Tell CMake to create it.)
+* For the build directory, use a `/build` subdirectory inside the source directory or some other directory of your choice. (Tell CMake to create it.)
 
-* Click the "Configure" button and choose "Visual Studio 15 2017 Win64"
+![11](https://i.imgur.com/cNnhs22.png)
 
-![12](http://i.imgur.com/RvVcyCP.jpg)
+* Click the "Configure" button and choose "Visual Studio 15 2017", with "x64" for the optional platform.
+* *(Note: older CMake versions prior to 3.14 combines these two options as "Visual Studio 15 2017 Win64")*
 
-* NOTE: If you used GitHub's own app to clone, run `git submodule update --init --recursive` to get the remaining dependencies.
+![12](https://i.imgur.com/p9kJ6EB.png)
+
+* *(Note: If you used GitHub's own app to clone, run `git submodule update --init --recursive` to get the remaining dependencies)*
 * Click "Generate" to create the project files.
 
-![15](http://i.imgur.com/CkZgD4p.jpg)
+![15](https://i.imgur.com/5LKg92k.png)
 
 * Open the solution file yuzu.sln in Visual Studio 2017, which is located in the build folder.
 
-![16](https://i.imgur.com/q4dSKXR.png)
+![16](https://i.imgur.com/208yMml.png)
 
 * Depending if you want a graphical user interface or not ("yuzu" is with a graphical user interface, while "yuzu-cmd" is just the command line version of it), select "yuzu" or "yuzu-cmd" in the Solution Explorer, right-click and "Set as StartUp Project".
 
-![17](https://i.imgur.com/2h8q6at.png)
+![17](https://i.imgur.com/nPMajnn.png)  ![18](https://i.imgur.com/BDMLzRZ.png)
 
-![18](http://i.imgur.com/FkuAwd8.jpg)
+* Select the appropriate build type, Debug for debug purposes or Release for performance (in case of doubt choose Release).
 
-* Select the appropriate build type, Debug for debug purposes or Release for performance (in case of doubt choose the latter).
+![19](https://i.imgur.com/qxg4roC.png)
 
-![19](http://i.imgur.com/Gqifkc0.jpg)
+* Right-click the project you want to build and press Build in the submenu or press F5.
 
-* Press F5 or select Build → Rebuild Solution in the menu.
-
-![20](http://i.imgur.com/7ro9uSB.jpg)
+![20](https://i.imgur.com/CkQgOFW.png)
 
 Feel free to ask us in the IRC channel #yuzu @ [Freenode](https://webchat.freenode.net/) or on [Discord](https://discord.gg/XQV6dn9) if you have issues.
 
-## MinGW-w64 Build with MSYS2
+## Method II: MinGW-w64 Build with MSYS2
 
 ### Prerequisites to install
 
-* [MSYS2](http://msys2.github.io/)
+* [MSYS2](http://www.msys2.org/)
 
 Make sure to follow the instructions and update to the latest version by running `pacman -Syu` as many times as needed.
 
@@ -104,7 +104,7 @@ git clone --recursive https://github.com/yuzu-emu/yuzu-canary.git
 cd yuzu-canary
 ```
 
-### Run the following commands to build yuzu (dynamic linked build)
+### Run the following commands to build yuzu (dynamically linked build)
 
 ```cmd
 mkdir build && cd build
@@ -114,7 +114,7 @@ mingw32-make -j4
 ./bin/yuzu.exe
 ```
 
-**Note! This build is not a static build meaning that you need to include all of the dlls with the exe in order to use it.**
+* *(Note: This build is not a static build meaning that you need to include all of the DLLs with the .exe in order to use it!)*
 
 ### Building without Qt (Optional)
 
