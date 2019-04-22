@@ -75,7 +75,7 @@ cd yuzu-canary
 
 ![20](https://i.imgur.com/CkQgOFW.png)
 
-Feel free to ask us in the IRC channel #yuzu @ [Freenode](https://webchat.freenode.net/) or on [Discord](https://discord.gg/XQV6dn9) if you have issues.
+Feel free to ask us in the IRC channel #yuzu-emu @ [Freenode](https://webchat.freenode.net/) or on [Discord](https://discord.gg/XQV6dn9) if you have issues.
 
 ## Method II: MinGW-w64 Build with MSYS2
 
