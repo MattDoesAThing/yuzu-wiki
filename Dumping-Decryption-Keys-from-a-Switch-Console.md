@@ -8,14 +8,14 @@ Guide on how to obtain the decryptions keys.
 * Requirements: A hackable Nintendo Switch (you can check whether your Nintendo Switch is hackable or not [here.](https://akdm.github.io/ssnc/checker/))
 * A Micro SD card of at least 1 Gigabyte in capacity.
 * A Micro SD card reader.
-* Lockpick: Is included by default in [Kosmos CFW](https://github.com/AtlasNX/Kosmos/releases) if you don’t use that you can download it [here.](https://github.com/shchmue/Lockpick/releases/download/v1.2/Lockpick.nro)
-* The necessary tools (i.e a jig, paperclip, etc.) required to be able to boot into RCM and navigate around the [Hekate](https://github.com/CTCaer/hekate/releases/download/v4.6/hekate_ctcaer_4.6.zip) 
+* Lockpick: Is included by default in [Kosmos CFW](https://github.com/AtlasNX/Kosmos/releases) if you don’t use that you can download it [here.](https://github.com/shchmue/Lockpick/releases/download/v1.2.3/Lockpick.nro)
+* The necessary tools (i.e a jig, paperclip, etc.) required to be able to boot into RCM and navigate around the [Hekate](https://github.com/CTCaer/hekate/releases/download/v4.10.1/hekate_ctcaer_4.10.1.zip) 
   menu.
-* [TegraRCMGUI](https://github.com/eliboa/TegraRcmGUI/releases/download/2.4/TegraRcmGUI_v2.4_Installer.msi) or [TegraRCMSmash.](https://files.sshnuke.net/TegraRcmSmash1213.zip)
+* [TegraRCMGUI](https://github.com/eliboa/TegraRcmGUI/releases/download/2.5/TegraRcmGUI_v2.5_Installer.msi) or [TegraRCMSmash.](https://files.sshnuke.net/TegraRcmSmash1213.zip)
 
 **You can skip to Step 3 if you already have CFW set-up.**
 * **Step 1:** Turn off your Nintendo Switch and plug your Micro SD card into your computer.
-* **Step 2:** Download the latest [Kosmos CFW](https://github.com/AtlasNX/Kosmos/releases) (If you already have that or use a different CFW software download the latest [Lockpick](https://github.com/shchmue/Lockpick/releases/download/v1.2/Lockpick.nro). and extract than in your “/switch/” folder) and extract the zip in the root of your Micro SD card.
+* **Step 2:** Download the latest [Kosmos CFW](https://github.com/AtlasNX/Kosmos/releases) (If you already have that or use a different CFW software download the latest [Lockpick](https://github.com/shchmue/Lockpick/releases/download/v1.2.3/Lockpick.nro). and extract than in your “/switch/” folder) and extract the zip in the root of your Micro SD card.
 * **Step 3:** Put your SD card back in your Nintendo Switch, boot into RCM mode and inject the latest Hekate payload * using your preferred payload injector.
 * **Step 4a:** Using the **VOL** and **Power** buttons to navigate, select `Console info…`
 * **Step 4b:** Select `Print fuse info` (not kfuse info!) and press the **Power** button to save `fuse info` to your Micro SD card.
