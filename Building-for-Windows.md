@@ -49,8 +49,7 @@ cd yuzu-canary
 
 ![11](https://i.imgur.com/cNnhs22.png)
 
-* Click the "Configure" button and choose "Visual Studio 15 2017", with "x64" for the optional platform.
-* *(Note: older CMake versions prior to 3.14 combines these two options as "Visual Studio 15 2017 Win64")*
+* Click the "Configure" button and choose "Visual Studio 16 2019", with "x64" for the optional platform.
 
 ![12](https://i.imgur.com/p9kJ6EB.png)
 
@@ -59,7 +58,7 @@ cd yuzu-canary
 
 ![15](https://i.imgur.com/5LKg92k.png)
 
-* Open the solution file yuzu.sln in Visual Studio 2017, which is located in the build folder.
+* Open the solution file yuzu.sln in Visual Studio 2019, which is located in the build folder.
 
 ![16](https://i.imgur.com/208yMml.png)
 
@@ -129,6 +128,6 @@ git clone --recursive https://github.com/yuzu-emu/yuzu
 cd yuzu
 mkdir build
 cd build
-cmake .. -G "Visual Studio 15 2017 Win64"
+cmake .. -G "Visual Studio 16 2019" -A x64
 cmake --build .
 ```
