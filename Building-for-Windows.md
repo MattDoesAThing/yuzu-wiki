@@ -51,7 +51,7 @@ cd yuzu-canary
 
 * Click the "Configure" button and choose "Visual Studio 16 2019", with "x64" for the optional platform.
 
-![12](https://i.imgur.com/p9kJ6EB.png)
+![12](https://i.imgur.com/DKiREaK.png)
 
 * *(Note: If you used GitHub's own app to clone, run `git submodule update --init --recursive` to get the remaining dependencies)*
 * Click "Generate" to create the project files.
