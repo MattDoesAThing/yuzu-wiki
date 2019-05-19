@@ -6,7 +6,7 @@
 
 On Windows, all library dependencies are automatically included within the "externals" folder or can be downloaded on-demand. To build yuzu, you simply need to install:
 
-* **[Visual Studio 2017 Community](https://visualstudio.microsoft.com/downloads/)** - **Make sure to select C++ support in the installer. Visual Studio 2019 is not yet supported.**
+* **[Visual Studio 2019 Community](https://visualstudio.microsoft.com/downloads/)** - **Make sure to select C++ support in the installer.**
 * **[CMake](https://cmake.org/download/)** - Used to generate Visual Studio project files. Does not matter if either 32-bit or 64-bit version is installed.
 
 ![2](https://i.imgur.com/giDwuTm.png)
