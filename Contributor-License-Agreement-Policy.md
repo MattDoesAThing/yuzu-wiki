@@ -45,6 +45,7 @@ At the time of this document, most of the yuzu code is not under CLA. As such, t
 The web administrator of the yuzu project is a single individual that:
 * Is at least eighteen years of age.
 * Is designated as web administrator by a two thirds majority vote by the maintainers of the yuzu project.
+* Is a member of the [yuzu-emu/Web-Adminstrator](https://github.com/orgs/yuzu-emu/teams/web-adminstrator) team on GitHub.**
 * Maintains yuzu's web infrastructure. This is defined as: 1) maintaining the yuzu website, 2) managing public-facing online communities for yuzu (e.g. Discord, forums, etc.), 3) managing yuzu's other web services (e.g. continuous integration and build systems, bots, etc.).
 
 The web administrator of the yuzu project may lose their status as such by a two thirds majority vote by the maintainers of the yuzu project. 
