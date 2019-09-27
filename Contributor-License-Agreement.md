@@ -1,7 +1,7 @@
 # yuzu Nintendo Switch emulator Individual Contributor License Agreement
 
 Thank you for your interest in contributing to yuzu Nintendo Switch emulator ("We" or "Us").
-This contributor agreement ("Agreement") documents the rights granted by contributors to Us. To make this document effective, please sign it and send it to Us by electronic submission, following the instructions at [Contributor-License-Agreement-Policy]. This is a legally binding document, so please read it carefully before agreeing to it. The Agreement may cover more than one software project managed by Us.
+This contributor agreement ("Agreement") documents the rights granted by contributors to Us. To make this document effective, please sign it and send it to Us by electronic submission, following the instructions at [[Contributor-License-Agreement-Policy]]. This is a legally binding document, so please read it carefully before agreeing to it. The Agreement may cover more than one software project managed by Us.
 
 ## 1. Definitions
 "You" means the individual who Submits a Contribution to Us.
