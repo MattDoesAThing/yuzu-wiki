@@ -17,7 +17,7 @@ If a contributor does not own their contribution, it is their responsibility to 
 ## Who are the maintainers of the yuzu project?
 The maintainers of the yuzu project are the set of individuals that satisfy the following requirements:
 1. **Have made at least one meaningful technical contribution to the core yuzu emulator within the most recent 12 months.** The core yuzu emulator is considered the part of the codebase that is responsible for Nintendo Switch emulation, which includes [core](https://github.com/yuzu-emu/yuzu/tree/master/src/core), [audio_core](https://github.com/yuzu-emu/yuzu/tree/master/src/audio_core), and [video_core](https://github.com/yuzu-emu/yuzu/tree/master/src/video_core). Minor changes to a frontend or common code do not qualify as a meaningful technical contribution to the core yuzu emulator.
-2. **Have agreed to the [Contributor License Agreement].**
+2. **Have agreed to the [[Contributor License Agreement]].**
 3. **Expresses willingness to be a maintainer of the yuzu project.**
 4. **Are at least eighteen years of age.**
 5. **Are a member of the [yuzu-emu/Maintainers](https://github.com/orgs/yuzu-emu/teams/maintainers/members) team on GitHub.**
