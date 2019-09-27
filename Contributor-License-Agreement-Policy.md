@@ -33,7 +33,7 @@ Then the existing maintainers of the yuzu project will discuss adding this contr
 There is an expectation that users with this role are active participants in the project and its community, such as by continuing to satisfy the above criteria.
 
 ## How are maintainers removed from the yuzu project?
-* If an existing maintainer of the yuzu project becomes inactive, and therefore no longer satisfies requirement #1 above by failing to make any code change to yuzu in the most recent 12 month period, they will lose their formal maintainer status.
+* If an existing maintainer of the yuzu project becomes inactive, and therefore no longer satisfies requirement #1 above by failing to make any code change to yuzu within the most recent 12 month period, they will lose their formal maintainer status.
 * If an existing maintainer of the yuzu project violates the terms of the [[Contributor License Agreement]], or wishes to have their agreement terminated, thereby no longer satisfying requirement #2 above, they will immediately lose their formal maintainer status.
 * If an existing maintainer of the yuzu project no longer wishes to be a maintainer, thereby no longer satisfying requirement #3 above, they may immediately resign from this role by notifying the other maintainers.
 * Being a member of the [yuzu-emu/Maintainers](https://github.com/orgs/yuzu-emu/teams/maintainers/members) GitHub team alone does not necessarily mean that a contributor is still a maintainer of the yuzu project if they fail to satisfy any of the other requirements. Users will be be pruned from the [yuzu-emu/Maintainers](https://github.com/orgs/yuzu-emu/teams/maintainers/members) GitHub team if they become inactive.
