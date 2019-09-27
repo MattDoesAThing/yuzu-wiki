@@ -24,9 +24,9 @@ The maintainers of the yuzu project are the set of individuals that satisfy the 
 
 ## How are new maintainers added to the yuzu project?
 If a contributor satisfies requirements #1, #2, #3, and #4 above, and has shown a pattern of:
-* Making several meaningful technical contributions over a period of at least 6 months
-* Participating in code reviews and leaving useful technical feedback
-* Being a technical resource or leader in an area relevant to the project (such as reverse engineering, graphics, audio, CI/build system, etc.)
+* Making several meaningful technical contributions over a period of at least 6 months.
+* Participating in code reviews and leaving useful technical feedback.
+* Being a technical resource or leader in an area relevant to the project (such as reverse engineering, graphics, audio, CI/build system, etc.).
 
 Then the existing maintainers of the yuzu project will discuss adding this contributor to the [yuzu-emu/Maintainers](https://github.com/orgs/yuzu-emu/teams/maintainers/members) GitHub team. This decision will be satisfied with a two thirds majority vote of the existing active maintainers. With all requirements satisfied, the contributor is now considered a formal maintainer of the yuzu project. There is an expectation that users with this role are active participants in the project and its community, such as by continuing to satisfy the above criteria.
 
