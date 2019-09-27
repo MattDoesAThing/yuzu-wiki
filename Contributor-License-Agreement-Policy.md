@@ -11,7 +11,7 @@ As of the time of this document, yuzu has around [200 contributors](https://gith
 ## Who must agree to the CLA?
 Any contributor that opens a Pull Request against the [main repository](https://github.com/yuzu-emu/yuzu/) must agree to the CLA before their change can be merged. Similar to how Pull Requests must satisfy build and verification requirements, and must be approved by reviewers, this will be another checkbox within the merge process.
 
-## What should contributors do if they don't own their contribution?
+## What should contributors do if they do not own their contribution?
 If a contributor does not own their contribution, it is their responsibility to get the original author of the code to agree to the CLA or provide written consent granting them shared ownership of the code change. Proof of this consent should be included within the description of the Pull Request for the change.
 
 ## Who are the maintainers of the yuzu project?
