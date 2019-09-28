@@ -14,7 +14,7 @@ When generating the native build script for your toolset, cmake will try to find
 * macOS: run `brew install clang-format`.
 * Linux: use your package manager to get an appropriate binary.
 
-If clang format is found, then cmake will add a custom build target that can be run at any time to run clang format against *all* source files and update the formatting in them. This should be used before making a pull request so that the reviewers can spend more time reviewing the code instead of having to worry about minor style violations. On MSVC, you can run clang format by building the clang-format project in the solution. On OSX, you can either use the Makefile target `make clang-format` or by building the clang-format target in XCode. For Makefile builds, you can use the clang-format target with `make clang-format`
+If clang format is found, then cmake will add a custom build target that can be run at any time to run clang format against *all* source files and update the formatting in them. This should be used before making a pull request so that the reviewers can spend more time reviewing the code instead of having to worry about minor style violations. On MSVC, you can run clang format by building the clang-format project in the solution. On macOS, you can either use the Makefile target `make clang-format` or by building the clang-format target in XCode. For Makefile builds, you can use the clang-format target with `make clang-format`
 
 ### General Rules
 * A lot of code was taken from other projects (e.g. Citra, Dolphin, PPSSPP, Gekko). In general, when editing other people's code, follow the style of the module you're in (or better yet, fix the style if it drastically differs from our guide).
