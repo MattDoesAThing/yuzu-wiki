@@ -3,7 +3,7 @@ When you agree to the yuzu Nintendo Switch Emulator Individual [[Contributor Lic
 
 ## How do I sign the Individual Contributor License Agreement?
 * When you open a Pull Request on the [main repository](https://github.com/yuzu-emu/yuzu/), the bot `CLAassistant` will prompt you to agree to the CLA.
-* Click the link provided by `CLAassistant`, or browse to [https://cla-assistant.io/yuzu-emu/yuzu].
+* Click the link provided by `CLAassistant`, or browse to https://cla-assistant.io/yuzu-emu/yuzu.
 * Login with your GitHub credentials.
 * Read the CLA, provide the required information, and click "Accept" once you agree to the terms of the agreement.
 * The status of your Pull Request (and future Pull Requests) will be updated to indicate that you have agreed to the terms of the CLA.
