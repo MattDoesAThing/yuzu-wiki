@@ -47,7 +47,7 @@ There is an expectation that users with this role are active participants in the
 * A maintainer that satisfies all requirements may still lose their maintainer status by a two thirds majority vote of the active maintainers of the yuzu project.
 
 ## Privacy
-When you agree to the CLA, your acknowledgment of the aggreement is public. Any other contact information you enter is private, and will only be available to the project owner [bunnei](https://github.com/bunnei/). This information will not be shared with any other individuals under any circumstances.
+When you agree to the CLA, your acknowledgment of the agreement is public. Any other contact information you enter is private, and will only be available to the project owner [bunnei](https://github.com/bunnei/). This information will not be shared with any other individuals under any circumstances.
 
 ## What is the process for the maintainers of the yuzu project to act upon their copyright over the yuzu source code?
 At the time of this document, most of the yuzu code is not under CLA. As such, the maintainers of the yuzu project only have authority to act on the copyright of the code they own, not the project as a whole. The expected outcome in adding the CLA is that over time, code will naturally be rewritten and replaced by code that is under CLA. The list of inactive developers that the team would need to contact with regards to code ownership will diminish. At this time, if we were to act on our copyright of the yuzu source code (for example, by issuing a dual license), the decision would be made by a two thirds majority vote. This vote will be carried out by the maintainers of the yuzu project and the web administrator of the yuzu project.
