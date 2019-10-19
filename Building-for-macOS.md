@@ -13,9 +13,17 @@ You'll need to download and install the following to build yuzu:
 
 ### Cloning yuzu with Git
 
+**Master:**
 ```bash
 git clone --recursive https://github.com/yuzu-emu/yuzu
 cd yuzu
+git submodule update --init --recursive
+```
+
+**Mainline (no assert):**
+```bash
+git clone --recursive https://github.com/yuzu-emu/yuzu-mainline
+cd yuzu-mainline
 git submodule update --init --recursive
 ```
 
