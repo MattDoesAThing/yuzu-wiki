@@ -32,18 +32,18 @@ Note: Depending on your distro, the version of CMake you get may not be what's r
 
 ### Cloning yuzu with Git
 
-**Nightly (master):**
+**Master:**
 
 ```bash
 git clone --recursive https://github.com/yuzu-emu/yuzu
 cd yuzu
 ```
 
-**Canary:**
+**Mainline (no assert):**
 
 ```bash
-git clone --recursive https://github.com/yuzu-emu/yuzu-canary
-cd yuzu-canary
+git clone --recursive https://github.com/yuzu-emu/yuzu-mainline
+cd yuzu-mainline
 ```
 
 The `--recursive` option automatically clones the required Git submodules too.
