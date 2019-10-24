@@ -64,7 +64,7 @@ Optionally, you can use `cmake -i ..` to adjust various options (e.g. disable th
 
 #### Using clang
 
-Note: It is important you use libc++ vs. , otherwise your build will likely fail. libc++ is not 100% complete on GNU/Linux, but works well for this build. The libstdc++ std::string is a different data structure than the libc++ std::string. See: [LLVLM.org](https://llvm.org/svn/llvm-project/www-releases/trunk/3.8.0/projects/libcxx/docs/UsingLibcxx.html). If libc++ is not used, some warnings are treated as errors. Using clang is only really recommended for users not using GCC >= 5. Also see [Clang Comparison](http://clang.llvm.org/comparison.html).
+Note: It is important you use libc++ vs. , otherwise your build will likely fail. libc++ is not 100% complete on GNU/Linux, but works well for this build. The libstdc++ std::string is a different data structure than the libc++ std::string. See: [LLVM.org](https://llvm.org/svn/llvm-project/www-releases/trunk/3.8.0/projects/libcxx/docs/UsingLibcxx.html). If libc++ is not used, some warnings are treated as errors. Using clang is only really recommended for users not using GCC >= 5. Also see [Clang Comparison](http://clang.llvm.org/comparison.html).
 
 ```bash
 mkdir build && cd build
