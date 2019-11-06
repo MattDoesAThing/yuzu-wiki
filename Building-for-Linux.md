@@ -4,6 +4,7 @@ You'll need to download and install the following to build yuzu:
 
 - [SDL2](https://www.libsdl.org/download-2.0.php)
   - Arch: `pacman -S sdl2`
+  - Ubuntu: `apt-get install libsdl2-2.0-0 libsdl2-dev`
   - Debian: `apt-get install sdl2 libsdl2-2.0-0 libsdl2-dev`
   - Fedora: `dnf install SDL2-devel`
   - Gentoo: `emerge media-libs/libsdl2`
