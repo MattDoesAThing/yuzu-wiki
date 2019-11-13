@@ -38,7 +38,7 @@ export Qt5_DIR=$(brew --prefix)/opt/qt5
 Now you can generate makefiles for the build:
 
 ```bash
-export MACOSX_DEPLOYMENT_TARGET=10.12
+export MACOSX_DEPLOYMENT_TARGET=10.14
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
