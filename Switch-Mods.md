@@ -27,7 +27,7 @@
 # The legend of Zelda Links Awakening
 |MOD |NOTE
 |- |-
-|[Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Couple of cheats|
+|[Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) |Infinite Ammo - Infinite Bombs - Infinite Magic Powder - Infinite Rupees|
 
 # Zelda: Breath of the Wild
 |MOD |NOTE
