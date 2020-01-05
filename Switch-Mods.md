@@ -13,6 +13,11 @@
 |[15 FPS](https://cdn.discordapp.com/attachments/495758692495523854/662057801413296188/LM3v1.2.0_15FPS.zip) | 15 FPS for v1.0.0 v1.1.0 v1.2.0|
 |[ASM](https://cdn.discordapp.com/attachments/495758692495523854/662057803690541100/LM3v1.2.0_ASM.zip) | Some Gfx fixes v1.0.0 v1.1.0 v1.2.0|
 
+# Mario Tennis Aces
+|MOD |NOTE
+|- |-
+|[Dynamic Resolution Fix](https://cdn.discordapp.com/attachments/495758692495523854/663259906559705098/Mario_Tennis_Dynamic_Resolution_Fix.zip) | Disables automatic decreasing of resolution, for v1.0.0 v3.1.0|
+
 # Pokemon Sword and Shield
 |MOD |NOTE
 |- |-
