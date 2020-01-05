@@ -29,7 +29,7 @@
 |[Clean UI](https://gamebanana.com/guis/download/34208) | Removes Coins, Moons, Life, and a few other UI elements from the game|
 |[High and Low-Resolution Pack](https://gamebanana.com/gamefiles/download/10077) |Makes Resolution for Docked and Undocked higher or lower depending on what mod is used|
 
-# The legend of Zelda Links Awakening
+# The Legend of Zelda Links Awakening
 |MOD |NOTE
 |- |-
 |[Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) |Infinite Ammo - Infinite Bombs - Infinite Magic Powder - Infinite Rupees|
