@@ -18,7 +18,12 @@
 # Pokemon Sword and Shield
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [HD Textures](https://drive.google.com/file/d/1BQ5X0-o1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Changes the game's textures to be higher in detail. | `Any` | ?
+| [HD Textures](https://drive.google.com/file/d/1BQ5X0-o1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Changes the game's textures to be higher in detail. | Any | ?
+
+# Sonic Mania
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [Dev Menu](https://cdn.discordapp.com/attachments/495758692495523854/664159694876835860/Sonic_Mania_Dev_Menu.zip) | Allows you to access the game's dev menu by pressing the Minus button. | `1.00` `1.03` | SuperSonic16
 
 # Super Mario Odyssey
 | Mod | Description | Applies to | Credit |
