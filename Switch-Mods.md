@@ -8,7 +8,7 @@
 | --- | ----------- | ---------- | ------ |
 | [Save Workaround](https://cdn.discordapp.com/attachments/495758692495523854/662057798309380122/LM3v1.2.0_SAVE_FIX.zip) | Works around the saving crash that currently happens in yuzu. | `1.0.0` `1.1.0` `1.2.0` | theboy181
 | [15fps](https://cdn.discordapp.com/attachments/495758692495523854/662057801413296188/LM3v1.2.0_15FPS.zip) | Makes the game run full speed at 15fps. | `1.0.0` `1.1.0` `1.2.0` | theboy181
-| [ASM](https://cdn.discordapp.com/attachments/495758692495523854/662057803690541100/LM3v1.2.0_ASM.zip) | Some Gfx fixes. | `1.0.0` `1.1.0` `1.2.0` | theboy181
+| [ASM](https://cdn.discordapp.com/attachments/495758692495523854/662057803690541100/LM3v1.2.0_ASM.zip) | Some graphical fixes. | `1.0.0` `1.1.0` `1.2.0` | theboy181
 
 # Mario Tennis Aces
 | Mod | Description | Applies to | Credit |
@@ -18,7 +18,7 @@
 # Pokemon Sword and Shield
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [HD Textures](https://drive.google.com/file/d/1BQ5X0-o1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Overhauls the horrible textures and gives the game an art style which it was lacking. | `Any` | ?
+| [HD Textures](https://drive.google.com/file/d/1BQ5X0-o1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Changes the game's textures to be higher in detail. | `Any` | ?
 
 # Super Mario Odyssey
 | Mod | Description | Applies to | Credit |
@@ -31,7 +31,7 @@
 # The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Infinite Ammo - Infinite Bombs - Infinite Magic Powder - Infinite Rupees | ? | ?
+| [Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | ? | ?
 
 # The Legend of Zelda: Breath of the Wild
 | Mod | Description | Applies to | Credit |
