@@ -1,7 +1,7 @@
 # Crash Team Racing: Nitro-Fueled
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-|[15fps](https://cdn.discordapp.com/attachments/626274308494196737/662003166489083904/CTR_15FPS_MOD-V-1.0.0-1.0.9-1.0.11.zip) | Makes the game run full speed at 15fps. Change `61008052` to `01008052` for 60 FPS. | `1.0.0` `1.0.9` `1.0.11` | theboy181
+|[15fps](https://cdn.discordapp.com/attachments/626274308494196737/662003166489083904/CTR_15FPS_MOD-V-1.0.0-1.0.9-1.0.11.zip) | Makes the game run full speed at 15fps. Change `61008052` to `01008052` for 60fps gameplay. | `1.0.0` `1.0.9` `1.0.11` | theboy181
 
 # Luigi's Mansion 3
 | Mod | Description | Applies to | Credit |
@@ -13,12 +13,12 @@
 # Mario Tennis Aces
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Dynamic Resolution Fix](https://cdn.discordapp.com/attachments/495758692495523854/663259906559705098/Mario_Tennis_Dynamic_Resolution_Fix.zip) | Disables automatic decreasing of resolution. | `1.0.0` `3.1.0` | theboy181
+| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/495758692495523854/663259906559705098/Mario_Tennis_Dynamic_Resolution_Fix.zip) | Disables automatic decreasing of resolution. | `1.0.0` `3.1.0` | theboy181
 
 # Pokemon Sword and Shield
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [HD Textures](https://drive.google.com/file/d/1BQ5X0-o1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Overhauls the horrible textures and gives the game an art style which it was lacking. | ? | ?
+| [HD Textures](https://drive.google.com/file/d/1BQ5X0-o1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Overhauls the horrible textures and gives the game an art style which it was lacking. | `Any` | ?
 
 # Super Mario Odyssey
 | Mod | Description | Applies to | Credit |
