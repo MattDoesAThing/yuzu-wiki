@@ -23,7 +23,7 @@ For info on how to use mods, refer to the [Game Modding page on yuzu's website](
 # Pokemon Sword and Shield
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [HD Textures](https://drive.google.com/file/d/1BQ5X0-o1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Changes the game's textures to be higher in detail. | Any | ?
+| [HD Textures](https://drive.google.com/file/d/1BQ5X0-o1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Changes the game's textures to be higher in detail. | `Any` | ?
 
 # Sonic Mania
 | Mod | Description | Applies to | Credit |
@@ -33,10 +33,11 @@ For info on how to use mods, refer to the [Game Modding page on yuzu's website](
 # Super Mario Odyssey
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Clean UI](https://gamebanana.com/guis/download/34208) | Removes Coins, Moons, Life, and a few other UI elements from the game. | Any | Eloeri
-| [High and Low-Resolution Pack](https://gamebanana.com/gamefiles/download/10077) | Makes Resolution for Docked and Undocked higher or lower depending on what mod is used. | Any | zeikken
+| [Clean UI](https://gamebanana.com/guis/download/34208) | Removes Coins, Moons, Life, and a few other UI elements from the game. | `Any` | Eloeri
+| [High and Low-Resolution Pack](https://gamebanana.com/gamefiles/download/10077) | Makes Resolution for Docked and Undocked higher or lower depending on what mod is used. | `Any` | zeikken
 | [Disable Dynamic Resolution Switching](https://cdn.discordapp.com/attachments/495758692495523854/664152331331305504/Disable-Dynamic-Resolution-Switching.7z) | Disables the dynamic resolution switching in the game. | `1.0.0` `1.2.0` | theboy181
 | [In-Game Filters](https://cdn.discordapp.com/attachments/495758692495523854/664152334007271432/In-Game-Filters.7z) | Allows you to play the game with the screenshot mode's filters still enabled. | `1.0.0` `1.2.0` | theboy181
+| [Disable Audio Playback](https://cdn.discordapp.com/attachments/207547103726010368/664572182508077093/Disable_Audio.zip) | Disables all audio playback of the game. | `1.0.0` | theboy181
 
 # The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
@@ -46,4 +47,4 @@ For info on how to use mods, refer to the [Game Modding page on yuzu's website](
 # The Legend of Zelda: Breath of the Wild
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Clean UI](https://gamebanana.com/guis/download/34141) | Removes Hearts, Stamina, Arrow Reticle, ZL Targetting Arrow, and other UI elements. | Any | Eloeri, Leoetlino
+| [Clean UI](https://gamebanana.com/guis/download/34141) | Removes Hearts, Stamina, Arrow Reticle, ZL Targetting Arrow, and other UI elements. | `Any` | Eloeri, Leoetlino
