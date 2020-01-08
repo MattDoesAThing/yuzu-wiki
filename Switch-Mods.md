@@ -1,3 +1,8 @@
+# **Usage**
+For info on how to use mods, refer to the [Game Modding page on yuzu's website](https://yuzu-emu.org/help/feature/game-modding/).
+
+---
+
 # Crash Team Racing: Nitro-Fueled
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
