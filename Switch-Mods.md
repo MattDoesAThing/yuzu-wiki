@@ -23,7 +23,7 @@ For info on how to use mods, refer to the [Game Modding page on yuzu's website](
 # Pokemon Sword and Shield
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [HD Textures](https://drive.google.com/file/d/1BQ5X0-o1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Changes the game's textures to be higher in detail. | `Any` | ?
+| [HD Textures](https://drive.google.com/file/d/1BQ5X0-o1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Changes the game's textures to be higher in detail. | `Any` | MattsCreative
 
 # Sonic Mania
 | Mod | Description | Applies to | Credit |
