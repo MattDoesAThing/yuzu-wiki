@@ -42,7 +42,7 @@ For info on how to use mods, refer to the [Game Modding page on yuzu's website](
 # The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | ? | ?
+| [Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | ? | CJBoK
 
 # The Legend of Zelda: Breath of the Wild
 | Mod | Description | Applies to | Credit |
