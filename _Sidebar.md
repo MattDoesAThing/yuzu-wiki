@@ -1,7 +1,7 @@
 [Home](https://github.com/yuzu-emu/yuzu/wiki)
 ---
 
-  * Users:
+  * **Users:**
     * [Quickstart guide](https://yuzu-emu.org/help/quickstart/)
     * [FAQ](https://github.com/yuzu-emu/yuzu/wiki/FAQ)
     * [Troubleshooting Loader Errors](https://github.com/yuzu-emu/yuzu/wiki/Troubleshooting-Loader-Errors)
@@ -9,7 +9,7 @@
     * [User Directory](https://github.com/yuzu-emu/yuzu/wiki/User-Directory)
 
 #
-  * General:
+  * **General:**
     * [yuzu Web Service](https://github.com/yuzu-emu/yuzu/wiki/yuzu-Web-Service)
     * [Boxcat](https://yuzu-emu.org/help/feature/boxcat/)
     * [Contributing](https://github.com/yuzu-emu/yuzu/wiki/Contributing)
@@ -17,7 +17,7 @@
 
 ---
 
-  * [Developers](https://github.com/yuzu-emu/yuzu/wiki/Developer-Information):
+  * **[Developers](https://github.com/yuzu-emu/yuzu/wiki/Developer-Information):**
     * Building yuzu:
         * [Windows](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Windows)
         * [Linux](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Linux)
