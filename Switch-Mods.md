@@ -37,7 +37,8 @@ For info on how to use mods, refer to the [Game Modding page on yuzu's website](
 | [High and Low-Resolution Pack](https://gamebanana.com/gamefiles/download/10077) | Makes Resolution for Docked and Undocked higher or lower depending on what mod is used. | `Any` | zeikken
 | [Disable Dynamic Resolution Switching](https://cdn.discordapp.com/attachments/495758692495523854/664152331331305504/Disable-Dynamic-Resolution-Switching.7z) | Disables the dynamic resolution switching in the game. | `1.0.0` `1.2.0` | theboy181
 | [In-Game Filters](https://cdn.discordapp.com/attachments/495758692495523854/664152334007271432/In-Game-Filters.7z) | Allows you to play the game with the screenshot mode's filters still enabled. | `1.0.0` `1.2.0` | theboy181
-| [Disable Audio Playback v2](https://cdn.discordapp.com/attachments/495758692495523854/665067251212222494/Remove-Audio-NEW.zip) | Disables all audio playback of the game. | `1.0.0` | theboy181
+| [Gfx Mode 3](https://cdn.discordapp.com/attachments/495758692495523854/665373249781235712/GFX-QualityMode-3.zip) | Forces best Graphcial quality. | `1.0.0` | theboy181
+
 
 # The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
