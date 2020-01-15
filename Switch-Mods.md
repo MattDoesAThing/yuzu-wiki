@@ -33,12 +33,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Super Mario Odyssey
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
+| [Skip VR Service](https://cdn.discordapp.com/attachments/495758692495523854/666902302333992970/Skip_VR_Service.zip) | This is a **WORKAROUND** that skips a service pertaining to the VR mode that is currently not implemented in yuzu, allowing v1.3.0 to boot in the emulator. | `1.3.0` | Michele
 | [Clean UI](https://gamebanana.com/guis/download/34208) | Removes Coins, Moons, Life, and a few other UI elements from the game. | `Any` | Eloeri
 | [High and Low-Resolution Pack](https://gamebanana.com/gamefiles/download/10077) | Makes Resolution for Docked and Undocked higher or lower depending on what mod is used. | `Any` | zeikken
-| [Disable Dynamic Resolution Switching](https://cdn.discordapp.com/attachments/495758692495523854/664152331331305504/Disable-Dynamic-Resolution-Switching.7z) | Disables the dynamic resolution switching in the game. | `1.0.0` `1.2.0` | theboy181
-| [In-Game Filters](https://cdn.discordapp.com/attachments/495758692495523854/664152334007271432/In-Game-Filters.7z) | Allows you to play the game with the screenshot mode's filters still enabled. | `1.0.0` `1.2.0` | theboy181
-| [Disable Audio Playback](https://cdn.discordapp.com/attachments/495758692495523854/665067251212222494/Remove-Audio-NEW.zip) | Disables all audio playback of the game. | `1.0.0` | theboy181
-| [Force Screenshot Mode Graphic Quality](https://cdn.discordapp.com/attachments/495758692495523854/665373249781235712/GFX-QualityMode-3.zip) | Forces the best graphical quality everywhere, which is from screenshot mode. | `1.0.0` | theboy181
+| [Disable Dynamic Resolution Switching](https://cdn.discordapp.com/attachments/495758692495523854/666901614074003456/Disable_Dynamic_Resolution.zip) | Disables the dynamic resolution switching in the game. Undocked mode is incompatible, but can be fixed by using a different mod such as `Force Screenshot Mode Graphic Quality`. | `1.0.0` `1.2.0` `1.3.0` | theboy181
+| [In-Game Filters](https://cdn.discordapp.com/attachments/495758692495523854/666901618158993428/In-Game_Filters.zip) | Allows you to play the game with the screenshot mode's filters still enabled. | `1.0.0` `1.2.0` `1.3.0` | theboy181
+| [Disable Audio Playback](https://cdn.discordapp.com/attachments/495758692495523854/666901610718429184/Disable_Audio.zip) | Disables all audio playback of the game. | `1.0.0` `1.3.0` | theboy181
+| [Force Screenshot Mode Graphic Quality](https://cdn.discordapp.com/attachments/495758692495523854/666901620155613214/Screenshot_Mode_Graphics.zip) | Forces the best graphical quality everywhere, which is from screenshot mode. | `1.0.0` `1.3.0` | theboy181
 #
 ### The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
