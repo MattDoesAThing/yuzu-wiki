@@ -40,6 +40,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [In-Game Filters](https://cdn.discordapp.com/attachments/495758692495523854/666901618158993428/In-Game_Filters.zip) | Allows you to play the game with the screenshot mode's filters still enabled. | `1.0.0` `1.2.0` `1.3.0` | theboy181
 | [Disable Audio Playback](https://cdn.discordapp.com/attachments/495758692495523854/666901610718429184/Disable_Audio.zip) | Disables all audio playback of the game. | `1.0.0` `1.3.0` | theboy181
 | [Force Screenshot Mode Graphic Quality](https://cdn.discordapp.com/attachments/495758692495523854/666901620155613214/Screenshot_Mode_Graphics.zip) | Forces the best graphical quality everywhere, which is from screenshot mode. | `1.0.0` `1.3.0` | theboy181
+| [Disable FXAA](https://cdn.discordapp.com/attachments/495758692495523854/666901615734685697/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181
 #
 ### The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
