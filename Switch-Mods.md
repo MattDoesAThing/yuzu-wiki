@@ -23,6 +23,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Pokemon Sword and Shield
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
+| [Wifi crash fix](https://cdn.discordapp.com/attachments/495758692495523854/667012902166855703/Pokemon-Sword-Wifi-Fix.7z) | Fixes the crash when Y is pressed. | `Any` | theboy181
+| [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
 | [HD Textures](https://drive.google.com/file/d/1BQ5X0-o1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Changes the game's textures to be higher in detail. | `Any` | MattsCreative
 #
 ### Sonic Mania
@@ -37,10 +39,11 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [Clean UI](https://gamebanana.com/guis/download/34208) | Removes Coins, Moons, Life, and a few other UI elements from the game. | `Any` | Eloeri
 | [High and Low-Resolution Pack](https://gamebanana.com/gamefiles/download/10077) | Makes Resolution for Docked and Undocked higher or lower depending on what mod is used. | `Any` | zeikken
 | [Disable Dynamic Resolution Switching](https://cdn.discordapp.com/attachments/495758692495523854/666901614074003456/Disable_Dynamic_Resolution.zip) | Disables the dynamic resolution switching in the game. Undocked mode is incompatible, but can be fixed by using a different mod such as `Force Screenshot Mode Graphic Quality`. | `1.0.0` `1.2.0` `1.3.0` | theboy181
+| [Force Screenshot Mode Graphic Quality](https://cdn.discordapp.com/attachments/495758692495523854/666901620155613214/Screenshot_Mode_Graphics.zip) | Forces the best graphical quality everywhere, which is from screenshot mode. | `1.0.0` `1.3.0` | theboy181
+| [Disable Camera Blur](https://cdn.discordapp.com/attachments/402001453381713920/667011112574910477/Disable-Camera-Blur.zip) | Disables the blur that happens when the camera is moved. | `Any` | ?
+| [Disable FXAA](https://cdn.discordapp.com/attachments/495758692495523854/666901615734685697/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181
 | [In-Game Filters](https://cdn.discordapp.com/attachments/495758692495523854/666901618158993428/In-Game_Filters.zip) | Allows you to play the game with the screenshot mode's filters still enabled. | `1.0.0` `1.2.0` `1.3.0` | theboy181
 | [Disable Audio Playback](https://cdn.discordapp.com/attachments/495758692495523854/666901610718429184/Disable_Audio.zip) | Disables all audio playback of the game. | `1.0.0` `1.3.0` | theboy181
-| [Force Screenshot Mode Graphic Quality](https://cdn.discordapp.com/attachments/495758692495523854/666901620155613214/Screenshot_Mode_Graphics.zip) | Forces the best graphical quality everywhere, which is from screenshot mode. | `1.0.0` `1.3.0` | theboy181
-| [Disable FXAA](https://cdn.discordapp.com/attachments/495758692495523854/666901615734685697/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181
 #
 ### The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
