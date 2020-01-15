@@ -45,6 +45,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
+| [Softlock fixes](https://cdn.discordapp.com/attachments/495758692495523854/667008100586225664/Softlock_Fixes.7z) | Fixes the softlocks. | ? | stealthmc1227
+| [No Blur](https://cdn.discordapp.com/attachments/495758692495523854/667008148803944471/Blur_Fix_-_No_Tiltshift.7z) | Removes the blur. | ? | theboy181
 | [Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | ? | CJBoK
 #
 ### The Legend of Zelda: Breath of the Wild
