@@ -33,7 +33,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Super Mario Odyssey
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Skip VR Function](https://cdn.discordapp.com/attachments/495758692495523854/666902302333992970/Skip_VR_Service.zip) | This is a **WORKAROUND** that skips a service pertaining to the VR mode that is currently not implemented in yuzu, allowing v1.3.0 to boot in the emulator. | `1.3.0` | Michele
+| [Skip VR Function](https://cdn.discordapp.com/attachments/495758692495523854/666905089709047808/Skip_VR_Function.zip) | This is a **WORKAROUND** that skips a function pertaining to VR that is currently not implemented in yuzu, allowing v1.3.0 to boot in the emulator. | `1.3.0` | Michele
 | [Clean UI](https://gamebanana.com/guis/download/34208) | Removes Coins, Moons, Life, and a few other UI elements from the game. | `Any` | Eloeri
 | [High and Low-Resolution Pack](https://gamebanana.com/gamefiles/download/10077) | Makes Resolution for Docked and Undocked higher or lower depending on what mod is used. | `Any` | zeikken
 | [Disable Dynamic Resolution Switching](https://cdn.discordapp.com/attachments/495758692495523854/666901614074003456/Disable_Dynamic_Resolution.zip) | Disables the dynamic resolution switching in the game. Undocked mode is incompatible, but can be fixed by using a different mod such as `Force Screenshot Mode Graphic Quality`. | `1.0.0` `1.2.0` `1.3.0` | theboy181
