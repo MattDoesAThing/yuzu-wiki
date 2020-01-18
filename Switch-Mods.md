@@ -3,10 +3,15 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 ---
 
+### Crash Bandicoot N. Sane Trilogy
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run at 60fps. | `Any` | theboy181
+#
 ### Crash Team Racing: Nitro-Fueled
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-|[15fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-team-racing-nitro-fueled/CTR_15FPS_MOD-V-1.0.0-1.0.9-1.0.11.zip) | Makes the game run full speed at 15fps. Change `61008052` to `01008052` for 60fps gameplay. | `1.0.0` `1.0.9` `1.0.11` | theboy181
+| [15fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-team-racing-nitro-fueled/CTR_15FPS_MOD-V-1.0.0-1.0.9-1.0.11.zip) | Makes the game run full speed at 15fps. Change `61008052` to `01008052` for 60fps gameplay. | `1.0.0` `1.0.9` `1.0.11` | theboy181
 #
 ### Luigi's Mansion 3
 | Mod | Description | Applies to | Credit |
