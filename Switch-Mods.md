@@ -6,7 +6,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Crash Bandicoot N. Sane Trilogy
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run at 60fps. | `Any` | theboy181
+| [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run at 60fps. | `1.0.0` | theboy181
 #
 ### Crash Team Racing: Nitro-Fueled
 | Mod | Description | Applies to | Credit |
