@@ -3,6 +3,11 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 ---
 
+### ARMS
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/arms/Disable-Dynamic-Resolution.zip) | Disables automatic decreasing of resolution. | `1.0.0` | theboy181
+#
 ### Crash Bandicoot N. Sane Trilogy
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
@@ -37,6 +42,12 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Dev Menu](https://cdn.discordapp.com/attachments/495758692495523854/664159694876835860/Sonic_Mania_Dev_Menu.zip) | Allows you to access the game's dev menu by pressing the Minus button. | `1.00` `1.03` | SuperSonic16
 #
+### Splatoon 2
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/Remove-Dynamic-Resolution.zip) | Disables automatic decreasing of resolution. | `1.0.0` | theboy181
+| [30fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/30FPS.zip) | Forces the game to run at 30fps all the time. | `1.0.0` | theboy181
+#
 ### Super Mario Odyssey
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
@@ -58,6 +69,6 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Softlock fixes](https://cdn.discordapp.com/attachments/495758692495523854/667008100586225664/Softlock_Fixes.7z) | Fixes the softlocks. | ? | stealthmc1227
-| [No Blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-links-awakening/Blur_Fix_-_No_Tiltshift.7z) | Removes the blur. | ? | theboy181
-| [Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | ? | CJBoK
+| [Softlock fixes](https://cdn.discordapp.com/attachments/495758692495523854/667008100586225664/Softlock_Fixes.7z) | Fixes the softlocks. | `Any` | stealthmc1227
+| [No Blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-links-awakening/Blur_Fix_-_No_Tiltshift.7z) | Removes the blur. | `1.0.0` | theboy181
+| [Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | `1.0.0` | CJBoK
