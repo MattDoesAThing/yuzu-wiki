@@ -6,7 +6,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### ARMS
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/arms/Disable-Dynamic-Resolution.7z) | Disables automatic decreasing of resolution. | `1.0.0` `5.4.0` | theboy181
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/arms/Disable_Dynamic_Resolution.7z) | Disables automatic decreasing of resolution. | `1.0.0` `5.4.0` | theboy181
 #
 ### Crash Bandicoot N. Sane Trilogy
 | Mod | Description | Applies to | Credit |
