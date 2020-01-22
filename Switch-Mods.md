@@ -6,12 +6,12 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### ARMS
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/arms/Disable-Dynamic-Resolution.zip) | Disables automatic decreasing of resolution. | `1.0.0` | theboy181
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/arms/Disable-Dynamic-Resolution.7z) | Disables automatic decreasing of resolution. | `1.0.0` `5.4.0` | theboy181
 #
 ### Crash Bandicoot N. Sane Trilogy
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run at 60fps. | `1.0.0` | theboy181
+| [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run full speed at 60fps. | `1.0.0` | theboy181
 #
 ### Crash Team Racing: Nitro-Fueled
 | Mod | Description | Applies to | Credit |
@@ -46,13 +46,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/Remove-Dynamic-Resolution.zip) | Disables automatic decreasing of resolution. | `1.0.0` | theboy181
-| [30fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/30FPS.zip) | Forces the game to run at 30fps all the time. | `1.0.0` | theboy181
+| [30fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/30FPS.zip) | Makes the game run full speed at 30fps. | `1.0.0` | theboy181
 #
 ### Super Mario Odyssey
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Skip VR Function](https://cdn.discordapp.com/attachments/495758692495523854/666905089709047808/Skip_VR_Function.zip) | This is a **WORKAROUND** that skips a function pertaining to VR that is currently not implemented in yuzu, allowing v1.3.0 to boot in the emulator. | `1.3.0` | Michele
-| [Clean UI](https://gamebanana.com/guis/download/34208) | Removes Coins, Moons, Life, and a few other UI elements from the game. | `Any` | Eloeri
+| [Clean UI](https://gamebanana.com/guis/download/34208) | Removes coins, moons, health, and a few other UI elements from the game. | `Any` | Eloeri
 | [High and Low-Resolution Pack](https://gamebanana.com/gamefiles/download/10077) | Makes Resolution for Docked and Undocked higher or lower depending on what mod is used. | `Any` | zeikken
 | [Disable Dynamic Resolution Switching](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_Dynamic_Resolution.zip) | Disables the dynamic resolution switching in the game. Undocked mode is incompatible, but can be fixed by using a different mod such as `Force Screenshot Mode Graphic Quality`. | `1.0.0` `1.2.0` `1.3.0` | theboy181
 | [Force Screenshot Mode Graphic Quality](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Screenshot_Mode_Graphics.zip) | Forces the best graphical quality everywhere, which is from screenshot mode. | `1.0.0` `1.3.0` | theboy181
@@ -64,11 +64,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### The Legend of Zelda: Breath of the Wild
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Clean UI](https://gamebanana.com/guis/download/34141) | Removes Hearts, Stamina, Arrow Reticle, ZL Targetting Arrow, and other UI elements. | `Any` | Eloeri, Leoetlino
+| [Clean UI](https://gamebanana.com/guis/download/34141) | Removes hearts, stamina, arrow reticle, ZL targeting arrow, and other UI elements. | `Any` | Eloeri, Leoetlino
 #
 ### The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Softlock fixes](https://cdn.discordapp.com/attachments/495758692495523854/667008100586225664/Softlock_Fixes.7z) | Fixes the softlocks. | `Any` | stealthmc1227
-| [No Blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-links-awakening/Blur_Fix_-_No_Tiltshift.7z) | Removes the blur. | `1.0.0` | theboy181
-| [Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | `1.0.0` | CJBoK
+| [Softlock Fixes](https://cdn.discordapp.com/attachments/495758692495523854/667008100586225664/Softlock_Fixes.7z) | Fixes the softlocks that occur in yuzu. | `Any` | stealthmc1227
+| [No Blur (RomFS)](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-links-awakening/Blur_Fix_-_No_Tiltshift.7z) | Removes the tilt-shift blur. | `Any` | Rodrigo
+| [No Blur (ExeFS)](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-links-awakening/zelda-links_awakening-tiltshift-mod.zip) | Removes the tilt-shift blur. | `1.0.0` `1.0.1` | theboy181
+| [Infinite Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | `1.0.0` | CJBoK
+| [Clean UI](https://gamebanana.com/guis/download/34940) | Removes hearts, weapons icon, and interaction prompts. | `Any` | Eloeri
