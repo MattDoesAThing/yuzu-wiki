@@ -13,9 +13,9 @@ You'll need to download and install the following to build yuzu:
   - Debian: `apt-get install qtbase5-dev libqt5opengl5-dev`
   - Fedora: `dnf install qt5-qtbase qt5-qtbase-devel`
   - Gentoo: `emerge dev-qt/qtcore dev-qt/qtopengl`
-- GCC v7+ (for C++17 support)
+- GCC v7+ (for C++17 support) & misc
   - Arch: `pacman -S base-devel`
-  - Debian: `apt-get install build-essential`
+  - Debian: `apt-get install build-essential libboost-all-dev`
   - Fedora: `dnf install gcc`
   - Gentoo: `emerge =sys-devel/gcc-7.1.0`
 - [CMake](http://www.cmake.org/) 3.6+
