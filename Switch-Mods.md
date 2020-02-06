@@ -31,6 +31,11 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/mario-tennis-aces/Mario_Tennis_Dynamic_Resolution_Fix.zip) | Disables automatic decreasing of resolution. | `1.0.0` `3.1.0` | theboy181
 | [Shadow Removal](https://cdn.discordapp.com/attachments/495758692495523854/670358616682790912/Shadow-FIX.7z) | Disables Shadows in-game. | `3.1.0` | theboy181
 #
+### Persona 5 Scramble - The Phantom Strikers
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [Skip Video Playback](https://github.com/yuzuMods/yuzuMods/raw/master/mods/persona-5-scramble/Skip%20Video%20Playback.zip) | This is a **WORKAROUND** that skips playback of videos, allowing the game to not softlock after initial loading. Spam A to skip past the intro videos. | `Trial` | Michele
+#
 ### Pokemon Sword and Shield
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
