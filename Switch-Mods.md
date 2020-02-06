@@ -29,7 +29,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/mario-tennis-aces/Mario_Tennis_Dynamic_Resolution_Fix.zip) | Disables automatic decreasing of resolution. | `1.0.0` `3.1.0` | theboy181
-| [Shadow Removal](https://cdn.discordapp.com/attachments/495758692495523854/670358616682790912/Shadow-FIX.7z) | Disables Shadows in-game. | `3.1.0` | theboy181
+| [Shadow Removal](https://cdn.discordapp.com/attachments/495758692495523854/670358616682790912/Shadow-FIX.7z) | Disables shadows in-game. | `3.1.0` | theboy181
 #
 ### Persona 5 Scramble - The Phantom Strikers
 | Mod | Description | Applies to | Credit |
@@ -39,7 +39,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Pokemon Sword and Shield
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Wi-Fi Crash Fix](https://github.com/yuzuMods/yuzuMods/raw/master/mods/pokemon-sword-and-shield/Pokemon-Sword-Wifi-Fix.7z) | Fixes the crash when Y is pressed. | `Any` | theboy181
+| [Wi-Fi Crash Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/pokemon-sword-and-shield/Pokemon-Sword-Wifi-Fix.7z) | This is a **WORKAROUND** towards the crash when Y is pressed. | `Any` | theboy181
 | [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
 | [HD Textures](https://drive.google.com/file/d/15fCeU0YEvBCWbN6e1ku1cusHOtzfrTbl/view?usp=sharingo1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Changes the game's textures to be higher in detail. | `Any` | MattsCreative
 #
@@ -75,7 +75,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Softlock Fixes](https://cdn.discordapp.com/attachments/495758692495523854/667008100586225664/Softlock_Fixes.7z) | Fixes the softlocks that occur in yuzu. | `Any` | stealthmc1227
+| [Softlock Fixes](https://cdn.discordapp.com/attachments/495758692495523854/667008100586225664/Softlock_Fixes.7z) | This is a **WORKAROUND** towards the event softlocks that occur in yuzu. | `Any` | stealthmc1227
 | [No Blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-links-awakening/zelda-links_awakening-tiltshift-mod.zip) | Removes the tilt-shift blur. | `1.0.0` `1.0.1` | theboy181
 | [Infinite Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | `1.0.0` | CJBoK
 | [Clean UI](https://gamebanana.com/guis/download/34940) | Removes hearts, weapons icon, and interaction prompts. | `Any` | Eloeri
