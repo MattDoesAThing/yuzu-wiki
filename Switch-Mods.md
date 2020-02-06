@@ -21,7 +21,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Luigi's Mansion 3
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Save Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/LM3v1.2.0_SAVE_FIX.zip) | Works around the saving crash that currently happens in yuzu. | `1.0.0` `1.1.0` `1.2.0` | theboy181
+| [Save Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/LM3v1.2.0_SAVE_FIX.zip) | This is a **WORKAROUND** towards the saving crash that currently happens in yuzu. | `1.0.0` `1.1.0` `1.2.0` | theboy181
 | [15fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/LM3v1.2.0_15FPS.zip) | Makes the game run full speed at 15fps. | `1.0.0` `1.1.0` `1.2.0` | theboy181
 | [ASM](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/LM3v1.2.0_ASM.zip) | Some graphical fixes. | `1.0.0` `1.1.0` `1.2.0` | theboy181
 #
