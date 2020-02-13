@@ -74,3 +74,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [No Blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-links-awakening/zelda-links_awakening-tiltshift-mod.zip) | Removes the tilt-shift blur. | `1.0.0` `1.0.1` | theboy181
 | [Infinite Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | `1.0.0` | CJBoK
 | [Clean UI](https://gamebanana.com/guis/download/34940) | Removes hearts, weapons icon, and interaction prompts. | `Any` | Eloeri
+
+### Hatsune Miku: Project DIVA Mega39's
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [Skip Intro Animation](https://cdn.discordapp.com/attachments/502204856623431681/677574100348043307/Skip_Start_Animations.7z) | Skips opening animations. (Warnings, Legal Info, etc) | `Any` | nastysdsi
