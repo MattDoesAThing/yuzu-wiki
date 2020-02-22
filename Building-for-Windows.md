@@ -80,7 +80,7 @@ Feel free to ask us in the IRC channel #yuzu-emu @ [Freenode](https://webchat.fr
 
 ### Prerequisites to install
 
-* [MSYS2](http://www.msys2.org/)
+* [MSYS2](https://www.msys2.org)
 
 Make sure to follow the instructions and update to the latest version by running `pacman -Syu` as many times as needed.
 
