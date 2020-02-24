@@ -23,7 +23,7 @@ You'll need to download and install the following to build yuzu:
   - Debian: `apt-get install cmake`
   - Fedora: `dnf install cmake`
   - Gentoo: `emerge dev-util/cmake`
-- [Python2](https://www.python.org/download/releases/2.0/) 2.0
+- [Python2](https://www.python.org/download/releases/2.7/) 2.7
   - Arch:   `pacman -S python2
   - Debian  `apt install python2
   - Fedora  ` dnf install python2
