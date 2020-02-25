@@ -1,41 +1,39 @@
-## THIS GUIDE IS INTENDED FOR DEVELOPERS ONLY, SUPPORT WILL ONLY BE GIVEN IF YOU'RE A DEVELOPER.
+# THIS GUIDE IS INTENDED FOR DEVELOPERS ONLY, SUPPORT WILL ONLY BE GIVEN IF YOU'RE A DEVELOPER.
 
 ## Method I: MSVC Build for Windows
 
 ### Minimal Dependencies
 
-On Windows, all library dependencies are automatically included within the "externals" folder or can be downloaded on-demand. To build yuzu, you simply need to install:
+On Windows, all library dependencies are automatically included within the `externals` folder, or can be downloaded on-demand. To build yuzu, you need to install:
 
-* **[Visual Studio 2019 Community](https://visualstudio.microsoft.com/downloads/)** - **Make sure to select C++ support in the installer.**
-* **[CMake](https://cmake.org/download/)** - Used to generate Visual Studio project files. Does not matter if either 32-bit or 64-bit version is installed.
+  * **[Visual Studio 2019 Community](https://visualstudio.microsoft.com/downloads/)** - **Make sure to select C++ support in the installer.**
+  * **[CMake](https://cmake.org/download/)** - Used to generate Visual Studio project files. Does not matter if either 32-bit or 64-bit version is installed.
 
-![2](https://i.imgur.com/giDwuTm.png)
+  ![2](https://i.imgur.com/giDwuTm.png)
 
-* **Git** - We recommend [Git for Windows](https://gitforwindows.org/).
+  * **Git** - We recommend [Git for Windows](https://gitforwindows.org).
 
-![3](https://i.imgur.com/UeSzkBw.png)
+  ![3](https://i.imgur.com/UeSzkBw.png)
 
-* While installing Git Bash, you should tell it to include Git in your system path. (Choose the "Git from the command line and also from 3rd-party software" option.) If you missed that, don't worry, you'll just have to manually tell CMake where your git.exe is, since it's used to include version info into the built executable.
+  * While installing Git Bash, you should tell it to include Git in your system path. (Choose the "Git from the command line and also from 3rd-party software" option.) If you missed that, don't worry, you'll just have to manually tell CMake where your git.exe is, since it's used to include version info into the built executable.
 
-![4](https://i.imgur.com/x0rRs1t.png)
+  ![4](https://i.imgur.com/x0rRs1t.png)
 
 ### Cloning yuzu with Git
 
 **Master:**
-```
-cmd
-git clone --recursive https://github.com/yuzu-emu/yuzu.git
-cd yuzu
-```
+  ```cmd
+  git clone --recursive https://github.com/yuzu-emu/yuzu.git
+  cd yuzu
+  ```
 
 **Mainline (no assert):**
-```
-cmd
-git clone --recursive https://github.com/yuzu-emu/yuzu-mainline.git
-cd yuzu-mainline
-```
+  ```cmd
+  git clone --recursive https://github.com/yuzu-emu/yuzu-mainline.git
+  cd yuzu-mainline
+  ```
 
-![9](https://i.imgur.com/CcxIAht.png)
+  ![9](https://i.imgur.com/CcxIAht.png)
 
 * *(Note: yuzu by default downloads to `C:\Users\<user-name>\yuzu` (Master) or `C:\Users\<user-name>\yuzu-mainline` (Mainline)*
 
@@ -43,36 +41,36 @@ cd yuzu-mainline
 
 * Open the CMake GUI application and point it to the `yuzu` (Master) or `yuzu-mainline` (Mainline) directory.
 
-![10](https://i.imgur.com/qOslIWv.png)
+  ![10](https://i.imgur.com/qOslIWv.png)
 
 * For the build directory, use a `/build` subdirectory inside the source directory or some other directory of your choice. (Tell CMake to create it.)
 
-![11](https://i.imgur.com/cNnhs22.png)
+  ![11](https://i.imgur.com/cNnhs22.png)
 
-* Click the "Configure" button and choose "Visual Studio 16 2019", with "x64" for the optional platform.
+* Click the "Configure" button and choose `Visual Studio 16 2019`, with `x64` for the optional platform.
 
-![12](https://i.imgur.com/DKiREaK.png)
+  ![12](https://i.imgur.com/DKiREaK.png)
 
-* *(Note: If you used GitHub's own app to clone, run `git submodule update --init --recursive` to get the remaining dependencies)*
+  * *(Note: If you used GitHub's own app to clone, run `git submodule update --init --recursive` to get the remaining dependencies)*
 * Click "Generate" to create the project files.
 
-![15](https://i.imgur.com/5LKg92k.png)
+  ![15](https://i.imgur.com/5LKg92k.png)
 
-* Open the solution file yuzu.sln in Visual Studio 2019, which is located in the build folder.
+* Open the solution file `yuzu.sln` in Visual Studio 2019, which is located in the build folder.
 
-![16](https://i.imgur.com/208yMml.png)
+  ![16](https://i.imgur.com/208yMml.png)
 
-* Depending if you want a graphical user interface or not ("yuzu" is with a graphical user interface, while "yuzu-cmd" is just the command line version of it), select "yuzu" or "yuzu-cmd" in the Solution Explorer, right-click and "Set as StartUp Project".
+* Depending if you want a graphical user interface or not (`yuzu` has the graphical user interface, while `yuzu-cmd` doesn't), select `yuzu` or `yuzu-cmd` in the Solution Explorer, right-click and `Set as StartUp Project`.
 
-![17](https://i.imgur.com/nPMajnn.png)  ![18](https://i.imgur.com/BDMLzRZ.png)
+  ![17](https://i.imgur.com/nPMajnn.png)  ![18](https://i.imgur.com/BDMLzRZ.png)
 
 * Select the appropriate build type, Debug for debug purposes or Release for performance (in case of doubt choose Release).
 
-![19](https://i.imgur.com/qxg4roC.png)
+  ![19](https://i.imgur.com/qxg4roC.png)
 
 * Right-click the project you want to build and press Build in the submenu or press F5.
 
-![20](https://i.imgur.com/CkQgOFW.png)
+  ![20](https://i.imgur.com/CkQgOFW.png)
 
 Feel free to ask us in the IRC channel #yuzu-emu @ [Freenode](https://webchat.freenode.net/) or on [Discord](https://discord.gg/XQV6dn9) if you have issues.
 
@@ -82,30 +80,30 @@ Feel free to ask us in the IRC channel #yuzu-emu @ [Freenode](https://webchat.fr
 
 * [MSYS2](https://www.msys2.org)
 
-Make sure to follow the instructions and update to the latest version by running `pacman -Syu` as many times as needed.
+* Make sure to follow the instructions and update to the latest version by running `pacman -Syu` as many times as needed.
 
 ### Install yuzu dependencies for MinGW-w64
 
-* Open the "MSYS2 MinGW 64-bit" (mingw64.exe) shell
+* Open the `MSYS2 MinGW 64-bit` (mingw64.exe) shell
 * Download and install all dependencies using: `pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-qt5 mingw-w64-x86_64-SDL2 mingw-w64-x86_64-cmake make git python2`
 
 ### Clone the yuzu repository with Git
 
 **Master:**
-```
-git clone --recursive https://github.com/yuzu-emu/yuzu.git
-cd yuzu
-```
+  ```bash
+  git clone --recursive https://github.com/yuzu-emu/yuzu.git
+  cd yuzu
+  ```
 
 **Mainline (no assert):**
-```
-git clone --recursive https://github.com/yuzu-emu/yuzu-mainline.git
-cd yuzu-mainline
-```
+  ```bash
+  git clone --recursive https://github.com/yuzu-emu/yuzu-mainline.git
+  cd yuzu-mainline
+  ```
 
 ### Run the following commands to build yuzu (dynamically linked build)
 
-```cmd
+```bash
 mkdir build && cd build
 cmake -G "MSYS Makefiles" -DCMAKE_MAKE_PROGRAM=mingw32-make -DCMAKE_BUILD_TYPE=Release ..
 mingw32-make -j4
@@ -117,13 +115,13 @@ mingw32-make -j4
 
 ### Building without Qt (Optional)
 
-Doesn't require the rather large Qt dependency, but you will lack a GUI frontend.
+Doesn't require the rather large Qt dependency, but you will lack a GUI frontend:
 
-* Pass the `-DENABLE_QT=no` flag to cmake
+  * Pass the `-DENABLE_QT=no` flag to cmake
 
 ## Building from the command line with MSVC
 
-```
+```cmd
 git clone --recursive https://github.com/yuzu-emu/yuzu
 cd yuzu
 mkdir build
