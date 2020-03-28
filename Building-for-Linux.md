@@ -5,46 +5,46 @@ You'll need to download and install the following to build yuzu:
   * [SDL2](https://www.libsdl.org/download-2.0.php):
       | Distro | Commands
       | ------ | ----------------
-      | Arch   | `pacman -S sdl2`
-      | Ubuntu | `apt-get install libsdl2-2.0-0 libsdl2-dev`
-      | Debian | `apt-get install sdl2 libsdl2-2.0-0 libsdl2-dev`
-      | Fedora | `dnf install SDL2-devel`
+      | Arch   | `sudo pacman -S sdl2`
+      | Ubuntu | `sudo apt-get install libsdl2-2.0-0 libsdl2-dev`
+      | Debian | `sudo apt-get install sdl2 libsdl2-2.0-0 libsdl2-dev`
+      | Fedora | `sudo dnf install SDL2-devel`
       | Gentoo | `emerge media-libs/libsdl2`
   * [Qt](https://qt-project.org/downloads):
       | Distro | Commands
       | ------ | ---------------
-      | Arch   | `pacman -S qt5`
-      | Debian | `apt-get install qtbase5-dev libqt5opengl5-dev`
-      | Fedora | `dnf install qt5-qtbase qt5-qtbase-devel`
+      | Arch   | `sudo pacman -S qt5`
+      | Debian | `sudo apt-get install qtbase5-dev libqt5opengl5-dev`
+      | Fedora | `sudo dnf install qt5-qtbase qt5-qtbase-devel`
       | Gentoo | `emerge dev-qt/qtcore dev-qt/qtopengl`
   * GCC v7+ (for C++17 support) & misc:
       | Distro | Commands
       | ------ | ----------------------
-      | Arch   | `pacman -S base-devel`
-      | Debian | `apt-get install build-essential libboost-all-dev`
-      | Fedora | `dnf install gcc`
+      | Arch   | `sudo pacman -S base-devel`
+      | Debian | `sudo apt-get install build-essential libboost-all-dev`
+      | Fedora | `sudo dnf install gcc`
       | Gentoo | `emerge =sys-devel/gcc-7.1.0`
   * [CMake](https://www.cmake.org/) 3.6+:
       | Distro | Commands
       | ------ | -----------------
-      | Arch   | `pacman -S cmake`
-      | Debian | `apt-get install cmake`
-      | Fedora | `dnf install cmake`
+      | Arch   | `sudo pacman -S cmake`
+      | Debian | `sudo apt-get install cmake`
+      | Fedora | `sudo dnf install cmake`
       | Gentoo | `emerge dev-util/cmake`
   * [Python2](https://www.python.org/download/releases/2.7/) 2.7:
       | Distro | Commands
       | ------ | ------------------
-      | Arch   | `pacman -S python2`
-      | Debian | `apt install python2`
-      | Fedora | `dnf install python2`
+      | Arch   | `sudo pacman -S python2`
+      | Debian | `sudo apt install python2`
+      | Fedora | `sudo dnf install python2`
 
 Note: Depending on your distro, the version of CMake you get may not be what's required to build yuzu. Check with `cmake --version`. Version 3.6 or greater is required for you to be able to build!
 
   * [Clang](https://github.com/llvm-mirror/clang) 3.8 (optional build alternative):
       | Distro | Commands
       | ------ | ------------------
-      | Arch   | `pacman -S clang`, `libc++` is in the AUR. Use `yay` to install it.
-      | Debian | `apt-get install clang libc++-dev` (in some distros, clang-3.8)
+      | Arch   | `sudo pacman -S clang`, `libc++` is in the AUR. Use `yay` to install it.
+      | Debian | `sudo apt-get install clang libc++-dev` (in some distros, clang-3.8)
       | Gentoo | `emerge sys-devel/clang sys-libs/libcxx`
 
 ### Cloning yuzu with Git
