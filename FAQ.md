@@ -80,7 +80,12 @@ _Remember to reinstall any updates or DLC you need._
 _Afterwards, go to `Settings > System > Filesystem tab` and click on `Reset Metadata Cache` on the bottom. This will refresh the games list addons column._
 
 ### **How do I set up my controls?**
-_Set controls to `Custom`, then click on `Configure`._
+
+_Since the Nintendo Switch is a complicated device controller input wise, you will need to change some input settings depending on the game you wish to play._
+
+_In the input window dropdown, Select `Custom`, then click on `Configure`._
+
+![](https://cdn.discordapp.com/attachments/356187763139280896/697133498074660904/Custom.PNG)
 
 _**For all games other than Pokemon Let's Go set the controls like this:**_
 
