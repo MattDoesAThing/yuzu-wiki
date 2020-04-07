@@ -24,8 +24,20 @@ _Afterwards, follow the instructions below for `yuzu will not update further or 
 ### **yuzu will not update further or starts with a Qt platform error**
 * _Close all instances of yuzu and any installer processes you may have running._
 * _Press Win+R, in the opened window type `%localappdata%` and press Enter._
-* _Select the `yuzu` folder and delete it. If it is being used by another process, please double check that you do not have any yuzu related applications running._
+* _Select the `yuzu` folder and delete it. If it is being used by another process, please double-check that you do not have any yuzu related applications running._
 * _Launch the installer and install yuzu again._
+
+### **My game is Lagging and Dropping to Low Framerates**
+
+You are likely experiencing Shader Caching. Shaders are small programs running on a graphic card, responsible for rendering graphics like terrain, explosions, characters, etc. Since a PC cannot directly execute switch shaders, It first has to translate them to a format a PC can understand. This translation process is time-consuming and you'll notice it in two ways:
+
+1). While playing, if yuzu needs to translate a new shader, the game will stutter. Loading into a game for the first time can give long freezes due to the number of shaders. As you keep playing, the amount of stuttering will decrease.
+
+2). When launching a game, the shader cache is loaded. To speed up this process there exists an additional "precompiled" cache. This cache may get reset every time you update yuzu or install a new GPU driver. The precompiled cache will then be compiled from scratch, causing a longer load time.
+
+Currently, the Vulkan renderer does not have a disk shader cache. This means that subsequent game loads will require the building of shaders each time. 
+
+IMPORTANT: Since the cache stores parts of the game, we don't condone sharing or downloading these, since it is considered piracy
 
 ### **How do I use mods?**
 _For a list of useful mods for your favorite games, check our database with [Switch Mods](https://yuzu-emu.org/wiki/switch-mods/)_
@@ -51,7 +63,7 @@ _To remove them, you will need to delete this `registered` folder._
 
 _Remember to reinstall any updates or DLC you need._
 
-_Afterwards, go to `Settings > System > Filesystem tab` and click on `Reset Metadata Cache` on bottom. This will refresh the gameslist addons column._
+_Afterwards, go to `Settings > System > Filesystem tab` and click on `Reset Metadata Cache` on the bottom. This will refresh the games list addons column._
 
 ### **How do I set up my controls?**
 _Set controls to `Custom`, then click on `Configure`._
@@ -86,7 +98,7 @@ _yuzu is an open-source project, licensed under the GPLv2 (or any later version)
 _yuzu is actively tested and supported on various 64-bit versions of Windows (7 and up) and Linux. macOS is no longer supported due to Apple deprecating OpenGL._
 
 ### **What are the system requirements for yuzu?**
-_yuzu currently requires a OpenGL 4.5 capable GPU and a CPU that has high single core performance. It also requires a minimum of 8 GB of RAM._
+_yuzu currently requires an OpenGL 4.5 capable GPU and a CPU that has high single-core performance. It also requires a minimum of 8 GB of RAM._
 
 ### **How do I build yuzu for the OS that I use?**
 _Take a look at the following guides for steps on building yuzu for the following platforms:_
