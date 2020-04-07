@@ -56,7 +56,7 @@ _The mods provided on our [Switch Mods](https://yuzu-emu.org/wiki/switch-mods/) 
 
 _Once added to the correct mod directory, simply right click the game again, select properties and activate the installed mod. The same process can be followed in reverse for de-activating mods_
 
-![](https://cdn.discordapp.com/attachments/512678820092968971/697120298738253824/Mod_Properties.PNG)
+![](https://cdn.discordapp.com/attachments/512678820092968971/697124627520159804/Mods_on.PNG)
 
 ### **How do I uninstall game updates or DLC?**
 _Due to current file system limitations, there is no easy way to uninstall a specific update/DLC._
