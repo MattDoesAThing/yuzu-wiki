@@ -2,10 +2,10 @@
 _You are legally required to dump your games from your Nintendo Switch. To do so, please follow our in-depth [Quickstart Guide](https://yuzu-emu.org/help/quickstart/)._
 
 ### **yuzu starts with the error "Missing Derivation Components"**
-_Please follow our [Quickstart Guide](https://yuzu-emu.org/help/quickstart/) to dump your keys and system files from your Nintendo Switch._
+_yuzu requires console keys for the decryption and usage of your games. Please follow our [Quickstart Guide](https://yuzu-emu.org/help/quickstart/) to dump these keys and system files from your Nintendo Switch._
 
 ### **yuzu starts with the error “VCRUNTIME140_1.dll was not found”**
-_Please download and install the following dependency:_
+_Current versions of yuzu require the latest versions of Microsoft Visual C++. Please download and install the following dependency:_
 
 _https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads_
 
@@ -37,7 +37,7 @@ _You are likely experiencing Shader Caching. Shaders are small programs running 
 
 _Currently, the Vulkan renderer does not have a disk shader cache. This means that subsequent game loads will require the building of shaders each time._
 
-_IMPORTANT: Since the cache stores parts of the game, we don't condone sharing or downloading these, since it is considered piracy_
+``IMPORTANT: Since the cache stores parts of the game, we don't condone sharing or downloading these, since it is considered piracy``
 
 ### **How do I use mods?**
 _For a list of useful mods for your favorite games, check our database with [Switch Mods](https://yuzu-emu.org/wiki/switch-mods/)_
