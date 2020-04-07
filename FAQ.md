@@ -1,31 +1,31 @@
 ### **How do I get games?**
-_You are legally required to dump your games from your Nintendo Switch. To do so, please follow our in-depth [Quickstart Guide](https://yuzu-emu.org/help/quickstart/)_
+_You are legally required to dump your games from your Nintendo Switch. To do so, please follow our in-depth [Quickstart Guide](https://yuzu-emu.org/help/quickstart/)._
 
 ### **yuzu starts with the error "Missing Derivation Components"**
 _Please follow our [Quickstart Guide](https://yuzu-emu.org/help/quickstart/) to dump your keys and system files from your Nintendo Switch._
 
 ### **yuzu starts with the error “VCRUNTIME140_1.dll was not found”**
-_Please download and install the following dependencies:_
+_Please download and install the following dependency:_
 
 _https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads_
 
-_Install the x64 version._
+_Go to Visual Studio 2015, 2017 and 2019, and select the link next to x64._
 
 ### **yuzu starts with the error "Unable to start application: Os { code: 2, kind: NotFound, message: “The system cannot find the file specified.” }"**
 
-_This problem is usually caused by a false positive of your virus scanner, most recently avast and awg._
+_This problem is usually caused by a false positive of your antivirus software, most commonly by Avast and AVG. These applications will often incorrectly detect yuzu as malicious software and delete the executable as a result._
 
-_You can confirm it is a false positive with an online scanner such as VirusTotal if you wish._
+_You can confirm it is a false positive with an online scanner, such as [VirusTotal](https://www.virustotal.com) if you wish._
 
-_To fix this you'll need to either disable or uninstall your virus scanner. Make sure to reboot if you choose to uninstall it._
+_To fix this, you'll need to either disable or uninstall your antivirus software. Make sure to reboot if you choose to uninstall it._
 
-_Afterwards follow the instructions below for `yuzu won't update anymore` to delete any residual files of the failed installation._
+_Afterwards, follow the instructions below for `yuzu will not update further or starts with a Qt platform error` to delete any residual files of the failed installation._
 
-### **yuzu won't update anymore / starts with a platform error**
-* _Close all instances of yuzu or the installer/maintenance tool you may have running._
-* _Open `%localappdata%` in your file browser._
-* _Select the `yuzu` folder and delete it._
-* _Run the installer again._
+### **yuzu will not update further or starts with a Qt platform error**
+* _Close all instances of yuzu and any installer processes you may have running._
+* _Press Win+R, in the opened window type `%localappdata%` and press Enter._
+* _Select the `yuzu` folder and delete it. If it is being used by another process, please double check that you do not have any yuzu related applications running._
+* _Launch the installer and install yuzu again._
 
 ### **How do I use mods?**
 _For a list of useful mods for your favorite games, check our database with [Switch Mods](https://yuzu-emu.org/wiki/switch-mods/)_
