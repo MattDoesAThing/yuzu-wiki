@@ -104,6 +104,16 @@ _**For Pokemon Let's Go set your controls like this:**_
 * _Make sure to map your analog sticks by clicking on the `Set analog Stick` button if you are using a controller._
 * _Restart yuzu after you are done for the new settings to take effect_
 
+### **How do I add a save to my Game**
+
+_To add a save, simply right-click your game in the Games List, Select `Open save Data Location`, then Select your User from the Profile Selector_
+
+![](https://cdn.discordapp.com/attachments/356187763139280896/697140759454941245/User_list_saves.PNG)
+
+_Once your Save Data Location is open, place your game saves in this directory_
+
+![](https://cdn.discordapp.com/attachments/356187763139280896/697142111568527400/save_location.PNG)
+ 
 ---
 
 ### **What is yuzu?**
