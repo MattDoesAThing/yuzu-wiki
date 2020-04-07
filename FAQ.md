@@ -37,7 +37,7 @@ _You are likely experiencing Shader Caching. Shaders are small programs running 
 
 _Currently, the Vulkan renderer does not have a disk shader cache. This means that subsequent game loads will require the building of shaders each time._
 
-``IMPORTANT: Since the cache stores parts of the game, we don't condone sharing or downloading these, since it is considered piracy``
+`IMPORTANT: Since the cache stores parts of the game, we don't condone sharing or downloading these, since it is considered piracy`
 
 ### **How do I use mods?**
 _For a list of useful mods for your favorite games, check our database with [Switch Mods](https://yuzu-emu.org/wiki/switch-mods/)_
@@ -55,6 +55,8 @@ _An example of a correctly structured mod directory can be seen below_
 _The mods provided on our [Switch Mods](https://yuzu-emu.org/wiki/switch-mods/) page are already structured accordingly and only need to be extracted into the mod directory folder as is._
 
 _Once added to the correct mod directory, simply right click the game again, select properties and activate the installed mod. The same process can be followed in reverse for de-activating mods_
+
+![](https://cdn.discordapp.com/attachments/512678820092968971/697120298738253824/Mod_Properties.PNG)
 
 ### **How do I uninstall game updates or DLC?**
 _Due to current file system limitations, there is no easy way to uninstall a specific update/DLC._
