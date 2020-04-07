@@ -29,15 +29,15 @@ _Afterwards, follow the instructions below for `yuzu will not update further or 
 
 ### **My game is Lagging and Dropping to Low Framerates**
 
-You are likely experiencing Shader Caching. Shaders are small programs running on a graphic card, responsible for rendering graphics like terrain, explosions, characters, etc. Since a PC cannot directly execute switch shaders, It first has to translate them to a format a PC can understand. This translation process is time-consuming and you'll notice it in two ways:
+_You are likely experiencing Shader Caching. Shaders are small programs running on a graphic card, responsible for rendering graphics like terrain, explosions, characters, etc. Since a PC cannot directly execute switch shaders, It first has to translate them to a format a PC can understand. This translation process is time-consuming and you'll notice it in two ways:_
 
-1). While playing, if yuzu needs to translate a new shader, the game will stutter. Loading into a game for the first time can give long freezes due to the number of shaders. As you keep playing, the amount of stuttering will decrease.
+* _While playing, if yuzu needs to translate a new shader, the game will stutter. Loading into a game for the first time can give long freezes due to the number of shaders. As you keep playing, the amount of stuttering will decrease._
 
-2). When launching a game, the shader cache is loaded. To speed up this process there exists an additional "precompiled" cache. This cache may get reset every time you update yuzu or install a new GPU driver. The precompiled cache will then be compiled from scratch, causing a longer load time.
+* _When launching a game, the shader cache is loaded. To speed up this process there exists an additional "precompiled" cache. This cache may get reset every time you update yuzu or install a new GPU driver. The precompiled cache will then be compiled from scratch, causing a longer load time._
 
-Currently, the Vulkan renderer does not have a disk shader cache. This means that subsequent game loads will require the building of shaders each time. 
+_Currently, the Vulkan renderer does not have a disk shader cache. This means that subsequent game loads will require the building of shaders each time._
 
-IMPORTANT: Since the cache stores parts of the game, we don't condone sharing or downloading these, since it is considered piracy
+_IMPORTANT: Since the cache stores parts of the game, we don't condone sharing or downloading these, since it is considered piracy_
 
 ### **How do I use mods?**
 _For a list of useful mods for your favorite games, check our database with [Switch Mods](https://yuzu-emu.org/wiki/switch-mods/)_
@@ -98,7 +98,7 @@ _yuzu is an open-source project, licensed under the GPLv2 (or any later version)
 _yuzu is actively tested and supported on various 64-bit versions of Windows (7 and up) and Linux. macOS is no longer supported due to Apple deprecating OpenGL._
 
 ### **What are the system requirements for yuzu?**
-_yuzu currently requires an OpenGL 4.5 capable GPU and a CPU that has high single-core performance. It also requires a minimum of 8 GB of RAM._
+_yuzu currently requires an OpenGL 4.5 capable GPU and a CPU that has high single-core performance. It also requires a minimum of 8 GB of RAM. For more details, see our [Quickstart Guide](https://yuzu-emu.org/help/quickstart/#hardware)._
 
 ### **How do I build yuzu for the OS that I use?**
 _Take a look at the following guides for steps on building yuzu for the following platforms:_
