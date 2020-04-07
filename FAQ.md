@@ -58,7 +58,15 @@ _Once added to the correct mod directory, simply right click the game again, sel
 
 ![](https://cdn.discordapp.com/attachments/512678820092968971/697124627520159804/Mods_on.PNG)
 
+### **How do I install game updates or DLC?**
+_Installing updates and DLC is simple. In the top left corner of the emulator window, select `File > Install Files to NAND`, then select the file you wish to install. Once installed, your files should load automatically and the installed update or DLC will be shown in the games list add-ons column of the corresponding game._
+
+_If you wish to activate/deactivate a specific update or DLC then right click your game in the games list, select `Properties`, then enable or disable as needed._
+
+![](https://cdn.discordapp.com/attachments/512678820092968971/697129823407177789/Updates_and_DLC.PNG)
+
 ### **How do I uninstall game updates or DLC?**
+
 _Due to current file system limitations, there is no easy way to uninstall a specific update/DLC._
 
 _It is usually easiest to just delete everything and then reinstall any updates and DLC that you need._
