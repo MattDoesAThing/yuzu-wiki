@@ -48,6 +48,8 @@ _`Mod directory/mod name/romfs`_
 _or_
 _`Mod directory/mod name/exefs`_
 
+![](https://cdn.discordapp.com/attachments/512678820092968971/697113928852963378/Mod_Format.PNG)
+
 _The mods provided on our [Switch Mods](https://yuzu-emu.org/wiki/switch-mods/) page are already structured accordingly and only need to be extracted into the mod directory folder as is._
 
 _Once added to the correct mod directory, simply right click the game again, select properties and activate the installed mod. The same process can be followed in reverse for de-activating mods_
