@@ -59,7 +59,7 @@ _Once added to the correct mod directory, simply right click the game again, sel
 ![](https://cdn.discordapp.com/attachments/512678820092968971/697124627520159804/Mods_on.PNG)
 
 ### **How do I install game updates or DLC?**
-_Installing updates and DLC is simple. In the top left corner of the emulator window, select `File > Install Files to NAND`, then select the file you wish to install. Once installed, your files should load automatically and the installed update or DLC will be shown in the games list add-ons column of the corresponding game._
+_Installing updates and DLC is simple. In the top left corner of the emulator window, select `File / Install Files to NAND`, then select the file you wish to install. Once installed, your files should load automatically and the installed update or DLC will be shown in the games list add-ons column of the corresponding game._
 
 _If you wish to activate/deactivate a specific update or DLC then right click your game in the games list, select `Properties`, then enable or disable as needed._
 
@@ -77,7 +77,7 @@ _To remove them, you will need to delete this `registered` folder._
 
 _Remember to reinstall any updates or DLC you need._
 
-_Afterwards, go to `Settings > System > Filesystem tab` and click on `Reset Metadata Cache` on the bottom. This will refresh the games list addons column._
+_Afterwards, go to `Settings / System / Filesystem tab` and click on `Reset Metadata Cache` on the bottom. This will refresh the games list addons column._
 
 ### **How do I set up my controls?**
 
