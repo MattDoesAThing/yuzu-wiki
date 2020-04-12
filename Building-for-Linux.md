@@ -14,7 +14,7 @@ You'll need to download and install the following to build yuzu:
       | Distro | Commands
       | ------ | ---------------
       | Arch   | `sudo pacman -S qt5`
-      | Debian | `sudo apt-get install qtbase5-dev libqt5opengl5-dev`
+      | Debian | `sudo apt-get install qtbase5-dev libqt5opengl5-dev qtbase5-private-dev`
       | Fedora | `sudo dnf install qt5-qtbase qt5-qtbase-devel`
       | Gentoo | `emerge dev-qt/qtcore dev-qt/qtopengl`
   * GCC v7+ (for C++17 support) & misc:
