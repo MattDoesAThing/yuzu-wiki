@@ -37,6 +37,11 @@ You'll need to download and install the following to build yuzu:
       | Arch   | `sudo pacman -S python2`
       | Debian | `sudo apt install python2`
       | Fedora | `sudo dnf install python2`
+  * Arch specific dependencies: 
+      `sudo pacman -S gpm zip openssl zstd sndio mbedtls python2` 
+
+       Note: A symlink is also needed on arch based distros: `sudo ln -T /usr/lib/libsndio.so.7.0 /usr/lib/libsndio.so.6.1`
+
 
 Note: Depending on your distro, the version of CMake you get may not be what's required to build yuzu. Check with `cmake --version`. Version 3.6 or greater is required for you to be able to build!
 
