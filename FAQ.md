@@ -1,10 +1,26 @@
-### **How do I get games?**
+### **How do I get Games?**
+
 _You are legally required to dump your games from your Nintendo Switch. To do so, please follow our in-depth [Quickstart Guide](https://yuzu-emu.org/help/quickstart/)._
 
+
 ### **yuzu starts with the error "Missing Derivation Components"**
-_yuzu requires console keys for the decryption and usage of your games. Please follow our [Quickstart Guide](https://yuzu-emu.org/help/quickstart/) to dump these keys and system files from your Nintendo Switch._
+![](https://cdn.discordapp.com/attachments/512678820092968971/699337208443699307/Keys_missing.PNG)
+
+_yuzu requires console keys to play your games. Please follow our [Quickstart Guide](https://yuzu-emu.org/help/quickstart/) to dump these keys and system files from your Nintendo Switch._
+
+_These console keys (prod.keys/title.keys) need to be placed in the following directories_
+
+* Windows: C:\Users\USERNAME\AppData\Roaming\yuzu\keys  **<- You need to make this "keys" folder**
+
+* Linux: /home/USER/.local/share/yuzu/keys **<- You need to make this "keys" folder**
+
+**NOTE: This yuzu directory can be quickly accessed by selecting file/open yuzu folder within the emulator**
+
 
 ### **yuzu starts with the error “VCRUNTIME140_1.dll was not found”**
+
+![](https://cdn.discordapp.com/attachments/512678820092968971/699336946698158120/VC_missing.png)
+
 _Current versions of yuzu require the latest versions of Microsoft Visual C++. Please download and install the following dependency:_
 
 _https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads_
