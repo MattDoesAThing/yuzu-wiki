@@ -10,11 +10,9 @@ _yuzu requires console keys to play your games. Please follow our [Quickstart Gu
 
 _These console keys (prod.keys/title.keys) need to be placed in the following directories_:
 
-**You may need to create the following "keys" folder**
+You may need to create the following "keys" folder:
 * Windows: `C:\Users\USERNAME\AppData\Roaming\yuzu\keys`
-
-**You may need to create the following "keys" folder**
-* Linux: `/home/USER/.local/share/yuzu/keys`
+* Linux: `/home/USERNAME/.local/share/yuzu/keys`
 
 **NOTE: This yuzu directory can be quickly accessed by selecting file/open yuzu folder within the emulator**
 
