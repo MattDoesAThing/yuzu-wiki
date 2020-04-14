@@ -8,11 +8,13 @@ _You are legally required to dump your games from your Nintendo Switch. To do so
 
 _yuzu requires console keys to play your games. Please follow our [Quickstart Guide](https://yuzu-emu.org/help/quickstart/) to dump these keys and system files from your Nintendo Switch._
 
-_These console keys (prod.keys/title.keys) need to be placed in the following directories_
+_These console keys (prod.keys/title.keys) need to be placed in the following directories_:
 
-* Windows: C:\Users\USERNAME\AppData\Roaming\yuzu\keys  **<- You need to make this "keys" folder**
+**You may need to create the following "keys" folder**
+* Windows: `C:\Users\USERNAME\AppData\Roaming\yuzu\keys`
 
-* Linux: /home/USER/.local/share/yuzu/keys **<- You need to make this "keys" folder**
+**You may need to create the following "keys" folder**
+* Linux: `/home/USER/.local/share/yuzu/keys`
 
 **NOTE: This yuzu directory can be quickly accessed by selecting file/open yuzu folder within the emulator**
 
