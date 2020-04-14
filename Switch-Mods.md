@@ -36,7 +36,6 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/mario-tennis-aces/Mario_Tennis_Dynamic_Resolution_Fix.zip) | Disables automatic decreasing of resolution. | `1.0.0` `3.1.0` | theboy181
-| [Shadow Removal](https://cdn.discordapp.com/attachments/495758692495523854/670358616682790912/Shadow-FIX.7z) | Disables shadows in-game. | `3.1.0` | theboy181
 #
 ### Pokemon Sword and Shield
 | Mod | Description | Applies to | Credit |
