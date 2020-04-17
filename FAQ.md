@@ -38,12 +38,16 @@ To fix this, you'll need to either disable or uninstall your antivirus software.
 Afterwards, follow the instructions below for `yuzu will not update further or starts with a Qt platform error` to delete any residual files of the failed installation.
 
 ### **yuzu will not update further or starts with a Qt platform error**
+
+![](https://cdn.discordapp.com/attachments/356187763139280896/700495249817993266/QT_Error.PNG)
+
 * Close all instances of yuzu and any installer processes you may have running.
 * Press Win+R, in the opened window type `%localappdata%` and press Enter.
 * Select the `yuzu` folder and delete it. If it is being used by another process, please double-check that you do not have any yuzu related applications running.
 * Launch the installer and install yuzu again.
 
 ### **My game is Lagging and Dropping to Low Framerates**
+
 
 You are likely experiencing Shader Caching. Shaders are small programs running on a graphic card, responsible for rendering graphics like terrain, explosions, characters, etc. Since a PC cannot directly execute switch shaders, It first has to translate them to a format a PC can understand. This translation process is time-consuming and you'll notice it in two ways:
 
