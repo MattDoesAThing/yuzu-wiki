@@ -38,7 +38,7 @@ You'll need to download and install the following to build yuzu:
       | Debian | `sudo apt install python2`
       | Fedora | `sudo dnf install python2`
   * Arch specific dependencies: 
-      `sudo pacman -S gpm zip openssl zstd sndio mbedtls python2` 
+      `sudo pacman -S gpm zip openssl zstd sndio mbedtls` 
 
        Note: A symlink is also needed on arch based distros: `sudo ln -T /usr/lib/libsndio.so.7.0 /usr/lib/libsndio.so.6.1`
 
