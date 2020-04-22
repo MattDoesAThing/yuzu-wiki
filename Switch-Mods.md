@@ -25,12 +25,12 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [15fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-team-racing-nitro-fueled/CTR_15FPS_MOD-V-1.0.0-1.0.9-1.0.11.zip) | Makes the game run full speed at 15fps. Change `61008052` to `01008052` for 60fps gameplay. | `1.0.0` `1.0.9` `1.0.11` | theboy181
 #
-### Hatsune Miku Project DIVA MEGA39's
+### Hatsune Miku: Project DIVA Mega Mix
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Skip Intro Animation](https://cdn.discordapp.com/attachments/502204856623431681/677574100348043307/Skip_Start_Animations.7z) | Skips opening animations. (Warnings, Legal Info, etc) | `Any` | nastysdsi
+| [Skip Intro Animation](https://cdn.discordapp.com/attachments/502204856623431681/677574100348043307/Skip_Start_Animations.7z) | Skips opening animations. (Warnings, Legal Info, etc) | `Any (JPN)` | nastysdsi
 | [HDTV1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/HDTV1080.zip) | Makes the game run entirely at 1920x1080 when docked. | `Any` | M&M
-| [Force English](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/Force%20English.zip) | Forces the game to use American English for it's language. Enables English strings and song selection. | `1.0.0` `1.0.2` `1.0.3` | M&M
+| [Force English](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/Force%20English.zip) | Forces the game to use American English for it's language. Enables English strings and song selection. | `1.0.0 (JPN)` `1.0.2` `1.0.3` | M&M
 #
 ### Luigi's Mansion 3
 | Mod | Description | Applies to | Credit |
