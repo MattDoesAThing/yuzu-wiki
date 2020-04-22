@@ -3,6 +3,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 ---
 
+### Animal Crossing: New Horizons
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [Disable DOF v2](https://cdn.discordapp.com/attachments/495758692495523854/702302615639162910/Disable-DOF-v2.rar) | Fixes black shadows in the background. | `1.1.1` `1.1.2` `1.1.3` `1.1.4`| theboy181
+| [Bypass Boot Crash](https://www.patreon.com/file?h=36005316&i=5430378) | Allows to bypass the blackscreen when booting the game. | `1.1.1` `1.1.2` `1.1.3` `1.1.4` | ogniK5377
+#
+
 ### ARMS
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
