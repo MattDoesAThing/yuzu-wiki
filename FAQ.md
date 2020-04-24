@@ -152,7 +152,6 @@ yuzu currently requires an OpenGL 4.5 capable GPU and a CPU that has high single
 ### **How do I build yuzu for the OS that I use?**
 Take a look at the following guides for steps on building yuzu for the following platforms:
   - [Linux](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Linux)
-  - [macOS](https://github.com/yuzu-emu/yuzu/wiki/Building-for-macOS)
   - [Windows](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Windows)
 
 ### **Who made yuzu?**
