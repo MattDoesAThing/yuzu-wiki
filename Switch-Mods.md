@@ -14,7 +14,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### ARMS
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/arms/Disable_Dynamic_Resolution.7z) | Disables automatic decreasing of resolution. | `1.0.0` `5.4.0` | theboy181
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/arms/Disable_Dynamic_Resolution.7z) | Disables the game's automatic adjustment of resolution. | `1.0.0` `5.4.0` | theboy181, M&M
 
 #
 
@@ -32,7 +32,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
-### Hatsune Miku: Project DIVA Mega Mix
+### Hatsune Miku: Project DIVA Mega Mix (MEGA39's)
 | Mod | Description | Applies to | Region | Credit |
 | --- | ----------- | ---------- | ------ | ------ |
 | [Skip Intro Animation](https://cdn.discordapp.com/attachments/502204856623431681/677574100348043307/Skip_Start_Animations.7z) | Skips opening animations. (Warnings, Legal Info, etc) | `Any` | `JP` | nastysdsi
@@ -44,7 +44,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Luigi's Mansion 3
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/Disable-Dynamic-Resoluiton.rar) | Disables automatic decreasing of resolution. | `1.0.0` `1.1.0` | theboy181
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/Disable-Dynamic-Resoluiton.rar) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.1.0` | theboy181
 | [Save Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/LM3v1.2.0_SAVE_FIX.zip) | This is a workaround towards the saving crash that currently happens in yuzu. | `1.0.0` `1.1.0` `1.2.0` | theboy181
 | [60fps](https://cdn.discordapp.com/attachments/207547103726010368/704784348129525920/LM3_60fps.zip) | Makes the game run full speed at 60fps. | `1.0.0` `1.2.1` `1.3.0` | theboy181, Kirby567fan
 
@@ -53,17 +53,17 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Mario Tennis Aces
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/mario-tennis-aces/Mario_Tennis_Dynamic_Resolution_Fix.zip) | Disables automatic decreasing of resolution. | `1.0.0` `3.1.0` | theboy181
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/mario-tennis-aces/Mario_Tennis_Dynamic_Resolution_Fix.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `3.1.0` | theboy181
 
 #
 
-### Pokemon Sword and Shield
+### Pokemon Sword/Shield
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Wi-Fi Crash Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/pokemon-sword-and-shield/Pokemon-Sword-Wifi-Fix.7z) | This is a workaround towards the crash when Y is pressed. | `1.0.0` | theboy181
 | [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
 | [HD Textures](https://drive.google.com/file/d/15fCeU0YEvBCWbN6e1ku1cusHOtzfrTbl/view?usp=sharingo1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Changes the game's textures to be higher in detail. | `Any` | MattsCreative
-| [Force Max Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/pokemon-sword-and-shield/force-max-resolution-v2.rar) | Forces the game to always run at 1080p. | `1.0.0` | theboy181
+| [Force Max Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/pokemon-sword-and-shield/force-max-resolution-v2.rar) | Forces the game to always run at 1920x1080. | `1.0.0` | theboy181
 
 #
 
@@ -77,7 +77,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Splatoon 2
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/Remove-Dynamic-Resolution.zip) | Disables automatic decreasing of resolution. | `1.0.0` | theboy181
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/Remove-Dynamic-Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
 | [30fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/30FPS.zip) | Makes the game run full speed at 30fps. | `1.0.0` | theboy181
 
 #
@@ -87,11 +87,11 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Clean UI](https://gamebanana.com/guis/download/34208) | Removes coins, moons, health, and a few other UI elements from the game. | `Any` | Eloeri
 | [High and Low-Resolution Pack](https://gamebanana.com/gamefiles/download/10077) | Makes Resolution for Docked and Undocked higher or lower depending on what mod is used. | `Any` | zeikken
-| [Disable Dynamic Resolution Switching](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_Dynamic_Resolution.zip) | Disables the dynamic resolution switching in the game. Undocked mode is incompatible, but can be fixed by using a different mod such as `Force Screenshot Mode Graphic Quality`. | `1.0.0` `1.2.0` `1.3.0` | theboy181
-| [Force Screenshot Mode Graphic Quality](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Screenshot_Mode_Graphics.zip) | Forces the best graphical quality everywhere, which is from screenshot mode. | `1.0.0` `1.3.0` | theboy181
-| [Disable Camera Blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable-Camera-Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` `1.3.0` | theboy181
-| [Disable FXAA](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181
-| [In-Game Filters](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/In-Game_Filters.zip) | Allows you to play the game with the screenshot mode's filters still enabled. | `1.0.0` `1.2.0` `1.3.0` | theboy181
+| [Disable Dynamic Resolution Switching](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. Undocked mode is incompatible, but can be fixed by using a different mod such as `Force Screenshot Mode Graphic Quality`. | `1.0.0` `1.2.0` `1.3.0` | theboy181, M&M
+| [Force Screenshot Mode Graphic Quality](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Screenshot_Mode_Graphics.zip) | Forces the best graphical quality everywhere, which is from screenshot mode. | `1.0.0` `1.3.0` | theboy181, M&M
+| [Disable Camera Blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable-Camera-Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` `1.3.0` | theboy181, M&M
+| [Disable FXAA](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181, M&M
+| [In-Game Filters](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/In-Game_Filters.zip) | Allows you to play the game with the screenshot mode's filters still enabled. | `1.0.0` `1.2.0` `1.3.0` | theboy181, M&M
 
 #
 
@@ -99,7 +99,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [30fps](https://cdn.discordapp.com/attachments/512678820092968971/702906286437564566/Smash_Ultimate_30FPS_.zip) | Makes the game full speed at 30fps. | `1.0.0` `3.1.0` `7.0.0` | theboy181
-| [Intro Skip](https://cdn.discordapp.com/attachments/512678820092968971/702906092694274128/Boot_Straight_to_menu.zip) | Makes the game boot straight into the main menu. | `1.0.0` `3.1.0` `7.0.0` | theboy181
+| [Boot Straight to Menu](https://cdn.discordapp.com/attachments/512678820092968971/702906092694274128/Boot_Straight_to_menu.zip) | Makes the game boot straight into the main menu. | `1.0.0` `3.1.0` `7.0.0` | theboy181
 
 #
 
