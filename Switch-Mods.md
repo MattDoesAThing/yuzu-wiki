@@ -33,11 +33,11 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 #
 
 ### Hatsune Miku: Project DIVA Mega Mix
-| Mod | Description | Applies to | Credit |
-| --- | ----------- | ---------- | ------ |
-| [Skip Intro Animation](https://cdn.discordapp.com/attachments/502204856623431681/677574100348043307/Skip_Start_Animations.7z) | Skips opening animations. (Warnings, Legal Info, etc) | `Any (JPN)` | nastysdsi
-| [HDTV1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/HDTV1080.zip) | Makes the game run entirely at 1920x1080 when docked. | `Any` | M&M
-| [Force English](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/Force%20English.zip) | Forces the game to use American English for it's language. Enables English strings and song selection. | `1.0.0 (JPN)` `1.0.2` `1.0.3` | M&M
+| Mod | Description | Applies to | Region | Credit |
+| --- | ----------- | ---------- | ------ | ------ |
+| [Skip Intro Animation](https://cdn.discordapp.com/attachments/502204856623431681/677574100348043307/Skip_Start_Animations.7z) | Skips opening animations. (Warnings, Legal Info, etc) | `Any` | `JP` | nastysdsi
+| [HDTV1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/HDTV1080.zip) | Makes the game run entirely at 1920x1080 when docked. | `Any` | `Any` | M&M
+| [Force English](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/Force%20English.zip) | Forces the game to use American English for it's language. Enables English strings and song selection. | `1.0.0` `1.0.2` `1.0.3` | `JP` | M&M
 
 #
 
@@ -99,8 +99,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Super Smash Bros. Ultimate
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [30 FPS Mod](https://cdn.discordapp.com/attachments/512678820092968971/702906286437564566/Smash_Ultimate_30FPS_.zip) | Makes the game Fullspeed at 30 FPS | `1.0.0` `3.1.0` `7.0.0` | theboy181
-| [Intro Skip](https://cdn.discordapp.com/attachments/512678820092968971/702906092694274128/Boot_Straight_to_menu.zip) | Skips the Intro video and Splash Screens | `1.0.0` `3.1.0` `7.0.0` | theboy181
+| [30fps](https://cdn.discordapp.com/attachments/512678820092968971/702906286437564566/Smash_Ultimate_30FPS_.zip) | Makes the game full speed at 30fps. | `1.0.0` `3.1.0` `7.0.0` | theboy181
+| [Intro Skip](https://cdn.discordapp.com/attachments/512678820092968971/702906092694274128/Boot_Straight_to_menu.zip) | Makes the game boot straight into the main menu. | `1.0.0` `3.1.0` `7.0.0` | theboy181
 
 #
 
