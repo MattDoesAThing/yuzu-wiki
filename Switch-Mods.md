@@ -8,7 +8,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Disable DOF](https://cdn.discordapp.com/attachments/495758692495523854/702999212312494171/Disable-DOF-1.2.0.zip) | Fixes black shadows in the background. | `1.1.4` `1.2.0`| theboy181  CJBok (1.2.0 port)
 | [Bypass Boot Crash](https://cdn.discordapp.com/attachments/512678820092968971/703036800272171099/BypassBootCrash.zip) | Allows the game to boot | `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.1.3` `1.1.4` `1.2.0` | ogniK5377  CJBok (1.2.0 port)
-
+| [Crash Fix Camera](https://cdn.discordapp.com/attachments/495758692495523854/704672056133943366/ACNH1.2.0_-_CrashFixCamera.zip) | Allows to take ingame camera snaps for nook miles+ | `1.2.0` | CJBok
 #
 
 ### ARMS
