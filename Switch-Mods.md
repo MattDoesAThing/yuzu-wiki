@@ -28,7 +28,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Crash Team Racing: Nitro-Fueled
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [15fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-team-racing-nitro-fueled/CTR_15FPS_MOD-V-1.0.0-1.0.9-1.0.11.zip) | Makes the game run full speed at 15fps. Change `61008052` to `01008052` for 60fps gameplay. | `1.0.0` `1.0.9` `1.0.11` | theboy181
+| [60fps](https://cdn.discordapp.com/attachments/207547103726010368/704783542638608394/CTRNF_60fps.zip) | Makes the game run full speed at 60fps. | `1.0.7` `1.0.9` `1.0.10` `1.0.11` `1.0.12` `1.0.13` `1.0.14` `1.0.15` | Kirby567fan, masagrator, Mauste
 
 #
 
@@ -46,7 +46,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/Disable-Dynamic-Resoluiton.rar) | Disables automatic decreasing of resolution. | `1.0.0` `1.1.0` | theboy181
 | [Save Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/LM3v1.2.0_SAVE_FIX.zip) | This is a workaround towards the saving crash that currently happens in yuzu. | `1.0.0` `1.1.0` `1.2.0` | theboy181
-| [15fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/LM3v1.2.0_15FPS.zip) | Makes the game run full speed at 15fps. | `1.0.0` `1.1.0` `1.2.0` | theboy181
+| [60fps](https://cdn.discordapp.com/attachments/207547103726010368/704784348129525920/LM3_60fps.zip) | Makes the game run full speed at 60fps. | `1.0.0` `1.2.1` `1.3.0` | theboy181, Kirby567fan
 
 #
 
