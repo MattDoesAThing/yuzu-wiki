@@ -92,7 +92,6 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [Disable Camera Blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable-Camera-Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` `1.3.0` | theboy181
 | [Disable FXAA](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181
 | [In-Game Filters](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/In-Game_Filters.zip) | Allows you to play the game with the screenshot mode's filters still enabled. | `1.0.0` `1.2.0` `1.3.0` | theboy181
-| [Disable Audio Playback](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_Audio.zip) | This is a workaround towards Disables all audio playback of the game. | `1.0.0` `1.3.0` | theboy181
 
 #
 
