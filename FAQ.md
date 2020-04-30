@@ -1,3 +1,14 @@
+### **yuzu starts with the error “VCRUNTIME140_1.dll was not found”**
+
+![](https://cdn.discordapp.com/attachments/512678820092968971/699336946698158120/VC_missing.png)
+
+Current versions of yuzu require the latest versions of Microsoft Visual C++. Please download and install the following dependency:
+
+https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
+
+Go to Visual Studio 2015, 2017 and 2019, and select the link next to x64.
+
+
 ### **How do I get Games?**
 
 _You are legally required to dump your games from your Nintendo Switch. To do so, please follow our in-depth [Quickstart Guide](https://yuzu-emu.org/help/quickstart/)._
@@ -17,15 +28,6 @@ You may need to create the following "keys" folder:
 **NOTE: This yuzu directory can be quickly accessed by selecting file/open yuzu folder within the emulator**
 
 
-### **yuzu starts with the error “VCRUNTIME140_1.dll was not found”**
-
-![](https://cdn.discordapp.com/attachments/512678820092968971/699336946698158120/VC_missing.png)
-
-Current versions of yuzu require the latest versions of Microsoft Visual C++. Please download and install the following dependency:
-
-https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
-
-Go to Visual Studio 2015, 2017 and 2019, and select the link next to x64.
 
 ### **yuzu starts with the error "Unable to start application: Os { code: 2, kind: NotFound, message: “The system cannot find the file specified.” }"**
 
