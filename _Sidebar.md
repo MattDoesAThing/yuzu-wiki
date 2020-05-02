@@ -1,6 +1,5 @@
 [Home](https://github.com/yuzu-emu/yuzu/wiki)
 ---
-urmom
   * **Users:**
     * [Quickstart guide](https://yuzu-emu.org/help/quickstart/)
     * [FAQ](https://github.com/yuzu-emu/yuzu/wiki/FAQ)
