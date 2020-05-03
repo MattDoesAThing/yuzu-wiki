@@ -135,6 +135,9 @@ To add a save, simply right-click your game in the Games List, Select `Open Save
 Once your `Save Data Location` is open, place your game saves in this directory
 
 ![](https://cdn.discordapp.com/attachments/356187763139280896/697142111568527400/save_location.PNG)
+
+### **yuzu closes when I try to open it**
+Disconnect any USB gamepad you have and relaunch yuzu.
  
 ---
 
