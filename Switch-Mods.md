@@ -6,9 +6,9 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Animal Crossing: New Horizons
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable DOF](https://cdn.discordapp.com/attachments/495758692495523854/702999212312494171/Disable-DOF-1.2.0.zip) | Fixes the black fog in the background. | `1.1.4` `1.2.0`| theboy181,  CJBok
-| [Bypass Boot Crash](https://github.com/yuzuMods/yuzuMods/raw/master/mods/animal-crossing-new-horizons/BypassBootCrash.zip) | Allows the game to boot. | `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.1.3` `1.1.4` `1.2.0` | ogniK5377,  CJBok, M&M
-| [Camera Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/704672056133943366/ACNH1.2.0_-_CrashFixCamera.zip) | Allows to take in-game camera snaps for Nook Miles+. | `1.2.0` | CJBok
+| [Bypass Boot Crash](https://github.com/yuzuMods/yuzuMods/raw/master/mods/animal-crossing-new-horizons/BypassBootCrash.zip) | A workaround that allows the game to boot. | `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.1.3` `1.1.4` `1.2.0` | ogniK5377,  CJBok, M&M
+| [Disable DOF](https://cdn.discordapp.com/attachments/495758692495523854/702999212312494171/Disable-DOF-1.2.0.zip) | A workaround to the black fog in the background. | `1.1.4` `1.2.0`| theboy181,  CJBok
+| [Camera Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/704672056133943366/ACNH1.2.0_-_CrashFixCamera.zip) | A workaround to the in-game camera snaps crashing the game. | `1.2.0` | CJBok
 #
 
 ### ARMS
@@ -35,7 +35,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Hatsune Miku: Project DIVA Mega Mix (MEGA39's)
 | Mod | Description | Applies to | Region | Credit |
 | --- | ----------- | ---------- | ------ | ------ |
-| [Skip Intro Animation](https://cdn.discordapp.com/attachments/502204856623431681/677574100348043307/Skip_Start_Animations.7z) | Skips opening animations. (Warnings, Legal Info, etc) | `Any` | `JP` | nastysdsi
+| [Skip Intro Animation](https://cdn.discordapp.com/attachments/502204856623431681/677574100348043307/Skip_Start_Animations.7z) | Skips the opening animations. (Warnings, Logos, etc.) | `Any` | `JP` | nastysdsi
 | [HDTV1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/HDTV1080.zip) | Makes the game run entirely at 1920x1080 when docked. | `Any` | `Any` | M&M
 | [Force English](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/Force%20English.zip) | Forces the game to use American English for it's language. Enables English strings and song selection. | `1.0.0` `1.0.2` `1.0.3` | `JP` | M&M
 
