@@ -62,7 +62,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Wi-Fi Crash Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/pokemon-sword-and-shield/Pokemon-Sword-Wifi-Fix.7z) | This is a workaround towards the crash when Y is pressed. | `1.0.0` | theboy181
 | [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
-| [HD Textures](https://drive.google.com/file/d/15fCeU0YEvBCWbN6e1ku1cusHOtzfrTbl/view?usp=sharingo1cD3DNxIl8P5JIpbZInRq4zSy/view?usp=sharing) | Changes the game's textures to be higher in detail. | `Any` | MattsCreative
+| [ReTextured](https://mega.nz/file/isNUUSTT#aJoQTIQrygvRcSo_VlUReqAy7MCJnlPBj3WaFNNx3F0) | Changes the game's textures to be higher in detail. | `Any` | BSoD Gaming
 | [Force Max Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/pokemon-sword-and-shield/force-max-resolution-v2.rar) | Forces the game to always run at 1920x1080. | `1.0.0` | theboy181
 
 #
