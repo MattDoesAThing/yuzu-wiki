@@ -36,7 +36,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Region | Credit |
 | --- | ----------- | ---------- | ------ | ------ |
 | [Skip Intro Animation](https://cdn.discordapp.com/attachments/502204856623431681/677574100348043307/Skip_Start_Animations.7z) | Makes the game boot straight to the title screen. | `Any` | `JP` | nastysdsi
-| [HDTV1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/HDTV1080.zip) | Makes the game run entirely at 1920x1080 when docked. | `Any` | `Any` | M&M
+| [HDTV1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/HDTV1080.zip) | Makes the game run entirely at 1920x1080. | `Any` | `Any` | M&M
 | [Force English](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/Force%20English.zip) | Forces the game to use American English for it's language. Enables English strings and song selection. | `1.0.0` `1.0.2` `1.0.3` | `JP` | M&M
 
 #
