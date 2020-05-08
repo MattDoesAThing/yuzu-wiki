@@ -22,10 +22,10 @@ All other dependencies will be downloaded by [conan](https://conan.io/downloads.
 
       | Distro          | Commands
       | --------------- | ----------------
-      | Arch            | `sudo pacman -S base-devel cmake sdl2 qt5 python2 python-pip boost catch2 fmt openssl lz4 mbedtls nlohmann-json opus zlib zip zstd && sudo pip install conan`
-      | Ubuntu / Debian | `sudo apt-get install build-essential cmake libboost-all-dev libsdl2-2.0-0 libsdl2-dev qtbase5-dev libqt5opengl5-dev qtbase5-private-dev python2 python-pip && sudo pip install conan`
-      | Fedora          | `sudo dnf install gcc cmake SDL2-devel qt5-qtbase qt5-qtbase-devel python2 python-pip && sudo pip install conan`
-      | Gentoo          | `emerge =sys-devel/gcc-7.1.0 dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && sudo pip install conan`
+      | Arch            | `sudo pacman -S base-devel ninja cmake sdl2 qt5 python2 python-pip boost catch2 fmt openssl lz4 mbedtls nlohmann-json opus zlib zip zstd && sudo pip install conan`
+      | Ubuntu / Debian | `sudo apt-get install build-essential ninja-build cmake libboost-all-dev libsdl2-2.0-0 libsdl2-dev qtbase5-dev libqt5opengl5-dev qtbase5-private-dev python2 python-pip && sudo pip install conan`
+      | Fedora          | `sudo dnf install gcc ninja-build cmake SDL2-devel qt5-qtbase qt5-qtbase-devel python2 python-pip && sudo pip install conan`
+      | Gentoo          | `emerge =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && sudo pip install conan`
 
 Note: Depending on your distro, the version of CMake you get may not be what's required to build yuzu. Check with `cmake --version`. Version 3.6 or greater is required for you to be able to build!
 
@@ -54,17 +54,16 @@ Note: Depending on your distro, the version of CMake you get may not be what's r
 
 The `--recursive` option automatically clones the required Git submodules.
 
-### Building yuzu in Debug Mode (Slow)
+### Building yuzu in Release Mode (Optimized)
 
 #### Using GCC
 
 ```bash
 mkdir build && cd build
-cmake ../
-make
-sudo make install
+cmake .. -GNinja
+ninja
+sudo ninja install # (currently doesn't work, needs to be fixed)
 ```
-Note: You can use **make -jN** where N is the number of processors available to accelerate building.
 
 Optionally, you can use `cmake -i ..` to adjust various options (e.g. disable the Qt GUI).
 
@@ -74,12 +73,12 @@ Note: It is important you use libc++ vs., otherwise your build will likely fail.
 
   ```bash
   mkdir build && cd build
-  cmake -DCMAKE_CXX_COMPILER=clang++-3.8 \
+  cmake -GNinja \
+        -DCMAKE_CXX_COMPILER=clang++-3.8 \
         -DCMAKE_C_COMPILER=clang-3.8 \
         -DCMAKE_CXX_FLAGS="-O2 -g -stdlib=libc++" \
         ..
-  make
-  sudo make install # (currently doesn't work, needs to be fixed)
+  ninja
   ```
 
 Debian/Ubuntu: Owing to bug [#808086](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=808086) the build might
@@ -101,20 +100,20 @@ Additionally, on Ubuntu, do:
   sudo apt-get install libc++abi-dev && sudo ln -s /usr/include/libcxxabi/__cxxabi_config.h /usr/include/c++/v1/__cxxabi_config.h
   ```
 
-### Building yuzu in Release Mode (Optimized)
+### Building yuzu in Debug Mode (Slow)
 
 ```bash
 mkdir build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make
-sudo make install # (currently doesn't work, needs to be fixed)
+cmake .. -GNinja -DCMAKE_BUILD_TYPE=Debug
+ninja
 ```
 
 ### Building with debug symbols
 
 ```bash
-cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo
-make
+mkdir build && cd build
+cmake .. -GNinja -DCMAKE_BUILD_TYPE=RelWithDebInfo
+ninja
 ```
 
 ### Running without installing
