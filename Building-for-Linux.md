@@ -2,44 +2,20 @@
 
 You'll need to download and install the following to build yuzu:
 
-  * [SDL2](https://www.libsdl.org/download-2.0.php):
+  * GCC v7+ (for C++17 support) & misc
+  * [CMake](https://www.cmake.org/) 3.6+
+  * [SDL2](https://www.libsdl.org/download-2.0.php)
+  * [Qt](https://qt-project.org/downloads)
+  * [Python2](https://www.python.org/download/releases/2.7/) 2.7
       | Distro | Commands
       | ------ | ----------------
-      | Arch   | `sudo pacman -S sdl2`
-      | Ubuntu | `sudo apt-get install libsdl2-2.0-0 libsdl2-dev`
-      | Debian | `sudo apt-get install sdl2 libsdl2-2.0-0 libsdl2-dev`
-      | Fedora | `sudo dnf install SDL2-devel`
-      | Gentoo | `emerge media-libs/libsdl2`
-  * [Qt](https://qt-project.org/downloads):
-      | Distro | Commands
-      | ------ | ---------------
-      | Arch   | `sudo pacman -S qt5`
-      | Debian | `sudo apt-get install qtbase5-dev libqt5opengl5-dev qtbase5-private-dev`
-      | Fedora | `sudo dnf install qt5-qtbase qt5-qtbase-devel`
-      | Gentoo | `emerge dev-qt/qtcore dev-qt/qtopengl`
-  * GCC v7+ (for C++17 support) & misc:
-      | Distro | Commands
-      | ------ | ----------------------
-      | Arch   | `sudo pacman -S base-devel`
-      | Debian | `sudo apt-get install build-essential libboost-all-dev`
-      | Fedora | `sudo dnf install gcc`
-      | Gentoo | `emerge =sys-devel/gcc-7.1.0`
-  * [CMake](https://www.cmake.org/) 3.6+:
-      | Distro | Commands
-      | ------ | -----------------
-      | Arch   | `sudo pacman -S cmake`
-      | Debian | `sudo apt-get install cmake`
-      | Fedora | `sudo dnf install cmake`
-      | Gentoo | `emerge dev-util/cmake`
-  * [Python2](https://www.python.org/download/releases/2.7/) 2.7:
-      | Distro | Commands
-      | ------ | ------------------
-      | Arch   | `sudo pacman -S python2`
-      | Debian | `sudo apt install python2`
-      | Fedora | `sudo dnf install python2`
-  * Arch specific dependencies: 
-      `sudo pacman -S gpm zip openssl zstd sndio mbedtls` 
+      | Arch   | `sudo pacman -S base-devel cmake sdl2 qt5 python2 gpm zip openssl zstd sndio mbedtls`
+      | Ubuntu | `sudo apt-get install build-essential cmake libboost-all-dev libsdl2-2.0-0 libsdl2-dev qtbase5-dev libqt5opengl5-dev qtbase5-private-dev python2`
+      | Debian | `sudo apt-get install build-essential cmake libboost-all-dev libsdl2-2.0-0 libsdl2-dev qtbase5-dev libqt5opengl5-dev qtbase5-private-dev python2`
+      | Fedora | `sudo dnf install gcc cmake SDL2-devel qt5-qtbase qt5-qtbase-devel python2`
+      | Gentoo | `emerge =sys-devel/gcc-7.1.0 dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl`
 
+  * Arch specific dependencies:
        Note: A symlink is also needed on arch based distros: `sudo ln -T /usr/lib/libsndio.so.7.0 /usr/lib/libsndio.so.6.1`
 
 
