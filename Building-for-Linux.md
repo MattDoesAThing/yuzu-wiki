@@ -7,17 +7,25 @@ You'll need to download and install the following to build yuzu:
   * [SDL2](https://www.libsdl.org/download-2.0.php)
   * [Qt](https://qt-project.org/downloads)
   * [Python2](https://www.python.org/download/releases/2.7/) 2.7
-      | Distro | Commands
-      | ------ | ----------------
-      | Arch   | `sudo pacman -S base-devel cmake sdl2 qt5 python2 gpm zip openssl zstd sndio mbedtls`
-      | Ubuntu | `sudo apt-get install build-essential cmake libboost-all-dev libsdl2-2.0-0 libsdl2-dev qtbase5-dev libqt5opengl5-dev qtbase5-private-dev python2`
-      | Debian | `sudo apt-get install build-essential cmake libboost-all-dev libsdl2-2.0-0 libsdl2-dev qtbase5-dev libqt5opengl5-dev qtbase5-private-dev python2`
-      | Fedora | `sudo dnf install gcc cmake SDL2-devel qt5-qtbase qt5-qtbase-devel python2`
-      | Gentoo | `emerge =sys-devel/gcc-7.1.0 dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl`
 
-  * Arch specific dependencies:
-       Note: A symlink is also needed on arch based distros: `sudo ln -T /usr/lib/libsndio.so.7.0 /usr/lib/libsndio.so.6.1`
+All other dependencies will be downloaded by [conan](https://conan.io/downloads.html) if needed:
 
+  * [Boost](https://www.boost.org/users/download/)
+  * [Catch2](https://github.com/catchorg/Catch2)
+  * [fmt](https://fmt.dev/)
+  * [OpenSSL](https://www.openssl.org/source/)
+  * [lz4](http://www.lz4.org)
+  * [nlohmann_json](https://github.com/nlohmann/json)
+  * [opus](https://opus-codec.org/downloads/)
+  * [ZLIB](https://www.zlib.net/)
+  * [zstd](https://facebook.github.io/zstd/)
+
+      | Distro          | Commands
+      | --------------- | ----------------
+      | Arch            | `sudo pacman -S base-devel cmake sdl2 qt5 python2 python-pip boost catch2 fmt openssl lz4 mbedtls nlohmann-json opus zlib zip zstd && sudo pip install conan`
+      | Ubuntu / Debian | `sudo apt-get install build-essential cmake libboost-all-dev libsdl2-2.0-0 libsdl2-dev qtbase5-dev libqt5opengl5-dev qtbase5-private-dev python2 python-pip && sudo pip install conan`
+      | Fedora          | `sudo dnf install gcc cmake SDL2-devel qt5-qtbase qt5-qtbase-devel python2 python-pip && sudo pip install conan`
+      | Gentoo          | `emerge =sys-devel/gcc-7.1.0 dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && sudo pip install conan`
 
 Note: Depending on your distro, the version of CMake you get may not be what's required to build yuzu. Check with `cmake --version`. Version 3.6 or greater is required for you to be able to build!
 
