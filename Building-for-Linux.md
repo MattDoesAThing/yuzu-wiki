@@ -65,7 +65,7 @@ ninja
 sudo ninja install # (currently doesn't work, needs to be fixed)
 ```
 
-Optionally, you can use `cmake -i ..` to adjust various options (e.g. disable the Qt GUI).
+Optionally, you can use `cmake-gui ..` to adjust various options (e.g. disable the Qt GUI).
 
 #### Using clang
 
