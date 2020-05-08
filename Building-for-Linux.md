@@ -22,10 +22,10 @@ All other dependencies will be downloaded by [conan](https://conan.io/downloads.
 
       | Distro          | Commands
       | --------------- | ----------------
-      | Arch            | `sudo pacman -S base-devel ninja cmake sdl2 qt5 python2 python-pip boost catch2 fmt lz4 mbedtls nlohmann-json openssl opus zip zlib zstd && sudo pip install conan`
-      | Ubuntu / Debian | `sudo apt-get install build-essential ninja-build cmake libboost-all-dev libsdl2-2.0-0 libsdl2-dev qtbase5-dev libqt5opengl5-dev qtbase5-private-dev python2 python-pip && sudo pip install conan`
-      | Fedora          | `sudo dnf install gcc ninja-build cmake SDL2-devel qt5-qtbase qt5-qtbase-devel python2 python-pip && sudo pip install conan`
-      | Gentoo          | `emerge =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && sudo pip install conan`
+      | Arch            | `sudo pacman -S --needed git base-devel ninja cmake sdl2 qt5 python2 python-pip boost catch2 fmt lz4 mbedtls nlohmann-json openssl opus zip zlib zstd && sudo pip install conan`
+      | Ubuntu / Debian | `sudo apt-get install git build-essential ninja-build cmake libboost-all-dev libsdl2-2.0-0 libsdl2-dev qtbase5-dev libqt5opengl5-dev qtbase5-private-dev python2 python-pip && sudo pip install conan`
+      | Fedora          | `sudo dnf install git gcc ninja-build cmake SDL2-devel qt5-qtbase qt5-qtbase-devel python2 python-pip && sudo pip install conan`
+      | Gentoo          | `emerge dev-vcs/git =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && sudo pip install conan`
 
 Note: Depending on your distro, the version of CMake you get may not be what's required to build yuzu. Check with `cmake --version`. Version 3.6 or greater is required for you to be able to build!
 
