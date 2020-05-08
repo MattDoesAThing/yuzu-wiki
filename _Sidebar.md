@@ -21,7 +21,6 @@
     * Building yuzu:
         * [Windows](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Windows)
         * [Linux](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Linux)
-        * [macOS](https://github.com/yuzu-emu/yuzu/wiki/Building-for-macOS)
     * [Switch Hardware and Software Documentation](https://github.com/yuzu-emu/yuzu/wiki/Switch-Hardware-and-Software)
     * [Switch Homebrew and Libraries](https://github.com/yuzu-emu/yuzu/wiki/Switch-Homebrew)
     * [Service Function Usage](https://github.com/yuzu-emu/yuzu/wiki/Service-Function-Usage)
