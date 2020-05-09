@@ -87,6 +87,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Super Mario Odyssey
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
+| [Web Applet Bypass](https://cdn.discordapp.com/attachments/512678820092968971/708744273801117726/SMO_Web_Applet_Bypass.7z) | Disables the Web Applet, fixing a crash when moving from Cascade to Sand Kingdom | `1.0.0` | theboy181
 | [Clean UI](https://gamebanana.com/guis/download/34208) | Removes coins, moons, health, and a few other UI elements from the game. | `Any` | Eloeri
 | [High and Low-Resolution Pack](https://gamebanana.com/gamefiles/download/10077) | Makes Resolution for Docked and Undocked higher or lower depending on what mod is used. | `Any` | zeikken
 | [Disable Dynamic Resolution Switching](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. Undocked mode is incompatible, but can be fixed by using a different mod such as `Force Screenshot Mode Graphic Quality`. | `1.0.0` `1.2.0` `1.3.0` | theboy181, M&M
