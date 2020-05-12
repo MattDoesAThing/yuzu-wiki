@@ -163,7 +163,7 @@ Please read the following guide: [How to Upload the Log File](https://yuzu-emu.o
 
 ### How do I use the resolution scanner?
 
-**This is currently broken, and not working.**
+**This is currently broken, and not working.**\
 Please read the following guide: [How to Use the Resolution Scanner](https://yuzu-emu.org/help/feature/resolution-rescaler/)
 
 ### What is Telemetry?
