@@ -33,6 +33,8 @@ You may need to create the following "keys" folder:
 
 ### **yuzu starts with the error "Unable to start application: Os { code: 2, kind: NotFound, message: “The system cannot find the file specified.” }"**
 
+![](https://cdn.discordapp.com/attachments/356187763139280896/709806101134049320/error_2.PNG)
+
 This problem is usually caused by a false positive of your antivirus software, most commonly by Avast and AVG. These applications will often incorrectly detect yuzu as malicious software and delete the executable as a result.
 
 You can confirm it is a false positive with an online scanner, such as [VirusTotal](https://www.virustotal.com) if you wish.
