@@ -173,6 +173,7 @@ Please read the following article: [What is Telemetry?](https://yuzu-emu.org/hel
 ### How do I install Early Access?
 
 Please read the following guide: [How to install Early Access](https://yuzu-emu.org/help/early-access/)
+
 ---
 
 ### **What is yuzu?**
