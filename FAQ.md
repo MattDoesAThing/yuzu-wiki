@@ -1,3 +1,5 @@
+If you are unable to find the answer to your question, please join our Discord server for support: [Discord Server](https://discord.gg/u77vRWY)
+
 ### **yuzu starts with the error “VCRUNTIME140_1.dll was not found”**
 
 ![](https://cdn.discordapp.com/attachments/512678820092968971/699336946698158120/VC_missing.png)
@@ -11,7 +13,7 @@ Go to Visual Studio 2015, 2017 and 2019, and select the link next to x64.
 
 ### **How do I get Games?**
 
-_You are legally required to dump your games from your Nintendo Switch. To do so, please follow our in-depth [Quickstart Guide](https://yuzu-emu.org/help/quickstart/)._
+You are legally required to dump your games from your Nintendo Switch. To do so, please follow our in-depth [Quickstart Guide](https://yuzu-emu.org/help/quickstart/).
 
 
 ### **yuzu starts with the error "Missing Derivation Components"**
@@ -138,7 +140,39 @@ Once your `Save Data Location` is open, place your game saves in this directory
 
 ### **yuzu closes when I try to open it**
 Disconnect any USB gamepad you have and relaunch yuzu.
- 
+
+### Games fail to launch with the error: "WerFault.exe - Application Error - The application was unable to start correctly"
+
+This typically occurs when yuzu runs out of RAM. Increase the size of your pagefile to resolve the issue.
+
+### What is Boxcat?
+
+Please read the following article: [Boxcat](https://yuzu-emu.org/help/feature/boxcat/)
+
+### Why am I getting an error?
+
+Please look up your error in the following page: [Error Codes](https://yuzu-emu.org/help/reference/error-codes/)
+
+### What are Mods and how do I install them?
+
+Please read the following article: [Mods](https://yuzu-emu.org/help/feature/game-modding/)
+
+### How do I upload my log file?
+
+Please read the following guide: [How to Upload the Log File](https://yuzu-emu.org/help/reference/log-files/)
+
+### How do I use the resolution scanner?
+
+**This is currently broken, and not working.**
+Please read the following guide: [How to Use the Resolution Scanner](https://yuzu-emu.org/help/feature/resolution-rescaler/)
+
+### What is Telemetry?
+
+Please read the following article: [What is Telemetry?](https://yuzu-emu.org/help/feature/telemetry/)
+
+### How do I install Early Access?
+
+Please read the following guide: [How to install Early Access](https://yuzu-emu.org/help/early-access/)
 ---
 
 ### **What is yuzu?**
