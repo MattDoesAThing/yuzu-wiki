@@ -23,7 +23,7 @@ All other dependencies will be downloaded by [conan](https://conan.io/downloads.
       | Distro          | Commands
       | --------------- | ----------------
       | Arch            | `sudo pacman -S --needed git base-devel ninja cmake sdl2 qt5 python2 python-pip boost catch2 fmt libzip lz4 mbedtls nlohmann-json openssl opus zlib zstd && sudo pip install conan`
-      | Ubuntu / Debian | `sudo apt-get install git build-essential ninja-build cmake libsdl2-dev qtbase5-dev libqt5opengl5-dev qtwebengine5-dev qtbase5-private-dev python2 python3-pip libboost-dev libboost-context-dev libfmt-dev libzip-dev liblz4-dev libmbedtls-dev nlohmann-json3-dev libssl-dev libopus-dev zlib1g-dev libzstd-dev && sudo pip3 install conan`
+      | Ubuntu / Mint | `sudo apt-get install git build-essential ninja-build cmake libsdl2-dev qtbase5-dev libqt5opengl5-dev qtwebengine5-dev qtbase5-private-dev python2 python3-pip libboost-dev libboost-context-dev libfmt-dev libzip-dev liblz4-dev libmbedtls-dev nlohmann-json3-dev libssl-dev libopus-dev zlib1g-dev libzstd-dev && sudo pip3 install conan`
       | Fedora          | `sudo dnf install git gcc ninja-build cmake SDL2-devel qt5-qtbase-devel python2 python-pip boost-devel fmt-devel libzip-devel libzstd-devel lz4-devel mbedtls-devel openssl-devel opus-devel zlib-devel && sudo pip install conan`
       | Gentoo          | `emerge dev-vcs/git =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && sudo pip install conan`
 
