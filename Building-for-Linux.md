@@ -3,7 +3,7 @@
 You'll need to download and install the following to build yuzu:
 
   * GCC v7+ (for C++17 support) & misc
-  * [CMake](https://www.cmake.org/) 3.6+
+  * [CMake](https://www.cmake.org/) 3.15+
   * [SDL2](https://www.libsdl.org/download-2.0.php)
   * [Qt](https://qt-project.org/downloads)
   * [Python2](https://www.python.org/download/releases/2.7/) 2.7
