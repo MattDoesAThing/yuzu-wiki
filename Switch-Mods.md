@@ -62,8 +62,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Wi-Fi Crash Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/pokemon-sword-and-shield/Pokemon-Sword-Wifi-Fix.7z) | This is a workaround towards the crash when Y is pressed. | `1.0.0` | theboy181
 | [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
+| [ReTextured](https://mega.nz/file/isNUUSTT#aJoQTIQrygvRcSo_VlUReqAy7MCJnlPBj3WaFNNx3F0) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas | `Any` | BSoD Gaming
 | [HD Textures](https://drive.google.com/file/d/15fCeU0YEvBCWbN6e1ku1cusHOtzfrTbl/view?usp=drivesdk) | Replaces in game textures with higher detailed versions. | `Any` | MattsCreative
-| [ReTextured](https://mega.nz/file/isNUUSTT#aJoQTIQrygvRcSo_VlUReqAy7MCJnlPBj3WaFNNx3F0) | Changes the game's textures to be higher in detail. | `Any` | BSoD Gaming
 | [Force Max Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/pokemon-sword-and-shield/force-max-resolution-v2.rar) | Forces the game to always run at 1920x1080. | `1.0.0` | theboy181
 | [RaidBuff](https://gamebanana.com/dl/461229) | Improves allied Pokemon in a solo Max Raid battle | `Any` | Barticom
 
