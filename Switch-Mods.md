@@ -87,10 +87,10 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Super Mario Odyssey
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Web Applet Bypass](https://cdn.discordapp.com/attachments/512678820092968971/708744273801117726/SMO_Web_Applet_Bypass.7z) | Disables the Web Applet, fixing a crash when moving from Cascade to Sand Kingdom | `1.0.0` | theboy181
+| [Web Applet Bypass](https://cdn.discordapp.com/attachments/512678820092968971/708744273801117726/SMO_Web_Applet_Bypass.7z) | Disables the Web Applet, fixing a crash when traveling from Cascade to Sand Kingdom for the first time. | `1.0.0` | theboy181
 | [Clean UI](https://gamebanana.com/guis/download/34208) | Removes coins, moons, health, and a few other UI elements from the game. | `Any` | Eloeri
 | [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/1920x1080.zip) | Makes the game render at 1920x1080 when docked. It is recommended to pair this mod with `Disable Dynamic Resolution Switching`. | `1.0.0` `1.3.0` | M&M
-| [Disable Dynamic Resolution Switching](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. Portable mode is incompatible, but can be fixed by using a different mod such as `Force Screenshot Mode Graphic Quality`. | `1.0.0` `1.3.0` | theboy181, M&M
+| [Disable Dynamic Resolution Switching](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. Portable mode is incompatible. | `1.0.0` `1.3.0` | theboy181, M&M
 | [Force Screenshot Mode Graphic Quality](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Screenshot_Mode_Graphics.zip) | Forces the best graphical quality everywhere, which is from screenshot mode. | `1.0.0` `1.3.0` | theboy181, M&M
 | [Disable Camera Blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable-Camera-Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` `1.3.0` | theboy181, M&M
 | [Disable FXAA](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181, M&M
