@@ -9,7 +9,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [Bypass Boot Crash](https://github.com/yuzuMods/yuzuMods/raw/master/mods/animal-crossing-new-horizons/BypassBootCrash.zip) | A workaround that allows the game to boot. | `1.0.0` `1.1.0` `1.1.1` `1.1.2` `1.1.3` `1.1.4` `1.2.0` | ogniK5377, CJBok, M&M
 | [Disable DOF](https://cdn.discordapp.com/attachments/495758692495523854/702999212312494171/Disable-DOF-1.2.0.zip) | A workaround to the black fog in the background. | `1.1.4` `1.2.0`| theboy181,  CJBok
 | [Camera Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/704672056133943366/ACNH1.2.0_-_CrashFixCamera.zip) | A workaround to the in-game camera snaps crashing the game. | `1.2.0` | CJBok
-| [Ultrawide](https://github.com/yuzuMods/yuzuMods/raw/master/mods/animal-crossing-new-horizons/Ultrawide.zip) | Stretches the game to fit Ultrawide displays. The mod is currently set up for 2560x1080 displays. | `1.2.0` | M&M, theboy181
+| [Ultrawide](https://github.com/yuzuMods/yuzuMods/raw/master/mods/animal-crossing-new-horizons/Ultrawide.zip) | Stretches the game to fit onto ultrawide displays. The mod is currently set up for 2560x1080 displays. | `1.2.0` | M&M, theboy181
 #
 
 ### ARMS
