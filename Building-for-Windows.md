@@ -8,7 +8,7 @@ On Windows, all library dependencies are automatically included within the `exte
 
   * **[Visual Studio 2019 Community](https://visualstudio.microsoft.com/downloads/)** - **Make sure to select C++ support in the installer.**
   * **[CMake](https://cmake.org/download/)** - Used to generate Visual Studio project files. Does not matter if either 32-bit or 64-bit version is installed.
-  * **[Conan](https://conan.io/downloads.html)** - Installs the dependencies when cmake configures the project.
+  * **[Conan](https://conan.io/downloads.html)** - Conan installs the dependencies automatically when cmake configures the project and it may take a while (~1 hour on first run) to collect all the dependencies
 
   ![2](https://i.imgur.com/giDwuTm.png)
 
