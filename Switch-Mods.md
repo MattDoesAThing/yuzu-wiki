@@ -122,3 +122,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [No Blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-links-awakening/zelda-links_awakening-tiltshift-mod.zip) | Removes the tilt-shift blur. | `1.0.0` `1.0.1` | theboy181
 | [Infinite Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | `1.0.0` | CJBoK
 | [Clean UI](https://gamebanana.com/guis/download/34940) | Removes hearts, weapons icon, and interaction prompts. | `Any` | Eloeri
+
+#
+
+### Xenoblade Chronicles: Definitive Edition
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/60fps.zip) | Makes the game run full speed at 60fps. Please note that the UI will only be full speed at 60fps. | `1.0.0` `1.1.1` | theboy181, Kirby567fan, M&M
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/DisableDynamicResolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.1.1` | theboy181, M&M
+| [No HUD](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/NoHUD.zip) | Disables the game's UI. | `1.0.0` `1.1.1` | M&M
+| [Remove Sharpening Filter](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/RemoveSharpeningFilter.zip) | Removes the game's sharpening filter that gets applied, especially when in handheld mode. | `1.0.0` `1.1.1` | M&M
