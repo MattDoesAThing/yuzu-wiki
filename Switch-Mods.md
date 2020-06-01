@@ -129,7 +129,6 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/60fps.zip) | Makes the game run full speed at 60fps. Please note that the UI will only be full speed at 60fps. | `1.0.0` `1.1.1` | theboy181, Kirby567fan, M&M
-| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/DisableDynamicResolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.1.1` | theboy181, M&M
 | [No HUD](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/NoHUD.zip) | Disables the game's UI. | `1.0.0` `1.1.1` | M&M
 | [Remove Sharpening Filter](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/RemoveSharpeningFilter.zip) | Removes the game's sharpening filter that gets applied, especially when in handheld mode. | `1.0.0` `1.1.1` | M&M
 
