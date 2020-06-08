@@ -73,7 +73,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Sonic Mania
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Dev Menu](https://cdn.discordapp.com/attachments/495758692495523854/664159694876835860/Sonic_Mania_Dev_Menu.zip) | Allows you to access the game's dev menu by pressing the Minus button. | `1.00` `1.03` | SuperSonic16
+| [Dev Menu](https://github.com/yuzuMods/yuzuMods/raw/master/mods/sonic-mania/DevMenu.zip) | Allows you to access the game's dev menu by pressing the Minus button. | `1.00` `1.03` `1.04` | SuperSonic16
 
 #
 
