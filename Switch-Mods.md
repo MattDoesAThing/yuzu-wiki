@@ -132,7 +132,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [No HUD](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/NoHUD.zip) | Disables the game's UI. | `1.0.0` `1.1.1` | M&M
 | [Remove Sharpening Filter](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/RemoveSharpeningFilter.zip) | Removes the game's sharpening filter that gets applied, especially when in handheld mode. | `1.0.0` `1.1.1` | M&M
 | [EXP-50%](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/Reduce%20EXP%20to%2050%25.zip) | Reduce EXP gained from battle, quests and landmarks to 50% (exp gained with trophies is unchanged). | `1.1.1` | lasyan3
-| [SPx3](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/More%20SP%20(x3).zip) | Multiply by 3 (value can be edited in the patch file) the SP (or Affinity Coins) gained when level up or kill a unique monster for the first time. | `1.1.1` | lasyan3
+| [More Affinity Coins (x3)](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/More%20Affinity%20Coins%20(x3).zip) | Multiply by 3 (value can be edited in the patch file) the Affinity Coins gained when level up or kill a unique monster for the first time. | `1.1.1` | lasyan3
 
 #
 
