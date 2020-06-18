@@ -60,13 +60,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Pokemon Sword/Shield
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Wi-Fi Crash Workaround](https://discord.com/channels/398318088170242053/495758692495523854/723081613545570375) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0`| theboy181
+| [Wi-Fi Crash Workaround](https://discord.com/channels/398318088170242053/495758692495523854/723081613545570375/Pokemon-Sword-Fix.rar) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0`| theboy181
 | [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
 | [ReTextured](https://bit.ly/37GFMne) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports DLC 1, Isle of Armor | `1.2.0` | BSoD Gaming
 | [HD Textures](https://drive.google.com/file/d/15fCeU0YEvBCWbN6e1ku1cusHOtzfrTbl/view?usp=drivesdk) | Replaces in game textures with higher detailed versions. | `Any` | MattsCreative
-| [Force Max Resolution](https://discord.com/channels/398318088170242053/495758692495523854/723081611972968489) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` | theboy181
+| [Force Max Resolution](https://discord.com/channels/398318088170242053/495758692495523854/723081611972968489/force-max-resolution.rar) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` | theboy181
 | [RaidBuff](https://gamebanana.com/dl/461229) | Improves allied Pokemon in a solo Max Raid battle | `Any` | Barticom
-| [60 FPS](https://discord.com/channels/398318088170242053/495758692495523854/723081614904524883) | Makes game run at 60 fps. | `1.0.0` `1.2.0` | theboy181
+| [60 FPS](https://discord.com/channels/398318088170242053/495758692495523854/723081614904524883/60_FPS.rar) | Makes game run at 60 fps. | `1.0.0` `1.2.0` | theboy181
 
 #
 
