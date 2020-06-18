@@ -66,7 +66,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [HD Textures](https://drive.google.com/file/d/15fCeU0YEvBCWbN6e1ku1cusHOtzfrTbl/view?usp=drivesdk) | Replaces in game textures with higher detailed versions. | `Any` | MattsCreative
 | [Force Max Resolution](https://discord.com/channels/398318088170242053/495758692495523854/723081611972968489/force-max-resolution.rar) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` | theboy181
 | [RaidBuff](https://gamebanana.com/dl/461229) | Improves allied Pokemon in a solo Max Raid battle | `Any` | Barticom
-| [Teamwork 1.4](https://cdn.discordapp.com/attachments/495758692495523854/723156799406211082/Teamwork_1.4.rar) | Stronger Pokemon than RaidBuff in a solo Max Raid battle. Allied Pokemon have more suitable Ability, Moves, Item and Stats | `Any` | tokelily
+| [Teamwork 1.4](https://cdn.discordapp.com/attachments/495758692495523854/723156799406211082/Teamwork_1.4.rar) | Stronger Pokemon than RaidBuff in a solo Max Raid battle. Allied Pokemon have more suitable Ability, Moves, Item and Stats | `Any` | toke
 | [60 FPS](https://discord.com/channels/398318088170242053/495758692495523854/723081614904524883/60_FPS.rar) | Makes game run at 60 fps. | `1.0.0` `1.2.0` | theboy181
 
 #
