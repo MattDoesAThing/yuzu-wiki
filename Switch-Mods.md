@@ -66,7 +66,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/723081612086214687/force-max-resolution.rar) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` | theboy181, Claude von Riegan
 | [RaidBuff](https://gamebanana.com/dl/461229) | Improves allied Pokemon in a solo Max Raid battle | `Any` | Barticom
 | [Teamwork 1.4](https://cdn.discordapp.com/attachments/495758692495523854/723156799406211082/Teamwork_1.4.rar) | Stronger Pokemon than RaidBuff in a solo Max Raid battle. Allied Pokemon have more suitable Ability, Moves, Item and Stats | `Any` | toke
-| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/723081614762180618/60_FPS.rar) | Makes game run at 60 fps. | `1.0.0` `1.1.1` `1.2.0` | theboy181, boi-leth, Claude von Riegan
+| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/723081614762180618/60_FPS.rar) | Makes game run at 60 fps. | `1.0.0` `1.1.1` `1.2.0` | theboy181, Claude von Riegan
 
 #
 
