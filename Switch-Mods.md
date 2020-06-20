@@ -60,13 +60,12 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Pokemon Sword (exeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723081613381992458/Pokemon-Sword-Wifi-Fix.rar) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0`| theboy181, Claude von Riegan
-| [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/723081612086214687/force-max-resolution.rar) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` | theboy181, Claude von Riegan
-| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/723540912755441704/60_FPS.zip) | Makes game run at 60 fps. | `1.0.0` `1.1.1` `1.2.0` | theboy181, Claude von Riegan
+| [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723540915934724247/Pokemon-Sword-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0`| theboy181, Claude von Riegan
+| [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/723540913699422299/force-max-resolution.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` | theboy181, Claude von Riegan
 
 #
 
-### Pokemon Shield (ExeFS)
+### Pokemon Shield (exeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723540958989516820/Pokemon-Shield-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.2.0`| theboy181, Claude von Riegan
@@ -74,7 +73,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
-### Pokemon Sword/Shield (RomFS)
+### Pokemon Sword/Shield (romFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
