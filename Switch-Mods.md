@@ -66,16 +66,15 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
-### Pokemon Shield (exeFS)
+### Pokemon Shield (ExeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723540958989516820/Pokemon-Shield-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.2.0`| theboy181, Claude von Riegan
-| [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/723540961526939738/force-max-resolution.zip) | Forces the game to always run at 1920x1080. | `1.2.0` | theboy181, Claude von Riegan
-| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/723540960172179476/60_FPS.zip) | Makes game run at 60 fps. | `1.2.0` | theboy181, Claude von Riegan
+| [Wi-Fi Crash Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/pokemon-sword-and-shield/Pokemon-Sword-Wifi-Fix.7z) | This is a workaround towards the crash when Y is pressed. | `1.2.0`| theboy181, Claude von Riegan
+| [Force Max Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/pokemon-sword-and-shield/force-max-resolution-v2.rar) | Forces the game to always run at 1920x1080. | `1.2.0` | theboy181, Claude von Riegan
 
 #
 
-### Pokemon Sword/Shield (romFS)
+### Pokemon Sword/Shield (RomFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
