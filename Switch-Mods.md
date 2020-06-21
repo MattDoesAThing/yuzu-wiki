@@ -62,6 +62,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723540915934724247/Pokemon-Sword-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0`| theboy181, Claude von Riegan
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/723540913699422299/force-max-resolution.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` | theboy181, Claude von Riegan
+ | [Uncap Framerate](https://cdn.discordapp.com/attachments/495758692495523854/723540912755441704/60_FPS.zip) | Allows the game to run past its 30fps cap. Please note that game speed does not adjust to framerate, so 60fps will result in double the game speed. | `1.0.0` `1.1.1` `1.2.0` | theboy181, Claude von Riegan
 
 #
 
@@ -70,6 +71,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723540958989516820/Pokemon-Shield-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.2.0`| theboy181, Claude von Riegan
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/723540961526939738/force-max-resolution.zip) | Forces the game to always run at 1920x1080. | `1.2.0` | theboy181, Claude von Riegan
+ | [Uncap Framerate](https://cdn.discordapp.com/attachments/495758692495523854/723540960172179476/60_FPS.zip) | Allows the game to run past its 30fps cap. Please note that game speed does not adjust to framerate, so 60fps will result in double the game speed. | `1.2.0` | theboy181, Claude von Riegan
 
 #
 
