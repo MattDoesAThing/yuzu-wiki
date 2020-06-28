@@ -9,6 +9,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [Disable DOF](https://cdn.discordapp.com/attachments/495758692495523854/723175078056951969/Disable-DOF-v3.zip) | A workaround to the black fog in the background. | `1.1.4` `1.2.0` `1.2.1`| theboy181,  CJBok
 | [Camera Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723173320274477128/ACNH1.2.0-1.2.1-CrashFixCamera.zip) | A workaround to the in-game camera snaps crashing the game. | `1.2.0` `1.2.1` | CJBok, Lurve
 | [Ultrawide](https://github.com/yuzuMods/yuzuMods/raw/master/mods/animal-crossing-new-horizons/Ultrawide.zip) | Stretches the game to fit onto ultrawide displays. The mod is currently set up for 2560x1080 displays. | `1.2.0` | M&M, theboy181
+
 #
 
 ### ARMS
@@ -56,6 +57,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704783542638608394/CTRNF_60fps.zip) | Makes the game run full speed at 60 FPS | `1.0.7` `1.0.9` `1.0.10` `1.0.11` `1.0.12` `1.0.13` `1.0.14` `1.0.15` | Kirby567fan, masagrator, Mauste
 
+#
+
 ### Ghostbusters Remastered
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
@@ -72,7 +75,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ | ------ |
 | [Skip Intros](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/SkipIntros.zip) | Makes the game boot straight to the title screen. | `Any` | `Any` | nastysdsi
 | [Disable PV Weight](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisablePVWeight.zip) | Disable the game's performance adjustments for certain PVs. This will not remove the resolution lock on _Knife_'s PV, or any framerate/resolution adjustments done through the game's `add_param` files. | `1.0.3` | `JP` | M&M
-| [Disable Videos](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisableVideos.zip) | Disables the videos that play during PVs. Helps with some performance issues during any PV that uses video files. | `Any` | `Any` | M&M
+| [Disable Videos](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisableVideos.zip) | Disables the videos that play during PVs. Helps with some performance issues during any PV that uses video files. | `1.0.3` | `JP` | M&M
 | [Disable pjd Watermark](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisablePJDWatermark.zip) | Disables the pjd watermark that appears at the top right while watching PVs. | `1.0.3` | `JP` | M&M
 
 #
