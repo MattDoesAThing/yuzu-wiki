@@ -29,7 +29,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Disable DOF](https://cdn.discordapp.com/attachments/356187763139280896/726756195192537128/Disable_DOF.zip) | Disabled in-game Depth of field | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
-| [Disable on Screen Cursor](https://cdn.discordapp.com/attachments/356187763139280896/726756199281852506/Disable_On_Screen_Cursor.zip) | Disabled the on screen interaction cursor icon | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
+| [Disable Screen Cursor Icon](https://cdn.discordapp.com/attachments/356187763139280896/726756199281852506/Disable_On_Screen_Cursor.zip) | Disabled the on screen interaction cursor icon | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/726756203224367114/Force_Max_Resolution.zip) | Makes the game run at its maximum resolution (No Dynamic Res) | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
 
 #
@@ -37,8 +37,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Contra Rogue Corps.
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/contra-rogue-corps/60FPS.rar) | Makes the game run full speed at 60fps. | `1.0.0` | theboy181
-| [1080p](https://github.com/yuzuMods/yuzuMods/raw/master/mods/contra-rogue-corps/1080P.rar) | Makes the Game run at 1080p Resolution | `1.0.0` | theboy181
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/contra-rogue-corps/60FPS.rar) | Makes the game run full speed at 60fps. | `1.0.0` | theboy181
+| [1080p Mod](https://github.com/yuzuMods/yuzuMods/raw/master/mods/contra-rogue-corps/1080P.rar) | Makes the Game run at 1080p Resolution | `1.0.0` | theboy181
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/contra-rogue-corps/Disable-Resolution-Scaling.rar) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
 
 #
@@ -46,15 +46,24 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Crash Bandicoot N. Sane Trilogy
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run full speed at 60fps. | `1.0.0` | theboy181
-| [1080p](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/1920x1080.zip) | Makes the Game run at 1080p Resolution | `1.0.0` | theboy181, M&M
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run full speed at 60fps. | `1.0.0` | theboy181
+| [1080p Mod](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/1920x1080.zip) | Makes the Game run at 1080p Resolution | `1.0.0` | theboy181, M&M
 
 #
 
 ### Crash Team Racing: Nitro-Fueled
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60fps](https://cdn.discordapp.com/attachments/207547103726010368/704783542638608394/CTRNF_60fps.zip) | Makes the game run full speed at 60fps. | `1.0.7` `1.0.9` `1.0.10` `1.0.11` `1.0.12` `1.0.13` `1.0.14` `1.0.15` | Kirby567fan, masagrator, Mauste
+| [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704783542638608394/CTRNF_60fps.zip) | Makes the game run full speed at 60fps. | `1.0.7` `1.0.9` `1.0.10` `1.0.11` `1.0.12` `1.0.13` `1.0.14` `1.0.15` | Kirby567fan, masagrator, Mauste
+
+### Ghostbusters Remastered
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/ghostbusters-the-video-game-remastered/60FPS.rarz) | Makes the game run full speed at 60 FPS | `1.0.0` | theboy181
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/ghostbusters-the-video-game-remastered/Disable-Dynamic-Resolution.rar) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
+| [No videos](https://github.com/yuzuMods/yuzuMods/raw/master/mods/ghostbusters-the-video-game-remastered/No-Videos.rar) | Disables all videos in gamep | `1.0.0` | theboy181
+
+#
 
 #
 
@@ -73,7 +82,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/Disable-Dynamic-Resoluiton.rar) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.1.0` | theboy181
 | [Save Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/LM3v1.2.0_SAVE_FIX.zip) | This is a workaround towards the saving crash that currently happens in yuzu. | `1.0.0` `1.1.0` `1.2.0` | theboy181
-| [60fps](https://cdn.discordapp.com/attachments/207547103726010368/704784348129525920/LM3_60fps.zip) | Makes the game run full speed at 60fps. | `1.0.0` `1.2.1` `1.3.0` | theboy181, Kirby567fan
+| [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704784348129525920/LM3_60fps.zip) | Makes the game run full speed at 60fps. | `1.0.0` `1.2.1` `1.3.0` | theboy181, Kirby567fan
 
 #
 
@@ -84,12 +93,19 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
+### Moving Out
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/moving-out/60fps.rar) | Makes the game run full speed at 60fps. | `1.0.0` | theboy181
+
+#
+
 ### Pokemon Sword (exeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723540915934724247/Pokemon-Sword-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0`| theboy181, Claude von Riegan
-| [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/723540913699422299/force-max-resolution.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` | theboy181, Claude von Riegan
- | [Uncap Framerate](https://cdn.discordapp.com/attachments/495758692495523854/723540912755441704/60_FPS.zip) | Allows the game to run past its 30fps cap. Please note that game speed does not adjust to framerate, so 60fps will result in double the game speed. | `1.0.0` `1.1.1` `1.2.0` | theboy181, Claude von Riegan
+| [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/723540913699422299/force-max-resolution.zip) | Forces the game to always run at 1080p. | `1.0.0` `1.2.0` | theboy181, Claude von Riegan
+| [Uncap Framerate](https://cdn.discordapp.com/attachments/495758692495523854/723540912755441704/60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.1.1` `1.2.0` | theboy181, Claude von Riegan
 
 #
 
@@ -98,7 +114,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723540958989516820/Pokemon-Shield-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.2.0`| theboy181, Claude von Riegan
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/723540961526939738/force-max-resolution.zip) | Forces the game to always run at 1920x1080. | `1.2.0` | theboy181, Claude von Riegan
- | [Uncap Framerate](https://cdn.discordapp.com/attachments/495758692495523854/723540960172179476/60_FPS.zip) | Allows the game to run past its 30fps cap. Please note that game speed does not adjust to framerate, so 60fps will result in double the game speed. | `1.2.0` | theboy181, Claude von Riegan
+| [Uncap Framerate](https://cdn.discordapp.com/attachments/495758692495523854/723540960172179476/60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS| `1.2.0` | theboy181, Claude von Riegan
 
 #
 
@@ -107,6 +123,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
 | [ReTextured 1.4](https://bit.ly/2YpmEr6) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports DLC 1, Isle of Armor | `1.2.0` | BSoD Gaming
+| [ReTextured 1.4 Alternate Link](https://bit.ly/3g4azO0) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports DLC 1, Isle of Armor | `1.2.0` | BSoD Gaming
 | [RaidBuff](https://gamebanana.com/dl/461229) | Improves allied Pokemon in a solo Max Raid battle | `Any` | Barticom
 | [Teamwork 1.4](https://cdn.discordapp.com/attachments/495758692495523854/723156799406211082/Teamwork_1.4.rar) | Stronger Pokemon than RaidBuff in a solo Max Raid battle. Allied Pokemon have more suitable Ability, Moves, Item and Stats | `Any` | toke
 
@@ -134,9 +151,9 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [Disable Deferred Shading](https://cdn.discordapp.com/attachments/512678820092968971/710314369333985310/Disable_Deferred_Shading.zip) | Disables deferred shading, fixing a shadow issue for AMD Navi GPUs running under the Vulkan backend. | `1.0.0` | theboy181
 | [Clean UI](https://gamebanana.com/guis/download/34208) | Removes coins, moons, health, and a few other UI elements from the game. | `Any` | Eloeri
 | [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/1920x1080.zip) | Makes the game render at 1920x1080 when docked. It is recommended to pair this mod with `Disable Dynamic Resolution Switching`. | `1.0.0` `1.3.0` | M&M
-| [Disable Dynamic Resolution Switching](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. Portable mode is incompatible. | `1.0.0` `1.3.0` | theboy181, M&M
-| [Force Screenshot Mode Graphic Quality](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Screenshot_Mode_Graphics.zip) | Forces the best graphical quality everywhere, which is from screenshot mode. | `1.0.0` `1.3.0` | theboy181, M&M
-| [Disable Camera Blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable-Camera-Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` `1.3.0` | theboy181, M&M
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. Portable mode is incompatible. | `1.0.0` `1.3.0` | theboy181, M&M
+| [Screenshot Mode Graphic Quality](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Screenshot_Mode_Graphics.zip) | Forces the best graphical quality everywhere, which is from screenshot mode. | `1.0.0` `1.3.0` | theboy181, M&M
+| [Disable Motion blur](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable-Camera-Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` `1.3.0` | theboy181, M&M
 | [Disable FXAA](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181, M&M
 | [In-Game Filters](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/In-Game_Filters.zip) | Allows you to play the game with the screenshot mode's filters still enabled. | `1.0.0` `1.2.0` `1.3.0` | theboy181, M&M
 
@@ -145,7 +162,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Super Smash Bros. Ultimate
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [30fps](https://cdn.discordapp.com/attachments/512678820092968971/702906286437564566/Smash_Ultimate_30FPS_.zip) | Makes the game full speed at 30fps. | `1.0.0` `3.1.0` `7.0.0` | theboy181
+| [30 FPS](https://cdn.discordapp.com/attachments/512678820092968971/702906286437564566/Smash_Ultimate_30FPS_.zip) | Makes the game full speed at 30fps. | `1.0.0` `3.1.0` `7.0.0` | theboy181
 | [Boot Straight to Menu](https://cdn.discordapp.com/attachments/512678820092968971/702906092694274128/Boot_Straight_to_menu.zip) | Makes the game boot straight into the main menu. | `1.0.0` `3.1.0` `7.0.0` | theboy181
 
 #
@@ -154,7 +171,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Clean UI](https://gamebanana.com/guis/download/34141) | Removes hearts, stamina, arrow reticle, ZL targeting arrow, and other UI elements. | `Any` | Eloeri, Leoetlino
-[1080p Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-breath-of-the-wild/1080p-v2.rar) | Runs the game at 1080p Resolution | `1.0.0` `1.6.0` | theboy181
+[1080p Mod](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-breath-of-the-wild/1080p-v2.rar) | Runs the game at 1080p Resolution | `1.0.0` `1.6.0` | theboy181
 [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-breath-of-the-wild/botw-v1.6.0-60FPS.rar) | Runs the game at Static 60 FPS (If lower than 60, Gameplay is slow) | `1.6.0` | theboy181
 
 #
@@ -173,7 +190,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Xenoblade Chronicles: Definitive Edition
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/60fps.zip) | Makes the game run full speed at 60fps. Please note that the UI will only be full speed at 60fps. | `1.0.0` `1.1.1` | theboy181, Kirby567fan, M&M
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/60fps.zip) | Makes the game run full speed at 60fps. Please note that the UI will only be full speed at 60fps. | `1.0.0` `1.1.1` | theboy181, Kirby567fan, M&M
 | [No HUD](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/NoHUD.zip) | Disables the game's UI. | `1.0.0` `1.1.1` | M&M
 | [Remove Sharpening Filter](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/RemoveSharpeningFilter.zip) | Removes the game's sharpening filter that gets applied, especially when in handheld mode. | `1.0.0` `1.1.1` | M&M
 | [EXP-50%](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/Reduce%20EXP%20to%2050%25.zip) | Reduce EXP gained from battle, quests and landmarks to 50% (exp gained with trophies is unchanged). | `1.1.1` | lasyan3
