@@ -31,7 +31,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Disable DOF](https://cdn.discordapp.com/attachments/356187763139280896/726756195192537128/Disable_DOF.zip) | Disabled in-game Depth of field | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
 | [Disable Screen Cursor Icon](https://cdn.discordapp.com/attachments/356187763139280896/726756199281852506/Disable_On_Screen_Cursor.zip) | Disabled the on screen interaction cursor icon | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
-| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/726756203224367114/Force_Max_Resolution.zip) | Makes the game run at its maximum resolution (No Dynamic Res) | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
+| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/726756203224367114/Force_Max_Resolution.zip) | Forces the game to always run at 1920x1080 | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
 
 #
 
@@ -48,7 +48,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run full speed at 60 FPS | `1.0.0` | theboy181
-| [1080p Mod](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/1920x1080.zip) | Makes the Game run at 1080p Resolution | `1.0.0` | theboy181, M&M
+| [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/1920x1080.zip) | Makes the Game run at 1080p Resolution | `1.0.0` | zakaria
 
 #
 
