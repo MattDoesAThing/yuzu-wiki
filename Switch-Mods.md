@@ -16,12 +16,38 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/arms/Disable_Dynamic_Resolution.7z) | Disables the game's automatic adjustment of resolution. | `1.0.0` `5.4.0` | theboy181, M&M
 
+# 
+
+### Bayonetta
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [1080p Mod](https://github.com/yuzuMods/yuzuMods/raw/master/mods/bayonetta/1920x1080.zip) | Makes the Game run at 1080p Resolution | `1.0.0`  | M&M
+
+# 
+
+### Captain Toad Treasure Tracker
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [Disable DOF](https://cdn.discordapp.com/attachments/356187763139280896/726756195192537128/Disable_DOF.zip) | Disabled in-game Depth of field | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
+| [Disable on Screen Cursor](https://cdn.discordapp.com/attachments/356187763139280896/726756199281852506/Disable_On_Screen_Cursor.zip) | Disabled the on screen interaction cursor icon | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
+| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/726756203224367114/Force_Max_Resolution.zip) | Makes the game run at its maximum resolution (No Dynamic Res) | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
+
+#
+
+### Contra Rogue Corps.
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/contra-rogue-corps/60FPS.rar) | Makes the game run full speed at 60fps. | `1.0.0` | theboy181
+| [1080p](https://github.com/yuzuMods/yuzuMods/raw/master/mods/contra-rogue-corps/1080P.rar) | Makes the Game run at 1080p Resolution | `1.0.0` | theboy181
+| [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/contra-rogue-corps/Disable-Resolution-Scaling.rar) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
+
 #
 
 ### Crash Bandicoot N. Sane Trilogy
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [60fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run full speed at 60fps. | `1.0.0` | theboy181
+| [1080p](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/1920x1080.zip) | Makes the Game run at 1080p Resolution | `1.0.0` | theboy181, M&M
 
 #
 
@@ -128,6 +154,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Clean UI](https://gamebanana.com/guis/download/34141) | Removes hearts, stamina, arrow reticle, ZL targeting arrow, and other UI elements. | `Any` | Eloeri, Leoetlino
+[1080p Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-breath-of-the-wild/1080p-v2.rar) | Runs the game at 1080p Resolution | `1.0.0` `1.6.0` | theboy181
+[60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/the-legend-of-zelda-breath-of-the-wild/botw-v1.6.0-60FPS.rar) | Runs the game at Static 60 FPS (If lower than 60, Gameplay is slow) | `1.6.0` | theboy181
 
 #
 
