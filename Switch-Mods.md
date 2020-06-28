@@ -46,7 +46,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Crash Bandicoot N. Sane Trilogy
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run full speed at 60fps. | `1.0.0` | theboy181
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run full speed at 60 FPS | `1.0.0` | theboy181
 | [1080p Mod](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/1920x1080.zip) | Makes the Game run at 1080p Resolution | `1.0.0` | theboy181, M&M
 
 #
@@ -54,14 +54,14 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Crash Team Racing: Nitro-Fueled
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704783542638608394/CTRNF_60fps.zip) | Makes the game run full speed at 60fps. | `1.0.7` `1.0.9` `1.0.10` `1.0.11` `1.0.12` `1.0.13` `1.0.14` `1.0.15` | Kirby567fan, masagrator, Mauste
+| [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704783542638608394/CTRNF_60fps.zip) | Makes the game run full speed at 60 FPS | `1.0.7` `1.0.9` `1.0.10` `1.0.11` `1.0.12` `1.0.13` `1.0.14` `1.0.15` | Kirby567fan, masagrator, Mauste
 
 ### Ghostbusters Remastered
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/ghostbusters-the-video-game-remastered/60FPS.rarz) | Makes the game run full speed at 60 FPS | `1.0.0` | theboy181
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/ghostbusters-the-video-game-remastered/Disable-Dynamic-Resolution.rar) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
-| [No videos](https://github.com/yuzuMods/yuzuMods/raw/master/mods/ghostbusters-the-video-game-remastered/No-Videos.rar) | Disables all videos in gamep | `1.0.0` | theboy181
+| [No videos](https://github.com/yuzuMods/yuzuMods/raw/master/mods/ghostbusters-the-video-game-remastered/No-Videos.rar) | Disables all videos in game | `1.0.0` | theboy181
 
 #
 
@@ -82,7 +82,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/Disable-Dynamic-Resoluiton.rar) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.1.0` | theboy181
 | [Save Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/LM3v1.2.0_SAVE_FIX.zip) | This is a workaround towards the saving crash that currently happens in yuzu. | `1.0.0` `1.1.0` `1.2.0` | theboy181
-| [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704784348129525920/LM3_60fps.zip) | Makes the game run full speed at 60fps. | `1.0.0` `1.2.1` `1.3.0` | theboy181, Kirby567fan
+| [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704784348129525920/LM3_60fps.zip) | Makes the game run full speed at 60f FPS | `1.0.0` `1.2.1` `1.3.0` | theboy181, Kirby567fan
 
 #
 
@@ -96,7 +96,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Moving Out
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/moving-out/60fps.rar) | Makes the game run full speed at 60fps. | `1.0.0` | theboy181
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/moving-out/60fps.rar) | Makes the game run full speed at 60 FPS | `1.0.0` | theboy181
 
 #
 
@@ -114,7 +114,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723540958989516820/Pokemon-Shield-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.2.0`| theboy181, Claude von Riegan
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/723540961526939738/force-max-resolution.zip) | Forces the game to always run at 1920x1080. | `1.2.0` | theboy181, Claude von Riegan
-| [Uncap Framerate](https://cdn.discordapp.com/attachments/495758692495523854/723540960172179476/60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS| `1.2.0` | theboy181, Claude von Riegan
+| [Uncap Framerate](https://cdn.discordapp.com/attachments/495758692495523854/723540960172179476/60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.2.0` | theboy181, Claude von Riegan
 
 #
 
@@ -140,7 +140,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/Remove-Dynamic-Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
-| [30fps](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/30FPS.zip) | Makes the game run full speed at 30fps. | `1.0.0` | theboy181
+| [30 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/30FPS.zip) | Makes the game run full speed at 30 FPS | `1.0.0` | theboy181
 
 #
 
@@ -162,7 +162,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Super Smash Bros. Ultimate
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [30 FPS](https://cdn.discordapp.com/attachments/512678820092968971/702906286437564566/Smash_Ultimate_30FPS_.zip) | Makes the game full speed at 30fps. | `1.0.0` `3.1.0` `7.0.0` | theboy181
+| [30 FPS](https://cdn.discordapp.com/attachments/512678820092968971/702906286437564566/Smash_Ultimate_30FPS_.zip) | Makes the game full speed at 30 FPS | `1.0.0` `3.1.0` `7.0.0` | theboy181
 | [Boot Straight to Menu](https://cdn.discordapp.com/attachments/512678820092968971/702906092694274128/Boot_Straight_to_menu.zip) | Makes the game boot straight into the main menu. | `1.0.0` `3.1.0` `7.0.0` | theboy181
 
 #
@@ -190,7 +190,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Xenoblade Chronicles: Definitive Edition
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/60fps.zip) | Makes the game run full speed at 60fps. Please note that the UI will only be full speed at 60fps. | `1.0.0` `1.1.1` | theboy181, Kirby567fan, M&M
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/60fps.zip) | Makes the game run full speed at 60 FPS. Please note that the UI will only be full speed at 60fps. | `1.0.0` `1.1.1` | theboy181, Kirby567fan, M&M
 | [No HUD](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/NoHUD.zip) | Disables the game's UI. | `1.0.0` `1.1.1` | M&M
 | [Remove Sharpening Filter](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/RemoveSharpeningFilter.zip) | Removes the game's sharpening filter that gets applied, especially when in handheld mode. | `1.0.0` `1.1.1` | M&M
 | [EXP-50%](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/Reduce%20EXP%20to%2050%25.zip) | Reduce EXP gained from battle, quests and landmarks to 50% (exp gained with trophies is unchanged). | `1.1.1` | lasyan3
