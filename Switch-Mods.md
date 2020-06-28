@@ -68,8 +68,6 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
-#
-
 ### Hatsune Miku: Project DIVA Mega Mix (MEGA39's)
 | Mod | Description | Applies to | Region | Credit |
 | --- | ----------- | ---------- | ------ | ------ |
