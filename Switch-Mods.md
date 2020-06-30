@@ -103,6 +103,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
+### Pokémon Mystery Dungeon Rescue Team DX
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [1080p Mod](https://bit.ly/3eNqrUT) | Forces the game to always run at 1920x1080. | `1.0.0` `1.0.1` `1.0.2`| M&M
+
+#
+
 ### Pokemon Sword (exeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
