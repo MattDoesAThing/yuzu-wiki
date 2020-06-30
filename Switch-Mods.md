@@ -172,8 +172,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Super Smash Bros. Ultimate
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [30 FPS](https://cdn.discordapp.com/attachments/512678820092968971/702906286437564566/Smash_Ultimate_30FPS_.zip) | Makes the game full speed at 30 FPS | `1.0.0` `3.1.0` `7.0.0` | theboy181
-| [Boot Straight to Menu](https://cdn.discordapp.com/attachments/512678820092968971/702906092694274128/Boot_Straight_to_menu.zip) | Makes the game boot straight into the main menu. | `1.0.0` `3.1.0` `7.0.0` | theboy181
+| [30 FPS](https://cdn.discordapp.com/attachments/356187763139280896/727622903524360222/30_FPS.zip) | Makes the game full speed at 30 FPS | `1.0.0` `3.1.0` `7.0.0` `8.0.0` | theboy181, Claude von Riegan
+| [Boot Straight to Menu](https://cdn.discordapp.com/attachments/356187763139280896/727622905822969856/Boot_Straight_to_menu.zip) | Makes the game boot straight into the main menu. | `1.0.0` `3.1.0` `7.0.0` `8.0.0` | theboy181, Claude von Riegan
 
 #
 
