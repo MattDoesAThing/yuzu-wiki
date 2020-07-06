@@ -6,9 +6,9 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Animal Crossing: New Horizons
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable DOF](https://cdn.discordapp.com/attachments/495758692495523854/723175078056951969/Disable-DOF-v3.zip) | A workaround to the black fog in the background. | `1.1.4` `1.2.0` `1.2.1`| theboy181,  CJBok
-| [Camera Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723173320274477128/ACNH1.2.0-1.2.1-CrashFixCamera.zip) | A workaround to the in-game camera snaps crashing the game. | `1.2.0` `1.2.1` | CJBok, Lurve
-| [Ultrawide](https://github.com/yuzuMods/yuzuMods/raw/master/mods/animal-crossing-new-horizons/Ultrawide.zip) | Stretches the game to fit onto ultrawide displays. The mod is currently set up for 2560x1080 displays. | `1.2.0` | M&M, theboy181
+| [Disable DOF](https://cdn.discordapp.com/attachments/356187763139280896/729653368439570533/Disable-DOF.zip) | A workaround to the black fog in the background. | `1.1.4` `1.2.0` `1.2.1` `1.3.0`| theboy181,  CJBok, Claude von Riegan
+| [Camera Crash Workaround](https://cdn.discordapp.com/attachments/356187763139280896/729653366388555886/CrashFixCamera.zip) | A workaround to the in-game camera snaps crashing the game. | `1.2.0` `1.2.1` `1.3.0` | CJBok, Lurve, Claude von Riegan
+| [Ultrawide](https://cdn.discordapp.com/attachments/356187763139280896/729653370066829332/Ultrawide.zip) | Stretches the game to fit onto ultrawide displays. The mod is currently set up for 2560x1080 displays. | `1.2.0` `1.3.0` | M&M, theboy181, Claude von Riegan
 
 #
 
