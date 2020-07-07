@@ -151,6 +151,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/Remove-Dynamic-Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
 | [30 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/30FPS.zip) | Makes the game run full speed at 30 FPS | `1.0.0` | theboy181
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/splatoon-2/60fps.zip) | Makes Inkopolis Square and Octo Expansion credits run at 60fps instead of 30fps. | `1.0.0` `5.1.0` `5.2.2` | theboy181, M&M
 
 #
 
