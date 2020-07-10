@@ -1,4 +1,33 @@
 If you are unable to find the answer to your question, please join our Discord server for support: [Discord Server](https://discord.gg/u77vRWY)
+### **Table of contents**
+<!--ts-->
+>   * [yuzu starts with the error “VCRUNTIME140_1.dll was not found”](#yuzu-starts-with-the-error-vcruntime140_1dll-was-not-found)
+>   * [How do I get Games?](#how-do-i-get-games)
+>   * [yuzu starts with the error "Missing Derivation Components"](#yuzu-starts-with-the-error-missing-derivation-components)
+>   * [yuzu starts with the error "Unable to start application: Os { code: 2, kind: NotFound, message: “The system cannot find the file specified.” }"](#yuzu-starts-with-the-error-unable-to-start-application-os--code-2-kind-notfound-message-the-system-cannot-find-the-file-specified-)
+>   * [yuzu will not update further or starts with a Qt platform error](#yuzu-will-not-update-further-or-starts-with-a-qt-platform-error)
+>   * [My game is Lagging and Dropping to Low Framerates](#my-game-is-lagging-and-dropping-to-low-framerates)
+>   * [How do I use mods?](#how-do-i-use-mods)
+>   * [How do I install game updates or DLC?](#how-do-i-install-game-updates-or-dlc)
+>   * [How do I uninstall game updates or DLC?](#how-do-i-uninstall-game-updates-or-dlc)
+>   * [How do I set up my controls?](#how-do-i-set-up-my-controls)
+>   * [How do I add a save to my Game](#how-do-i-add-a-save-to-my-game)
+>   * [yuzu closes when I try to open it](#yuzu-closes-when-i-try-to-open-it)
+>   * [Games fail to launch with the error: "WerFault.exe - Application Error"](#games-fail-to-launch-with-the-error-werfaultexe---application-error---the-application-was-unable-to-start-correctly)
+>   * [What is Boxcat?](#what-is-boxcat)
+>   * [Why am I getting an error?](#why-am-i-getting-an-error)
+>   * [What are Mods and how do I install them?](#what-are-mods-and-how-do-i-install-them)
+>   * [How do I upload my log file?](#how-do-i-upload-my-log-file)
+>   * [How do I use the resolution scanner?](#how-do-i-use-the-resolution-scanner)
+>   * [What is Telemetry?](#what-is-telemetry)
+>   * [How do I install Early Access?](#how-do-i-install-early-access)
+>   * [What is yuzu?](#what-is-yuzu)
+>   * [Which software license is yuzu licensed under?](#which-software-license-is-yuzu-licensed-under)
+>   * [Which platforms does yuzu support?](#which-platforms-does-yuzu-support)
+>   * [What are the system requirements for yuzu?](#what-are-the-system-requirements-for-yuzu)
+>   * [How do I build yuzu for the OS that I use?](#how-do-i-build-yuzu-for-the-os-that-i-use)
+>   * [Who made yuzu?](#who-made-yuzu)
+<!--te-->
 
 ### **yuzu starts with the error “VCRUNTIME140_1.dll was not found”**
 
