@@ -72,11 +72,9 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Region | Credit |
 | --- | ----------- | ---------- | ------ | ------ |
 | [Skip Intros](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/SkipIntros.zip) | Makes the game boot straight to the title screen. | `Any` | `Any` | nastysdsi
-| [Disable PV Weight](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisablePVWeight.zip) | Disable the game's performance adjustments for certain PVs. This will not remove any framerate adjustments done through the game's `add_param` files. | `1.0.3` | `JP` | M&M
 | [Disable Videos](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisableVideos.zip) | Disables the videos that play during PVs. Helps with some performance issues during any PV that uses video files. | `1.0.3` | `JP` | M&M
 | [Disable pjd Watermark](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisablePJDWatermark.zip) | Disables the pjd watermark that appears at the top right while watching PVs. | `1.0.3` | `JP` | M&M
-| [Disable Resolution Scale](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisableResolutionScale.zip) | Disables the resolution scale that is applied to certain PVs. | `1.0.3` | `JP` | M&M
-| [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/1920x1080.zip) | Makes the game run at a native 1920x1080. | `Any` | `Any` | M&M
+| [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/1920x1080.zip) | Makes the game run at a native 1920x1080, while also disabling the game's resolution scaling. | `1.0.0` `1.0.1` `1.0.2` `1.0.3` `1.0.4` | `JP` `US/EU` | M&M
 
 #
 
@@ -106,7 +104,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Pokémon Mystery Dungeon Rescue Team DX
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [1080p Mod](https://bit.ly/3eNqrUT) | Forces the game to always run at 1920x1080. | `1.0.0` `1.0.1` `1.0.2`| M&M
+| [1920x1080](https://bit.ly/3eNqrUT) | Forces the game to always run at 1920x1080. | `1.0.0` `1.0.1` `1.0.2`| M&M
 
 #
 
