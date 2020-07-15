@@ -72,9 +72,9 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Region | Credit |
 | --- | ----------- | ---------- | ------ | ------ |
 | [Skip Intros](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/SkipIntros.zip) | Makes the game boot straight to the title screen. | `Any` | `Any` | nastysdsi
-| [Disable Videos](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisableVideos.zip) | Disables the videos that play during PVs. Helps with some performance issues during any PV that uses video files. | `1.0.3` | `JP` | M&M
+| [Disable Videos](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisableVideos.zip) | Disables the videos that play during PVs. Helps with some performance issues during any PV that uses video files. | `1.0.3` `1.0.5` | `JP` | M&M
 | [Disable pjd Watermark](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisablePJDWatermark.zip) | Disables the pjd watermark that appears at the top right while watching PVs. | `1.0.3` | `JP` | M&M
-| [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/1920x1080.zip) | Makes the game run at a native 1920x1080, while also disabling the game's resolution scaling. | `1.0.0` `1.0.1` `1.0.2` `1.0.3` `1.0.4` | `JP` `US/EU` | M&M
+| [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/1920x1080.zip) | Makes the game run at a native 1920x1080, while also disabling the game's resolution scaling. | `1.0.0` `1.0.1` `1.0.2` `1.0.3` `1.0.4` `1.0.5` | `JP` `US/EU` | M&M
 
 #
 
