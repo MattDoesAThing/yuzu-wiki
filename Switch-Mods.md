@@ -6,9 +6,9 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Animal Crossing: New Horizons
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable DOF](https://cdn.discordapp.com/attachments/356187763139280896/729653368439570533/Disable-DOF.zip) | A workaround to the black fog in the background. | `1.1.4` `1.2.0` `1.2.1` `1.3.0`| theboy181,  CJBok, Claude von Riegan
-| [Camera Crash Workaround](https://cdn.discordapp.com/attachments/356187763139280896/729653366388555886/CrashFixCamera.zip) | A workaround to the in-game camera snaps crashing the game. | `1.2.0` `1.2.1` `1.3.0` | CJBok, Lurve, Claude von Riegan
-| [Ultrawide](https://cdn.discordapp.com/attachments/356187763139280896/729653370066829332/Ultrawide.zip) | Stretches the game to fit onto ultrawide displays. The mod is currently set up for 2560x1080 displays. | `1.2.0` `1.3.0` | M&M, theboy181, Claude von Riegan
+| [Disable DOF](https://cdn.discordapp.com/attachments/356187763139280896/733751854608941217/Disable-DOF.zip) | A workaround to the black fog in the background. | `1.1.4` `1.2.0` `1.2.1` `1.3.0` `1.3.1`| theboy181,  CJBok, Claude von Riegan
+| [Camera Crash Workaround](https://cdn.discordapp.com/attachments/356187763139280896/733751852117524573/CrashFixCamera.zip) | A workaround to the in-game camera snaps crashing the game. | `1.2.0` `1.2.1` `1.3.0` `1.3.1`| CJBok, Lurve, Claude von Riegan
+| [Ultrawide](https://cdn.discordapp.com/attachments/356187763139280896/733751857784291379/Ultrawide.zip) | Stretches the game to fit onto ultrawide displays. The mod is currently set up for 2560x1080 displays. | `1.2.0` `1.3.0` `1.3.1` | M&M, theboy181, Claude von Riegan
 
 #
 
@@ -100,6 +100,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
+### Paper Mario The Origami King
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60FPS](https://bit.ly/2ZEmixf) | Makes the game run full speed at 60 FPS. Introduces some pacing issues in battle/minigames | `1.0.0`  | theboy181
+
+#
+
 ### Pokemon Mystery Dungeon Rescue Team DX
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
@@ -110,17 +117,17 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Pokemon Sword (exeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/723540915934724247/Pokemon-Sword-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0`| theboy181, Claude von Riegan
-| [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/723540913699422299/force-max-resolution.zip) | Forces the game to always run at 1080p. | `1.0.0` `1.2.0` | theboy181, Claude von Riegan
-| [Uncap Framerate](https://cdn.discordapp.com/attachments/495758692495523854/723540912755441704/60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.1.1` `1.2.0` | theboy181, Claude von Riegan
+| [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/356187763139280896/733752847954608138/Pokemon-Sword-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0` `1.2.1`| theboy181, Claude von Riegan
+| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/733752842954997891/force-max-resolution.zip) | Forces the game to always run at 1080p. | `1.0.0` `1.2.0` `1.2.1` | theboy181, Claude von Riegan
+| [Uncap Framerate](https://cdn.discordapp.com/attachments/356187763139280896/733752834486698084/60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1`| theboy181, Claude von Riegan
 
 #
 
 ### Pokemon Shield (exeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/495758692495523854/729795244513689623/Pokemon-Shield-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0`| theboy181, Claude von Riegan, Morph
-| [Force Max Resolution](https://cdn.discordapp.com/attachments/495758692495523854/729795245767786576/force-max-resolution.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` | theboy181, Claude von Riegan, Morph
+| [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/356187763139280896/733754692605050942/Pokemon-Sheild-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0` `1.2.1`| theboy181, Claude von Riegan, Morph
+| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/733754690545778688/Force_max_resolution_shield.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1`| theboy181, Claude von Riegan, Morph
 | [Uncap Framerate](https://cdn.discordapp.com/attachments/495758692495523854/729795253288042547/60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` | theboy181, Claude von Riegan, Morph
 
 #
