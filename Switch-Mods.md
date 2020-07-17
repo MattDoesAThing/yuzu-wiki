@@ -100,10 +100,10 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
-### Paper Mario The Origami King
+### Paper Mario: The Origami King
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/paper-mario-the-origami-king/60FPS.rar) | Makes the game run full speed at 60 FPS. Please note that there are currently timing issues in mini-games. | `1.0.0` | theboy181
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/paper-mario-the-origami-king/60FPS.rar) | Makes the game run full speed at 60 FPS. Please note that there are currently timing issues in mini-games. | `1.0.0` | theboy181
 
 #
 
