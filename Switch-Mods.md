@@ -103,14 +103,9 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Paper Mario: The Origami King
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/paper-mario-the-origami-king/60FPS.rar) | Makes the game run full speed at 60 FPS. Please note that there are currently timing issues in mini-games/battles. | `1.0.0` | theboy181
-
-#
-
-### Pokemon Mystery Dungeon Rescue Team DX
-| Mod | Description | Applies to | Credit |
-| --- | ----------- | ---------- | ------ |
-| [1920x1080](https://bit.ly/3eNqrUT) | Forces the game to always run at 1920x1080. | `1.0.0` `1.0.1` `1.0.2` | M&M
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/paper-mario-the-origami-king/60FPS.rar) | Makes the game run full speed at 60 FPS. Please note that there are currently timing issues in mini-games/battles. The game *may* also soft lock when using this mod. | `1.0.0` | theboy181
+| [Disable Sharpening Filter](https://github.com/yuzuMods/yuzuMods/raw/master/mods/paper-mario-the-origami-king/DisableSharpeningFilter.zip) | Removes the game's sharpening filter that gets applied. | `1.0.0` | M&M
+| [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/paper-mario-the-origami-king/1920x1080.zip) | Makes the game render at 1920x1080 when docked. | `1.0.0` | M&M
 
 #
 
@@ -207,7 +202,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/60fps.zip) | Makes the game run full speed at 60 FPS. Please note that the UI will only be full speed at 60fps. | `1.0.0` `1.1.1` | theboy181, Kirby567fan, M&M
 | [No HUD](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/NoHUD.zip) | Disables the game's UI. | `1.0.0` `1.1.1` | M&M
-| [Remove Sharpening Filter](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/RemoveSharpeningFilter.zip) | Removes the game's sharpening filter that gets applied, especially when in handheld mode. | `1.0.0` `1.1.1` | M&M
+| [Remove Sharpening Filter](https://github.com/yuzuMods/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/RemoveSharpeningFilter.zip) | Removes the game's sharpening filter that gets applied. | `1.0.0` `1.1.1` | M&M
 | [EXP-50%](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/Reduce%20EXP%20to%2050%25.zip) | Reduce EXP gained from battle, quests and landmarks to 50% (exp gained with trophies is unchanged). | `1.1.1` | lasyan3
 | [More Affinity Coins (x3)](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/More%20Affinity%20Coins%20(x3).zip) | Multiply by 3 (value can be edited in the patch file) the Affinity Coins gained when level up or kill a unique monster for the first time. | `1.1.1` | lasyan3
 
