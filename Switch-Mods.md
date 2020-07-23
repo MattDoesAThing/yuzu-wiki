@@ -93,6 +93,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
+### Monster Hunter Generations Ultimate
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60FPS](https://cdn.discordapp.com/attachments/636594095913041934/729257856523829258/60FPS_mod.rar) | Changes frame-rate from 30fps to 60fps. | `1.0.0` `3.1.0` | perkel,masagrator(gbatemp)
+
+#
+
 ### Moving Out
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
