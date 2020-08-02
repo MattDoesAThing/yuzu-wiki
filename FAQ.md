@@ -115,23 +115,17 @@ Once added to the correct mod directory, simply right click the game again, sele
 ### **How do I install game updates or DLC?**
 Installing updates and DLC is simple. In the top left corner of the emulator window, select `File / Install Files to NAND`, then select the file you wish to install. Once installed, your files should load automatically and the installed update or DLC will be shown in the games list add-ons column of the corresponding game.
 
-If you wish to activate/deactivate a specific update or DLC then right click your game in the games list, select `Properties`, then enable or disable as needed.
+If you wish to activate/deactivate a specific update or DLC then right click your game in the games list, select `Properties`, then enable or disable as needed.(See Below)
 
 ![](https://cdn.discordapp.com/attachments/512678820092968971/697129823407177789/Updates_and_DLC.PNG)
 
+Reinstalling or Overwriting Updates/DLC is as simple as following the above instructions, selecting your files and installing your Update/DLC. When doing this, any previously installed files will be removed and replaced by the newly installed versions.
+
 ### **How do I uninstall game updates or DLC?**
 
-Due to current file system limitations, there is no easy way to uninstall a specific update/DLC.
+To delete your installed game Updates or DLCs, right click your game, then select Remove. From here you can delete/uninstall your game Updates and DLCs from the options list (See Below)
 
-It is usually easiest to just delete everything and then reinstall any updates and DLC that you need.
-
-Installed updates/DLC are found in `%appdata%\yuzu\nand\user\Contents\registered\`.
-
-To remove them, you will need to delete this `registered` folder.
-
-_Remember to reinstall any updates or DLC you need._
-
-Afterwards, go to `Settings / System / Filesystem tab` and click on `Reset Metadata Cache` on the bottom. This will refresh the games list addons column.
+![](https://cdn.discordapp.com/attachments/356187763139280896/739433965584384010/Remove_updates_and_DLC.PNG)
 
 ### **How do I set up my controls?**
 
