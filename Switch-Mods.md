@@ -59,6 +59,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
+### Diablo III: Eternal Collection
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [1080P](https://github.com/yuzuMods/yuzuMods/raw/master/mods/diablo-3/1080p.rar) | Makes the game run at a native 1920x1080 | `1.0.0` | thboy181
+
+#
+
 ### Ghostbusters Remastered
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
@@ -83,6 +90,16 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/luigis-mansion-3/Disable-Dynamic-Resoluiton.rar) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.1.0` | theboy181
 | [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704784348129525920/LM3_60fps.zip) | Makes the game run full speed at 60f FPS | `1.0.0` `1.2.1` `1.3.0` | theboy181, Kirby567fan
+
+#
+
+### Mario Kart 8 Deluxe
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [21:9](https://github.com/yuzuMods/yuzuMods/raw/master/mods/mario-kart-8-deluxe/21.9.rar) | Makes the game run in 21:9 Aspect Ratio | `1.7.1` | theboy181
+| [Force FXAA](https://github.com/yuzuMods/yuzuMods/raw/master/mods/mario-kart-8-deluxe/Force-FXAA.rar) | Forces the game to use FXAA | `1.7.1` | theboy181
+| [Improved LOD](https://github.com/yuzuMods/yuzuMods/raw/master/mods/mario-kart-8-deluxe/Improved-LOD.rar) | Increases the detail on far away textures | `1.7.1` | theboy181
+| [Slowdown Workaround](https://github.com/yuzuMods/yuzuMods/raw/master/mods/mario-kart-8-deluxe/Slowdown-Workaround%20v2.rar) | Disabled boost effects on certain items, fixes a performance drop | `1.7.1`| theboy181
 
 #
 
