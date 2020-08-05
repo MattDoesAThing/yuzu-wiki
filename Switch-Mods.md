@@ -147,7 +147,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/356187763139280896/733754692605050942/Pokemon-Sheild-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0` `1.2.1`| theboy181, Claude von Riegan, Morph
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/733754690545778688/Force_max_resolution_shield.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1`| theboy181, Claude von Riegan, Morph
-| [Uncap Framerate](https://cdn.discordapp.com/attachments/495758692495523854/729795253288042547/60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` | theboy181, Claude von Riegan, Morph
+| [Uncap Framerate](https://cdn.discordapp.com/attachments/453495401199304705/740465149831282698/60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` | theboy181, Claude von Riegan, Morph
 
 #
 
