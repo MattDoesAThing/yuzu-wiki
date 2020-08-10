@@ -93,7 +93,7 @@ Currently, the Vulkan renderer does not have a disk shader cache. This means tha
 
 `IMPORTANT: Since the cache stores parts of the game, we don't condone sharing or downloading these, since it is considered piracy`
 
-### **How do I use mods?**
+### **How do I use mods or cheats?**
 For a list of useful mods for your favorite games, check our database with [Switch Mods](https://yuzu-emu.org/wiki/switch-mods/)
 
 To add mods to a specific game, simply right click the game in yuzu's games list, select `Open Mod Data Location` and structure your mod files similar to this example:
@@ -101,6 +101,10 @@ To add mods to a specific game, simply right click the game in yuzu's games list
 `Mod directory/mod name/romfs`
 _or_
 `Mod directory/mod name/exefs`
+
+To add cheats, structure your cheat file similar to the example below:
+
+`Mod directory/mod name/cheats`
 
 An example of a correctly structured mod directory can be seen below:
 
