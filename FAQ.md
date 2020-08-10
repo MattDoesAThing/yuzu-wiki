@@ -102,9 +102,9 @@ To add mods to a specific game, simply right click the game in yuzu's games list
 _or_
 `Mod directory/mod name/exefs`
 
-To add cheats, structure your cheat file similar to the example below:
+To add cheats, structure your cheat file similar to this example:
 
-`Mod directory/mod name/cheats`
+`Mod directory/cheat name/cheats`
 
 An example of a correctly structured mod directory can be seen below:
 
