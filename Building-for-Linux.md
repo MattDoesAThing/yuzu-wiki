@@ -27,6 +27,8 @@ All other dependencies will be downloaded by [conan](https://conan.io/downloads.
       | Fedora          | `sudo dnf install git gcc ninja-build cmake SDL2-devel qt5-qtbase-devel python2 python-pip boost-devel fmt-devel libzip-devel libzstd-devel lz4-devel mbedtls-devel openssl-devel opus-devel zlib-devel && pip install --user conan`
       | Gentoo          | `emerge dev-vcs/git =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && pip install --user conan`
 
+After installing conan, `$HOME/.local/bin` needs to be added to the PATH variable. Check your `$HOME/.profile` file, if `PATH=$HOME/.local/bin:$PATH` is not already in that file, append that line to .profile, then log out and log back in.
+
 ### Cloning yuzu with Git
 
 **Master:**
