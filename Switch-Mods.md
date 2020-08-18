@@ -181,7 +181,6 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Super Mario Odyssey
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/1920x1080.zip) | Makes the game render at 1920x1080 when docked. It is recommended to pair this mod with `Disable Dynamic Resolution Switching`. | `1.0.0` `1.3.0` | M&M
 | [Clean UI](https://gamebanana.com/guis/download/34208) | Removes coins, moons, health, and a few other UI elements from the game. | `Any` | Eloeri
 | [Disable Deferred Shading](https://cdn.discordapp.com/attachments/512678820092968971/710314369333985310/Disable_Deferred_Shading.zip) | Disables deferred shading, fixing a shadow issue for AMD Navi GPUs running under the Vulkan backend. | `1.0.0` | theboy181
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/super-mario-odyssey/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.3.0` | theboy181, M&M
