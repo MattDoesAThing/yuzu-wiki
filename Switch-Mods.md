@@ -129,7 +129,6 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/paper-mario-the-origami-king/60FPS.rar) | Makes the game run full speed at 60 FPS. Please note that there are currently timing issues in mini-games/battles. The game *may* also soft lock when using this mod. | `1.0.0` | theboy181
 | [Disable Sharpening Filter](https://github.com/yuzuMods/yuzuMods/raw/master/mods/paper-mario-the-origami-king/DisableSharpeningFilter.zip) | Removes the game's sharpening filter that gets applied. | `1.0.0` | M&M
-| [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/paper-mario-the-origami-king/1920x1080.zip) | Makes the game render at 1920x1080 when docked. | `1.0.0` | M&M
 
 #
 
