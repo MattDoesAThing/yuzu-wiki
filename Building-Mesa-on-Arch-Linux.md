@@ -97,11 +97,11 @@ MESA_WHICH_LLVM=3 makepkg -si
 ### Optional: Prevent `pacman` From Updating `mesa-git` Automatically
 Though `mesa-git` is now installed, running `sudo pacman -Syu` right now will overwrite the package with one from a repository (likely `mesa-aco-git` from Chaotic-AUR). To prevent this, `pacman` needs to ignore that package for updates. Edit the `IgnorePkg` line in `/etc/pacman.conf`:
 ```
-#Ignore =
+#IgnorePkg   =
 ```
 Add `mesa-git` to this list and remove the comment marker `#` if need be:
 ```
-Ignore = mesa-git
+IgnorePkg   = mesa-git
 ```
 Use commas to separate multiple package names if other packages are already listed there.
 
