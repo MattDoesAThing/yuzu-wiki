@@ -34,6 +34,13 @@ sudo nano /etc/pacman.conf
 ```
 Then copy the repository information into the editor. It is suggested to move the URL of the closest server to the top of this list.
 
+Since Chaotic-AUR is a signed repository, its keys need to be added and signed:
+```
+sudo pacman-key --keyserver hkps://hkps.pool.sks-keyservers.net -r 3056513887B78AEB 8A9E14A07010F7E3
+sudo pacman-key --lsign-key 3056513887B78AEB
+sudo pacman-key --lsign-key 8A9E14A07010F7E3 
+```
+
 Afterwards, update your package lists:
 ```
 sudo pacman -Sy
