@@ -68,7 +68,7 @@ MESA_WHICH_LLVM=3 makepkg -si
 
 `makepkg` will run `pacman` during the install and require credentials. It will ask to install `llvm-git`, `llvm-libs-git`, and `clang-git` over `llvm`, `llvm-libs`, and `clang`, respectively. Press `y` and hit `ENTER` to allow it to do so for each package. `mesa-git` should take a while to build.
 
-Once it has finished building, it may ask for credentials again. `pacman` will ask to replace `mesa` with `mesa-git`. Press `y` and hit `ENTER` to allow it. Once `pacman` finishes installing it, `mesa-git` should be installed. Restart your machine to let all the changes take effect.
+Once it has finished building, it may ask for credentials again. `pacman` will ask to replace more packages. Press `y` and hit `ENTER` to allow it to replace these with `mesa-git`. Once `pacman` finishes installing it, `mesa-git` should be installed. Restart your machine to let all the changes take effect.
 
 ### Verify the Installation
 To verify that the build was successful, run `glxinfo` in the terminal and watch the LLVM version in your renderer string:
