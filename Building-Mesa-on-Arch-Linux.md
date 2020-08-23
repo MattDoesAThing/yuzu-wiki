@@ -12,7 +12,7 @@ sudo pacman -Syu
 
 There are a few dependencies needed to complete this guide, as well. Run the following command to install the dependencies. If you have already followed yuzu's [Building for Linux](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Linux) guide, then this next step is unnecessary.
 ```
-sudo pacman -Sy --needed git base-devel
+sudo pacman -S --needed git base-devel
 ```
 
 ## Using Chaotic-AUR to Install `llvm-git`
@@ -41,9 +41,9 @@ sudo pacman-key --lsign-key 3056513887B78AEB
 sudo pacman-key --lsign-key 8A9E14A07010F7E3 
 ```
 
-Afterwards, update your package lists:
+Afterwards, update your package lists and packages:
 ```
-sudo pacman -Sy
+sudo pacman -Syu
 ```
 
 LLVM will be installed later automatically when `mesa-git` is being built. This section was just setup to make that happen later.
