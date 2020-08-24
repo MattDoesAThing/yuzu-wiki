@@ -16,6 +16,8 @@ sudo pacman -S --needed git base-devel
 ```
 
 ## Using Chaotic-AUR to Install `llvm-git`
+**WARNING: Manjaro users should avoid this part of the guide for now.** Arch Linux, and Chaotic-AUR by extension, has upgraded the glibc version to 2.32, and Manjaro is still using 2.31, thus packages on Chaotic-AUR are too recent for use on Manjaro. Users should build (llvm-git)[https://aur.archlinux.org/packages/llvm-git/] and (llvm-libs-git)[https://aur.archlinux.org/packages/llvm-libs-git/] directly from the AUR.
+
 The first step is to add the [Chaotic-AUR](https://lonewolf.pedrohlc.com/chaotic-aur/) [repository](https://wiki.archlinux.org/index.php/Unofficial_user_repositories) to your machine. This will give us access to a daily build of llvm-git (version 12.0.0 as of writing), which we need for building `mesa-git` later. Append following to the end `/etc/pacman.conf`:
 
 ```
