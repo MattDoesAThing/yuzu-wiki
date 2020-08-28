@@ -135,26 +135,32 @@ To delete your installed game Updates or DLCs, right click your game, then selec
 
 Since the Nintendo Switch is a complicated device controller input wise, you will need to change some input settings depending on the game you wish to play.
 
-In the input window dropdown, Select `Custom`, then click on `Configure`.
-
-![](https://cdn.discordapp.com/attachments/356187763139280896/697133498074660904/Custom.PNG)
+Open the yuzu settings and go to `Controls`.
 
 **For all games other than Pokemon Let's Go set the controls like this:**
 
-![](https://cdn.discordapp.com/attachments/400106910231035904/690188034087714847/pro.png)
+![](https://cdn.discordapp.com/attachments/749020865626374244/749029883556135043/mjolnir_pro.gif)
 
-* Map your controls by clicking on `Configure` next to `Pro Controller`.
-* Make sure to map your analog sticks by clicking on the `Set analog Stick` button if you are using a controller.
-* Restart yuzu after you are done for the new settings to take effect.
+* Click on the checkbox next to `Connect Controller` if it is not already checked.
+* Select `Pro Controller` in the combobox below if needed (this is also the default).
+* Select your desired input device under `Input Device`.
+* Controllers: All buttons should automatically be mapped for the selected input device.
+* Keyboard: The `Defaults` button on bottom right sets default keyboard mappings.
+* Change mappings if desired.
+* Repeat steps for other players if desired.
+* Confirm with `OK`.
 
 **For Pokemon Let's Go set your controls like this:**
 
-![](https://cdn.discordapp.com/attachments/400106910231035904/689931041720238097/PLG.png)
+![](https://cdn.discordapp.com/attachments/749020865626374244/749029890065432586/mjolnir_handheld.gif)
 
-* Map your controls by clicking on `Configure` next to the `Joycons Docked` checkbox.
-* Make sure `Player 1` is set to `None` as depicted in the screenshot.
-* Make sure to map your analog sticks by clicking on the `Set analog Stick` button if you are using a controller.
-* Restart yuzu after you are done for the new settings to take effect
+* Click on the checkbox next to `Connect Controller` if it is not already checked.
+* Select `Handheld` in the combobox below.
+* Select your desired input device under `Input Device`.
+* Controllers: All buttons should automatically be mapped for the selected input device.
+* Keyboard: The `Defaults` button on bottom right sets default keyboard mappings.
+* Change mappings if desired.
+* Confirm with `OK`.
 
 ### **How do I add a save to my Game**
 
