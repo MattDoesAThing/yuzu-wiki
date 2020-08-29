@@ -10,6 +10,7 @@ If you are unable to find the answer to your question, please join our Discord s
 * [How do I install game updates or DLC?](#how-do-i-install-game-updates-or-dlc)
 * [How do I uninstall game updates or DLC?](#how-do-i-uninstall-game-updates-or-dlc)
 * [How do I set up my controls?](#how-do-i-set-up-my-controls)
+* [How do I use my GameCube controller adapter?](#how-do-i-use-my-gamecube-controller-adapter)
 * [How do I add a save to my Game](#how-do-i-add-a-save-to-my-game)
 * [yuzu closes when I try to open it](#yuzu-closes-when-i-try-to-open-it)
 * [Games fail to launch with the error: "WerFault.exe - Application Error"](#games-fail-to-launch-with-the-error-werfaultexe---application-error---the-application-was-unable-to-start-correctly)
@@ -161,6 +162,35 @@ Open the yuzu settings and go to `Controls`.
 * Keyboard: The `Defaults` button on bottom right sets default keyboard mappings.
 * Change mappings if desired.
 * Confirm with `OK`.
+### **How do I use my GameCube controller adapter?**
+
+The GameCube adapter communicates with yuzu over the `libusb` protocol. This works natively on Linux, but requires the installation of a compatible driver on Windows using Zadig.
+
+#### Zadig driver installation
+Plug in the GameCube controller adapter if it hasn't been already. Download and launch [Zadig](https://zadig.akeo.ie/). 
+If you're using the Mayflash adapter, make sure you switch it to `Wii U` or Zadig won't pick it up properly.
+
+1. From the `Options` menu in Zadig, select `List All Devices`
+
+2. In the pulldown menu, select `WUP-028`. Ensure that its USB ID is `057E 0337`.
+
+* If it does not appear in the list then try inserting the adapter (specifically its black USB cord) into another USB port.
+
+3. On the right column, select `WinUSB` then click `Replace Driver`. Select `Yes` to modify the system driver.
+
+When it said the driver is installed successfully then you can close the Zadig and continue to configuring the controller with yuzu.
+
+#### GameCube controller configuration
+
+Ensure the adapter is plugged in prior to launching yuzu. Then head into the `Controls` section of the yuzu Configuration.
+
+Set the `Input Device` to capture from `Any` and map the individual buttons over the controller of your choice (Pro Controller is recommended).
+
+To set the analog sticks, press the button for one of the directions for the analog stick (Left Stick Up, for example), then move the respective stick horizontally and then vertically. This will set all other values for that analog stick. The left stick should be `GC Axis 0` and `GC Axis 1`, while the C-Stick will map to `GC Axis 2` and `GC Axis 3`.
+
+Here's an example of how a fully configured GameCube controller would look:
+
+![](https://cdn.discordapp.com/attachments/737476434536431737/749372848514269213/gc_config.png)
 
 ### **How do I add a save to my Game**
 
