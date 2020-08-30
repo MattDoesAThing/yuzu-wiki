@@ -22,7 +22,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Bayonetta
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [1080p Mod](https://github.com/yuzuMods/yuzuMods/raw/master/mods/bayonetta/1920x1080.zip) | Makes the Game run at 1080p Resolution | `1.0.0`  | M&M
+| [1080p Mod](https://github.com/yuzuMods/yuzuMods/raw/master/mods/bayonetta/1920x1080.zip) | Makes the Game run at 1080p Resolution | `1.0.0`  | theboy181
 
 # 
 
