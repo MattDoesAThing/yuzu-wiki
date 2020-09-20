@@ -51,7 +51,7 @@ MESA_WHICH_LLVM=3 makepkg -si
 Once it has finished building, it may ask for credentials again. `pacman` will ask to replace more packages. Press `y` and hit `ENTER` to allow it to replace these with `mesa-git`. Once `pacman` finishes installing it, `mesa-git` should be installed. Restart your machine to let all the changes take effect.
 
 ### Verify the Installation
-To verify that the build was successful, run `glxinfo` in the terminal and watch the LLVM version in your renderer string:
+To verify that the build was successful, install the `mesa-demos` package and run `glxinfo` in the terminal:
 ```
 glxinfo | grep "OpenGL renderer"
 ```
