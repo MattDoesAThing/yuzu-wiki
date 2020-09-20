@@ -19,30 +19,7 @@ sudo pacman -S --needed git base-devel
 <!-- The following is left commented in anticipation of Arch's glibc version getting ahead of Manjaro's in the future. ->
 <!-- **WARNING: Manjaro users should avoid this part of the guide for now.** Arch Linux, and Chaotic-AUR by extension, has upgraded the glibc version to 2.32, and Manjaro is still using 2.31, thus packages on Chaotic-AUR are too recent for use on Manjaro. Users should build [llvm-git](https://aur.archlinux.org/packages/llvm-git/) and [llvm-libs-git](https://aur.archlinux.org/packages/llvm-libs-git/) directly from the AUR. -->
 
-The first step is to add the [Chaotic-AUR](https://lonewolf.pedrohlc.com/chaotic-aur/) [repository](https://wiki.archlinux.org/index.php/Unofficial_user_repositories) to your machine. This will give us access to a daily build of llvm-git (version 12.0.0 as of writing), which we need for building `mesa-git` later. Append following to the end `/etc/pacman.conf`:
-
-```
-[chaotic-aur]
-# Brazil
-Server = http://lonewolf-builder.duckdns.org/$repo/x86_64
-# Germany
-Server = http://chaotic.bangl.de/$repo/x86_64
-# USA (Cloudflare proxy)
-Server = https://repo.kitsuna.net/x86_64
-```
-
-This can be done so by opening `/etc/pacman.conf` in your terminal with a [text editor](https://wiki.archlinux.org/index.php/List_of_applications#Text_editors), i.e.
-```
-sudo nano /etc/pacman.conf
-```
-Then copy the repository information into the editor. It is suggested to move the URL of the closest server to the top of this list.
-
-Since Chaotic-AUR is a signed repository, its keys need to be added and signed:
-```
-sudo pacman-key --keyserver hkps://hkps.pool.sks-keyservers.net -r 3056513887B78AEB 8A9E14A07010F7E3
-sudo pacman-key --lsign-key 3056513887B78AEB
-sudo pacman-key --lsign-key 8A9E14A07010F7E3 
-```
+The first step is to add the [Chaotic-AUR](https://lonewolf.pedrohlc.com/chaotic-aur/) [repository](https://wiki.archlinux.org/index.php/Unofficial_user_repositories) to your machine. This will give us access to a daily build of llvm-git (version 12.0.0 as of writing), which we need for building `mesa-git` later. Since it updates periodically, follow [their instructions](https://lonewolf.pedrohlc.com/chaotic-aur/) to install the repository on to your system.
 
 Afterwards, update your package lists and packages:
 ```
