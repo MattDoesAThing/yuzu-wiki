@@ -69,7 +69,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Ghostbusters Remastered
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/ghostbusters-the-video-game-remastered/60FPS.rarz) | Makes the game run full speed at 60 FPS | `1.0.0` | theboy181
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/ghostbusters-the-video-game-remastered/60FPS.rar) | Makes the game run full speed at 60 FPS | `1.0.0` | theboy181
 | [Disable Dynamic Resolution](https://github.com/yuzuMods/yuzuMods/raw/master/mods/ghostbusters-the-video-game-remastered/Disable-Dynamic-Resolution.rar) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
 | [No videos](https://github.com/yuzuMods/yuzuMods/raw/master/mods/ghostbusters-the-video-game-remastered/No-Videos.rar) | Disables all videos in game | `1.0.0` | theboy181
 
