@@ -178,19 +178,13 @@ If you're using the Mayflash adapter, make sure you switch it to `Wii U` or Zadi
 
 3. On the right column, select `WinUSB` then click `Replace Driver`. Select `Yes` to modify the system driver.
 
-When it said the driver is installed successfully then you can close the Zadig and continue to configuring the controller with yuzu.
+When the notification that the driver is installed successfully is displayed, you can close Zadig and continue to configuring the controller with yuzu.
 
 #### GameCube controller configuration
 
-Ensure the adapter is plugged in prior to launching yuzu. Then head into the `Controls` section of the yuzu Configuration.
+Ensure the adapter is plugged in prior to launching yuzu. Then follow the [How do I set up my controls?](#how-do-i-set-up-my-controls) instructions, selecting `Gamecube controller X` as the `Input Device`, where `X` is the port in which the controller is plugged into.
 
-Set the `Input Device` to capture from `Any` and map the individual buttons over the controller of your choice (Pro Controller is recommended).
-
-To set the analog sticks, press the button for one of the directions for the analog stick (Left Stick Up, for example), then move the respective stick horizontally and then vertically. This will set all other values for that analog stick. The left stick should be `GC Axis 0` and `GC Axis 1`, while the C-Stick will map to `GC Axis 2` and `GC Axis 3`.
-
-Here's an example of how a fully configured GameCube controller would look:
-
-![](https://cdn.discordapp.com/attachments/737476434536431737/749372848514269213/gc_config.png)
+![](https://cdn.discordapp.com/attachments/737476434536431737/760951986417172520/gc_automap.png)
 
 ### **How do I add a save to my Game**
 
