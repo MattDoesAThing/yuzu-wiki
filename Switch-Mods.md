@@ -70,7 +70,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 |[60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/762098744396218398/60_FPS.zip) | Makes the game run full speed at 60 FPS | `1.0.2` `1.1.0` `1.1.1` `1.2.0` | masagrator |
-| [Outline Removal](https://cdn.discordapp.com/attachments/495758692495523854/762098417349951518/Outline_Removal.zip) | Remove Outilne of character model | `1.0.2` `1.1.0` `1.1.1` `1.2.0` | MegaMagikarp
+| [Outline Removal](https://cdn.discordapp.com/attachments/495758692495523854/762098417349951518/Outline_Removal.zip) | Remove outilne of character model | `1.0.2` `1.1.0` `1.1.1` `1.2.0` | MegaMagikarp
 
 #
 
