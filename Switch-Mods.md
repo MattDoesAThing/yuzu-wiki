@@ -66,6 +66,14 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
+### Fire Emblem: Three Houses
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+|[60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/762098744396218398/60_FPS.zip) | Makes the game run full speed at 60 FPS | `1.0.2` `1.1.0` `1.1.1` `1.2.0` | masagrator |
+| [Outline Removal](https://cdn.discordapp.com/attachments/495758692495523854/762098417349951518/Outline_Removal.zip) | Remove Outilne of character model | `1.0.2` `1.1.0` `1.1.1` `1.2.0` | MegaMagikarp
+
+#
+
 ### Ghostbusters Remastered
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
@@ -82,6 +90,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [Disable Videos](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisableVideos.zip) | Disables the videos that play during PVs. Helps with some performance issues during any PV that uses video files. | `1.0.3` `1.0.5` | `JP` | M&M
 | [Disable pjd Watermark](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/DisablePJDWatermark.zip) | Disables the pjd watermark that appears at the top right while watching PVs. | `1.0.3` | `JP` | M&M
 | [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/hatsune-miku-project-diva-mega39s/1920x1080.zip) | Makes the game run at a native 1920x1080, while also disabling the game's resolution and performance scaling. | `1.0.0` `1.0.1` `1.0.2` `1.0.3` `1.0.4` `1.0.5` | `JP` `US/EU` | M&M
+
+#
+
+### kirby Star Allies
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/762100061295345674/60_FPS.zip) | Makes the game run full speed at 60 FPS | `1.0.0` `4.0.0` | Kirby567fan |
 
 #
 
