@@ -5,6 +5,7 @@ If you are unable to find the answer to your question, please join our Discord s
 * [yuzu starts with the error "Missing Derivation Components"](#yuzu-starts-with-the-error-missing-derivation-components)
 * [yuzu starts with the error "Unable to start application: Os { code: 2, kind: NotFound, message: “The system cannot find the file specified.” }"](#yuzu-starts-with-the-error-unable-to-start-application-os--code-2-kind-notfound-message-the-system-cannot-find-the-file-specified-)
 * [yuzu will not update further or starts with a Qt platform error](#yuzu-will-not-update-further-or-starts-with-a-qt-platform-error)
+* [yuzu closes when opening Configure](#yuzu-closes-when-opening-configure)
 * [My game is Lagging and Dropping to Low Framerates](#my-game-is-lagging-and-dropping-to-low-framerates)
 * [How do I use mods or cheats?](#how-do-i-use-mods-or-cheats)
 * [How do I install game updates or DLC?](#how-do-i-install-game-updates-or-dlc)
@@ -18,7 +19,6 @@ If you are unable to find the answer to your question, please join our Discord s
 * [Why am I getting an error?](#why-am-i-getting-an-error)
 * [What are Mods and how do I install them?](#what-are-mods-and-how-do-i-install-them)
 * [How do I upload my log file?](#how-do-i-upload-my-log-file)
-* [How do I use the resolution scanner?](#how-do-i-use-the-resolution-scanner)
 * [What is Telemetry?](#what-is-telemetry)
 * [How do I install Early Access?](#how-do-i-install-early-access)
 * [What is yuzu?](#what-is-yuzu)
@@ -80,6 +80,15 @@ Afterwards, follow the instructions below for `yuzu will not update further or s
 * Press Win+R, in the opened window type `%localappdata%` and press Enter.
 * Select the `yuzu` folder and delete it. If it is being used by another process, please double-check that you do not have any yuzu related applications running.
 * Launch the installer and install yuzu again.
+
+### **yuzu closes when opening Configure**
+
+This problem may be caused by a corrupt configuration file.
+Press Win+R, type `%appdata%\yuzu\config` and delete the `qt-config.ini` file. Your global settings will be lost after doing this, reconfigure accordingly.
+
+Alternatively, some screen recording applications use dubious methods to inject themselves into software, causing crashes. Some examples are Bandicam, Action and Screenrec. Uninstall the software if you have it installed.
+
+We recommend using OBS Studio, Radeon ReLive, Nvidia ShadowPlay or Microsoft XBox Game Bar.
 
 ### **My game is Lagging and Dropping to Low Framerates**
 
@@ -218,11 +227,6 @@ Please read the following article: [Mods](https://yuzu-emu.org/help/feature/game
 ### How do I upload my log file?
 
 Please read the following guide: [How to Upload the Log File](https://yuzu-emu.org/help/reference/log-files/)
-
-### How do I use the resolution scanner?
-
-**This is currently broken, and not working.**\
-Please read the following guide: [How to Use the Resolution Scanner](https://yuzu-emu.org/help/feature/resolution-rescaler/)
 
 ### What is Telemetry?
 
