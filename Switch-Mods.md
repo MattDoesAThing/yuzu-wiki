@@ -161,7 +161,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/617745722867187782/769172996878630943/Pokemon-Shield-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan, Morph
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/617745722867187782/769173022698897439/Force_max_resolution_shield.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan, Morph
-| [Uncap Framerate](https://cdn.discordapp.com/attachments/617745722867187782/769173038050181120/pokemon_shield_60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan, Morph
+| [Uncap Framerate](https://cdn.discordapp.com/attachments/664065943973920771/769591487704203324/60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan, Morph
 
 #
 
