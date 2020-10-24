@@ -150,9 +150,9 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Pokemon Sword (exeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/356187763139280896/733752847954608138/Pokemon-Sword-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0` `1.2.1`| theboy181, Claude von Riegan
-| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/733752842954997891/force-max-resolution.zip) | Forces the game to always run at 1080p. | `1.0.0` `1.2.0` `1.2.1` | theboy181, Claude von Riegan
-| [Uncap Framerate](https://cdn.discordapp.com/attachments/356187763139280896/733752834486698084/60_FPS.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1`| theboy181, Claude von Riegan
+| [Wi-Fi Crash Workaround](https://cdn.discordapp.com/attachments/769637778941542482/769637934810136595/Pokemon-Sword-Wifi-Fix.zip) | This is a workaround towards the crash when Y is pressed. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan
+| [Force Max Resolution](https://cdn.discordapp.com/attachments/769637778941542482/769637977605013504/force-max-resolution-sword.zip) | Forces the game to always run at 1080p. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan
+| [Uncap Framerate](https://cdn.discordapp.com/attachments/769637778941542482/769638002359140362/60-FPS-sword.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan
 
 #
 
