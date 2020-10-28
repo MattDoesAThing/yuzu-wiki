@@ -9,6 +9,7 @@ You'll need to download and install the following to build yuzu:
   * [SDL2](https://www.libsdl.org/download-2.0.php)
   * [Qt](https://qt-project.org/downloads)
   * [Python2](https://www.python.org/download/releases/2.7/) 2.7
+  * [FFmpeg](https://ffmpeg.org/)
 
 All other dependencies will be downloaded by [conan](https://conan.io/downloads.html) if needed:
 
@@ -24,12 +25,14 @@ All other dependencies will be downloaded by [conan](https://conan.io/downloads.
 
       | Distro          | Commands
       | --------------- | ----------------
-      | Arch            | `sudo pacman -S --needed git base-devel ninja cmake sdl2 qt5 python2 python-pip boost catch2 fmt libzip lz4 mbedtls nlohmann-json openssl opus zlib zstd && pip install --user conan`
-      | Ubuntu / Mint | `sudo apt-get install git build-essential ninja-build cmake libsdl2-dev qtbase5-dev libqt5opengl5-dev qtwebengine5-dev qtbase5-private-dev python python3-pip libboost-dev libboost-context-dev libzip-dev liblz4-dev libmbedtls-dev libssl-dev libopus-dev zlib1g-dev libzstd-dev && pip3 install --user conan`
-      | Fedora          | `sudo dnf install git gcc ninja-build cmake make SDL2-devel qt5-qtbase-devel python2 python-pip boost-devel fmt-devel libzip-devel libzstd-devel lz4-devel mbedtls-devel openssl-devel opus-devel zlib-devel && pip install --user conan`
+      | Arch            | `sudo pacman -S --needed git base-devel ninja cmake sdl2 qt5 python2 python-pip boost catch2 ffmpeg fmt libzip lz4 mbedtls nlohmann-json openssl opus zlib zstd && pip install --user conan`
+      | Ubuntu / Mint | `sudo apt-get install git build-essential ninja-build cmake libsdl2-dev qtbase5-dev libqt5opengl5-dev qtwebengine5-dev qtbase5-private-dev python python3-pip libboost-dev libboost-context-dev libavcodec-dev libavutil-dev libswscale-dev libzip-dev liblz4-dev libmbedtls-dev libssl-dev libopus-dev zlib1g-dev libzstd-dev && pip3 install --user conan`
+      | Fedora          | `sudo dnf install git gcc ninja-build cmake make libzip-tools SDL2-devel qt5-qtbase-devel python2 python-pip boost-devel fmt-devel libzip-devel libzstd-devel lz4-devel mbedtls-devel openssl-devel opus-devel zlib-devel ffmpeg-devel && pip install --user conan`
       | Gentoo          | `emerge dev-vcs/git =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && pip install --user conan`
 
 After installing conan, `$HOME/.local/bin` needs to be included in the `PATH` variable. Check your `$HOME/.profile` and `$HOME/.bashrc` files, if `PATH=$HOME/.local/bin:$PATH` is not present, append that line to one of either file, then log out and log back in. Fedora and Ubuntu by default already have this covered.
+
+Fedora users need to setup [RPM Fusion](https://rpmfusion.org/Configuration) (free) to install FFmpeg dependencies.
 
 ### Cloning yuzu with Git
 
