@@ -1,4 +1,8 @@
-Currently users of AMD GPUs have two options to get decent performance on yuzu. One could use the Vulkan backend in Windows, however this comes with poor stability as yuzu's Vulkan implementation lacks proper memory management. The other option is to use the OpenGL backend in Linux with [Mesa](https://mesa3d.org/)'s open-source RadeonSI driver. Decent stability can be achieved on Linux, but the current stable version of Mesa found in most Linux distributions causes unrecoverable crashes in many games on yuzu. Some crashes are caused by an old Mesa version, and many more are caused by the old, stable version of [LLVM](https://llvm.org/) required by Mesa to compile shaders.
+**This guide will remain here as a reference. However, [Chaotic-AUR](https://lonewolf.pedrohlc.com/chaotic-aur/) now provides Mesa compiled using LLVM 12, so there is no need for this guide now. Just enable the repo, install `mesa-git`, and you should be good to go.**
+
+***
+
+Currently, users of AMD GPUs have two options to get decent performance on yuzu. One could use the Vulkan backend in Windows, however, this comes with poor stability as yuzu's Vulkan implementation lacks proper memory management. The other option is to use the OpenGL backend in Linux with [Mesa](https://mesa3d.org/)'s open-source RadeonSI driver. Decent stability can be achieved on Linux, but the current stable version of Mesa found in most Linux distributions causes unrecoverable crashes in many games on yuzu. Some crashes are caused by an old Mesa version, and many more are caused by the old, stable version of [LLVM](https://llvm.org/) required by Mesa to compile shaders.
 
 Most crashes are solved upstream on both Mesa and LLVM, so this is a guide about installing the latest LLVM and Mesa versions to an [Arch Linux](https://www.archlinux.org/) or [Manjaro](https://manjaro.org/) computer.
 
