@@ -1,4 +1,3 @@
-# Recommended GPU Drivers for Linux
 ## Intel
 The default installed version of Mesa provided by the distro is recommended. Users who are willing to experiment with their computer can follow the advice for AMD users below. There are *no known advantages* to updating Mesa past the stable version for Intel GPU users, so it is not recommended.
 
