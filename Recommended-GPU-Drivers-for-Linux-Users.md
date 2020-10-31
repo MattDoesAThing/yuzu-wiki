@@ -25,7 +25,7 @@ sudo pacman -Syu mesa-git
 ```
 
 ## Notes
-- Mesa supports OpenGL 4.6 for Intel Gen 8 GPUs (Broadwell, Gen 5 CPUs)
+- Mesa supports OpenGL 4.6 for Intel Gen 8 GPUs (Broadwell, Gen 5 CPUs) when using the (now default) Iris driver. yuzu will not work with the older i965 driver.
 - Users looking to build Mesa on Arch Linux themselves can follow the [old guide](https://github.com/yuzu-emu/yuzu/wiki/%5BDeprecated%5D-Building-Mesa-on-Arch-Linux).
 
 ## Pitfalls
