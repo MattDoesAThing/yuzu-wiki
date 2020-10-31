@@ -2,7 +2,7 @@
 The default installed version of Mesa provided by the distro is recommended. Users who are willing to experiment with their computer can follow the advice for AMD users below. There are *no known advantages* to updating Mesa past the stable version for Intel GPU users, so it is not recommended.
 
 ## NVIDIA
-The latest available proprietary NVIDIA blob in the package manager is recommended. Drivers older than the 450 series may not be compatible with Linux 5.8 and above. CUDA is currently not working on Linux 5.9 [[source]](https://phoronix.com/scan.php?page=news_item&px=NVIDIA-Linux-5.9-Delayed). Aside from these issues, users should expect a similar yuzu experience to that found on Windows, as the drivers are nearly identical.
+The latest available proprietary NVIDIA blob in the package manager is recommended. Drivers older than the 450 series may not be compatible with Linux 5.8 and above. CUDA is currently not working on Linux 5.9 [[source]](https://phoronix.com/scan.php?page=news_item&px=NVIDIA-Linux-5.9-Delayed) (which doesn't affect yuzu but is a consideration for someone who needs the compute capabilities of their GPU). Aside from these issues, users should expect a similar yuzu experience to that found on Windows, as the drivers are nearly identical.
 - Ubuntu and Linux Mint: Install `nvidia-driver-450`
 - Debian: https://wiki.debian.org/NvidiaGraphicsDriver
 - Fedora: Enable [RPM Fusion](https://rpmfusion.org/Configuration) (at least **nonfree**), update, then install `xorg-x11-drv-nvidia`
