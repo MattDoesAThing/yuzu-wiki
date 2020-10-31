@@ -9,7 +9,6 @@
     * [yuzu Web Service](https://github.com/yuzu-emu/yuzu/wiki/yuzu-Web-Service)
     * [Telemetry](https://yuzu-emu.org/help/feature/telemetry/)
     * [Boxcat](https://yuzu-emu.org/help/feature/boxcat/)
-    * [Building Mesa on Arch Linux](https://github.com/yuzu-emu/yuzu/wiki/Building-Mesa-on-Arch-Linux)
 
 #
   * **General:**
