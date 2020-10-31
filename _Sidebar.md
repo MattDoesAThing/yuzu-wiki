@@ -9,6 +9,7 @@
     * [yuzu Web Service](https://github.com/yuzu-emu/yuzu/wiki/yuzu-Web-Service)
     * [Telemetry](https://yuzu-emu.org/help/feature/telemetry/)
     * [Boxcat](https://yuzu-emu.org/help/feature/boxcat/)
+    * [Recommended GPU Drivers for Linux](https://github.com/yuzu-emu/yuzu/wiki/Recommended-GPU-Drivers-for-Linux)
 
 #
   * **General:**
