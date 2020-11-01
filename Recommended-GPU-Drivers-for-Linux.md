@@ -9,6 +9,8 @@ The latest available proprietary NVIDIA blob in the package manager is recommend
 - Arch Linux: Use either `nvidia` or `nvidia-dkms`
 - Manjaro: Use Manjaro Settings Manager -> Hardware Configuration -> Auto Install Proprietary Driver
 
+Setting the environment variable `__GL_THREADED_OPTIMIZATIONS=1` can net additional performance.
+
 ## AMD
 Mesa compiled with LLVM 12 is recommended. yuzu's OpenGL shader decompiler generates shaders that are often incompatible with Mesa based on LLVM 10, resulting in frequent unrecoverable driver crashes. Using a version of Mesa built on LLVM 12 can circumvent most of this, but for games that already generate invalid shaders (e.g. FE:TH), unrecoverable crashes will still occur.
 - Ubuntu (and Debian, Linux Mint, etc.): **No good solution**, but you can try [Oibaf's Mesa driver](https://launchpad.net/~oibaf/+archive/ubuntu/graphics-drivers) (daily builds of Mesa git using LLVM 10)
@@ -22,6 +24,10 @@ sudo dnf update
 ```
 sudo pacman -Syu mesa-git
 ```
+
+Setting `force_integer_tex_nearest=true` fixes black textures in Kirby Fighters 2 and Kirby Star Allies.
+
+Setting `AMD_DEBUG=nohyperz` fixes black textures in The Legend of Zelda: Breath of the Wild and both Xenoblade Chronicles games for GCN ≥ 3.0 GPUs.
 
 ## Notes
 - Mesa supports OpenGL 4.6 for Intel Gen 8 GPUs (Broadwell, Gen 5 CPUs) when using the (now default) Iris driver. yuzu will not work with the older i965 driver.
