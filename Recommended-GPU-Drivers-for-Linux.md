@@ -22,8 +22,9 @@ sudo dnf update
 ```
 - Arch Linux and Manjaro: Enable [Chaotic-AUR](https://lonewolf.pedrohlc.com/chaotic-aur/) on your machine, then install `mesa-git` (daily builds of Mesa git using LLVM 12):
 ```
-sudo pacman -Syu mesa-git
+sudo pacman -Syu chaotic-mesa-git
 ```
+Users who have not setup multilib can safely skip 32-bit packages.
 
 Setting `force_integer_tex_nearest=true` fixes black textures in Kirby Fighters 2 and Kirby Star Allies.
 
