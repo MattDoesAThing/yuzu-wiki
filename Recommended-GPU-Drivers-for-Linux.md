@@ -20,7 +20,7 @@ sudo dnf copr enable che/llvm
 sudo dnf copr enable che/mesa
 sudo dnf update
 ```
-- Arch Linux and Manjaro: Enable [mesa-git](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#mesa-git) unofficial your machine, then install `mesa-git` (daily builds of Mesa git using LLVM 12):
+- Arch Linux and Manjaro: Enable [mesa-git](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#mesa-git) unofficial repository your machine, then install `mesa-git` (daily builds of Mesa git using LLVM 12):
 ```
 sudo pacman -Syu mesa-git
 ```
