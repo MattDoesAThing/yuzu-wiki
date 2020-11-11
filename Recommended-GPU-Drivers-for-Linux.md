@@ -28,7 +28,7 @@ Users who have not setup multilib can safely skip 32-bit packages.
 
 Setting `force_integer_tex_nearest=true` fixes black textures in Kirby Fighters 2 and Kirby Star Allies.
 
-Setting `AMD_DEBUG=nohyperz` fixes black textures in The Legend of Zelda: Breath of the Wild and both Xenoblade Chronicles games for GCN ≥ 3.0 GPUs.
+Setting `AMD_DEBUG=nohyperz` fixes black textures in The Legend of Zelda: Breath of the Wild and both Xenoblade Chronicles games for GCN ≥ 4.0 GPUs.
 
 ## Notes
 - Mesa supports OpenGL 4.6 for Intel Gen 8 GPUs (Broadwell, Gen 5 CPUs) when using the (now default) Iris driver. yuzu will not work with the older i965 driver.
