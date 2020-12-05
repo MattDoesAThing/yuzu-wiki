@@ -22,7 +22,7 @@ If clang format is found, then cmake will add a custom build target that can be 
 * Don't ever introduce new external dependencies into Core
 * Don't use any platform specific code in Core
 * Use namespaces often
-* Avoid the use of C-style casts and instead prefer C++-style `static_cast` and `reinterpret_cast`. Try to avoid using `dynamic_cast`. Never use `const_cast`.
+* Avoid the use of C-style casts and instead prefer C++-style `static_cast` and `reinterpret_cast`. Try to avoid using `dynamic_cast`. Never use `const_cast`, except when dealing with external const-incorrect APIs.
 
 ### Naming Rules
 * Functions: `PascalCase`
