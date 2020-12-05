@@ -42,6 +42,7 @@ Follow the indentation/whitespace style shown below. Do not use tabs, use 4-spac
 ```cpp
 // Includes should be sorted lexicographically
 // STD includes first
+#include <array>
 #include <map>
 #include <memory>
 
@@ -60,15 +61,15 @@ namespace Example {
 
 // Namespace contents are not indented
 
-// Declare globals at the top
+// Declare globals at the top (better yet, don't use globals at all!)
 int g_foo{}; // {} can be used to initialize types as 0, false, or nullptr
 char* g_some_pointer{}; // Pointer * and reference & stick to the type name, and make sure to initialize as nullptr!
 
 /// A colorful enum.
-enum SomeEnum {
-    ColorRed,   ///< The color of fire.
-    ColorGreen, ///< The color of grass.
-    ColorBlue,  ///< Not actually the color of water.
+enum class SomeEnum {
+    Red,   ///< The color of fire.
+    Green, ///< The color of grass.
+    Blue,  ///< Not actually the color of water.
 };
 
 /**
@@ -76,15 +77,17 @@ enum SomeEnum {
  * Note that the asterisks are indented by one space to align to the first line.
  */
 struct Position {
-    int x{}, y{}; // Always intitialize member variables!
+    // Always intitialize member variables!
+    int x{};
+    int y{};
 };
 
 // Use "typename" rather than "class" here
 template <typename T>
 void FooBar() {
-    const std::string some_string{ "prefer uniform initialization" };
+    const std::string some_string{"prefer uniform initialization"};
 
-    int some_array[]{
+    const std::array<int, 4> some_array{
         5,
         25,
         7,
@@ -92,13 +95,13 @@ void FooBar() {
     };
 
     if (note == the_space_after_the_if) {
-        CallAfunction();
+        CallAFunction();
     } else {
         // Use a space after the // when commenting
     }
 
     // Place a single space after the for loop semicolons, prefer pre-increment
-    for (int i{}; i != 25; ++i) {
+    for (int i = 0; i != 25; ++i) {
         // This is how we write loops
     }
 
@@ -113,24 +116,21 @@ void FooBar() {
         // several lines.
     }
 
+    // No indentation for case labels
     switch (var) {
-    // No indentation for case label
     case 1: {
-        int case_var{ var + 3 };
+        const int case_var{var + 3};
         DoSomething(case_var);
         break;
     }
     case 3:
         DoSomething(var);
         return;
-
     default:
         // Yes, even break for the last case
         break;
     }
-
-    std::vector<T> you_can_declare, a_few, variables, like_this;
 }
 
-}
+} // namespace Example
 ```
