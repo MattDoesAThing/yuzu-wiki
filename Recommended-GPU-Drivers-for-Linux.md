@@ -34,6 +34,8 @@ Setting `force_integer_tex_nearest=true` fixes black textures in Kirby Fighters 
 
 Setting `AMD_DEBUG=nohyperz` fixes black textures in The Legend of Zelda: Breath of the Wild and both Xenoblade Chronicles games for GCN ≥ 4.0 GPUs.
 
+Setting `mesa_glthread=true` can net additional performance, only if the executable is not named `yuzu`. Otherwise, this variable already defaults to `true` for executables named `yuzu`, so it may not be necessary to set here.
+
 ## Notes
 - Mesa supports OpenGL 4.6 for Intel Gen 8 GPUs (Broadwell, Gen 5 CPUs) when using the (now default) Iris driver. yuzu will not work with the older i965 driver.
 - Users looking to build Mesa on Arch Linux themselves can follow the [old guide](https://github.com/yuzu-emu/yuzu/wiki/%5BDeprecated%5D-Building-Mesa-on-Arch-Linux).
