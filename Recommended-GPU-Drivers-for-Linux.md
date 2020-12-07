@@ -6,6 +6,7 @@ The latest available proprietary NVIDIA blob in the package manager is recommend
 - Ubuntu and Linux Mint: Install `nvidia-driver-450`
 - Debian: https://wiki.debian.org/NvidiaGraphicsDriver
 - Fedora: Enable [RPM Fusion](https://rpmfusion.org/Configuration) (at least **nonfree**), update, then install `xorg-x11-drv-nvidia`
+ - Note that RPM Fusion free is needed to install FFmpeg libraries for yuzu, so both will need to be enabled anyway.
 - Arch Linux: Use either `nvidia` or `nvidia-dkms`
 - Manjaro: Use Manjaro Settings Manager -> Hardware Configuration -> Auto Install Proprietary Driver
 
