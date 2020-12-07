@@ -14,6 +14,11 @@ Setting the environment variable `__GL_THREADED_OPTIMIZATIONS=1` can net additio
 ## AMD
 Mesa compiled with LLVM 12 is recommended. yuzu's OpenGL shader decompiler generates shaders that are often incompatible with Mesa based on LLVM 10, resulting in frequent unrecoverable driver crashes. Using a version of Mesa built on LLVM 12 can circumvent most of this, but for games that already generate invalid shaders (e.g. FE:TH), unrecoverable crashes will still occur.
 - Ubuntu (and Debian, Linux Mint, etc.): **No good solution**, but you can try [Oibaf's Mesa driver](https://launchpad.net/~oibaf/+archive/ubuntu/graphics-drivers) (daily builds of Mesa git using LLVM 10)
+```
+sudo add-apt-repository ppa:oibaf/graphics-drivers
+sudo apt update
+sudo apt upgrade
+```
 - Fedora: Enable and install [Che's Mesa COPR](https://copr.fedorainfracloud.org/coprs/che/mesa/) (daily builds of Mesa git using LLVM 12):
 ```
 sudo dnf copr enable che/llvm
