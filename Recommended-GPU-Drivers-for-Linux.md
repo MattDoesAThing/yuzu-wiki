@@ -26,11 +26,9 @@ sudo dnf copr enable che/llvm
 sudo dnf copr enable che/mesa
 sudo dnf update
 ```
-- Arch Linux and Manjaro: Enable [mesa-git](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#mesa-git) unofficial repository your machine, then install `mesa-git` (daily builds of Mesa git using LLVM 12):
-```
-sudo pacman -Syu mesa-git
-```
-Users who have not setup multilib can safely skip 32-bit packages.
+- Arch Linux and Manjaro: Enable [mesa-git](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#mesa-git) unofficial repository your machine, then install `mesa-git` (daily builds of Mesa git using LLVM 12): <br>```sudo pacman -Syu mesa-git```
+  - Users who have not setup multilib can safely skip 32-bit packages.
+  - Don't forget to add `SigLevel = PackageOptional` when you enable the `mesa-git` repository.
 
 Setting `force_integer_tex_nearest=true` fixes black textures in Kirby Fighters 2 and Kirby Star Allies.
 
@@ -42,4 +40,5 @@ Setting `AMD_DEBUG=nohyperz` fixes black textures in The Legend of Zelda: Breath
 
 ## Pitfalls
 - Don't use nouveau (Mesa) with NVIDIA. Even on older cards, most games fail to boot on yuzu with this driver. Those games that do boot are doomed to crash after maybe a minute.
-- Do not use AMDGPU PRO. :)
+- Do not use AMDGPU-PRO. :)
+  - AMDGPU-PRO is fine to use for most of its features (OpenCL, AMF, Vulkan to some extent), but it is *strongly* recommended not to install its libGL component. 
