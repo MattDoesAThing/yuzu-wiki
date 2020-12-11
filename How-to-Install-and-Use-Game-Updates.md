@@ -1,5 +1,3 @@
-**NOTE: At the time of writing this, most updates to complex games don't work. This is because newer version uses newer Switch OS features we haven't implemented. Prime your expectations accordingly.**
-
 ## How to Install Updates
 
 - If you have an update in NCA format, click `File`, then `Install file to NAND...`, select your update NCA, and then in the drop down box select `Game Update`. If you get an error, double check you encryption keys and dump.
@@ -12,8 +10,6 @@
     - If you installed just an update NCA, it will probably only say `Update`.
     - If you copied your NAND or SD or used an NSP update, it will probably say `Update vX.Y.Z` where X, Y, and Z are numbers. Don't be alarmed if the numbers don't match what the game says the version is, the version in the game list is the version as determined by Nintendo's servers, the one in game is independent.
 - Updates do *not* apply to deconstructed ROM directories (folder with `main`, `main.npdm`, `game.romfs`, etc). This is because the romfs cannot be guaranteed to be the base game, and patching anything else will result in strange bugs and crashes. If you can guarantee that your romfs is the base game, skip to the [Repacking to NSP](#repacking-to-nsp) section to force yuzu to patch it.
-
-**NOTE: All currently known updates require title keys. The title keys are also different than the base game's. Refer to our [key dumping guide](https://github.com/yuzu-emu/yuzu/wiki/Dumping-Decryption-Keys-from-a-Switch-Console) for help.**
 
 ## Repacking to NSP
 
