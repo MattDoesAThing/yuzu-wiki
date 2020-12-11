@@ -3,7 +3,7 @@ If you are unable to find the answer to your question, please join our Discord s
 * [yuzu starts with the error “VCRUNTIME140_1.dll was not found”](#yuzu-starts-with-the-error-vcruntime140_1dll-was-not-found)
 * [How do I get Games?](#how-do-i-get-games)
 * [yuzu starts with the error "Missing Derivation Components"](#yuzu-starts-with-the-error-missing-derivation-components)
-* [yuzu starts with the error "Unable to start application: Os { code: 2, kind: NotFound, message: “The system cannot find the file specified.” }"](#yuzu-starts-with-the-error-unable-to-start-application-os--code-2-kind-notfound-message-the-system-cannot-find-the-file-specified-)
+* [yuzu starts with the error "Unable to start application: Os { code: 2, kind: NotFound, message: “The system cannot find the file specified.” }"](#yuzu-starts-with-the-error-unable-to-start-application-os-code-2-kind-notfound-message-the-system-cannot-find-the-file-specified)
 * [yuzu will not update further or starts with a Qt platform error](#yuzu-will-not-update-further-or-starts-with-a-qt-platform-error)
 * [yuzu closes when opening Configure](#yuzu-closes-when-opening-configure)
 * [My game is Lagging and Dropping to Low Framerates](#my-game-is-lagging-and-dropping-to-low-framerates)
