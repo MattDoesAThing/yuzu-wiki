@@ -1,4 +1,4 @@
-**This article was written for developers. Users looking to simply run yuzu should try downloading [Mainline](https://yuzu-emu.org/downloads/) first. It requires installing the same dependencies listed below, though ` && pip install --user conan` can be omitted.**
+> **This article was written for developers. Users looking to simply run yuzu should try downloading [Mainline](https://yuzu-emu.org/downloads/) first. It requires installing the same dependencies listed below, though `&& pip install --user conan` can be omitted.**
 
 ### Dependencies
 
@@ -22,21 +22,28 @@ All other dependencies will be downloaded by [Conan](https://conan.io/downloads.
   * [ZLIB](https://www.zlib.net/)
   * [zstd](https://facebook.github.io/zstd/)
 
-      | Distro          | Commands
-      | --------------- | ----------------
-      | Manjaro / Arch  | `sudo pacman -Syu --needed git base-devel ninja cmake sdl2 qt5 python2 python-pip boost catch2 ffmpeg fmt libzip lz4 mbedtls nlohmann-json openssl opus zlib zstd && pip install --user conan`
-      | Ubuntu / Linux Mint | `sudo apt-get install gcc-10 g++-10 git build-essential ninja-build cmake libsdl2-dev qtbase5-dev libqt5opengl5-dev qtwebengine5-dev qtbase5-private-dev python python3-pip libboost-dev libboost-context-dev libavcodec-dev libavutil-dev libswscale-dev libzip-dev liblz4-dev libmbedtls-dev libssl-dev libopus-dev zlib1g-dev libzstd-dev && pip3 install --user conan`
-      | Fedora          | `sudo dnf install git gcc ninja-build cmake make libzip-tools SDL2-devel qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel qt5-linguist python2 python-pip boost-devel fmt-devel libzip-devel libzstd-devel lz4-devel mbedtls-devel openssl-devel opus-devel zlib-devel ffmpeg-devel pulseaudio-libs-devel alsa-lib-devel jack-audio-connection-kit-devel && pip install --user conan`
-      | Gentoo (needs updated) | `emerge dev-vcs/git =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && pip install --user conan`
 
-After installing Conan, `$HOME/.local/bin` needs to be included in the `PATH` variable. Check your `$HOME/.profile` and `$HOME/.bashrc` files, if `PATH=$HOME/.local/bin:$PATH` is not present, append that line to one of either file, then log out and log back in. Fedora and Ubuntu by default already have this covered.
+- Arch / Manjaro:
+  - `sudo pacman -Syu --needed base-devel boost catch2 cmake ffmpeg fmt git libzip lz4 mbedtls ninja nlohmann-json openssl opus python-pip python2 qt5 sdl2 zlib zstd && pip install --user conan`
+  - GCC 10 or later is required.
+- Ubuntu / Linux Mint / Debian:
+  - `sudo apt-get install build-essential cmake g++-10 gcc-10 git libavcodec-dev libavutil-dev libboost-context-dev libboost-dev liblz4-dev libmbedtls-dev libopus-dev libqt5opengl5-dev libsdl2-dev libssl-dev libswscale-dev libzip-dev libzstd-dev ninja-build python python3-pip qtbase5-dev qtbase5-private-dev qtwebengine5-dev zlib1g-dev && pip3 install --user conan`
+  - Ubuntu 20.04, Linux Mint 20, or Debian Bullseye or later is required.
+  - Users need to manually specify building with GCC 10. This can be done by adding the parameters `-DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10` when running CMake. i.e.
 
-Ubuntu and Linux Mint users need to manually specify building with GCC 10. This can be done by adding the parameters `-DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10` when running CMake. i.e.
 ```
 cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
 ```
+- Fedora:
+  - `sudo dnf install SDL2-devel alsa-lib-devel boost-devel cmake ffmpeg-devel fmt-devel gcc git jack-audio-connection-kit-devel libzip-devel libzip-tools libzstd-devel lz4-devel make mbedtls-devel ninja-build openssl-devel opus-devel pulseaudio-libs-devel python-pip python2 qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel zlib-devel && pip install --user conan`
+  - Fedora 32 or later is required.
+  - Users need to set up [RPM Fusion](https://rpmfusion.org/Configuration) (free) to install FFmpeg dependencies.
+- Gentoo (this list needs updated with GCC 10, FFmpeg):
+  - `emerge dev-vcs/git =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && pip install --user conan`
+  - GCC 10 or later is required.
 
-Fedora users need to set up [RPM Fusion](https://rpmfusion.org/Configuration) (free) to install FFmpeg dependencies.
+After installing Conan, `$HOME/.local/bin` needs to be included in the `PATH` variable. Check your `$HOME/.profile` and `$HOME/.bashrc` files, if `PATH=$HOME/.local/bin:$PATH` is not present, append that line to one of either file, then log out and log back in. Fedora and Ubuntu by default already have this covered, though Ubuntu users should log out and log back in to enable it.
+
 
 ### Cloning yuzu with Git
 
