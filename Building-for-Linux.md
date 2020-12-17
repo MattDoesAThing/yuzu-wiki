@@ -1,4 +1,4 @@
-> **This article was written for developers. Users looking to simply run yuzu should try downloading [Mainline](https://yuzu-emu.org/downloads/) first. It requires installing the same dependencies listed below, though `&& pip install --user conan` can be omitted.**
+**This article was written for developers. Users looking to simply run yuzu should try downloading [Mainline](https://yuzu-emu.org/downloads/) first. It requires installing the same dependencies listed below, though `&& pip install --user conan` can be omitted.**
 
 ### Dependencies
 
@@ -22,6 +22,7 @@ All other dependencies will be downloaded by [Conan](https://conan.io/downloads.
   * [ZLIB](https://www.zlib.net/)
   * [zstd](https://facebook.github.io/zstd/)
 
+Dependencies are listed here as commands that can be copied/pasted. Of course, they should be inspected before being run.
 
 - Arch / Manjaro:
   - `sudo pacman -Syu --needed base-devel boost catch2 cmake ffmpeg fmt git libzip lz4 mbedtls ninja nlohmann-json openssl opus python-pip python2 qt5 sdl2 zlib zstd && pip install --user conan`
