@@ -4,7 +4,7 @@ The default installed version of Mesa provided by the distro is recommended. Use
 ## NVIDIA
 The latest available proprietary NVIDIA blob in the package manager is recommended. Drivers older than the 450 series may not be compatible with Linux 5.8 and above. CUDA is currently not working on Linux 5.9 [[source]](https://phoronix.com/scan.php?page=news_item&px=NVIDIA-Linux-5.9-Delayed) (which doesn't affect yuzu but is a consideration for someone who needs the compute capabilities of their GPU). Aside from these issues, users should expect a similar yuzu experience to that found on Windows, as the drivers are nearly identical.
 - Ubuntu and Linux Mint: Install `nvidia-driver-450` <br>
-- Debian: https://wiki.debian.org/NvidiaGraphicsDriver <br>
+- Debian: https://wiki.debian.org/NvidiaGraphicsDrivers <br>
 - Fedora: Enable [RPM Fusion](https://rpmfusion.org/Configuration) (at least **nonfree**), update, then install `xorg-x11-drv-nvidia` <br>
   - Note that RPM Fusion free is needed to install FFmpeg libraries for yuzu, so both will need to be enabled anyway. <br>
 - Arch Linux: Use either `nvidia` or `nvidia-dkms` <br>
