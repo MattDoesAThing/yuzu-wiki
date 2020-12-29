@@ -176,8 +176,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
-| [ReTextured 1.4](https://bit.ly/2YpmEr6) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports DLC 1, Isle of Armor | `1.2.0` `1.2.1` `1.3.0`| BSoD Gaming
-| [ReTextured 1.4 Alternate Link](https://bit.ly/3g4azO0) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports DLC 1, Isle of Armor | `1.2.0` `1.2.1` `1.3.0`| BSoD Gaming
+| [ReTextured 1.6](https://bit.ly/3rKjhYz) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports all game DLCs | `1.2.0` `1.2.1` `1.3.0` `1.3.1`| BSoD Gaming
+| [ReTextured 1.6 Alternate Link](http://bit.ly/37VnVL3) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports all game DLCs | `1.2.0` `1.2.1` `1.3.0` `1.3.1`| BSoD Gaming
 | [RaidBuff](https://gamebanana.com/dl/461229) | Improves allied Pokemon in a solo Max Raid battle | `Any` | Barticom
 | [Teamwork 1.4](https://cdn.discordapp.com/attachments/495758692495523854/723156799406211082/Teamwork_1.4.rar) | Stronger Pokemon than RaidBuff in a solo Max Raid battle. Allied Pokemon have more suitable Ability, Moves, Item and Stats | `Any` | toke
 
