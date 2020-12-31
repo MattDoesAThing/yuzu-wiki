@@ -39,7 +39,7 @@ cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
   - `sudo dnf install SDL2-devel alsa-lib-devel boost-devel cmake ffmpeg-devel fmt-devel gcc git glslang jack-audio-connection-kit-devel libzip-devel libzip-tools libzstd-devel lz4-devel make mbedtls-devel ninja-build openssl-devel opus-devel pulseaudio-libs-devel python-pip python2 qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel zlib-devel && pip install --user conan`
   - Fedora 32 or later is required.
   - Users need to set up [RPM Fusion](https://rpmfusion.org/Configuration) (free) to install FFmpeg dependencies.
-- Gentoo (this list needs updated with GCC 10, FFmpeg):
+- Gentoo (this list needs updated with GCC 10, glsLangValidator, FFmpeg):
   - `emerge dev-vcs/git =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && pip install --user conan`
   - GCC 10 or later is required.
 
