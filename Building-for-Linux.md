@@ -1,4 +1,6 @@
-**This article was written for developers. Users looking to simply run yuzu should try downloading [Mainline](https://yuzu-emu.org/downloads/) first. It requires installing the same dependencies listed below, though `&& pip install --user conan` can be omitted.**
+**This article was written for developers. Users looking to simply run yuzu should try downloading [Mainline](https://yuzu-emu.org/downloads/) first. As it is an AppImage, it only needs to be downloaded and made executable to use it.**
+
+***
 
 ### Dependencies
 
