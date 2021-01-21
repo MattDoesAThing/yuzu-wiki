@@ -99,6 +99,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
+### Pokemon Let's Go Pikachu 
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/801792597952561162/60_FPS_Pikachu.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` | theboy181
+
+#
+
 ### Pokemon Sword (exeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
@@ -152,7 +159,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [Disable FXAA](https://cdn.discordapp.com/attachments/356187763139280896/798516217748127754/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181, M&M
 | [Disable Camera Motion Blur](https://cdn.discordapp.com/attachments/356187763139280896/798516190602330172/Disable_Camera_Motion_Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` `1.3.0` | theboy181, M&M
 | [Disable Web Applet](https://cdn.discordapp.com/attachments/512678820092968971/708744273801117726/SMO_Web_Applet_Bypass.7z) | Disables the Web Applet, fixing a crash when traveling from Cascade to Sand Kingdom for the first time. | `1.0.0` | theboy181
-
+| [Unlimited FPS](https://cdn.discordapp.com/attachments/356187763139280896/801792154560495616/Unlocked_FPS.zip) | Unlimits the framerate, allowing higher than 60 FPS Gameplay. Past 60 FPS will increase game speed  | `1.0.0` | theboy181
 #
 
 ### Super Smash Bros. Ultimate
