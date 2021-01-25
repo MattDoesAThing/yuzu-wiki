@@ -99,6 +99,13 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 
 #
 
+### Pokemon Let's Go Eevee
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/803253233488232488/60fps.7z) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.2` | theboy181
+
+#
+
 ### Pokemon Let's Go Pikachu 
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
