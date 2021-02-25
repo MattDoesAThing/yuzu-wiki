@@ -6,8 +6,6 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Animal Crossing: New Horizons
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable DOF](https://cdn.discordapp.com/attachments/356187763139280896/766651541993816084/Disable-DOF.zip) | A workaround to the black fog in the background. | `1.1.4` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.4.0` `1.4.1` `1.4.2` `1.5.0` `1.5.1`| theboy181,  CJBok, Claude von Riegan
-| [Camera Crash Workaround](https://cdn.discordapp.com/attachments/356187763139280896/766651539141296148/CrashFixCamera.zip) | A workaround to the in-game camera snaps crashing the game. | `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.4.0` `1.4.1` `1.4.2` `1.5.0` `1.5.1`| CJBok, Lurve, Claude von Riegan
 | [Ultrawide](https://cdn.discordapp.com/attachments/356187763139280896/733751857784291379/Ultrawide.zip) | Stretches the game to fit onto ultrawide displays. The mod is currently set up for 2560x1080 displays. | `1.2.0` `1.3.0` `1.3.1` | M&M, theboy181, Claude von Riegan
 
 # 
@@ -117,7 +115,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/769637778941542482/769637977605013504/force-max-resolution-sword.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan
-| [Uncap Framerate](https://cdn.discordapp.com/attachments/769637778941542482/769638002359140362/60-FPS-sword.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan
+| [60 FPS](https://cdn.discordapp.com/attachments/769637778941542482/769638002359140362/60-FPS-sword.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan
 
 #
 
@@ -125,7 +123,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/617745722867187782/769173022698897439/Force_max_resolution_shield.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan, Morph
-| [Uncap Framerate](https://cdn.discordapp.com/attachments/769637778941542482/769866491318632448/60-FPS-shield.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan, Morph
+| [60 FPS](https://cdn.discordapp.com/attachments/769637778941542482/769866491318632448/60-FPS-shield.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan, Morph
 
 #
 
