@@ -1,5 +1,5 @@
 ## What is the purpose of the Individual Contributor License Agreement?
-When you agree to the yuzu Nintendo Switch Emulator Individual [[Contributor License Agreement]] (CLA), you are effectively granting a copyright of any contribution that you make to the maintainers of the yuzu project. You still retain an equal copyright over your own work, and are free to use your own work as you please.
+When you agree to the yuzu Nintendo Switch Emulator Individual [Contributor License Agreement](https://cla-assistant.io/yuzu-emu/yuzu) (CLA), you are effectively granting a copyright of any contribution that you make to the maintainers of the yuzu project. You still retain an equal copyright over your own work, and are free to use your own work as you please.
 
 ## How do I sign the Individual Contributor License Agreement?
 * When you open a Pull Request on the [main repository](https://github.com/yuzu-emu/yuzu/), the bot `CLAassistant` will prompt you to agree to the CLA.
