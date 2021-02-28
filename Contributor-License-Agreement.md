@@ -1,1 +1,1 @@
-See [Contributor License Agreement`](https://cla-assistant.io/yuzu-emu/yuzu) for details.
+See [Contributor License Agreement](https://cla-assistant.io/yuzu-emu/yuzu) for details.
