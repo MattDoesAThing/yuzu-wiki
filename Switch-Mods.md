@@ -114,8 +114,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Pokemon Sword (exeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Force Max Resolution](https://cdn.discordapp.com/attachments/769637778941542482/769637977605013504/force-max-resolution-sword.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan
-| [60 FPS](https://cdn.discordapp.com/attachments/769637778941542482/769638002359140362/60-FPS-sword.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` | theboy181, Claude von Riegan
+| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/815654350705262632/force-max-resolution-sword.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1`| theboy181, Claude von Riegan, DuIslingr
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/815658040262000670/60-FPS-sword.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` | theboy181, Claude von Riegan, DuIslingr
 
 #
 
