@@ -87,6 +87,9 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [60FPS](https://cdn.discordapp.com/attachments/636594095913041934/729257856523829258/60FPS_mod.rar) | Changes target frame-rate from 30fps to 60fps. | `1.4.0` | masagrator
+| [4K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/MONSTER%20HUNTER%20GENERATIONS%20ULTIMATE/%5B0100770008DD8000%5D/1.4.0/4K-2K.rar) | Renders the game at 4K Docked | `1.4.0` | theboy181
+| [120 FPS](https://github.com/theboy181/switch-cheat-mods/raw/main/MONSTER%20HUNTER%20GENERATIONS%20ULTIMATE/%5B0100770008DD8000%5D/1.4.0/120fps-v1.4.0.rar) | Unlocks the framerate to run at 120 FPS | `1.4.0` | theboy181
+
 
 #
 
@@ -150,6 +153,17 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798515462069682186/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
 | [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/798515475969474580/60_Lobby.zip) | Makes Inkopolis Square and Octo Expansion credits run at 60fps instead of 30fps. | `1.0.0` `5.1.0` `5.2.2` | theboy181, M&M
+
+#
+
+### Super Mario 3D World + Bowser's Fury
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [Disable-Dynamic-Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Disable-Dynamic-Resolution%20-v2.rar) | Disables dynamic resolution, greatly improving image quality | `1.0.0` | theboy181
+| [Disable-Bloom](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Disable-Bloom.rar) | Disables bloom | `1.0.0` | theboy181
+| [Max Quality Mode](https://github.com/theboy181/switch-cheat-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Quality-Mode.rar) | Makes the game render at enhanced quality settings, may greatly affect performance | `1.0.0` | theboy181
+| [120 FPS](https://github.com/theboy181/switch-cheat-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/120fps.rar) | Unlocked the framerate to 120 FPS. Gamespeed is faster when over 60 FPS. Useful for benchmarking | `1.0.0` | theboy181
+
 
 #
 
