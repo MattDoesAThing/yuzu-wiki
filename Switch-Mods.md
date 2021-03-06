@@ -119,7 +119,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/815654350705262632/force-max-resolution-sword.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1`| theboy181, Claude von Riegan, DuIslingr
 | [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/815658040262000670/60-FPS-sword.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` | theboy181, Claude von Riegan, DuIslingr
-| [Y Comm Wifi Fix](https://cdn.discordapp.com/attachments/356187763139280896/817872088508792862/Pokemon-Sword-Wifi-Fix.zip) | Stops an error message from popping up when you press the Y Comm button | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1`| theboy181, DuIslingr
+| [Y Comm Wifi Fix](https://cdn.discordapp.com/attachments/356187763139280896/817872088508792862/Pokemon-Sword-Wifi-Fix.zip) | Stops an error message from popping up when you press the Y Comm button | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1`| theboy181, DuIslingr, Claude von Riegan
 
 #
 
@@ -128,7 +128,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/815661580699959336/Force_max_resolution_shield.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1`| theboy181, Claude von Riegan, Morph, DuIslingr
 | [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/815661569609695252/60-FPS-shield.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1`| theboy181, Claude von Riegan, Morph, DuIslingr
-| [Y Comm Wifi Fix](https://cdn.discordapp.com/attachments/356187763139280896/817872092816474112/Pokemon-Shield-Wifi-Fix.zip) | Stops an error message from popping up when you press the Y Comm button | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1`| theboy181, DuIslingr
+| [Y Comm Wifi Fix](https://cdn.discordapp.com/attachments/356187763139280896/817872092816474112/Pokemon-Shield-Wifi-Fix.zip) | Stops an error message from popping up when you press the Y Comm button | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1`| theboy181, DuIslingr , Claude von Riegan
 
 #
 
