@@ -211,6 +211,6 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Xenoblade Chronicles: Definitive Edition
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/798517165161447424/60_FPS.zip) | Makes the game run full speed at 60 FPS. Please note that the UI will only be full speed at 60fps. | `1.0.0` | theboy181, Kirby567fan
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/818446892593578034/60_FPS.zip) | Makes the game run full speed at 60 FPS. Please note that the UI will only be full speed at 60fps. | `1.0.0` `1.1.2` | theboy181, Kirby567fan, DuIslingr
 | [EXP-50%](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/Reduce%20EXP%20to%2050%25.zip) | Reduce EXP gained from battle, quests and landmarks to 50% (exp gained with trophies is unchanged). | `1.1.1` | lasyan3
 | [More Affinity Coins (x3)](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/More%20Affinity%20Coins%20(x3).zip) | Multiply by 3 (value can be edited in the patch file) the Affinity Coins gained when level up or kill a unique monster for the first time. | `1.1.1` | lasyan3
