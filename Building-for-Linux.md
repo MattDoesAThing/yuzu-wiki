@@ -6,15 +6,21 @@
 
 You'll need to download and install the following to build yuzu:
 
-  * GCC v10+ (for C++20 support) & misc
+  * [GCC](https://gcc.gnu.org/) v10+ (for C++20 support) & misc
   * [CMake](https://www.cmake.org/) 3.15+
-  * [SDL2](https://www.libsdl.org/download-2.0.php)
-  * [Qt](https://qt-project.org/downloads)
+  * [Qt](https://qt-project.org/downloads) 5.12+
+
+The following are handled by yuzu's externals, but installing them via the package manager will avoid building them with yuzu:
+
+  * [SDL2](https://www.libsdl.org/download-2.0.php) 2.0.14+
   * [FFmpeg](https://ffmpeg.org/)
+
+If version 1.73.0 is not already installed, pre-compiled binaries for Boost 1.75.0 will be downloaded from [here](https://github.com/yuzu-emu/ext-linux-bin) automatically by CMake:
+
+  * [Boost](https://www.boost.org/users/download/) 1.73.0+
 
 All other dependencies will be downloaded by [Conan](https://conan.io/downloads.html) if needed:
 
-  * [Boost](https://www.boost.org/users/download/)
   * [Catch2](https://github.com/catchorg/Catch2)
   * [fmt](https://fmt.dev/)
   * [lz4](http://www.lz4.org)
@@ -27,10 +33,12 @@ All other dependencies will be downloaded by [Conan](https://conan.io/downloads.
 Dependencies are listed here as commands that can be copied/pasted. Of course, they should be inspected before being run.
 
 - Arch / Manjaro:
-  - `sudo pacman -Syu --needed base-devel boost catch2 cmake ffmpeg fmt git glslang libzip lz4 mbedtls ninja nlohmann-json openssl opus python-pip python2 qt5 sdl2 zlib zstd && pip install --user conan`
+  - `sudo pacman -Syu --needed base-devel boost catch2 cmake ffmpeg fmt git glslang libzip lz4 mbedtls ninja nlohmann-json openssl opus python-pip python2 qt5 sdl2 zlib zstd`
+  - `python3.6 -m pip install --user conan`
   - GCC 10 or later is required.
 - Ubuntu / Linux Mint / Debian:
-  - `sudo apt-get install build-essential cmake g++-10 gcc-10 git glslang-tools libavcodec-dev libavutil-dev libboost-context-dev libboost-dev liblz4-dev libmbedtls-dev libopus-dev libqt5opengl5-dev libsdl2-dev libssl-dev libswscale-dev libzip-dev libzstd-dev ninja-build python python3-pip qtbase5-dev qtbase5-private-dev qtwebengine5-dev zlib1g-dev && pip3 install --user conan`
+  - `sudo apt-get install build-essential cmake g++-10 gcc-10 git glslang-tools libavcodec-dev libavutil-dev libboost-context-dev libboost-dev liblz4-dev libmbedtls-dev libopus-dev libqt5opengl5-dev libsdl2-dev libssl-dev libswscale-dev libzip-dev libzstd-dev ninja-build python python3-pip qtbase5-dev qtbase5-private-dev qtwebengine5-dev zlib1g-dev`
+  - `pip3 install --user conan`
   - Ubuntu 20.04, Linux Mint 20, or Debian Bullseye or later is required.
   - Users need to manually specify building with GCC 10. This can be done by adding the parameters `-DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10` when running CMake. i.e.
 
@@ -38,11 +46,22 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
 cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
 ```
 - Fedora:
-  - `sudo dnf install SDL2-devel alsa-lib-devel boost-devel cmake ffmpeg-devel fmt-devel gcc git glslang jack-audio-connection-kit-devel libzip-devel libzip-tools libzstd-devel lz4-devel make mbedtls-devel ninja-build openssl-devel opus-devel pulseaudio-libs-devel python-pip python2 qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel zlib-devel && pip install --user conan`
+  - `sudo dnf install SDL2-devel alsa-lib-devel boost-devel cmake ffmpeg-devel fmt-devel gcc git glslang jack-audio-connection-kit-devel libzip-devel libzip-tools libzstd-devel lz4-devel make mbedtls-devel ninja-build openssl-devel opus-devel pulseaudio-libs-devel python-pip python2 qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel zlib-devel`
+  - `pip install --user conan`
   - Fedora 32 or later is required.
   - Users need to set up [RPM Fusion](https://rpmfusion.org/Configuration) (free) to install FFmpeg dependencies.
+- RHEL-like (such as Rocky Linux):
+  - Though this should have been similar to Fedora, this ends up being a tad bit more involved due to the distro's older or missing packages. Fortunately, at least Rocky Linux 8 makes `g++-10` available directly in the package manager, so it's just a matter of finding the other smaller dependencies. (CentOS 8 does **not** have `g++-10`, so it is even less trivial to build yuzu there.)
+  - `sudo dnf config-manager --set-enabled powertools # Required for ninja-build and nasm`
+  - `sudo dnf install alsa-lib-devel gcc-toolset-10-gcc-g++ git libXext-devel libzip-devel libzip-tools libzstd-devel lz4-devel make ninja-build openssl-devel opus-devel pulseaudio-libs-devel python36 qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel zlib-devel`
+  - `pip install --user conan`
+  - Distro version 8 or later is required.
+  - Additional notes:
+    - `/opt/rh/gcc-toolset-10/root/usr/bin` must be added to the front of the `PATH`.
+    - [CMake](https://cmake.org/download/) (cmake-[version]-linux-x86_64.tar.gz) and [glslangValidator](https://github.com/KhronosGroup/glslang/releases/latest) (glslang-master-linux-Release.zip) must be downloaded and installed separately. To "install" them, extract the archives and copy their contents into the `$HOME/.local/`, such that the directory structure looks like `$HOME/.local/bin` and so on.
 - Gentoo (this list needs updated with GCC 10, glsLangValidator, FFmpeg):
-  - `emerge dev-vcs/git =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl && pip install --user conan`
+  - `emerge dev-vcs/git =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl`
+  - `pip install --user conan`
   - GCC 10 or later is required.
 
 After installing Conan, `$HOME/.local/bin` needs to be included in the `PATH` variable. Check your `$HOME/.profile` and `$HOME/.bashrc` files, if `PATH=$HOME/.local/bin:$PATH` is not present, append that line to one of either file, then log out and log back in. Fedora and Ubuntu by default already have this covered, though Ubuntu users should log out and log back in to enable it.
