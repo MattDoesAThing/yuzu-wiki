@@ -153,6 +153,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798515462069682186/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
 | [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/798515475969474580/60_Lobby.zip) | Makes Inkopolis Square and Octo Expansion credits run at 60fps instead of 30fps. | `1.0.0` `5.1.0` `5.2.2` | theboy181, M&M
+| [30 FPS](https://cdn.discordapp.com/attachments/830855276437438485/840784088583766016/30FPS.zip) | Makes the whole game run at 30fps instead of 60fps for low end PC's, May make the ingame Timer half of the speed in some levels from the Octo Expansion dlc | `5.4.0` | theboy181, shadow, AndNowIsTheTime
+
 
 #
 
