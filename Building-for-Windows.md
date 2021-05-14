@@ -81,39 +81,40 @@ Feel free to ask us in the IRC channel #yuzu-emu @ [Freenode](https://webchat.fr
 ### Prerequisites to install
 
 * [MSYS2](https://www.msys2.org)
-
+* [Vulkan SDK](https://vulkan.lunarg.com/sdk/home#windows) - **Make sure to select Latest SDK.**
 * Make sure to follow the instructions and update to the latest version by running `pacman -Syu` as many times as needed.
 
 ### Install yuzu dependencies for MinGW-w64
 
 * Open the `MSYS2 MinGW 64-bit` (mingw64.exe) shell
-* Download and install all dependencies using: `pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-qt5 mingw-w64-x86_64-SDL2 mingw-w64-x86_64-cmake make git python2`
+* Download and install all dependencies using: `pacman -Syu git make mingw-w64-x86_64-SDL2 mingw-w64-x86_64-cmake mingw-w64-x86_64-python-pip mingw-w64-x86_64-qt5 mingw-w64-x86_64-toolchain`
+* Download and install Conan: `python -m pip install conan`
+* Add MinGW binaries to the PATH: `echo 'PATH=/mingw64/bin:$PATH' >> ~/.bashrc'`
+* Add glslangValidator to the PATH: `echo 'PATH=$(readlink -e /c/VulkanSDK/*/Bin/):$PATH' >> ~/.bashrc`
 
 ### Clone the yuzu repository with Git
 
-**Master:**
   ```bash
   git clone --recursive https://github.com/yuzu-emu/yuzu.git
   cd yuzu
-  ```
-
-**Mainline (no assert):**
-  ```bash
-  git clone --recursive https://github.com/yuzu-emu/yuzu-mainline.git
-  cd yuzu-mainline
   ```
 
 ### Run the following commands to build yuzu (dynamically linked build)
 
 ```bash
 mkdir build && cd build
-cmake -G "MSYS Makefiles" -DCMAKE_MAKE_PROGRAM=mingw32-make -DCMAKE_BUILD_TYPE=Release ..
-mingw32-make -j4
+cmake -G "MSYS Makefiles" ..
+make -j$(nproc)
 # test yuzu out with
 ./bin/yuzu.exe
 ```
 
 * *(Note: This build is not a static build meaning that you need to include all of the DLLs with the .exe in order to use it!)*
+
+e.g.
+```Bash
+cp externals/ffmpeg-*/bin/*.dll bin/
+```
 
 ### Building without Qt (Optional)
 
