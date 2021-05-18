@@ -34,7 +34,7 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
 
 - Arch / Manjaro:
   - `sudo pacman -Syu --needed base-devel boost catch2 cmake ffmpeg fmt git glslang libzip lz4 mbedtls ninja nlohmann-json openssl opus python-pip python2 qt5 sdl2 zlib zstd`
-  - `python3.6 -m pip install --user conan`
+  - `python3 -m pip install --user conan`
   - GCC 10 or later is required.
 - Ubuntu / Linux Mint / Debian:
   - `sudo apt-get install build-essential cmake g++-10 gcc-10 git glslang-tools libavcodec-dev libavutil-dev libboost-context-dev libboost-dev liblz4-dev libmbedtls-dev libopus-dev libqt5opengl5-dev libsdl2-dev libssl-dev libswscale-dev libzip-dev libzstd-dev ninja-build python python3-pip qtbase5-dev qtbase5-private-dev qtwebengine5-dev zlib1g-dev`
@@ -46,7 +46,7 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
 cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
 ```
 - Fedora:
-  - `sudo dnf install SDL2-devel alsa-lib-devel boost-devel cmake ffmpeg-devel fmt-devel gcc git glslang jack-audio-connection-kit-devel libzip-devel libzip-tools libzstd-devel lz4-devel make mbedtls-devel ninja-build openssl-devel opus-devel pulseaudio-libs-devel python-pip python2 qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel zlib-devel`
+  - `sudo dnf install SDL2-devel alsa-lib-devel boost-devel cmake ffmpeg-devel fmt-devel gcc git glslang libXext-devel libzip-devel libzip-tools libzstd-devel lz4-devel make mbedtls-devel ninja-build openssl-devel opus-devel pulseaudio-libs-devel python-pip python2 qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel zlib-devel`
   - `pip install --user conan`
   - Fedora 32 or later is required.
   - Users need to set up [RPM Fusion](https://rpmfusion.org/Configuration) (free) to install FFmpeg dependencies.
