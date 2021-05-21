@@ -50,12 +50,6 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | [60 FPS](https://cdn.discordapp.com/attachments/700604958126374953/776863923126140999/SPOILER_GoodJob60FPS.zip) | Makes the game run full speed at 60 FPS | `1.0.0` | Kirby567fan
 
 
-#
-
-### kirby Star Allies
-| Mod | Description | Applies to | Credit |
-| --- | ----------- | ---------- | ------ |
-| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/762100061295345674/60_FPS.zip) | Makes the game run full speed at 60 FPS | `1.0.0` `4.0.0` | Kirby567fan |
 
 #
 
