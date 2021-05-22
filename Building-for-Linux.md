@@ -59,10 +59,11 @@ cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
   - Additional notes:
     - `/opt/rh/gcc-toolset-10/root/usr/bin` must be added to the front of the `PATH`.
     - [CMake](https://cmake.org/download/) (cmake-[version]-linux-x86_64.tar.gz) and [glslangValidator](https://github.com/KhronosGroup/glslang/releases/latest) (glslang-master-linux-Release.zip) must be downloaded and installed separately. To "install" them, extract the archives and copy their contents into the `$HOME/.local/`, such that the directory structure looks like `$HOME/.local/bin` and so on.
-- Gentoo (this list needs updated with GCC 10, glsLangValidator, FFmpeg):
-  - `emerge dev-vcs/git =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl`
+- Gentoo:
+  - This listing needs updated, but no yuzu staff member knows how to update it, and no community members have been willing to update it. Temporarily commented out to prevent confusion.
+<!--  - `emerge dev-vcs/git =sys-devel/gcc-7.1.0 dev-util/ninja dev-util/cmake media-libs/libsdl2 dev-qt/qtcore dev-qt/qtopengl`
   - `pip install --user conan`
-  - GCC 10 or later is required.
+  - GCC 10 or later is required. -->
 
 After installing Conan, `$HOME/.local/bin` needs to be included in the `PATH` variable. Check your `$HOME/.profile` and `$HOME/.bashrc` files, if `PATH=$HOME/.local/bin:$PATH` is not present, append that line to one of either file, then log out and log back in. Fedora and Ubuntu by default already have this covered, though Ubuntu users should log out and log back in to enable it.
 
