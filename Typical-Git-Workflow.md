@@ -81,4 +81,4 @@ To append changes to the most recently made commit, simply perform the following
     * `git push origin new-branch-name --force`
 3. Merge your branch in
     * Always merge using the >merge< button in the GitHub pull request
-    * If GitHub says the branch cannot be merged automatically, you've likely done something incorrectly (e.g. you did not fully rebase changes from `upstream/master` into your branch). If things don't work for you, don't hesitate to ask us for help @ #yuzu on [freenode](http://webchat.freenode.net/) or @ #yuzu-general on [Discord](https://discordapp.com/invite/u77vRWY). Mastering Git is not as easy as it might sound, but we'll happily help you get started.
+    * If GitHub says the branch cannot be merged automatically, you've likely done something incorrectly (e.g. you did not fully rebase changes from `upstream/master` into your branch). If things don't work for you, don't hesitate to ask us for help @ #yuzu-emu on [libera](https://web.libera.chat) or @ #yuzu-general on [Discord](https://discordapp.com/invite/u77vRWY). Mastering Git is not as easy as it might sound, but we'll happily help you get started.
