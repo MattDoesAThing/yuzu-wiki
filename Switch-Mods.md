@@ -130,8 +130,8 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
-| [ReTextured 1.6](https://bit.ly/3rKjhYz) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports all game DLCs | `1.2.0` `1.2.1` `1.3.0` `1.3.1`| BSoD Gaming
-| [ReTextured 1.6 Alternate Link](http://bit.ly/37VnVL3) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports all game DLCs | `1.2.0` `1.2.1` `1.3.0` `1.3.1`| BSoD Gaming
+| [ReTextured 1.6](https://bit.ly/3rKjhYz) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports all game Updates & DLC | `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| BSoD Gaming
+| [ReTextured 1.6 Alternate Link](http://bit.ly/37VnVL3) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports all game Updates & DLC | `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| BSoD Gaming
 
 #
 
