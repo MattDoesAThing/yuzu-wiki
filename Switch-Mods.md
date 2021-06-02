@@ -6,7 +6,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 ### Animal Crossing: New Horizons
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Ultrawide](https://cdn.discordapp.com/attachments/356187763139280896/733751857784291379/Ultrawide.zip) | Stretches the game to fit onto ultrawide displays. The mod is currently set up for 2560x1080 displays. | `1.2.0` `1.3.0` `1.3.1` | M&M, theboy181, Claude von Riegan
+| [Ultrawide](https://cdn.discordapp.com/attachments/430158879465144320/849710842500481034/Ultrawide.zip) | Stretches the game to fit onto ultrawide displays. The mod is currently set up for 2560x1080 displays. | `1.2.0` `1.3.0` `1.3.1` | theboy181, Claude von Riegan
 
 # 
 
@@ -146,7 +146,7 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798515462069682186/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
-| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/798515475969474580/60_Lobby.zip) | Makes Inkopolis Square and Octo Expansion credits run at 60fps instead of 30fps. | `1.0.0` `5.1.0` `5.2.2` | theboy181, M&M
+| [60 FPS](https://cdn.discordapp.com/attachments/430158879465144320/849710845063069746/60_Lobby.zip) | Makes Inkopolis Square and Octo Expansion credits run at 60fps instead of 30fps. | `1.0.0` `5.1.0` `5.2.2` | theboy181
 | [30 FPS](https://cdn.discordapp.com/attachments/830855276437438485/840784088583766016/30FPS.zip) | Makes the whole game run at 30fps instead of 60fps for low end PC's, May make the ingame Timer half of the speed in some levels from the Octo Expansion dlc | `5.4.0` | theboy181, shadow, AndNowIsTheTime
 
 
@@ -168,9 +168,9 @@ For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.o
 | --- | ----------- | ---------- | ------ |
 | [Clean UI](https://gamebanana.com/guis/download/34208) | Removes coins, moons, health, and a few other UI elements from the game. | `Any` | Eloeri
 | [Disable Deferred Shading](https://cdn.discordapp.com/attachments/512678820092968971/710314369333985310/Disable_Deferred_Shading.zip) | Disables deferred shading, fixing a shadow issue for AMD Navi GPUs running under the Vulkan backend. | `1.0.0` | theboy181
-| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798516203940216832/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.3.0` | theboy181, M&M
-| [Disable FXAA](https://cdn.discordapp.com/attachments/356187763139280896/798516217748127754/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181, M&M
-| [Disable Camera Motion Blur](https://cdn.discordapp.com/attachments/356187763139280896/798516190602330172/Disable_Camera_Motion_Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` `1.3.0` | theboy181, M&M
+| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/430158879465144320/849710847746900017/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.3.0` | theboy181
+| [Disable FXAA](https://cdn.discordapp.com/attachments/430158879465144320/849710851162112070/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181
+| [Disable Camera Motion Blur](https://cdn.discordapp.com/attachments/356187763139280896/798516190602330172/Disable_Camera_Motion_Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` `1.3.0` | theboy181
 | [Disable Web Applet](https://cdn.discordapp.com/attachments/512678820092968971/708744273801117726/SMO_Web_Applet_Bypass.7z) | Disables the Web Applet, fixing a crash when traveling from Cascade to Sand Kingdom for the first time. | `1.0.0` | theboy181
 | [Unlimited FPS](https://cdn.discordapp.com/attachments/356187763139280896/801792154560495616/Unlocked_FPS.zip) | Unlimits the framerate, allowing higher than 60 FPS Gameplay. Past 60 FPS will increase game speed  | `1.0.0` | theboy181
 #
