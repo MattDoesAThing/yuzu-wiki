@@ -1,6 +1,8 @@
 ### **Usage**
 For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.org/help/feature/game-modding/).
 
+There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownloader), which will detect your games within Yuzu and download the Mods for them off this page. The Mod Downloader is an external program and Yuzu should not be running while using it. The mods downloaded will be placed within the games specific mod directory.
+
 ---
 
 ### Animal Crossing: New Horizons
