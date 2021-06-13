@@ -37,7 +37,7 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
   - `python3 -m pip install --user conan`
   - GCC 10 or later is required.
 - Ubuntu / Linux Mint / Debian:
-  - `sudo apt-get install build-essential cmake g++-10 gcc-10 git glslang-tools libavcodec-dev libavutil-dev libboost-context-dev libboost-dev liblz4-dev libmbedtls-dev libopus-dev libqt5opengl5-dev libsdl2-dev libssl-dev libswscale-dev libzip-dev libzstd-dev ninja-build python python3-pip qtbase5-dev qtbase5-private-dev qtwebengine5-dev zlib1g-dev`
+  - `sudo apt-get install autoconf cmake g++-10 gcc-10 git glslang-tools libglu1-mesa-dev libhidapi-dev libtool libudev-dev libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-xinerama0 libxcb-xkb1 libxext-dev libxkbcommon-x11-0 mesa-common-dev nasm ninja-build python3 python3-pip`
   - `pip3 install --user conan`
   - Ubuntu 20.04, Linux Mint 20, or Debian Bullseye or later is required.
   - Users need to manually specify building with GCC 10. This can be done by adding the parameters `-DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10` when running CMake. i.e.
