@@ -8,16 +8,19 @@ You'll need to download and install the following to build yuzu:
 
   * [GCC](https://gcc.gnu.org/) v10+ (for C++20 support) & misc
   * [CMake](https://www.cmake.org/) 3.15+
-  * [Qt](https://qt-project.org/downloads) 5.12+
 
 The following are handled by yuzu's externals, but installing them via the package manager will avoid building them with yuzu:
 
-  * [SDL2](https://www.libsdl.org/download-2.0.php) 2.0.14+
   * [FFmpeg](https://ffmpeg.org/)
+  * [SDL2](https://www.libsdl.org/download-2.0.php) 2.0.14+
 
 If version 1.73.0 is not already installed, pre-compiled binaries for Boost 1.75.0 will be downloaded from [here](https://github.com/yuzu-emu/ext-linux-bin) automatically by CMake:
 
   * [Boost](https://www.boost.org/users/download/) 1.73.0+
+
+If version 5.12.5 is not already installed, pre-compiled binaries for Qt 5.15.2 will be downloaded from [here](https://github.com/yuzu-emu/ext-linux-bin) automatically by CMake:
+
+  * [Qt](https://qt-project.org/downloads) 5.12+
 
 All other dependencies will be downloaded by [Conan](https://conan.io/downloads.html) if needed:
 
@@ -46,10 +49,9 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
 cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
 ```
 - Fedora:
-  - `sudo dnf install SDL2-devel alsa-lib-devel boost-devel cmake ffmpeg-devel fmt-devel gcc git glslang libXext-devel libzip-devel libzip-tools libzstd-devel lz4-devel make mbedtls-devel ninja-build openssl-devel opus-devel pulseaudio-libs-devel python-pip python2 qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel zlib-devel`
+  - `sudo dnf install autoconf cmake gcc gcc-c++ git glslang hidapi-devel libXext-devel libtool libusbx-devel nasm python3 python3-pip qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel`
   - `pip install --user conan`
   - Fedora 32 or later is required.
-  - Users need to set up [RPM Fusion](https://rpmfusion.org/Configuration) (free) to install FFmpeg dependencies.
 - RHEL-like (such as Rocky Linux):
   - Though this should have been similar to Fedora, this ends up being a tad bit more involved due to the distro's older or missing packages. Fortunately, at least Rocky Linux 8 makes `g++-10` available directly in the package manager, so it's just a matter of finding the other smaller dependencies. (CentOS 8 does **not** have `g++-10`, so it is even less trivial to build yuzu there.)
   - `sudo dnf config-manager --set-enabled powertools # Required for ninja-build and nasm`
