@@ -17,3 +17,4 @@ Available homebrew demos:
 | Snes9x-2010 | https://gbatemp.net/attachments/retroarch_switch-nro-zip.115733/ | Unlicensed | https://github.com/libretro/snes9x2010 | An SNES emulator for RetroArch. ROMs need to be provided separately, uses LibTransistor |
 | Spacenx     | https://github.com/vgmoose/spacenx/releases/latest | MIT | https://github.com/vgmoose/spacenx | Download the `NRO` file.
 | Tic Tac Toe | https://sh3rlock.ch/ttt.nro | Unlicensed | https://sh3rlock.ch/ttt.zip | A simple tic-tac-toe game, uses LibNX |
+| Ultimate Mod Manager | https://github.com/ultimate-research/UltimateModManager/releases/latest | MIT | https://github.com/ultimate-research/UltimateModManager | A Switch homebrew application for installing mods for Smash Ultimate. |
