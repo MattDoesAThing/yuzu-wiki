@@ -11,7 +11,7 @@ For recent versions of distros such as Ubuntu 20.04 and Fedora 32, the default i
 ```
 sudo add-apt-repository ppa:kisak/kisak-mesa
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get dist-upgrade
 ```
 
 - Fedora 32, 33, Rawhide: The stable version of Mesa is recommended.
@@ -51,7 +51,7 @@ The recommended Vulkan driver is Mesa's RADV driver on either LLVM or ACO (the i
 ```
 sudo add-apt-repository ppa:kisak/kisak-mesa
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get dist-upgrade
 ```
 
 - Fedora 33, Rawhide: The stable version of Mesa is recommended.
