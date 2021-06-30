@@ -172,7 +172,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [Disable Deferred Shading](https://cdn.discordapp.com/attachments/512678820092968971/710314369333985310/Disable_Deferred_Shading.zip) | Disables deferred shading, fixing a shadow issue for AMD Navi GPUs running under the Vulkan backend. | `1.0.0` | theboy181
 | [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/430158879465144320/849710847746900017/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.3.0` | theboy181
 | [Disable FXAA](https://cdn.discordapp.com/attachments/430158879465144320/849710851162112070/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181
-| [Disable Camera Motion Blur](https://cdn.discordapp.com/attachments/356187763139280896/798516190602330172/Disable_Camera_Motion_Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` `1.3.0` | theboy181
+| [Disable Camera Motion Blur](https://cdn.discordapp.com/attachments/356187763139280896/798516190602330172/Disable_Camera_Motion_Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` | theboy181
 | [Disable Web Applet](https://cdn.discordapp.com/attachments/512678820092968971/708744273801117726/SMO_Web_Applet_Bypass.7z) | Disables the Web Applet, fixing a crash when traveling from Cascade to Sand Kingdom for the first time. | `1.0.0` | theboy181
 | [Unlimited FPS](https://cdn.discordapp.com/attachments/356187763139280896/801792154560495616/Unlocked_FPS.zip) | Unlimits the framerate, allowing higher than 60 FPS Gameplay. Past 60 FPS will increase game speed  | `1.0.0` | theboy181
 #
