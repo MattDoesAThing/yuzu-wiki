@@ -40,7 +40,7 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
   - `python3 -m pip install --user conan`
   - GCC 10 or later is required.
 - Ubuntu / Linux Mint / Debian:
-  - `sudo apt-get install autoconf cmake g++-10 gcc-10 git glslang-tools libglu1-mesa-dev libhidapi-dev libtool libudev-dev libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-xinerama0 libxcb-xkb1 libxext-dev libxkbcommon-x11-0 mesa-common-dev nasm ninja-build python3 python3-pip`
+  - `sudo apt-get install autoconf cmake g++-10 gcc-10 git glslang-tools libasound2 libglu1-mesa-dev libhidapi-dev libpulse-dev libtool libudev-dev libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-xinerama0 libxcb-xkb1 libxext-dev libxkbcommon-x11-0 mesa-common-dev nasm ninja-build python3 python3-pip`
   - `pip3 install --user conan`
   - Ubuntu 20.04, Linux Mint 20, or Debian Bullseye or later is required.
   - Users need to manually specify building with GCC 10. This can be done by adding the parameters `-DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10` when running CMake. i.e.
@@ -49,7 +49,7 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
 cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
 ```
 - Fedora:
-  - `sudo dnf install autoconf cmake gcc gcc-c++ git glslang hidapi-devel libXext-devel libtool libusbx-devel nasm python3 python3-pip qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel`
+  - `sudo dnf install alsa-lib-devel autoconf cmake gcc gcc-c++ git glslang hidapi-devel libXext-devel libtool libusbx-devel nasm pulseaudio-libs-devel python3 python3-pip qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel`
   - `pip install --user conan`
   - Fedora 32 or later is required.
 - RHEL-like (such as Rocky Linux):
