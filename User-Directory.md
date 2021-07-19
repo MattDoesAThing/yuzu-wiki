@@ -6,7 +6,7 @@ yuzu's user directory is where the emulator persists the emulated Switchs NAND, 
 
  - on Windows, the path is `C:/Users/[your-user-name]/AppData/Roaming/yuzu/`. Note that the folder `AppData` is hidden by default, so you need to change the configuration to view it.
    - in old version of yuzu, the user directory used to be the `user` folder in the same directory as the yuzu executable.
- - on macOS and Linux, the path is `~/.local/share/yuzu-emu/`. Note that the folder `.local` is hidden on most machines, so you need to change the configuration to view it. **Additionally, the `config` folder is located in `~/.config/yuzu-emu/`**.
+ - on macOS and Linux, the path is `~/.local/share/yuzu/`. Note that the folder `.local` is hidden on most machines, so you need to change the configuration to view it. **Additionally, the `config` folder is located in `~/.config/yuzu/`**.
 
 There are at least three directories within the user directory: `config`, `nand`, and `sdmc`. For users that have dumped the shared fonts from a Switch console, there will also be a `sysdata` directory. See below for details about each directory and what data is stored within.
 
