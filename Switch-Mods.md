@@ -51,6 +51,14 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://cdn.discordapp.com/attachments/700604958126374953/776863923126140999/SPOILER_GoodJob60FPS.zip) | Makes the game run full speed at 60 FPS | `1.0.0` | Kirby567fan
 
+#
+
+### Kirby Star Allies
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/868554634510356510/60FPS.zip) | Makes the game run full speed at 60 FPS | `4.0.0` | theboy181
+
+
 
 
 #
