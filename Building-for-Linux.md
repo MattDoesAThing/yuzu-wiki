@@ -50,7 +50,6 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
 ```
 cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
 ```
-  -  Users need to manually specify building with QT Web Engine enabled.  This is done using the parameter `-DYUZU_USE_QT_WEB_ENGINE=ON` when running CMake. 
 
 - Fedora:
   - `sudo dnf install alsa-lib-devel autoconf cmake gcc gcc-c++ git glslang hidapi-devel libXext-devel libtool libusbx-devel nasm pulseaudio-libs-devel python3 python3-pip qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel`
