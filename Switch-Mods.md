@@ -34,6 +34,13 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704783542638608394/CTRNF_60fps.zip) | Makes the game run full speed at 60 FPS | `1.0.7` `1.0.9` `1.0.10` `1.0.11` `1.0.12` `1.0.13` `1.0.14` `1.0.15` | Kirby567fan, masagrator, Mauste
 
+#
+
+### Donkey Kong Country Tropical Freeze
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [4K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Donkey%20Kong%20Country:%20Tropical%20Freeze/%5B0100C1F0051B6000%5D/1.0.0/4K-2K.rar) | Makes the game render at 2160p resolution | 1.0.0 | theboy181
+
 
 #
 
