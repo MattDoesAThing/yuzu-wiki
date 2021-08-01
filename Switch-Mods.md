@@ -177,8 +177,6 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [Disable-Bloom](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Disable-Bloom.rar) | Disables bloom | `1.0.0` | theboy181
 | [Max Quality Mode](https://github.com/theboy181/switch-cheat-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Quality-Mode.rar) | Makes the game render at enhanced quality settings, may greatly affect performance | `1.0.0` | theboy181
 
-
-
 #
 
 ### Super Mario Odyssey
@@ -216,6 +214,13 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [Infinite Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | `1.0.0` | CJBoK
 | [Clean UI](https://gamebanana.com/guis/download/34940) | Removes hearts, weapons icon, and interaction prompts. | `Any` | Eloeri
 | [Stable 60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/724250990928461834/Stable-60fps-v2.zip) | Disables the Dynamic switching from 60 to 30 FPS | `1.0.0` | theboy181
+
+### The Legend of Zelda: Skyward Sword HD
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [30 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/The%20Legend%20of%20Zelda:%20Skyward%20Sword%20HD/%5B01002DA013484000%5D/1.0.0/30fps.rar) | Makes the game fullspeed at 30 FPS. | `1.0.0` | theboy181
+| [1440p/2K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/The%20Legend%20of%20Zelda:%20Skyward%20Sword%20HD/%5B01002DA013484000%5D/1.0.0/2K.rar) | Allows the game to render at 1440p/2K Resolution (Greatly affects performance)| `1.0.0` | theboy181
+| [2160p/4K resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/The%20Legend%20of%20Zelda:%20Skyward%20Sword%20HD/%5B01002DA013484000%5D/1.0.0/4K.rar) | Allows the game to render at 2160p/4K Resolution (Greatly affects performance). | `1.0.0` | theboy181
 
 #
 
