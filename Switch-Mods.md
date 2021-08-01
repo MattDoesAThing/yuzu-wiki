@@ -176,7 +176,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [Disable-Dynamic-Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Disable-Dynamic-Resolution%20-v2.rar) | Disables dynamic resolution, greatly improving image quality | `1.0.0` | theboy181
 | [Disable-Bloom](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Disable-Bloom.rar) | Disables bloom | `1.0.0` | theboy181
 | [Max Quality Mode](https://github.com/theboy181/switch-cheat-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Quality-Mode.rar) | Makes the game render at enhanced quality settings, may greatly affect performance | `1.0.0` | theboy181
-| [120 FPS](https://github.com/theboy181/switch-cheat-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/120fps.rar) | Unlocked the framerate to 120 FPS. Gamespeed is faster when over 60 FPS. Useful for benchmarking | `1.0.0` | theboy181
+
 
 
 #
@@ -190,7 +190,6 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [Disable FXAA](https://cdn.discordapp.com/attachments/430158879465144320/849710851162112070/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181
 | [Disable Camera Motion Blur](https://cdn.discordapp.com/attachments/356187763139280896/798516190602330172/Disable_Camera_Motion_Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` | theboy181
 | [Disable Web Applet](https://cdn.discordapp.com/attachments/512678820092968971/708744273801117726/SMO_Web_Applet_Bypass.7z) | Disables the Web Applet, fixing a crash when traveling from Cascade to Sand Kingdom for the first time. | `1.0.0` | theboy181
-| [Unlimited FPS](https://cdn.discordapp.com/attachments/356187763139280896/801792154560495616/Unlocked_FPS.zip) | Unlimits the framerate, allowing higher than 60 FPS Gameplay. Past 60 FPS will increase game speed  | `1.0.0` | theboy181
 #
 
 ### Super Smash Bros. Ultimate
