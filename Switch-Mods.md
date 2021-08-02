@@ -12,7 +12,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 
 # 
 
-### Captain Toad Treasure Tracker
+### Captain Toad: Treasure Tracker
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Disable DOF](https://cdn.discordapp.com/attachments/356187763139280896/726756195192537128/Disable_DOF.zip) | Disabled in-game Depth of field | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
@@ -60,12 +60,10 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 
 #
 
-### Kirby Star Allies
+### Kirby: Star Allies
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/868554634510356510/60FPS.zip) | Makes the game run full speed at 60 FPS | `4.0.0` | theboy181
-
-
 
 
 #
@@ -112,14 +110,14 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 
 #
 
-### Pokemon Let's Go Eevee
+### Pokemon, Let's Go Eevee!
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/818409316264050688/60_FPS_Eevee.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.0.2` | theboy181, DuIslingr
 
 #
 
-### Pokemon Let's Go Pikachu 
+### Pokemon, Let's Go Pikachu! 
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/818409317891571772/60_FPS_Pikachu.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.0.2` | theboy181, DuIslingr
