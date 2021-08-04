@@ -186,6 +186,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [Disable FXAA](https://cdn.discordapp.com/attachments/430158879465144320/849710851162112070/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181
 | [Disable Camera Motion Blur](https://cdn.discordapp.com/attachments/356187763139280896/798516190602330172/Disable_Camera_Motion_Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` | theboy181
 | [Disable Web Applet](https://cdn.discordapp.com/attachments/512678820092968971/708744273801117726/SMO_Web_Applet_Bypass.7z) | Disables the Web Applet, fixing a crash when traveling from Cascade to Sand Kingdom for the first time. | `1.0.0` | theboy181
+| [Screenshot Mode Graphics](https://mega.nz/file/zXRm3TgB#ks0vf90a9UmxqWSoL_ht7Rfz0EAZ8EWltPa14UU0TtQ) | Makes the game render at enhanced quality settings, may greatly affect performance | `1.0.0` `1.3.0` | theboy181
 #
 
 ### Super Smash Bros. Ultimate
