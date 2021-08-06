@@ -1,4 +1,4 @@
-###  Using the Unlock frame rate feature within yuzu can increase frame rates in many games past their native frame rate, But some games may not be optimized for higher frame rates and may cause noticeable glitches (particularly with simulated physics) the more the frame rate increases, The faster the game's Physics run and as such this lists purpose is to show what games run at normal speed above their native framerate.     
+###  Using the Unlock frame rate feature within yuzu (CTRL+U) can increase frame rates in many games past their native frame rate, But some games may not be optimized for higher frame rates and may cause noticeable glitches (particularly with simulated physics) the more the frame rate increases, The faster the game's Physics run and as such this lists purpose is to show what games run at normal speed above their native framerate.     
 
       
 ***
