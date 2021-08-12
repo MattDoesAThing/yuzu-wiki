@@ -138,6 +138,7 @@ After building, the binaries `yuzu` and `yuzu-cmd` (depending on your build opti
 ```bash
 cd data
 gdb ../build/bin/yuzu            # Start GDB
+(gdb) handle SIGSEGV nostop      # Disable SIGSEGV exceptions, which are used by yuzu for memory access
 (gdb) run                        # Run yuzu under GDB
 <crash>
 (gdb) bt                         # Print a backtrace of the entire callstack to see which codepath the crash occurred on
