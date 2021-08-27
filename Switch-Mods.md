@@ -71,7 +71,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Luigi's Mansion 3
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798514078255022140/Disable-Dynamic-Resoluiton.zip) | Disables the game's automatic adjustment of resolution. Required if you use Async GPU | `1.0.0` `1.1.0` | theboy181
+| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/880802012709679145/Disable-Dynamic-Resolution.zip) | Disables the game's automatic adjustment of resolution. Required for playing this title | `1.0.0` | theboy181
 | [Disable Lense Flare](https://cdn.discordapp.com/attachments/356187763139280896/870809283661545492/Disable-Lens-Flare.zip) | Disables the game's  Flashlight Lense Flare. A workaround for it flickering on the Vulkan API | `1.0.0` | theboy181
 | [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704784348129525920/LM3_60fps.zip) | Makes the game run full speed at 60 FPS | `1.0.0` `1.2.1` `1.3.0` | theboy181, Kirby567fan
 
