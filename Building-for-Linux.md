@@ -12,7 +12,7 @@ You'll need to download and install the following to build yuzu:
 The following are handled by yuzu's externals, but installing them via the package manager will avoid building them with yuzu:
 
   * [FFmpeg](https://ffmpeg.org/)
-  * [SDL2](https://www.libsdl.org/download-2.0.php) 2.0.14+
+  * [SDL2](https://www.libsdl.org/download-2.0.php) 2.0.16+
 
 If version 1.73.0 is not already installed, pre-compiled binaries for Boost 1.75.0 will be downloaded from [here](https://github.com/yuzu-emu/ext-linux-bin) automatically by CMake:
 
