@@ -104,7 +104,7 @@ You are likely experiencing Shader Caching. Shaders are small programs running o
 
 * When launching a game, the shader cache is loaded. To speed up this process there exists an additional "precompiled" cache. This cache may get reset every time you update yuzu or install a new GPU driver. The precompiled cache will then be compiled from scratch, causing a longer load time.
 
-Currently, the Vulkan renderer does not have a disk shader cache. This means that subsequent game loads will require the building of shaders each time.
+Vulkan and OpenGL have separate caches, but different OpenGL backends share the same cache. This means that on Nvidia you can build up shaders with less stutter on GLASM, then use GLSL for more performance.
 
 `IMPORTANT: Since the cache stores parts of the game, we don't condone sharing or downloading these, since it is considered piracy`
 
