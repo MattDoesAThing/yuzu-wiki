@@ -100,6 +100,14 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [4K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/MONSTER%20HUNTER%20GENERATIONS%20ULTIMATE/%5B0100770008DD8000%5D/1.4.0/4K-2K.rar) | Renders the game at 4K Docked | `1.4.0` | theboy181
 | [120 FPS](https://github.com/theboy181/switch-cheat-mods/raw/main/MONSTER%20HUNTER%20GENERATIONS%20ULTIMATE/%5B0100770008DD8000%5D/1.4.0/120fps-v1.4.0.rar) | Unlocks the framerate to run at 120 FPS | `1.4.0` | theboy181
 
+#
+
+### No More Heroes 3
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/886714182165225483/60FPS.zip) | Unlocks the framerate to run at 60 FPS during gameplay, the open world, and cutscenes. | `1.0.1` | Kirby567Fan
+| [Unlocked FPS](https://cdn.discordapp.com/attachments/495758692495523854/886714247726379008/UnlockedFPS.zip) | Fully unlocks the framerate during gameplay, the open world, and cutscenes. | `1.0.1` | Kirby567Fan
+| [240 FPS](https://cdn.discordapp.com/attachments/495758692495523854/886714351371825233/240FPS.zip) | Unlocks the framerate to run at 240 FPS during gameplay, the open world, and cutscenes. Use if the "Unlocked FPS" mod doesn't work, but it should.| `1.0.1` | Kirby567Fan
 
 #
 
