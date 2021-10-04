@@ -74,7 +74,7 @@ On Windows, all library dependencies are automatically included within the `exte
 
   ![20](https://i.imgur.com/CkQgOFW.png)
 
-Feel free to ask us in the IRC channel #yuzu-emu @ [libera](https://web.libera.chat) or on [Discord](https://discord.gg/XQV6dn9) if you have issues.
+Feel free to ask us in the IRC channel #yuzu-emu @ [libera](https://web.libera.chat) or on [Discord](https://discord.com/invite/u77vRWY) if you have issues.
 
 ## Method II: MinGW-w64 Build with MSYS2
 
