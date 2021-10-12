@@ -48,15 +48,15 @@ Emulation -> Configure... -> General -> Debug tab. Change the Global Log Filter 
 
 The filter string consists of a space-separated list of filter rules, each of the format:
 
-  `Class.Subclass:Severity` -- a log class name, with subclasses separated using periods.  
-  `*:Severity` -- wildcards are allowed and can be used to apply a rule to all classes. 
+  - `Class.Subclass:Severity` -- a log class name, with subclasses separated using periods.  
+  - `*:Severity` -- wildcards are allowed and can be used to apply a rule to all classes. 
 
 A severity level name which will be set as the minimum logging level of the matched classes. Rules are applied left to right, with later rules overriding previous ones in the sequence.
 
 A few examples of filter rules: 
-  - `*:Info` – Resets the level of all classes to Info.
-  - `Service:Info` – Sets the level of Service to Info (without affecting its subclasses).
-  - `Service.FS:Trace` – Sets the level of the Service.FS class to Trace.
+  - `*:Info` -- Resets the level of all classes to Info.
+  - `Service:Info` -- Sets the level of Service to Info (without affecting its subclasses).
+  - `Service.FS:Trace` -- Sets the level of the Service.FS class to Trace.
 
 ## Support
 We happily accept monetary donations or donated games and hardware. Please see our [donations page](https://yuzu-emu.org/donate/) for more information on how you can contribute to yuzu. Any donations received will go towards things like:
