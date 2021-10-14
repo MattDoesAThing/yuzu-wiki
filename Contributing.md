@@ -12,7 +12,7 @@ When generating the native build script for your toolset, cmake will try to find
 
 * Windows: do nothing; cmake will download a pre built binary for MSVC and MINGW. MSVC users can additionally install a clang format Visual Studio extension to add features like format on save.
 * macOS: run `brew install clang-format`.
-* Linux: use your package manager to get an appropriate binary.
+* Linux: use your package manager to get an appropriate binary (e.g. on Fedora: `sudo dnf install clang-tools-extra`).
 
 If clang format is found, then cmake will add a custom build target that can be run at any time to run clang format against *all* source files and update the formatting in them. This should be used before making a pull request so that the reviewers can spend more time reviewing the code instead of having to worry about minor style violations. On MSVC, you can run clang format by building the clang-format project in the solution. On macOS, you can either use the Makefile target `make clang-format` or by building the clang-format target in XCode. For Makefile builds, you can use the clang-format target with `make clang-format`
 
