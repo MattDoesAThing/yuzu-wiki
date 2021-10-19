@@ -96,8 +96,8 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Metroid Dread
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable FXAA](https://cdn.discordapp.com/attachments/495758692495523854/895966089626910741/Disable_FXAA.7z) | Disables the anti-aliasing of the game. | `1.0.0` | Edgarska
 | [Disable Bloom](https://cdn.discordapp.com/attachments/495758692495523854/895966177132691456/Disable_Bloom.7z) | Disables Bloom effect. Might break other blur effects. | `1.0.0` | Edgarska
+| [Disable FXAA](https://cdn.discordapp.com/attachments/495758692495523854/895966089626910741/Disable_FXAA.7z) | Disables the anti-aliasing of the game. | `1.0.0` | Edgarska
 
 #
 
