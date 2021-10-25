@@ -33,6 +33,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704783542638608394/CTRNF_60fps.zip) | Makes the game run full speed at 60 FPS | `1.0.7` `1.0.9` `1.0.10` `1.0.11` `1.0.12` `1.0.13` `1.0.14` `1.0.15` | Kirby567fan, masagrator, Mauste
+| [Unlock Everything](https://cdn.discordapp.com/attachments/495758692495523854/902304724555014184/CTRNF_UnlockEverything.zip) | Unlocks all unlockables and Pit Stop items | `1.0.15` | DaBlackDeath, iCeParadox64
 
 #
 
