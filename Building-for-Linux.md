@@ -18,9 +18,9 @@ If version 1.73.0 is not already installed, pre-compiled binaries for Boost 1.75
 
   * [Boost](https://www.boost.org/users/download/) 1.73.0+
 
-If version 5.12.5 is not already installed, pre-compiled binaries for Qt 5.15.2 will be downloaded from [here](https://github.com/yuzu-emu/ext-linux-bin) automatically by CMake:
+If version 5.15.2 is not already installed, pre-compiled binaries for Qt 5.15.2 will be downloaded from [here](https://github.com/yuzu-emu/ext-linux-bin) automatically by CMake:
 
-  * [Qt](https://qt-project.org/downloads) 5.12+
+  * [Qt](https://qt-project.org/downloads) 5.15+
 
 All other dependencies will be downloaded by [Conan](https://conan.io/downloads.html) if needed:
 
