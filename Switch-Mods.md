@@ -191,6 +191,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [Improved LOD High + 60 FPS](https://download857.mediafire.com/axrpq4ksrheg/di6pjk6bklurlq0/60+FPS%2BImproved+LOD+High.zip) | Greatly increases the draw distance and applies a 60 FPS cap. | `1.0.0` `1.0.1` | Sandvich_Hero, Pug O
 | [Improved LOD High](https://www.mediafire.com/file/iugoagmn2tvaqcb/Improved_LOD_High.zip/file) | Greatly increases the draw distance With the Vanilla 30 FPS cap. | `1.0.0` `1.0.1` | Sandvich_Hero, Pug O
 | [Improved LOD Medium + 60 FPS](https://download1586.mediafire.com/d1rk1bc7ep0g/7kgiemhx9es5i0g/60+FPS%2BImproved+LOD+Medium.zip) | Mildly increases the draw distance and applies a 60 FPS cap, may improve performance over High LOD.| `1.0.0` `1.0.1` | Sandvich_Hero, Pug O
+| [Improved LOD Medium](https://www.mediafire.com/file/18m2b3j5r69xmk6/Improved_LOD_Medium.zip/file) | Mildly increases the draw distance with the Vanilla 30 FPS cap, may improve performance over High LOD.| `1.0.0` `1.0.1` | Sandvich_Hero, Pug O
 
 #
 
