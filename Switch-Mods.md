@@ -187,6 +187,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Shin Megami Tensei V
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
+| [2K Shadow Mod Collection](https://www.mediafire.com/file/f3dhlbob8gomv80/SMT_V_2k_Shadow_Collection.zip/file) | A collection including each of the SMT V mods listed below, but with added high res shadows. | `1.0.0` `1.0.1` | Sandvich_Hero, Pug O
 | [60 FPS](https://download1081.mediafire.com/pg9fmdvywobg/te5kdilu00yjs79/60+FPS.zip) | Increases the framerate to a 60 FPS cap. | `1.0.0` `1.0.1` | Sandvich_Hero, Pug O
 | [Improved LOD High + 60 FPS](https://download857.mediafire.com/axrpq4ksrheg/di6pjk6bklurlq0/60+FPS%2BImproved+LOD+High.zip) | Greatly increases the draw distance and applies a 60 FPS cap. | `1.0.0` `1.0.1` | Sandvich_Hero, Pug O
 | [Improved LOD High](https://download2266.mediafire.com/dqx7dsttmc6g/iugoagmn2tvaqcb/Improved_LOD_High.zip) | Greatly increases the draw distance With the Vanilla 30 FPS cap. | `1.0.0` `1.0.1` | Sandvich_Hero, Pug O
