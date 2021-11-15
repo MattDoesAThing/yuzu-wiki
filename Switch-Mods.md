@@ -161,6 +161,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/849209813656928286/force-max-resolution-sword.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| theboy181, Claude von Riegan, DuIslingr
+| [Remove Outlines](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Pok%C3%A9mon%20Sword/%5B0100ABF008968000%5D/1.3.2/Remove%20Outlines.rar) | Removes character outlines from the game (Useful for resolution scaling) |`1.3.2`| theboy181
 | [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/849209808708042752/60-FPS-sword.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2` | theboy181, Claude von Riegan, DuIslingr
 | [Y Comm Wifi Fix](https://cdn.discordapp.com/attachments/356187763139280896/849209817809944596/Pokemon-Sword-Wifi-Fix.zip) | Stops an error message from popping up when you press the Y Comm button | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| theboy181, DuIslingr, Claude von Riegan
 
@@ -178,7 +179,6 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Pokemon Sword/Shield (romFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [No Outlines](https://cdn.discordapp.com/attachments/495758692495523854/667012648298086425/No_Outlines.7z) | Removes the outlines. | `Any` | PatrickJr
 | [ReTextured 1.6](https://bit.ly/3rKjhYz) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports all game Updates & DLC | `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| BSoD Gaming
 | [ReTextured 1.6 Alternate Link](http://bit.ly/37VnVL3) | A HD Redesign of the game. Better textures, Texture Quality & Much Higher Detail in all areas. Now Supports all game Updates & DLC | `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| BSoD Gaming
 
