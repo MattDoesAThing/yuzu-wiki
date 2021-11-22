@@ -95,6 +95,8 @@ Alternatively, some screen recording applications use dubious methods to inject 
 
 We recommend using OBS Studio, Radeon ReLive, Nvidia ShadowPlay or Microsoft XBox Game Bar.
 
+Overwolf is also a known cause of issues, we recommend to avoid it.
+
 ### **My game is Lagging and Dropping to Low Framerates**
 
 
