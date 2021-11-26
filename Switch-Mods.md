@@ -171,6 +171,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/849209811420577832/Force_max_resolution_shield.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| theboy181, Claude von Riegan, Morph, DuIslingr
+| [Remove Outlines](https://cdn.discordapp.com/attachments/893635908157464657/913905256725884989/Remove-Outlines-Shield.zip) | Removes character outlines from the game (Useful for resolution scaling) |`1.0.0` `1.3.2`| theboy181, Norstyrm
 | [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/849209829469585408/60-FPS-shield.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| theboy181, Claude von Riegan, Morph, DuIslingr
 | [Y Comm Wifi Fix](https://cdn.discordapp.com/attachments/356187763139280896/849209815720001586/Pokemon-Shield-Wifi-Fix.zip) | Stops an error message from popping up when you press the Y Comm button | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| theboy181, DuIslingr , Claude von Riegan
 
