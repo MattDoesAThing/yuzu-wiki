@@ -233,6 +233,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [Disable Camera Motion Blur](https://cdn.discordapp.com/attachments/356187763139280896/798516190602330172/Disable_Camera_Motion_Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` | theboy181
 | [Disable Web Applet](https://cdn.discordapp.com/attachments/512678820092968971/708744273801117726/SMO_Web_Applet_Bypass.7z) | Disables the Web Applet, fixing a crash when traveling from Cascade to Sand Kingdom for the first time. | `1.0.0` | theboy181
 | [Screenshot Mode Graphics](https://mega.nz/file/zXRm3TgB#ks0vf90a9UmxqWSoL_ht7Rfz0EAZ8EWltPa14UU0TtQ) | Makes the game render at enhanced quality settings, may greatly affect performance | `1.0.0` `1.3.0` | theboy181
+| [Coins Don't Matter Cheat](https://www.mediafire.com/file/3m3s30cd8vricn1/Coins_Don%2527t_Matter.zip/file) | Coins no longer deduct. Coins always set to 9999. Purple Coins always set to 100. Items in Shop cost nothing (they require X but they don't deduct X) | `1.3.0` | thethiny
 #
 
 ### Super Smash Bros. Ultimate
