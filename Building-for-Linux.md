@@ -53,7 +53,7 @@ cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
 ```
 
 - Fedora:
-  - `sudo dnf install alsa-lib-devel autoconf cmake gcc gcc-c++ git glslang hidapi-devel libXext-devel libtool libusbx-devel nasm pulseaudio-libs-devel python3 python3-pip qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel`
+  - `sudo dnf install alsa-lib-devel autoconf cmake gcc gcc-c++ git glslang hidapi-devel libXext-devel libtool libusbx-devel nasm pulseaudio-libs-devel python3 python3-pip qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel ninja-build`
   - `pip install --user conan`
   - Fedora 32 or later is required.
 - RHEL-like (such as Rocky Linux):
