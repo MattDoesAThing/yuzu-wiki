@@ -142,6 +142,19 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/798514934781706250/60FPS.zip) | Makes the game run full speed at 60 FPS. Please note that there are currently timing issues in mini-games/battles. The game *may* also soft lock when using this mod. | `1.0.0` | theboy181
 
 #
+### Pokemon Brilliant Diamond
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [True Pokemon Scale-Following Speed Fix](https://gamebanana.com/dl/704212) | Makes pokemon have their true size in battles/overworld, and adjusts their walking speed to be the same as the player.| `1.1.0` `1.1.1` `1.1.2` | Edgarska
+| [True Pokemon Scale Battle Camera Fix + Faster Battles](https://gamebanana.com/dl/704321) | Fixes most of the issues with large pokemon not fitting into the screen during battles when using true scale, includes Faster Battles because they're incompatible. | `1.1.0` `1.1.1` `1.1.2` | Edgarska
+| [Faster Battles](https://gamebanana.com/dl/703516) | Removes the delay between the text box appearing and a pokemon initiating an attack during battles. Use only if not using True Scale. | `1.1.0` `1.1.1` `1.1.2` | Edgarska
+| [No Depth of Field + No FXAA](https://gamebanana.com/dl/703136) | Removes Depth of Field and FXAA. Removing FXAA disables color grading. | `1.1.0` `1.1.1` `1.1.2` | Edgarska
+| [No Depth of Field](https://gamebanana.com/dl/703009) | Removes Depth of Field only | `1.1.0` `1.1.1` `1.1.2` | Edgarska
+| [Lowered Bloom](https://cdn.discordapp.com/attachments/495758692495523854/914796293161898004/Lowered_Bloom.7z) | Lowers bloom just enough to not make everything look blurry at night, while still having bloom for lights. | `1.1.0` `1.1.1` `1.1.2` | Edgarska
+| [Bike Anywhere + Lowered Bloom](https://gamebanana.com/dl/703023) | Use the bike anywhere and also includes Lowered Bloom since they are incompatible. | `1.1.0` `1.1.1` `1.1.2` | Edgarska
+| [Easier Underground Digging](https://gamebanana.com/dl/703012) | MMakes cracks appear sooner, and makes existing cracks bigger so it's easier to see under them. | `1.1.0` `1.1.1` `1.1.2` | Edgarska
+
+#
 
 ### Pokemon, Let's Go Eevee!
 | Mod | Description | Applies to | Credit |
