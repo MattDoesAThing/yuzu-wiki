@@ -89,7 +89,7 @@ Feel free to ask us in the IRC channel #yuzu-emu @ [libera](https://web.libera.c
 * Open the `MSYS2 MinGW 64-bit` (mingw64.exe) shell
 * Download and install all dependencies using: `pacman -Syu git make mingw-w64-x86_64-SDL2 mingw-w64-x86_64-cmake mingw-w64-x86_64-python-pip mingw-w64-x86_64-qt5 mingw-w64-x86_64-toolchain`
 * Download and install Conan: `python -m pip install conan`
-* Add MinGW binaries to the PATH: `echo 'PATH=/mingw64/bin:$PATH' >> ~/.bashrc'`
+* Add MinGW binaries to the PATH: `echo 'PATH=/mingw64/bin:$PATH' >> ~/.bashrc`
 * Add glslangValidator to the PATH: `echo 'PATH=$(readlink -e /c/VulkanSDK/*/Bin/):$PATH' >> ~/.bashrc`
 
 ### Clone the yuzu repository with Git
