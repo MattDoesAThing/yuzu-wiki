@@ -41,7 +41,7 @@ https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-d
 Go to Visual Studio 2015, 2017 and 2019, and select the link next to x64.
 
 
-### **How do I get Games?**
+### **How do I get games?**
 
 You are legally required to dump your games from your Nintendo Switch. To do so, please follow our in-depth [Quickstart Guide](https://yuzu-emu.org/help/quickstart/).
 
