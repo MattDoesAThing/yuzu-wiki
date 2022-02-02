@@ -280,7 +280,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### The Legend of Zelda: Skyward Sword HD
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [30 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/The%20Legend%20of%20Zelda:%20Skyward%20Sword%20HD/%5B01002DA013484000%5D/1.0.0/30fps.rar) | Makes the game fullspeed at 30 FPS. | `1.0.0` | theboy181
+| [30 FPS](https://cdn.discordapp.com/attachments/495758692495523854/938238281785675816/30fps.zip) | Makes the game fullspeed at 30 FPS. | `1.0.0` `1.0.1` | theboy181, Nimbo
 | [1440p/2K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/The%20Legend%20of%20Zelda:%20Skyward%20Sword%20HD/%5B01002DA013484000%5D/1.0.0/2K.rar) | Allows the game to render at 1440p/2K Resolution (Greatly affects performance)| `1.0.0` | theboy181
 | [2160p/4K resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/The%20Legend%20of%20Zelda:%20Skyward%20Sword%20HD/%5B01002DA013484000%5D/1.0.0/4K.rar) | Allows the game to render at 2160p/4K Resolution (Greatly affects performance). | `1.0.0` | theboy181
 
