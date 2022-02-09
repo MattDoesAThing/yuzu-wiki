@@ -84,7 +84,8 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Mario Kart 8 Deluxe
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [21:9](https://cdn.discordapp.com/attachments/356187763139280896/798514465414971402/21.9_Aspect_Ratio.zip) | Makes the game run in 21:9 Aspect Ratio | `1.7.1` | theboy181
+| [32:9 Super Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Mario%20Kart%208%20Deluxe/1.7.1/0100152000022000/32.9%20Super%20Ultrawide.zip) | Makes the game render with a Hor+ 32:9 aspect ratio for Super Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.7.1` | [victoria4dx](https://github.com/victoria4dx/switch-mods), [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [21:9 Ultrawide](https://cdn.discordapp.com/attachments/356187763139280896/798514465414971402/21.9_Aspect_Ratio.zip) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.7.1` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 | [Force FXAA](https://cdn.discordapp.com/attachments/356187763139280896/798514364512469002/Force_FXAA_On.zip) | Forces the game to use FXAA | `1.7.1` | theboy181
 | [Improved LOD](https://cdn.discordapp.com/attachments/356187763139280896/798514275512614942/Level_of_Detail_Enhance.zip) | Increases the detail on far away textures | `1.7.1` | theboy181
 
