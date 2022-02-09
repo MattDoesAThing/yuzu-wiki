@@ -8,7 +8,9 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Animal Crossing: New Horizons
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Ultrawide](https://cdn.discordapp.com/attachments/430158879465144320/849710842500481034/Ultrawide.zip) | Stretches the game to fit onto ultrawide displays. The mod is currently set up for 2560x1080 displays. | `1.2.0` `1.3.0` `1.3.1` | theboy181, Claude von Riegan
+| [21:9 Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Animal%20Crossing:%20New%20Horizons/2.0.4/01006F8002326000/21.9%20Ultrawide.zip) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. Now updated for the latest patch. | `2.0.4` | [victoria4dx](https://github.com/victoria4dx/switch-mods), theboy181, Claude von Riegan
+| [21:9 Ultrawide](https://cdn.discordapp.com/attachments/430158879465144320/849710842500481034/Ultrawide.zip) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.2.0` `1.3.0` `1.3.1` | theboy181, Claude von Riegan
+
 
 # 
 
@@ -40,8 +42,8 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Donkey Kong Country: Tropical Freeze
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
+| [32:9 Super Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Donkey%20Kong:%20Tropical%20Freeze/1.0.2/0100C1F0051B6000/32.9%20Super%20Ultrawide.zip) | Makes the game render with a Hor+ 32:9 aspect ratio for Super Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | 1.0.2 | [victoria4dx](https://github.com/victoria4dx/switch-mods), theboy181
 | [4K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Donkey%20Kong%20Country:%20Tropical%20Freeze/%5B0100C1F0051B6000%5D/1.0.0/4K-2K.rar) | Makes the game render at 2160p resolution | 1.0.0 | theboy181
-
 
 #
 
