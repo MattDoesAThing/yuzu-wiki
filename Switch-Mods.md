@@ -8,7 +8,8 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Animal Crossing: New Horizons
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [21:9 Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Animal%20Crossing:%20New%20Horizons/2.0.4/01006F8002326000/21.9%20Ultrawide.zip) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. Now updated for the latest patch. | `2.0.4` | [victoria4dx](https://github.com/victoria4dx/switch-mods), theboy181, Claude von Riegan
+| [32:9 Super Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Animal%20Crossing:%20New%20Horizons/2.0.4/01006F8002326000/32.9%20Super%20Ultrawide.zip) | Makes the game render with a Hor+ 32:9 aspect ratio for Super Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `2.0.4` | [victoria4dx](https://github.com/victoria4dx/switch-mods), [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Claude von Riegan
+| [21:9 Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Animal%20Crossing:%20New%20Horizons/2.0.4/01006F8002326000/21.9%20Ultrawide.zip) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. Now updated for the latest patch. | `2.0.4` | [victoria4dx](https://github.com/victoria4dx/switch-mods), [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Claude von Riegan
 | [21:9 Ultrawide](https://cdn.discordapp.com/attachments/430158879465144320/849710842500481034/Ultrawide.zip) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.2.0` `1.3.0` `1.3.1` | theboy181, Claude von Riegan
 
 
