@@ -159,7 +159,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [No Depth of Field](https://gamebanana.com/dl/703009) | Removes Depth of Field only | `1.1.0` `1.1.1` `1.1.2` | Edgarska
 | [Lowered Bloom](https://cdn.discordapp.com/attachments/495758692495523854/914796293161898004/Lowered_Bloom.7z) | Lowers bloom just enough to not make everything look blurry at night, while still having bloom for lights. | `1.1.0` `1.1.1` `1.1.2` | Edgarska
 | [Bike Anywhere + Lowered Bloom](https://gamebanana.com/dl/703023) | Use the bike anywhere and also includes Lowered Bloom since they are incompatible. | `1.1.0` `1.1.1` `1.1.2` | Edgarska
-| [Easier Underground Digging](https://gamebanana.com/dl/703012) | MMakes cracks appear sooner, and makes existing cracks bigger so it's easier to see under them. | `1.1.0` `1.1.1` `1.1.2` | Edgarska
+| [Easier Underground Digging](https://gamebanana.com/dl/703012) | Makes cracks appear sooner, and makes existing cracks bigger so it's easier to see under them. | `1.1.0` `1.1.1` `1.1.2` | Edgarska
 
 #
 
