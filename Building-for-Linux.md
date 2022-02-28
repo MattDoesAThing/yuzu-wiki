@@ -72,8 +72,11 @@ cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
   - GCC 10 or later is required.
   - Users may need to append `pulseaudio` and `bindist` to the `USE` flag.
 
-After installing Conan, `$HOME/.local/bin` needs to be included in the `PATH` variable. Check your `$HOME/.profile` and `$HOME/.bashrc` files, if `PATH=$HOME/.local/bin:$PATH` is not present, append that line to one of either file, then log out and log back in. Fedora and Ubuntu by default already have this covered, though Ubuntu users should log out and log back in to enable it.
+#### Note if this is your first time installing Conan
 
+If this your first time installing Conan, **you may have to log in and log out again** if you are on a Ubuntu-based distribution (alternatively, you can ensure your `$PATH` has been updated).
+
+This is because `$HOME/.local/bin` needs to be included in the `PATH` variable. Check your `$HOME/.profile` and `$HOME/.bashrc` files, if `PATH=$HOME/.local/bin:$PATH` is not present, append that line to one of either file, then log out and log back in. Fedora and Ubuntu by default already have this covered, though Ubuntu users should log out and log back in to enable it.
 
 ### Cloning yuzu with Git
 
