@@ -72,7 +72,7 @@ cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
   - GCC 10 or later is required.
   - Users may need to append `pulseaudio` and `bindist` to the `USE` flag.
 
-#### Note if this is your first time installing Conan
+### If this is your first time installing Conan:
 
 If this your first time installing Conan, **you may have to log in and log out again** if you are on a Ubuntu-based distribution (alternatively, you can ensure your `$PATH` has been updated).
 
