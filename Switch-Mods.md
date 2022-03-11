@@ -229,7 +229,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798515462069682186/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
-| [60 FPS](https://cdn.discordapp.com/attachments/430158879465144320/849710845063069746/60_Lobby.zip) | Makes Inkopolis Square and Octo Expansion credits run at 60fps instead of 30fps. | `1.0.0` `5.1.0` `5.2.2` | theboy181
+| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/951969691696521296/60_Lobby.zip) | Makes Inkopolis Square and Octo Expansion credits run at 60fps instead of 30fps. | `1.0.0` `5.1.0` `5.2.2` `5.5.0` | theboy181, Nimbo
 | [30 FPS](https://github.com/galax20002/Switch-mods/raw/main/30FPS.zip) | Makes the whole game run at 30fps instead of 60fps for low end PC's, May make the ingame Timer half of the speed in some levels from the Octo Expansion dlc | `5.4.0` `5.5.0` | theboy181, shadow, AndNowIsTheTime, Galax2000
 
 
