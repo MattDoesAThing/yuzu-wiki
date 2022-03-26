@@ -45,8 +45,9 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Donkey Kong Country: Tropical Freeze
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [32:9 Super Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Donkey%20Kong:%20Tropical%20Freeze/1.0.2/0100C1F0051B6000/32.9%20Super%20Ultrawide.zip) | Makes the game render with a Hor+ 32:9 aspect ratio for Super Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | 1.0.2 | [victoria4dx](https://github.com/victoria4dx/switch-mods), theboy181
-| [4K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Donkey%20Kong%20Country:%20Tropical%20Freeze/%5B0100C1F0051B6000%5D/1.0.0/4K-2K.rar) | Makes the game render at 2160p resolution | 1.0.0 | theboy181
+| [32:9 Super Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Donkey%20Kong:%20Tropical%20Freeze/1.0.2/0100C1F0051B6000/32.9%20Super%20Ultrawide.zip) | Makes the game render with a Hor+ 32:9 aspect ratio for Super Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | 1.0.2 | [victoria4dx](https://github.com/victoria4dx/switch-mods), [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [21:9 Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Donkey%20Kong:%20Tropical%20Freeze/1.0.2/0100C1F0051B6000/21.9%20Ultrawide.zip) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | 1.0.2 | [victoria4dx](https://github.com/victoria4dx/switch-mods), [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [4K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Donkey%20Kong%20Country:%20Tropical%20Freeze/%5B0100C1F0051B6000%5D/1.0.0/4K-2K.rar) | Makes the game render at 2160p resolution | 1.0.0 | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 
@@ -77,9 +78,12 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Luigi's Mansion 3
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/880802012709679145/Disable-Dynamic-Resolution.zip) | Disables the game's automatic adjustment of resolution. Required for playing this title | `1.0.0` | theboy181
-| [Disable Lense Flare](https://cdn.discordapp.com/attachments/356187763139280896/870809283661545492/Disable-Lens-Flare.zip) | Disables the game's  Flashlight Lense Flare. A workaround for it flickering on the Vulkan API | `1.0.0` | theboy181
-| [60 FPS](https://cdn.discordapp.com/attachments/207547103726010368/704784348129525920/LM3_60fps.zip) | Makes the game run full speed at 60 FPS | `1.0.0` `1.2.1` `1.3.0` | theboy181, Kirby567fan
+| [32:9 Super Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Luigi's%20Mansion%203/1.4.0/0100DCA0064A6000/32.9%20Super%20Ultrawide.zip) | Makes the game render with a Hor+ 32:9 aspect ratio for Super Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.4.0` | [victoria4dx](https://github.com/victoria4dx/switch-mods), [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [21:9 Ultrawide](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Luigi's%20Mansion%203/%5B0100DCA0064A6000%5D/1.4.0/21.9.rar) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.4.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [120 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Luigi's%20Mansion%203/%5B0100DCA0064A6000%5D/1.4.0/120FPS%20-%201.4.0.rar) | Unlocks framerate to 120 FPS. | `1.4.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [60 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Luigi's%20Mansion%203/%5B0100DCA0064A6000%5D/1.4.0/60fps.rar) | Unlocks framerate to 60 FPS. | `1.4.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Disable Dynamic Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Luigi's%20Mansion%203/%5B0100DCA0064A6000%5D/1.4.0/Disable-Dynamic-Resoluiton.rar) | Disables the game's automatic adjustment of resolution. Required for playing this title | `1.4.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Disable Lens Flare](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Luigi's%20Mansion%203/%5B0100DCA0064A6000%5D/1.4.0/Disable-Lens-Flare.rar) | Disables the game's  Flashlight Lens Flare. A workaround for it flickering on the Vulkan API | `1.4.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 
@@ -88,8 +92,8 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | --- | ----------- | ---------- | ------ |
 | [32:9 Super Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Mario%20Kart%208%20Deluxe/2.0.0/0100152000022000/32.9%20Super%20Ultrawide.zip) | Makes the game render with a Hor+ 32:9 aspect ratio for Super Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `2.0.0` | [victoria4dx](https://github.com/victoria4dx/switch-mods), [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 | [21:9 Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Mario%20Kart%208%20Deluxe/2.0.0/0100152000022000/21.9%20Ultrawide.zip) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `2.0.0` | [victoria4dx](https://github.com/victoria4dx/switch-mods), [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
-| [Force FXAA](https://cdn.discordapp.com/attachments/356187763139280896/798514364512469002/Force_FXAA_On.zip) | Forces the game to use FXAA | `1.7.1` | theboy181
-| [Improved LOD](https://cdn.discordapp.com/attachments/356187763139280896/798514275512614942/Level_of_Detail_Enhance.zip) | Increases the detail on far away textures | `1.7.1` | theboy181
+| [Force FXAA](https://cdn.discordapp.com/attachments/356187763139280896/798514364512469002/Force_FXAA_On.zip) | Forces the game to use FXAA | `1.7.1` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Improved LOD](https://cdn.discordapp.com/attachments/356187763139280896/798514275512614942/Level_of_Detail_Enhance.zip) | Increases the detail on far away textures | `1.7.1` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 
@@ -237,9 +241,18 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Super Mario 3D World + Bowser's Fury
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable-Dynamic-Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Disable-Dynamic-Resolution%20-v2.rar) | Disables dynamic resolution, greatly improving image quality | `1.0.0` | theboy181
-| [Disable-Bloom](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Disable-Bloom.rar) | Disables bloom | `1.0.0` | theboy181
-| [Max Quality Mode](https://github.com/theboy181/switch-cheat-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Quality-Mode.rar) | Makes the game render at enhanced quality settings, may greatly affect performance | `1.0.0` | theboy181
+| [32:9 Super Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/32.9%20Super%20Ultrawide.zip) | Makes the game render with a Hor+ 32:9 aspect ratio for Super Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.0.0` | [victoria4dx](https://github.com/victoria4dx/switch-mods), [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [21:9 Ultrawide](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/UltraWide%20-%20v2.rar) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [60 FPS Handheld Mode](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/60fps-Handheld%20-%20v9.rar) | Makes the game run at 60 FPS in handheld mode. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Big Head Mode](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/BigHead.rar) | Big Head Mode. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Disable Bloom](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Disable-Bloom.rar) | Disables the bloom effect. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Disable Depth of Field](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Disable-DOF.rar) | Disables DoF effect. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Disable Dynamic Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Disable-Dynamic-Resolution%20-v2.rar) | Disables dynamic resolution, greatly improving image quality | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Disable FXAA](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Disable-DOF.rar) | Disables FXAA | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Enable Filters](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Enable-Filters.rar) | Enable filters. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Force FXAA](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Force-FXAA.rar) | Forces FXAA on. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Parkour](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Parkour.rar) | Parkour mode. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Max Quality Mode](https://github.com/theboy181/switch-cheat-mods/raw/main/Super%20Mario%203D%20World%20%2B%20Bowser's%20Fury/010028600EBDA000/1.0.0/Quality-Mode.rar) | Makes the game render at enhanced quality settings, may greatly affect performance | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 
