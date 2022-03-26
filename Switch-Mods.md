@@ -72,6 +72,18 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | --- | ----------- | ---------- | ------ |
 | [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/868554634510356510/60FPS.zip) | Makes the game run full speed at 60 FPS | `4.0.0` | theboy181
 
+#
+
+### Kirby and the Forgotten Land
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [Disable Dynamic Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/Disable%20Dynamic%20Resolution.rar) | Disables dynamic Resolution swapping. reduced memory usage & increases performance | `1.0.0` | theboy181
+| [60 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/60fps.rar) | Makes the game run full speed dynamic 60 FPS | `1.0.0` | theboy181
+| [Full 60 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/60fps%20-%20%20Full.rar) | Makes the game run full speed dynamic 60 FPS, including NPC animations (Very demanding on CPU/GPU) | `1.0.0` | theboy181
+| [Full 30 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/30fps%20-%20%20Full.rar) | Makes the game run full speed dynamic 30 FPS, including 30 FPS NPC animations (NPC animations are 15 FPS by default) | `1.0.0` | theboy181
+| [21:9 Aspect Ratio](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/21.9.rar) | Renders the game at 21:9 aspect ratio (Select stretch to screen in Graphics/Aspect ratio setting) | `1.0.0` | theboy181
+
+
 
 #
 
