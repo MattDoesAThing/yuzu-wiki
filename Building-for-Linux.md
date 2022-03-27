@@ -70,7 +70,7 @@ cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
   - `emerge --ask app-arch/lz4 dev-libs/boost dev-libs/hidapi dev-libs/libzip dev-libs/openssl dev-python/pip dev-qt/linguist dev-qt/qtconcurrent dev-qt/qtcore dev-util/cmake dev-util/glslang dev-vcs/git media-libs/alsa-lib media-libs/opus media-sound/pulseaudio media-video/ffmpeg net-libs/mbedtls sys-libs/zlib x11-libs/libXext`
   - `pip install --user conan`
   - GCC 10 or later is required.
-  - Users may need to append `pulseaudio` and `bindist` to the `USE` flag.
+  - Users may need to append `pulseaudio`, `bindist` and `context` to the `USE` flag.
 
 ### If this is your first time installing Conan:
 
