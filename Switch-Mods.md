@@ -138,9 +138,8 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### No More Heroes 3
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/886714182165225483/60FPS.zip) | Unlocks the framerate to run at 60 FPS during gameplay, the open world, and cutscenes. | `1.0.1` | Kirby567Fan
-| [Unlocked FPS](https://cdn.discordapp.com/attachments/495758692495523854/886714247726379008/UnlockedFPS.zip) | Fully unlocks the framerate during gameplay, the open world, and cutscenes. | `1.0.1` | Kirby567Fan
-| [240 FPS](https://cdn.discordapp.com/attachments/495758692495523854/886714351371825233/240FPS.zip) | Unlocks the framerate to run at 240 FPS during gameplay, the open world, and cutscenes. Use if the "Unlocked FPS" mod doesn't work, but it should.| `1.0.1` | Kirby567Fan
+| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/960702857932333116/NMH3_60FPS.zip) | Unlocks the framerate to run at 60 FPS during gameplay, the open world, and cutscenes. | `1.0.2` | Kirby567Fan
+| [240 FPS (Unlocked FPS)](https://cdn.discordapp.com/attachments/495758692495523854/960702830656778280/NMH3_240FPS.zip) | Unlocks the framerate to run at 240 FPS during gameplay, the open world, and cutscenes. Essentially unlocked fps.| `1.0.2` | Kirby567Fan
 | [720p Graphics Mod With Normal Open World Distance](https://download1482.mediafire.com/pni4h35rfgmg/96tos0e09gpmgpb/720p_NormalOpenWorldDistance.zip) | 720p resolution and increased graphical quality. [List of Improvements and Video Example](https://youtu.be/NeEmMi4Ado0) | `1.0.0` `1.0.1` | NikkMann
 | [720p+MB Graphics Mod With Normal Open World Distance](https://download851.mediafire.com/uspr3g2k7jbg/34h0qw31eyvhqr9/720p%2BMB_NormalOpenWorldDistance.zip) | 720p resolution and increased graphical quality with added motion blur. [List of Improvements and Video Example](https://youtu.be/NeEmMi4Ado0) | `1.0.0` `1.0.1` | NikkMann
 | [720p Graphics Mod With High Open World Distance](https://download1644.mediafire.com/3ovn7wkubnig/is98bpzlqcq43p1/720p_HighOpenWorldDistance.zip) | 720p resolution and increased graphical quality with farther open world draw distance. [List of Improvements and Video Example](https://youtu.be/NeEmMi4Ado0) | `1.0.0` `1.0.1` | NikkMann
