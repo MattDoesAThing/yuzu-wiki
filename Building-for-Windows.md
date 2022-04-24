@@ -116,6 +116,10 @@ e.g.
 cp externals/ffmpeg-*/bin/*.dll bin/
 ```
 
+Bonus Note: Running programs from inside `MSYS2 MinGW x64` shell has a different %PATH% than directly from explorer. This different %PATH% has the locations of the other DLLs required.
+![image](https://user-images.githubusercontent.com/190571/165000848-005e8428-8a82-41b1-bb4d-4ce7797cdac8.png)
+
+
 ### Building without Qt (Optional)
 
 Doesn't require the rather large Qt dependency, but you will lack a GUI frontend:
