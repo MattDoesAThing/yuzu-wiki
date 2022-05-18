@@ -7,9 +7,9 @@
 On Windows, all library dependencies are automatically included within the `externals` folder, or can be downloaded on-demand. To build yuzu, you need to install:
 
   * **[Visual Studio 2019 Community](https://visualstudio.microsoft.com/downloads/)** - **Make sure to select C++ support in the installer. Make sure to update to the latest version if already installed.**
-  * **[CMake](https://github.com/qingfengmu/FreeRTOS/releases/download/V10.4.1/cmake-3.23.1-windows-x86_64.zip)** - Used to generate Visual Studio project files. Does not matter if either 32-bit or 64-bit version is installed.
+  * **[CMake](https://cmake.org/download/)** - Used to generate Visual Studio project files. Does not matter if either 32-bit or 64-bit version is installed.
   * **[Conan](https://conan.io/downloads.html)** - Conan installs the dependencies automatically when cmake configures the project and it may take a while (~1 hour on first run) to collect all the dependencies
-  * **[Vulkan SDK](https://github.com/qingfengmu/FreeRTOS/releases/download/V10.4.1/VulkanSDK-1.3.211.0-Installer.zip)** - **Make sure to select Latest SDK.**
+  * **[Vulkan SDK](https://vulkan.lunarg.com/sdk/home#windows)** - **Make sure to select Latest SDK.**
 
   ![2](https://i.imgur.com/giDwuTm.png)
 
