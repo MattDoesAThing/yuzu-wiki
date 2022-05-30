@@ -3,6 +3,7 @@ If you are unable to find the answer to your question, please join our Discord s
 * [yuzu starts with the error “VCRUNTIME140_1.dll was not found”](#yuzu-starts-with-the-error-vcruntime140_1dll-was-not-found)
 * [How do I get Games?](#how-do-i-get-games)
 * [Can I use a Mariko Switch/Red Box/HAC-001(-01)/Switch Lite for the dumping process?](#can-i-use-a-mariko-switchred-boxhac-001-01-or-a-switch-lite-for-the-dumping-process)
+* [yuzu starts with the error "Broken Vulkan Installation Detected"](#yuzu-starts-with-the-error-broken-vulkan-installation-detected)
 * [yuzu starts with the error "Missing Derivation Components"](#yuzu-starts-with-the-error-missing-derivation-components)
 * [yuzu starts with the error "Unable to start application: Os { code: 2, kind: NotFound, message: “The system cannot find the file specified.” }"](#yuzu-starts-with-the-error-unable-to-start-application-os-code-2-kind-notfound-message-the-system-cannot-find-the-file-specified)
 * [yuzu will not update further or starts with a Qt platform error](#yuzu-will-not-update-further-or-starts-with-a-qt-platform-error)
@@ -76,6 +77,17 @@ You can confirm it is a false positive with an online scanner, such as [VirusTot
 To fix this, you'll need to either disable or uninstall your antivirus software. Make sure to reboot if you choose to uninstall it.
 
 Afterwards, follow the instructions below for `yuzu will not update further or starts with a Qt platform error` to delete any residual files of the failed installation.
+
+### **yuzu starts with the error "Broken Vulkan Installation Detected"**
+
+This problem indicates that the Vulkan initialization failed on the previous boot of yuzu. Please perform the following:
+
+* Update your graphics drivers
+* Uninstall/update problematic screen-recording or overlay software
+* Verify your Vulkan installation by navigating to Emulation > Configure > Graphics > Click "Check for Working Vulkan"
+
+If issues persist, please reach out for support via [Discord server](https://discord.gg/u77vRWY) or our [Forum](https://community.citra-emu.org/c/yuzu-support/14).
+
 
 ### **yuzu will not update further or starts with a Qt platform error**
 
