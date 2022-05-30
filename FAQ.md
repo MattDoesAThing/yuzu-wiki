@@ -51,6 +51,16 @@ You are legally required to dump your games from your Nintendo Switch. To do so,
 
 No, since the Mariko Switch and the Switch Lite are both patched from the fusée gelée RCM exploit. Currently, there is no widely accessible method that allows the dumping of system files and games required for yuzu from those consoles. To check if your Switch is hackable, visit https://damota.me/ssnc/checker and test your Switch’s serial number.
 
+### **yuzu starts with the error "Broken Vulkan Installation Detected"**
+
+This problem indicates that the Vulkan initialization failed on the previous boot of yuzu. Please perform the following:
+
+* Update your graphics drivers
+* Uninstall/update problematic screen-recording or overlay software
+* Verify your Vulkan installation by navigating to Emulation > Configure > Graphics > Click "Check for Working Vulkan"
+
+If issues persist, please reach out for support via our [Discord server](https://discord.gg/u77vRWY) or our [Forum](https://community.citra-emu.org/c/yuzu-support/14).
+
 ### **yuzu starts with the error "Missing Derivation Components"**
 ![](https://cdn.discordapp.com/attachments/512678820092968971/699337208443699307/Keys_missing.PNG)
 
@@ -77,16 +87,6 @@ You can confirm it is a false positive with an online scanner, such as [VirusTot
 To fix this, you'll need to either disable or uninstall your antivirus software. Make sure to reboot if you choose to uninstall it.
 
 Afterwards, follow the instructions below for `yuzu will not update further or starts with a Qt platform error` to delete any residual files of the failed installation.
-
-### **yuzu starts with the error "Broken Vulkan Installation Detected"**
-
-This problem indicates that the Vulkan initialization failed on the previous boot of yuzu. Please perform the following:
-
-* Update your graphics drivers
-* Uninstall/update problematic screen-recording or overlay software
-* Verify your Vulkan installation by navigating to Emulation > Configure > Graphics > Click "Check for Working Vulkan"
-
-If issues persist, please reach out for support via [Discord server](https://discord.gg/u77vRWY) or our [Forum](https://community.citra-emu.org/c/yuzu-support/14).
 
 
 ### **yuzu will not update further or starts with a Qt platform error**
