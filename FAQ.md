@@ -35,6 +35,8 @@ If you are unable to find the answer to your question, please join our Discord s
 
 ![](https://cdn.discordapp.com/attachments/512678820092968971/699336946698158120/VC_missing.png)
 
+Could also show up as “MSVCP140_ATOMIC_WAIT.dll was not found”.
+
 Current versions of yuzu require the latest versions of Microsoft Visual C++. Please download and install the following dependency:
 
 https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
