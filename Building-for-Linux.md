@@ -53,9 +53,14 @@ cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
 ```
 
 - Fedora:
-  - `sudo dnf install alsa-lib-devel autoconf cmake gcc gcc-c++ git glslang hidapi-devel libXext-devel libtool libusbx-devel nasm pulseaudio-libs-devel python3 python3-pip qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel qt5-qtwebengine-devel ninja-build`
+  - `sudo dnf install autoconf ccache cmake fmt-devel gcc{,-c++} glslang hidapi-devel json-devel libtool libusb1-devel libzstd-devel lz4-devel nasm ninja-build openssl-devel pulseaudio-libs-devel python3-pip qt5-linguist qt5-qtbase{-private,}-devel qt5-qtwewbengine-devel speexdsp-devel wayland-devel zlib-devel ffmpeg-devel`
   - `pip install --user conan`
   - Fedora 32 or later is required.
+  - Due to GCC 12, Fedora 36 or later users need to install `clang`, and configure CMake to use it via `-DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang`
+  - CMake arguments to force system libraries:
+    - SDL2: `-DYUZU_USE_BUNDLED_SDL2=OFF -DYUZU_USE_EXTERNAL_SDL2=OFF`
+    - FFmpeg: `-DYUZU_USE_EXTERNAL_FFMPEG=OFF`
+  - [RPM Fusion](https://rpmfusion.org/) (free) is required to install `ffmpeg-devel`
 - RHEL-like (such as Rocky Linux):
   - Though this should have been similar to Fedora, this ends up being a tad bit more involved due to the distro's older or missing packages. Fortunately, at least Rocky Linux 8 makes `g++-10` available directly in the package manager, so it's just a matter of finding the other smaller dependencies. (CentOS 8 does **not** have `g++-10`, so it is even less trivial to build yuzu there.)
   - `sudo dnf config-manager --set-enabled powertools # Required for ninja-build and nasm`
