@@ -6,17 +6,15 @@
 
 You'll need to download and install the following to build yuzu:
 
-  * [GCC](https://gcc.gnu.org/) v10+ (for C++20 support) & misc
+  * [GCC](https://gcc.gnu.org/) v11+ (for C++20 support) & misc
+    * This page is being updated as we transition to GCC 11
+  * If GCC 12 is installed, [Clang](https://clang.llvm.org/) v14+ is required for compiling
   * [CMake](https://www.cmake.org/) 3.15+
 
-The following are handled by yuzu's externals, but installing them via the package manager will avoid building them with yuzu:
+The following are handled by yuzu's externals:
 
   * [FFmpeg](https://ffmpeg.org/)
-  * [SDL2](https://www.libsdl.org/download-2.0.php) 2.0.16+
-
-If version 1.73.0 is not already installed, pre-compiled binaries for Boost 1.75.0 will be downloaded from [here](https://github.com/yuzu-emu/ext-linux-bin) automatically by CMake:
-
-  * [Boost](https://www.boost.org/users/download/) 1.73.0+
+  * [SDL2](https://www.libsdl.org/download-2.0.php) 2.0.18+
 
 If version 5.15.2 is not already installed, pre-compiled binaries for Qt 5.15.2 will be downloaded from [here](https://github.com/yuzu-emu/ext-linux-bin) automatically by CMake:
 
@@ -24,6 +22,7 @@ If version 5.15.2 is not already installed, pre-compiled binaries for Qt 5.15.2 
 
 All other dependencies will be downloaded by [Conan](https://conan.io/downloads.html) if needed:
 
+  * [Boost](https://www.boost.org/users/download/) 1.73.0+
   * [Catch2](https://github.com/catchorg/Catch2)
   * [fmt](https://fmt.dev/)
   * [lz4](http://www.lz4.org)
@@ -69,7 +68,7 @@ cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
   - Distro version 8 or later is required.
   - Additional notes:
     - `/opt/rh/gcc-toolset-10/root/usr/bin` must be added to the front of the `PATH`.
-    - [CMake](https://cmake.org/download/) (cmake-[version]-linux-x86_64.tar.gz) and [glslangValidator](https://github.com/KhronosGroup/glslang/releases/latest) (glslang-master-linux-Release.zip) must be downloaded and installed separately. To "install" them, extract the archives and copy their contents into the `$HOME/.local/`, such that the directory structure looks like `$HOME/.local/bin` and so on.
+    - [CMake](https://cmake.org/download/) (cmake-[version]-linux-x86_64.tar.gz) and [glslangValidator](https://github.com/KhronosGroup/glslang/releases/latest) (glslang-master-linux-Release.zip) must be downloaded and installed separately. To "install" them, extract the archives and copy their contents into the `$HOME/.local/`, such that the directory structure looks like `$HOME/.local/bin` and so on. -->
 - Gentoo:
   - **\*\*Disclaimer\*\***: this dependency list was written by a novice Gentoo user who first set it up with a DE, and then based this list off of the Fedora dependency list. This may be missing some requirements, or includes too many. Caveat emptor.
   - `emerge --ask app-arch/lz4 dev-libs/boost dev-libs/hidapi dev-libs/libzip dev-libs/openssl dev-python/pip dev-qt/linguist dev-qt/qtconcurrent dev-qt/qtcore dev-util/cmake dev-util/glslang dev-vcs/git media-libs/alsa-lib media-libs/opus media-sound/pulseaudio media-video/ffmpeg net-libs/mbedtls sys-libs/zlib x11-libs/libXext`
