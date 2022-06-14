@@ -114,7 +114,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Mario Strikers™: Battle League
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [No Intro/Credits bypass mod](https://github.com/piplup55/switch-mods/blob/master/mario%20strike%20battle%20league/cutscene_skip.7z?raw=true) | Bypasses the issue with game intro and credits video(s) by replacing it with a 'dummy' 1 second video file. | `1.0.0` | piplup55
+| [No Intro/Credits bypass mod](https://github.com/piplup55/switch-mods/blob/master/mario%20strike%20battle%20league/cutscene%20skip.7z?raw=true) | Bypasses the issue with game intro and credits video(s) by replacing it with a 'dummy' 1 second video file. | `1.0.0` | piplup55
 
 #
 #
