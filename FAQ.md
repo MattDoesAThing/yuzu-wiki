@@ -227,7 +227,7 @@ Once your `Save Data Location` is open, place your game saves in this directory
 
 ![](https://cdn.discordapp.com/attachments/356187763139280896/697142111568527400/save_location.PNG)
 
-### **yuzu closes when launching games**
+### **yuzu closes when launching game**
 * If you happen to have issue launching game and have Nod32 ESET Antivirus installed. Please uninstall it and reboot. It is known to cause issue with emulators recently.
 
 ### Games fail to launch with the error: "WerFault.exe - Application Error - The application was unable to start correctly"
