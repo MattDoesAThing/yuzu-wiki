@@ -15,7 +15,7 @@ If you are unable to find the answer to your question, please join our Discord s
 * [How do I set up my controls?](#how-do-i-set-up-my-controls)
 * [How do I use my GameCube controller adapter?](#how-do-i-use-my-gamecube-controller-adapter)
 * [How do I add a save to my Game](#how-do-i-add-a-save-to-my-game)
-* [yuzu closes when I try to open it or launch game](#yuzu-closes-when-i-try-to-open-it-or-launch-game)
+* [yuzu closes when launching game](#yuzu-closes-when-launching-game)
 * [Games fail to launch with the error: "WerFault.exe - Application Error"](#games-fail-to-launch-with-the-error-werfaultexe---application-error---the-application-was-unable-to-start-correctly)
 * [What is Boxcat?](#what-is-boxcat)
 * [Why am I getting an error?](#why-am-i-getting-an-error)
@@ -227,7 +227,7 @@ Once your `Save Data Location` is open, place your game saves in this directory
 
 ![](https://cdn.discordapp.com/attachments/356187763139280896/697142111568527400/save_location.PNG)
 
-### **yuzu closes when I try to open it or launch game**
+### **yuzu closes when launching games**
 * If you happen to have issue launching game and have Nod32 ESET Antivirus installed. Please uninstall it and reboot. It is known to cause issue with emulators recently.
 
 ### Games fail to launch with the error: "WerFault.exe - Application Error - The application was unable to start correctly"
