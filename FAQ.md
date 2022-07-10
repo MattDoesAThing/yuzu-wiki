@@ -230,7 +230,7 @@ Once your `Save Data Location` is open, place your game saves in this directory
 ### **yuzu closes when launching game**
 * If you happen to have issue launching game and have Nod32 ESET Antivirus installed. Please uninstall it and reboot. Or add yuzu into the HIPS exclusions. It is known to cause issue with emulators recently.
 * Example adding exception below
-https://media.discordapp.net/attachments/400106910231035904/995529914226855966/hips1.png
+![image](https://user-images.githubusercontent.com/23653025/178130047-be87687b-54ae-410e-aabd-ad843406d14f.png)
 ![image](https://user-images.githubusercontent.com/23653025/178130025-254491e6-a568-4f79-8c4c-b9353a624667.png)
 
 ### Games fail to launch with the error: "WerFault.exe - Application Error - The application was unable to start correctly"
