@@ -8,7 +8,6 @@ On Windows, all library dependencies are automatically included within the `exte
 
   * **[Visual Studio 2019 Community](https://visualstudio.microsoft.com/downloads/)** - **Make sure to select C++ support in the installer. Make sure to update to the latest version if already installed.**
   * **[CMake](https://cmake.org/download/)** - Used to generate Visual Studio project files. Does not matter if either 32-bit or 64-bit version is installed.
-  * **[Conan](https://conan.io/downloads.html)** - Conan installs the dependencies automatically when cmake configures the project and it may take a while (~1 hour on first run) to collect all the dependencies
   * **[Vulkan SDK](https://vulkan.lunarg.com/sdk/home#windows)** - **Make sure to select Latest SDK.**
 
   ![2](https://i.imgur.com/giDwuTm.png)
@@ -54,6 +53,13 @@ On Windows, all library dependencies are automatically included within the `exte
   ![12](https://i.imgur.com/DKiREaK.png)
 
   * *(Note: If you used GitHub's own app to clone, run `git submodule update --init --recursive` to get the remaining dependencies)*
+
+* If you get an error about missing packages, enable `YUZU_USE_BUNDLED_VCPKG`, and then click Configure again.
+
+  * *(You may also want to disable `YUZU_TESTS` in this case since Catch2 is not yet supported with this.)*
+
+  ![13](https://user-images.githubusercontent.com/22451773/180585999-07316d6e-9751-4d11-b957-1cf57cd7cd58.png)
+
 * Click "Generate" to create the project files.
 
   ![15](https://i.imgur.com/5LKg92k.png)
@@ -88,7 +94,6 @@ Feel free to ask us in the IRC channel #yuzu-emu @ [libera](https://web.libera.c
 
 * Open the `MSYS2 MinGW 64-bit` (mingw64.exe) shell
 * Download and install all dependencies using: `pacman -Syu git make mingw-w64-x86_64-SDL2 mingw-w64-x86_64-cmake mingw-w64-x86_64-python-pip mingw-w64-x86_64-qt5 mingw-w64-x86_64-toolchain autoconf libtool automake-wrapper`
-* Download and install Conan: `python -m pip install conan`
 * Add MinGW binaries to the PATH: `echo 'PATH=/mingw64/bin:$PATH' >> ~/.bashrc`
 * Add glslangValidator to the PATH: `echo 'PATH=$(readlink -e /c/VulkanSDK/*/Bin/):$PATH' >> ~/.bashrc`
 
@@ -103,7 +108,7 @@ Feel free to ask us in the IRC channel #yuzu-emu @ [libera](https://web.libera.c
 
 ```bash
 mkdir build && cd build
-cmake -G "MSYS Makefiles" ..
+cmake -G "MSYS Makefiles" -DYUZU_USE_BUNDLED_VCPKG=ON -DYUZU_TESTS=OFF ..
 make -j$(nproc)
 # test yuzu out with
 ./bin/yuzu.exe
