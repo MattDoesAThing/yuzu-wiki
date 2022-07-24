@@ -37,38 +37,30 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
 - Arch / Manjaro:
   - `sudo pacman -Syu --needed base-devel boost catch2 cmake ffmpeg fmt git glslang libzip lz4 mbedtls ninja nlohmann-json openssl opus qt5 sdl2 zlib zstd`
   - Building with QT Web Engine needs to be specified when running CMake with the param `-DCMAKE_CXX_FLAGS="-I/usr/include/qt/QtWebEngineWidgets"` with qt5-webengine installed.
-  - GCC 10 or later is required.
+  - GCC 11 or later is required.
 - Ubuntu / Linux Mint / Debian:
-  - `sudo apt-get install autoconf cmake g++-10 gcc-10 git glslang-tools libasound2 libboost-context-dev libglu1-mesa-dev libhidapi-dev libpulse-dev libtool libudev-dev libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-xinerama0 libxcb-xkb1 libxext-dev libxkbcommon-x11-0 mesa-common-dev nasm ninja-build qtbase5-dev qtbase5-private-dev qtwebengine5-dev libmbedtls-dev`
+  - `sudo apt-get install autoconf cmake g++-11 gcc-11 git glslang-tools libasound2 libboost-context-dev libglu1-mesa-dev libhidapi-dev libpulse-dev libtool libudev-dev libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-xinerama0 libxcb-xkb1 libxext-dev libxkbcommon-x11-0 mesa-common-dev nasm ninja-build qtbase5-dev qtbase5-private-dev qtwebengine5-dev qtmultimedia5-dev libmbedtls-dev`
   - Ubuntu 20.04, Linux Mint 20, or Debian Bullseye or later is required.
   -  Users need to manually specify building with QT Web Engine enabled.  This is done using the parameter `-DYUZU_USE_QT_WEB_ENGINE=ON` when running CMake. 
-  - Users need to manually specify building with GCC 10. This can be done by adding the parameters `-DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10` when running CMake. i.e.
+  - Users need to manually specify building with GCC 11. This can be done by adding the parameters `-DCMAKE_C_COMPILER=gcc-11 -DCMAKE_CXX_COMPILER=g++-11` when running CMake. i.e.
   - Users need to manually disable building SDL2 from externals if they intend to use the version provided by their system by adding the parameters `-DYUZU_USE_EXTERNAL_SDL2=OFF`
 
 ```
-cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-10 -DCMAKE_CXX_COMPILER=g++-10
+cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-11 -DCMAKE_CXX_COMPILER=g++-11
 ```
 
 - Fedora:
-  - `sudo dnf install autoconf ccache cmake fmt-devel gcc{,-c++} glslang hidapi-devel json-devel libtool libusb1-devel libzstd-devel lz4-devel nasm ninja-build openssl-devel pulseaudio-libs-devel qt5-linguist qt5-qtbase{-private,}-devel qt5-qtwewbengine-devel speexdsp-devel wayland-devel zlib-devel ffmpeg-devel`
+  - `sudo dnf install autoconf ccache cmake fmt-devel gcc{,-c++} glslang hidapi-devel json-devel libtool libusb1-devel libzstd-devel lz4-devel nasm ninja-build openssl-devel pulseaudio-libs-devel qt5-linguist qt5-qtbase{-private,}-devel qt5-qtwewbengine-devel qt5-qtmultimedia-devel speexdsp-devel wayland-devel zlib-devel ffmpeg-devel`
   - Fedora 32 or later is required.
   - Due to GCC 12, Fedora 36 or later users need to install `clang`, and configure CMake to use it via `-DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang`
   - CMake arguments to force system libraries:
     - SDL2: `-DYUZU_USE_BUNDLED_SDL2=OFF -DYUZU_USE_EXTERNAL_SDL2=OFF`
     - FFmpeg: `-DYUZU_USE_EXTERNAL_FFMPEG=OFF`
   - [RPM Fusion](https://rpmfusion.org/) (free) is required to install `ffmpeg-devel`
-- RHEL-like (such as Rocky Linux):
-  - Though this should have been similar to Fedora, this ends up being a tad bit more involved due to the distro's older or missing packages. Fortunately, at least Rocky Linux 8 makes `g++-10` available directly in the package manager, so it's just a matter of finding the other smaller dependencies. (CentOS 8 does **not** have `g++-10`, so it is even less trivial to build yuzu there.)
-  - `sudo dnf config-manager --set-enabled powertools # Required for ninja-build and nasm`
-  - `sudo dnf install alsa-lib-devel gcc-toolset-10-gcc-g++ git libXext-devel libzip-devel libzip-tools libzstd-devel lz4-devel make ninja-build openssl-devel opus-devel pulseaudio-libs-devel qt5-linguist qt5-qtbase-devel qt5-qtbase-private-devel zlib-devel`
-  - Distro version 8 or later is required.
-  - Additional notes:
-    - `/opt/rh/gcc-toolset-10/root/usr/bin` must be added to the front of the `PATH`.
-    - [CMake](https://cmake.org/download/) (cmake-[version]-linux-x86_64.tar.gz) and [glslangValidator](https://github.com/KhronosGroup/glslang/releases/latest) (glslang-master-linux-Release.zip) must be downloaded and installed separately. To "install" them, extract the archives and copy their contents into the `$HOME/.local/`, such that the directory structure looks like `$HOME/.local/bin` and so on. -->
 - Gentoo:
   - **\*\*Disclaimer\*\***: this dependency list was written by a novice Gentoo user who first set it up with a DE, and then based this list off of the Fedora dependency list. This may be missing some requirements, or includes too many. Caveat emptor.
   - `emerge --ask app-arch/lz4 dev-libs/boost dev-libs/hidapi dev-libs/libzip dev-libs/openssl dev-qt/linguist dev-qt/qtconcurrent dev-qt/qtcore dev-util/cmake dev-util/glslang dev-vcs/git media-libs/alsa-lib media-libs/opus media-sound/pulseaudio media-video/ffmpeg net-libs/mbedtls sys-libs/zlib x11-libs/libXext`
-  - GCC 10 or later is required.
+  - GCC 11 or later is required.
   - Users may need to append `pulseaudio`, `bindist` and `context` to the `USE` flag.
 
 ### Cloning yuzu with Git
