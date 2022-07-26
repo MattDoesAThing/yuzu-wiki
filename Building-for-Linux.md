@@ -35,7 +35,7 @@ All other dependencies will be downloaded by [vcpkg](https://vcpkg.io/) if neede
 Dependencies are listed here as commands that can be copied/pasted. Of course, they should be inspected before being run.
 
 - Arch / Manjaro:
-  - `sudo pacman -Syu --needed base-devel boost catch2 cmake ffmpeg fmt git glslang libzip lz4 mbedtls ninja nlohmann-json openssl opus qt5 sdl2 zlib zstd`
+  - `sudo pacman -Syu --needed base-devel boost catch2 cmake ffmpeg fmt git glslang libzip lz4 mbedtls ninja nlohmann-json openssl opus qt5 sdl2 zlib zstd zip unzip`
   - Building with QT Web Engine needs to be specified when running CMake with the param `-DCMAKE_CXX_FLAGS="-I/usr/include/qt/QtWebEngineWidgets"` with qt5-webengine installed.
   - GCC 11 or later is required.
 - Ubuntu / Linux Mint / Debian:
