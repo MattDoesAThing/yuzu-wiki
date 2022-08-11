@@ -20,16 +20,16 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [32:9 Super Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Captain%20Toad:%20Treasure%20Tracker/1.3.0/01009BF0072D4000/32.9%20Super%20Ultrawide.zip) | Makes the game render with a Hor+ 32:9 aspect ratio for Super Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.3.0` | [victoria4dx](https://github.com/victoria4dx/switch-mods)
 | [21:9 Ultrawide](https://github.com/victoria4dx/switch-mods/raw/main/Captain%20Toad:%20Treasure%20Tracker/1.3.0/01009BF0072D4000/21.9%20Ultrawide.zip) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.3.0` | [victoria4dx](https://github.com/victoria4dx/switch-mods)
 | [4:3 Aspect Ratio](https://github.com/victoria4dx/switch-mods/raw/main/Captain%20Toad:%20Treasure%20Tracker/1.3.0/01009BF0072D4000/4.3%20Aspect%20Ratio.zip) | Makes the game render with a 4:3 aspect ratio for CRT displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.3.0` | [victoria4dx](https://github.com/victoria4dx/switch-mods)
-| [Disable DOF](https://cdn.discordapp.com/attachments/356187763139280896/726756195192537128/Disable_DOF.zip) | Disabled in-game Depth of field | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
-| [Disable Screen Cursor Icon](https://cdn.discordapp.com/attachments/356187763139280896/726756199281852506/Disable_On_Screen_Cursor.zip) | Disabled the on screen interaction cursor icon | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
-| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/726756203224367114/Force_Max_Resolution.zip) | Forces the game to always run at 1920x1080 | `1.0.0` `1.3.0` | theboy181, Claude von Riegan
+| [Disable DOF](https://cdn.discordapp.com/attachments/356187763139280896/726756195192537128/Disable_DOF.zip) | Disabled in-game Depth of field | `1.0.0` `1.3.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Claude von Riegan
+| [Disable Screen Cursor Icon](https://cdn.discordapp.com/attachments/356187763139280896/726756199281852506/Disable_On_Screen_Cursor.zip) | Disabled the on screen interaction cursor icon | `1.0.0` `1.3.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Claude von Riegan
+| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/726756203224367114/Force_Max_Resolution.zip) | Forces the game to always run at 1920x1080 | `1.0.0` `1.3.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Claude von Riegan
 
 #
 
 ### Crash Bandicoot N. Sane Trilogy
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run full speed at 60 FPS | `1.0.0` | theboy181
+| [60 FPS](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/60FPS.zip) | Makes the game run full speed at 60 FPS | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 | [1920x1080](https://github.com/yuzuMods/yuzuMods/raw/master/mods/crash-bandicoot-n-sane-trilogy/1920x1080.zip) | Makes the Game run at 1080p Resolution | `1.0.0` | zakaria
 
 #
@@ -70,19 +70,19 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Kirby: Star Allies
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/868554634510356510/60FPS.zip) | Makes the game run full speed at 60 FPS | `4.0.0` | theboy181
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/868554634510356510/60FPS.zip) | Makes the game run full speed at 60 FPS | `4.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 
 ### Kirby and the Forgotten Land
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [32:9 Aspect Ratio](https://github.com/victoria4dx/switch-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/01004D300C5AE000/1.0.0/32.9%20Super%20Ultrawide.zip) | Makes the game render with a Hor+ 32:9 aspect ratio for Super Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.0.0` | victoria4dx, theboy181
-| [21:9 Aspect Ratio](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/21.9.rar) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.0.0` | theboy181
-| [Disable Dynamic Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/Disable%20Dynamic%20Resolution.rar) | Disables dynamic resolution swapping. Helps to reduce stutters caused by dynamic resolution changes | `1.0.0` | theboy181
-| [60 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/60fps.rar) | Makes the game run full speed dynamic 60 FPS | `1.0.0` | theboy181
-| [Full 60 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/60fps%20-%20%20Full.rar) | Makes the game run full speed dynamic 60 FPS, including distant NPC animations (Very demanding on CPU/GPU) | `1.0.0` | theboy181
-| [Full 30 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/30fps%20-%20%20Full.rar) | Makes the game run full speed 30 FPS, including distant 30 FPS NPC animations (NPC animations are normally 15 FPS) | `1.0.0` | theboy181
+| [32:9 Aspect Ratio](https://github.com/victoria4dx/switch-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/01004D300C5AE000/1.0.0/32.9%20Super%20Ultrawide.zip) | Makes the game render with a Hor+ 32:9 aspect ratio for Super Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.0.0` | victoria4dx, [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [21:9 Aspect Ratio](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/21.9.rar) | Makes the game render with a Hor+ 21:9 aspect ratio for Ultrawide displays. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Disable Dynamic Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/Disable%20Dynamic%20Resolution.rar) | Disables dynamic resolution swapping. Helps to reduce stutters caused by dynamic resolution changes | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [60 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/60fps.rar) | Makes the game run full speed dynamic 60 FPS | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Full 60 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/60fps%20-%20%20Full.rar) | Makes the game run full speed dynamic 60 FPS, including distant NPC animations (Very demanding on CPU/GPU) | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Full 30 FPS](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Kirby%20and%20the%20Forgotten%20Land/%5B01004D300C5AE000%5D/1.0.0/30fps%20-%20%20Full.rar) | Makes the game run full speed 30 FPS, including distant 30 FPS NPC animations (NPC animations are normally 15 FPS) | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 
 
@@ -122,7 +122,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Mario Tennis Aces
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798514729978560512/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `3.1.0` | theboy181
+| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798514729978560512/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `3.1.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 
@@ -138,8 +138,8 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [60FPS](https://cdn.discordapp.com/attachments/636594095913041934/729257856523829258/60FPS_mod.rar) | Changes target frame-rate from 30fps to 60fps. | `1.4.0` | masagrator
-| [4K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/MONSTER%20HUNTER%20GENERATIONS%20ULTIMATE/%5B0100770008DD8000%5D/1.4.0/4K-2K.rar) | Renders the game at 4K Docked | `1.4.0` | theboy181
-| [120 FPS](https://github.com/theboy181/switch-cheat-mods/raw/main/MONSTER%20HUNTER%20GENERATIONS%20ULTIMATE/%5B0100770008DD8000%5D/1.4.0/120fps-v1.4.0.rar) | Unlocks the framerate to run at 120 FPS | `1.4.0` | theboy181
+| [4K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/MONSTER%20HUNTER%20GENERATIONS%20ULTIMATE/%5B0100770008DD8000%5D/1.4.0/4K-2K.rar) | Renders the game at 4K Docked | `1.4.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [120 FPS](https://github.com/theboy181/switch-cheat-mods/raw/main/MONSTER%20HUNTER%20GENERATIONS%20ULTIMATE/%5B0100770008DD8000%5D/1.4.0/120fps-v1.4.0.rar) | Unlocks the framerate to run at 120 FPS | `1.4.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 
@@ -170,7 +170,7 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Paper Mario: The Origami King
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/798514934781706250/60FPS.zip) | Makes the game run full speed at 60 FPS. Please note that there are currently timing issues in mini-games/battles. The game *may* also soft lock when using this mod. | `1.0.0` | theboy181
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/798514934781706250/60FPS.zip) | Makes the game run full speed at 60 FPS. Please note that there are currently timing issues in mini-games/battles. The game *may* also soft lock when using this mod. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 ### Pokemon Brilliant Diamond
@@ -190,34 +190,34 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Pokemon, Let's Go Eevee!
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/818409316264050688/60_FPS_Eevee.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.0.2` | theboy181, DuIslingr
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/818409316264050688/60_FPS_Eevee.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.0.2` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), DuIslingr
 
 #
 
 ### Pokemon, Let's Go Pikachu! 
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/818409317891571772/60_FPS_Pikachu.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.0.2` | theboy181, DuIslingr
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/818409317891571772/60_FPS_Pikachu.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.0.2` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), DuIslingr
 
 #
 
 ### Pokemon Sword (exeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/849209813656928286/force-max-resolution-sword.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| theboy181, Claude von Riegan, DuIslingr
-| [Remove Outlines](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Pok%C3%A9mon%20Sword/%5B0100ABF008968000%5D/1.3.2/Remove%20Outlines.rar) | Removes character outlines from the game (Useful for resolution scaling) |`1.3.2`| theboy181
-| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/849209808708042752/60-FPS-sword.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2` | theboy181, Claude von Riegan, DuIslingr
-| [Y Comm Wifi Fix](https://cdn.discordapp.com/attachments/356187763139280896/849209817809944596/Pokemon-Sword-Wifi-Fix.zip) | Stops an error message from popping up when you press the Y Comm button | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| theboy181, DuIslingr, Claude von Riegan
+| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/849209813656928286/force-max-resolution-sword.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Claude von Riegan, DuIslingr
+| [Remove Outlines](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/Pok%C3%A9mon%20Sword/%5B0100ABF008968000%5D/1.3.2/Remove%20Outlines.rar) | Removes character outlines from the game (Useful for resolution scaling) |`1.3.2`| [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/849209808708042752/60-FPS-sword.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Claude von Riegan, DuIslingr
+| [Y Comm Wifi Fix](https://cdn.discordapp.com/attachments/356187763139280896/849209817809944596/Pokemon-Sword-Wifi-Fix.zip) | Stops an error message from popping up when you press the Y Comm button | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), DuIslingr, Claude von Riegan
 
 #
 
 ### Pokemon Shield (exeFS)
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/849209811420577832/Force_max_resolution_shield.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| theboy181, Claude von Riegan, Morph, DuIslingr
-| [Remove Outlines](https://cdn.discordapp.com/attachments/893635908157464657/913905256725884989/Remove-Outlines-Shield.zip) | Removes character outlines from the game (Useful for resolution scaling) |`1.0.0` `1.3.2`| theboy181, Norstyrm
-| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/849209829469585408/60-FPS-shield.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| theboy181, Claude von Riegan, Morph, DuIslingr
-| [Y Comm Wifi Fix](https://cdn.discordapp.com/attachments/356187763139280896/849209815720001586/Pokemon-Shield-Wifi-Fix.zip) | Stops an error message from popping up when you press the Y Comm button | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| theboy181, DuIslingr , Claude von Riegan
+| [Force Max Resolution](https://cdn.discordapp.com/attachments/356187763139280896/849209811420577832/Force_max_resolution_shield.zip) | Forces the game to always run at 1920x1080. | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Claude von Riegan, Morph, DuIslingr
+| [Remove Outlines](https://cdn.discordapp.com/attachments/893635908157464657/913905256725884989/Remove-Outlines-Shield.zip) | Removes character outlines from the game (Useful for resolution scaling) |`1.0.0` `1.3.2`| [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Norstyrm
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/849209829469585408/60-FPS-shield.zip) | Runs the game at a 60 FPS cap. Will be double speed at 60 FPS | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Claude von Riegan, Morph, DuIslingr
+| [Y Comm Wifi Fix](https://cdn.discordapp.com/attachments/356187763139280896/849209815720001586/Pokemon-Shield-Wifi-Fix.zip) | Stops an error message from popping up when you press the Y Comm button | `1.0.0` `1.2.0` `1.2.1` `1.3.0` `1.3.1` `1.3.2`| [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), DuIslingr , Claude von Riegan
 
 #
 
@@ -252,9 +252,9 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 ### Splatoon 2
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798515462069682186/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` | theboy181
-| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/951969691696521296/60_Lobby.zip) | Makes Inkopolis Square and Octo Expansion credits run at 60fps instead of 30fps. | `1.0.0` `5.1.0` `5.2.2` `5.5.0` | theboy181, Nimbo
-| [30 FPS](https://github.com/galax20002/Switch-mods/raw/main/30FPS.zip) | Makes the whole game run at 30fps instead of 60fps for low end PC's, May make the ingame Timer half of the speed in some levels from the Octo Expansion dlc | `5.4.0` `5.5.0` | theboy181, shadow, AndNowIsTheTime, Galax2000
+| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798515462069682186/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [60 FPS](https://cdn.discordapp.com/attachments/495758692495523854/951969691696521296/60_Lobby.zip) | Makes Inkopolis Square and Octo Expansion credits run at 60fps instead of 30fps. | `1.0.0` `5.1.0` `5.2.2` `5.5.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Nimbo
+| [30 FPS](https://github.com/galax20002/Switch-mods/raw/main/30FPS.zip) | Makes the whole game run at 30fps instead of 60fps for low end PC's, May make the ingame Timer half of the speed in some levels from the Octo Expansion dlc | `5.4.0` `5.5.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), shadow, AndNowIsTheTime, Galax2000
 
 
 #
@@ -285,20 +285,20 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [16:10 Aspect Ratio](https://github.com/victoria4dx/switch-mods/raw/main/Super%20Mario%20Odyssey/1.3.0/0100000000010000/16.10%20Aspect%20Ratio.zip) | Makes the game render with a 16:10 aspect ratio. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.3.0` | [victoria4dx](https://github.com/victoria4dx/switch-mods), [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 | [4:3 Aspect Ratio](https://github.com/victoria4dx/switch-mods/raw/main/Super%20Mario%20Odyssey/1.3.0/0100000000010000/4.3%20Aspect%20Ratio.zip) | Makes the game render with a 4:3 aspect ratio. Enable 'Stretch to Window' in Yuzu's graphics settings for this to work properly. | `1.3.0` | [victoria4dx](https://github.com/victoria4dx/switch-mods), [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 | [Clean UI](https://gamebanana.com/guis/download/34208) | Removes coins, moons, health, and a few other UI elements from the game. | `Any` | Eloeri
-| [Disable Deferred Shading](https://cdn.discordapp.com/attachments/512678820092968971/710314369333985310/Disable_Deferred_Shading.zip) | Disables deferred shading, fixing a shadow issue for AMD Navi GPUs running under the Vulkan backend. | `1.0.0` | theboy181
-| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/430158879465144320/849710847746900017/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.3.0` | theboy181
-| [Disable FXAA](https://cdn.discordapp.com/attachments/430158879465144320/849710851162112070/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | theboy181
-| [Disable Camera Motion Blur](https://cdn.discordapp.com/attachments/356187763139280896/798516190602330172/Disable_Camera_Motion_Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` | theboy181
-| [Disable Web Applet](https://cdn.discordapp.com/attachments/512678820092968971/708744273801117726/SMO_Web_Applet_Bypass.7z) | Disables the Web Applet, fixing a crash when traveling from Cascade to Sand Kingdom for the first time. | `1.0.0` | theboy181
-| [Screenshot Mode Graphics](https://mega.nz/file/zXRm3TgB#ks0vf90a9UmxqWSoL_ht7Rfz0EAZ8EWltPa14UU0TtQ) | Makes the game render at enhanced quality settings, may greatly affect performance | `1.0.0` `1.3.0` | theboy181
+| [Disable Deferred Shading](https://cdn.discordapp.com/attachments/512678820092968971/710314369333985310/Disable_Deferred_Shading.zip) | Disables deferred shading, fixing a shadow issue for AMD Navi GPUs running under the Vulkan backend. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/430158879465144320/849710847746900017/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `1.3.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Disable FXAA](https://cdn.discordapp.com/attachments/430158879465144320/849710851162112070/Disable_FXAA.zip) | Disables the anti-aliasing of the game. Recommended if you are upscaling the game. | `1.0.0` `1.3.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Disable Camera Motion Blur](https://cdn.discordapp.com/attachments/356187763139280896/798516190602330172/Disable_Camera_Motion_Blur.zip) | Disables the blur that happens when the camera is moved. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Disable Web Applet](https://cdn.discordapp.com/attachments/512678820092968971/708744273801117726/SMO_Web_Applet_Bypass.7z) | Disables the Web Applet, fixing a crash when traveling from Cascade to Sand Kingdom for the first time. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [Screenshot Mode Graphics](https://mega.nz/file/zXRm3TgB#ks0vf90a9UmxqWSoL_ht7Rfz0EAZ8EWltPa14UU0TtQ) | Makes the game render at enhanced quality settings, may greatly affect performance | `1.0.0` `1.3.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 | [Coins Don't Matter Cheat](https://cdn.discordapp.com/attachments/309388626385436672/914082331860566026/Coins_Dont_Matter.zip) | Coins no longer deduct. Coins always set to 9999. Purple Coins always set to 100. Items in Shop cost nothing (they require X but they don't deduct X) | `1.3.0` | thethiny
 #
 
 ### Super Smash Bros. Ultimate
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [30 FPS](https://cdn.discordapp.com/attachments/356187763139280896/727622903524360222/30_FPS.zip) | Makes the game full speed at 30 FPS | `1.0.0` `3.1.0` `7.0.0` `8.0.0` | theboy181, Claude von Riegan
-| [Boot Straight to Menu](https://cdn.discordapp.com/attachments/356187763139280896/727622905822969856/Boot_Straight_to_menu.zip) | Makes the game boot straight into the main menu. | `1.0.0` `3.1.0` `7.0.0` `8.0.0` | theboy181, Claude von Riegan
+| [30 FPS](https://cdn.discordapp.com/attachments/356187763139280896/727622903524360222/30_FPS.zip) | Makes the game full speed at 30 FPS | `1.0.0` `3.1.0` `7.0.0` `8.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Claude von Riegan
+| [Boot Straight to Menu](https://cdn.discordapp.com/attachments/356187763139280896/727622905822969856/Boot_Straight_to_menu.zip) | Makes the game boot straight into the main menu. | `1.0.0` `3.1.0` `7.0.0` `8.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Claude von Riegan
 
 #
 
@@ -306,34 +306,34 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Clean UI](https://gamebanana.com/guis/download/34141) | Removes hearts, stamina, arrow reticle, ZL targeting arrow, and other UI elements. | `Any` | Eloeri, Leoetlino
-[Disable dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798516683936759848/Disable_Dynamic_Resolution.zip) | Runs the game at 1080p Resolution | `1.0.0` `1.6.0` | theboy181
-[60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/798516557982072852/60FPS.zip) | Runs the game at Static 60 FPS (If lower than 60, Gameplay is slow) | `1.6.0` | theboy181
+[Disable dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798516683936759848/Disable_Dynamic_Resolution.zip) | Runs the game at 1080p Resolution | `1.0.0` `1.6.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+[60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/798516557982072852/60FPS.zip) | Runs the game at Static 60 FPS (If lower than 60, Gameplay is slow) | `1.6.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 
 ### The Legend of Zelda: Link's Awakening
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [Blur Removal](https://cdn.discordapp.com/attachments/356187763139280896/798516893840965632/Blur_Removal.zip) | Removes the tilt-shift blur. | `1.0.0` `1.0.1` | theboy181
+| [Blur Removal](https://cdn.discordapp.com/attachments/356187763139280896/798516893840965632/Blur_Removal.zip) | Removes the tilt-shift blur. | `1.0.0` `1.0.1` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 | [Infinite Cheats](https://cdn.discordapp.com/attachments/495758692495523854/661927483729379329/zla-cheats.zip) | Allows for Infinite Ammo, Bombs, Magic Powder, and Rupees. | `1.0.0` | CJBoK
 | [Clean UI](https://gamebanana.com/guis/download/34940) | Removes hearts, weapons icon, and interaction prompts. | `Any` | Eloeri
-| [Stable 60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/724250990928461834/Stable-60fps-v2.zip) | Disables the Dynamic switching from 60 to 30 FPS | `1.0.0` | theboy181
+| [Stable 60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/724250990928461834/Stable-60fps-v2.zip) | Disables the Dynamic switching from 60 to 30 FPS | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 
 ### The Legend of Zelda: Skyward Sword HD
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [30 FPS](https://cdn.discordapp.com/attachments/495758692495523854/938238281785675816/30fps.zip) | Makes the game fullspeed at 30 FPS. | `1.0.0` `1.0.1` | theboy181, Nimbo
-| [1440p/2K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/The%20Legend%20of%20Zelda:%20Skyward%20Sword%20HD/%5B01002DA013484000%5D/1.0.0/2K.rar) | Allows the game to render at 1440p/2K Resolution (Greatly affects performance)| `1.0.0` | theboy181
-| [2160p/4K resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/The%20Legend%20of%20Zelda:%20Skyward%20Sword%20HD/%5B01002DA013484000%5D/1.0.0/4K.rar) | Allows the game to render at 2160p/4K Resolution (Greatly affects performance). | `1.0.0` | theboy181
+| [30 FPS](https://cdn.discordapp.com/attachments/495758692495523854/938238281785675816/30fps.zip) | Makes the game fullspeed at 30 FPS. | `1.0.0` `1.0.1` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Nimbo
+| [1440p/2K Resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/The%20Legend%20of%20Zelda:%20Skyward%20Sword%20HD/%5B01002DA013484000%5D/1.0.0/2K.rar) | Allows the game to render at 1440p/2K Resolution (Greatly affects performance)| `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [2160p/4K resolution](https://github.com/theboy181/switch-ptchtxt-mods/raw/main/The%20Legend%20of%20Zelda:%20Skyward%20Sword%20HD/%5B01002DA013484000%5D/1.0.0/4K.rar) | Allows the game to render at 2160p/4K Resolution (Greatly affects performance). | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 
 ### Xenoblade Chronicles: Definitive Edition
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/818446892593578034/60_FPS.zip) | Makes the game run full speed at 60 FPS. Please note that the UI will only be full speed at 60fps. | `1.0.0` `1.1.2` | theboy181, Kirby567fan, DuIslingr
+| [60 FPS](https://cdn.discordapp.com/attachments/356187763139280896/818446892593578034/60_FPS.zip) | Makes the game run full speed at 60 FPS. Please note that the UI will only be full speed at 60fps. | `1.0.0` `1.1.2` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods), Kirby567fan, DuIslingr
 | [More Affinity Coins (x4)](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/More%20Affinity%20Coins%20(x4).zip) | Multiply the Affinity Coins gained when level up or kill a unique monster for the first time. | `1.1.2` | lasyan3
 | [More Affinity Coins (x8)](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/More%20Affinity%20Coins%20(x8).zip) | Multiply the Affinity Coins gained when level up or kill a unique monster for the first time. | `1.1.2` | lasyan3
 | [More Arts Points (x2)](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/More%20Arts%20Points%20(x2).zip) | Multiply the Arts points gained from battles. **Please note:** the points showed when a monster is killed don't change, but the values are correctly increased. | `1.1.2` | lasyan3
@@ -342,3 +342,8 @@ There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownload
 | [More Skills Points (x4)](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/More%20Skills%20Points%20(x4).zip) | Multiply the Skills points gained from battles. (same note) | `1.1.2` | lasyan3
 | [Speed increased (x1.25)](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/Speed%20increased%20(x1.25).zip) | Increase the speed of your main character. **Please note:** this also impacts enemies speed but so far it doesn't generates any trouble during playthrough. | `1.1.2` | lasyan3
 | [Speed increased (x1.5)](https://github.com/lasyan3/yuzuMods/raw/master/mods/xenoblade-chronicles-definitive-edition/Speed%20increased%20(x1.5).zip) | Increase the speed of your main character. (same note) | `1.1.2` | lasyan3
+
+### Xenoblade Chronicles 3
+| Mod | Description | Applies to | Credit |
+| --- | ----------- | ---------- | ------ |
+| [Bloom/Brightness Bug Workaround (Vulkan)](https://cdn.discordapp.com/attachments/495758692495523854/1007153835371921448/Vulkan_Workaround.rar) | Fixes the graphical bugs with the Vulkan GPU backend rendering that manifest as extreme bloom/brightness in certain areas of the game, as well as various issues with rendering cutscenes. | `1.1.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
