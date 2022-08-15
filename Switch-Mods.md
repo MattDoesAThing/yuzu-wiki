@@ -1,7 +1,8 @@
 ### **Usage**
 For info on how to use mods, refer to the [Game Modding page](https://yuzu-emu.org/help/feature/game-modding/).
 
-There exists a [Yuzu Mod Downloader](https://github.com/amakvana/YuzuModDownloader), which will detect your games within Yuzu and download the Mods for them off this page. The Mod Downloader is an external program and Yuzu should not be running while using it. The mods downloaded will be placed within the games specific mod directory.
+If you're looking for an automated process to install these mods, you can try the [Yuzu Mod Downloader.](https://github.com/amakvana/YuzuModDownloader/releases/latest)
+> **DISCLAIMER:** This is not an official mod downloader from yuzu team, so we cannot guarantee support for it in our Discord server or support forums. For any issues with this program, contact its developer through the [mod downloader's GitHub repository.](https://github.com/amakvana/YuzuModDownloader)
 
 ---
 
