@@ -2,7 +2,7 @@ If you are unable to find the answer to your question, please join our Discord s
 ### **Table of contents**
 * [yuzu starts with the error “VCRUNTIME140_1.dll was not found”](#yuzu-starts-with-the-error-vcruntime140_1dll-was-not-found)
 * [How do I get Games?](#how-do-i-get-games)
-* [Can I use a Mariko Switch/Red Box/HAC-001(-01)/Switch Lite for the dumping process?](#can-i-use-a-mariko-switchred-boxhac-001-01-or-a-switch-lite-for-the-dumping-process)
+* [Can I use a Mariko Switch/Switch Lite/OLED Model for the dumping process?](#can-i-use-a-mariko-switchswitch-liteoled-model-for-the-dumping-process)
 * [yuzu starts with the error "Broken Vulkan Installation Detected"](#yuzu-starts-with-the-error-broken-vulkan-installation-detected)
 * [yuzu starts with the error "Missing Derivation Components"](#yuzu-starts-with-the-error-missing-derivation-components)
 * [yuzu starts with the error "Unable to start application: Os { code: 2, kind: NotFound, message: “The system cannot find the file specified.” }"](#yuzu-starts-with-the-error-unable-to-start-application-os-code-2-kind-notfound-message-the-system-cannot-find-the-file-specified)
@@ -49,9 +49,10 @@ Go to Visual Studio 2015, 2017 and 2019, and select the link next to x64.
 You are legally required to dump your games from your Nintendo Switch. To do so, please follow our in-depth [Quickstart Guide](https://yuzu-emu.org/help/quickstart/).
 
 
-### **Can I use a Mariko Switch/Red Box/HAC-001(-01) or a Switch Lite for the dumping process?**
+### **Can I use a Mariko Switch/Switch Lite/OLED Model for the dumping process?**
 
-No, since the Mariko Switch and the Switch Lite are both patched from the fusée gelée RCM exploit. Currently, there is no widely accessible method that allows the dumping of system files and games required for yuzu from those consoles. To check if your Switch is hackable, visit https://damota.me/ssnc/checker and test your Switch’s serial number.
+Yes, but support for those models is beyond our scope since they require hardware-based modifications to load custom firmware. We still recommend obtaining a Switch console that is vulnerable to the `fusée-gelée` RCM exploit, as it's still the most accessible way for jailbreaking. To check if your Switch is hackable using this exploit, visit [Is My Switch Patched?](https://ismyswitchpatched.com) and enter your console’s serial number.
+
 
 ### **yuzu starts with the error "Broken Vulkan Installation Detected"**
 
@@ -62,6 +63,7 @@ This problem indicates that the Vulkan initialization failed on the previous boo
 * Verify your Vulkan installation by navigating to Emulation > Configure > Graphics > Click "Check for Working Vulkan"
 
 If issues persist, please reach out for support via our [Discord server](https://discord.gg/u77vRWY) or our [Forum](https://community.citra-emu.org/c/yuzu-support/14).
+
 
 ### **yuzu starts with the error "Missing Derivation Components"**
 ![](https://cdn.discordapp.com/attachments/512678820092968971/699337208443699307/Keys_missing.PNG)
@@ -75,7 +77,6 @@ You may need to create the following "keys" folder:
 * Linux: `/home/USERNAME/.local/share/yuzu/keys`
 
 **NOTE: This yuzu directory can be quickly accessed by selecting file/open yuzu folder within the emulator**
-
 
 
 ### **yuzu starts with the error "Unable to start application: Os { code: 2, kind: NotFound, message: “The system cannot find the file specified.” }"**
@@ -101,6 +102,7 @@ Afterwards, follow the instructions below for `yuzu will not update further or s
 * Launch the installer and install yuzu again.
 * Note: Doing this will not touch your existing keys - saves for yuzu, as they reside in %appdata%\yuzu\ not localappdata yuzu folder.
 
+
 ### **yuzu closes when opening Configure**
 
 This problem may be caused by a corrupt configuration file.
@@ -110,12 +112,12 @@ Alternatively, some screen recording applications use dubious methods to inject 
 
 We recommend using OBS Studio, Radeon ReLive, Nvidia ShadowPlay or Microsoft XBox Game Bar.
 
-Overwolf is also a known cause of issues, we recommend to avoid it.
+Overwolf is also a known cause of issues, we recommend avoiding it.
+
 
 ### **My game is Lagging and Dropping to Low Framerates**
 
-
-You are likely experiencing Shader Caching. Shaders are small programs running on a graphic card, responsible for rendering graphics like terrain, explosions, characters, etc. Since a PC cannot directly execute switch shaders, It first has to translate them to a format a PC can understand. This translation process is time-consuming and you'll notice it in two ways:
+You are likely experiencing Shader Caching. Shaders are small programs running on a graphic card, responsible for rendering graphics like terrain, explosions, characters, etc. Since a PC cannot directly execute switch shaders, it first has to translate them to a format a PC can understand. This translation process is time consuming, and you'll notice it in two ways:
 
 * While playing, if yuzu needs to translate a new shader, the game will stutter. Loading into a game for the first time can give long freezes due to the number of shaders. As you keep playing, the amount of stuttering will decrease.
 
@@ -123,7 +125,8 @@ You are likely experiencing Shader Caching. Shaders are small programs running o
 
 Vulkan and OpenGL have separate caches, but different OpenGL backends share the same cache. This means that on Nvidia you can build up shaders with less stutter on GLASM, then use GLSL for more performance.
 
-`IMPORTANT: Since the cache stores parts of the game, we don't condone sharing or downloading these, since it is considered piracy`
+**IMPORTANT: Since the cache stores parts of the game, we don't condone sharing or downloading these, since it is considered piracy.**
+
 
 ### **How do I use mods or cheats?**
 For a list of useful mods for your favorite games, check our database with [Switch Mods](https://yuzu-emu.org/wiki/switch-mods/)
@@ -148,6 +151,7 @@ Once added to the correct mod directory, simply right click the game again, sele
 
 ![](https://cdn.discordapp.com/attachments/512678820092968971/697124627520159804/Mods_on.PNG)
 
+
 ### **How do I install game updates or DLC?**
 Installing updates and DLC is simple. In the top left corner of the emulator window, select `File / Install Files to NAND`, then select the file you wish to install. Once installed, your files should load automatically and the installed update or DLC will be shown in the games list add-ons column of the corresponding game.
 
@@ -157,11 +161,13 @@ If you wish to activate/deactivate a specific update or DLC then right click you
 
 Reinstalling or Overwriting Updates/DLC is as simple as following the above instructions, selecting your files and installing your Update/DLC. When doing this, any previously installed files will be removed and replaced by the newly installed versions.
 
+
 ### **How do I uninstall game updates or DLC?**
 
 To delete your installed game Updates or DLCs, right click your game, then select Remove. From here you can delete/uninstall your game Updates and DLCs from the options list (See Below)
 
 ![](https://cdn.discordapp.com/attachments/356187763139280896/739433965584384010/Remove_updates_and_DLC.PNG)
+
 
 ### **How do I set up my controls?**
 
@@ -193,9 +199,12 @@ Open the yuzu settings and go to `Controls`.
 * Keyboard: The `Defaults` button on bottom right sets default keyboard mappings.
 * Change mappings if desired.
 * Confirm with `OK`.
+
+
 ### **How do I use my GameCube controller adapter?**
 
 The GameCube adapter communicates with yuzu over the `libusb` protocol. This works natively on Linux, but requires the installation of a compatible driver on Windows using Zadig.
+
 
 #### Zadig driver installation
 Plug in the GameCube controller adapter if it hasn't been already. Download and launch [Zadig](https://zadig.akeo.ie/). 
@@ -211,11 +220,13 @@ If you're using the Mayflash adapter, make sure you switch it to `Wii U` or Zadi
 
 When the notification that the driver is installed successfully is displayed, you can close Zadig and continue to configuring the controller with yuzu.
 
+
 #### GameCube controller configuration
 
 Ensure the adapter is plugged in prior to launching yuzu. Then follow the [How do I set up my controls?](#how-do-i-set-up-my-controls) instructions, selecting `Gamecube controller X` as the `Input Device`, where `X` is the port in which the controller is plugged into.
 
 ![](https://cdn.discordapp.com/attachments/737476434536431737/760951986417172520/gc_automap.png)
+
 
 ### **How do I add a save to my Game**
 
@@ -227,59 +238,80 @@ Once your `Save Data Location` is open, place your game saves in this directory
 
 ![](https://cdn.discordapp.com/attachments/356187763139280896/697142111568527400/save_location.PNG)
 
+
 ### **yuzu closes when launching game**
+
 * If you happen to have issue launching game and have Nod32 ESET Antivirus installed. Please uninstall it and reboot. Or add yuzu into the HIPS exclusions. It is known to cause issue with emulators recently.
 * Example adding exception below
 ![image](https://user-images.githubusercontent.com/23653025/178130047-be87687b-54ae-410e-aabd-ad843406d14f.png)
 ![image](https://user-images.githubusercontent.com/23653025/178130025-254491e6-a568-4f79-8c4c-b9353a624667.png)
 
+
 ### Games fail to launch with the error: "WerFault.exe - Application Error - The application was unable to start correctly"
 
 This typically occurs when yuzu runs out of RAM. Increase the size of your pagefile to resolve the issue.
+
 
 ### What is Boxcat?
 
 Please read the following article: [Boxcat](https://yuzu-emu.org/help/feature/boxcat/)
 
+
 ### Why am I getting an error?
 
 Please look up your error in the following page: [Error Codes](https://yuzu-emu.org/help/reference/error-codes/)
+
 
 ### What are Mods and how do I install them?
 
 Please read the following article: [Mods](https://yuzu-emu.org/help/feature/game-modding/)
 
+
 ### How do I upload my log file?
 
 Please read the following guide: [How to Upload the Log File](https://yuzu-emu.org/help/reference/log-files/)
+
 
 ### What is Telemetry?
 
 Please read the following article: [What is Telemetry?](https://yuzu-emu.org/help/feature/telemetry/)
 
+
 ### How do I install Early Access?
 
 Please read the following guide: [How to install Early Access](https://yuzu-emu.org/help/early-access/)
 
+
 ---
 
 ### **What is yuzu?**
+
 yuzu is an experimental open-source emulator for the Nintendo Switch from the creators of Citra.
 It is written in C++ with portability in mind, with builds actively maintained for Windows and Linux. The emulator currently can play various commercial titles and homebrew applications with varying degrees of success.
 
+
 ### **Which software license is yuzu licensed under?**
+
 yuzu is an open-source project, licensed under the GPLv2 (or any later version). Refer to the license document for more information.
 
+
 ### **Which platforms does yuzu support?**
+
 yuzu is actively tested and supported on various 64-bit versions of Windows (10 and up) and Linux. macOS is no longer supported due to Apple deprecating OpenGL.
 
+
 ### **What are the system requirements for yuzu?**
+
 yuzu currently requires an OpenGL 4.6 capable GPU and a CPU that has high single-core performance. It also requires a minimum of 8 GB of RAM. For more details, see our [Quickstart Guide](https://yuzu-emu.org/help/quickstart/#hardware).
 
+
 ### **How do I build yuzu for the OS that I use?**
+
 Take a look at the following guides for steps on building yuzu for the following platforms:
   - [Linux](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Linux)
   - [Windows](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Windows)
 
+
 ### **Who made yuzu?**
+
 yuzu has an active team of open-source developers. The list of contributors can be [found on GitHub](https://github.com/yuzu-emu/yuzu/graphs/contributors).
