@@ -89,7 +89,7 @@ If you need to run ctests, you can disable `-DYUZU_TESTS=OFF` and install Catch2
 mkdir build && cd build
 cmake .. -GNinja -DYUZU_USE_BUNDLED_VCPKG=ON -DYUZU_TESTS=OFF
 ninja
-sudo ninja install # (currently doesn't work, needs to be fixed)
+sudo ninja install 
 ```
 
 Optionally, you can use `cmake-gui ..` to adjust various options (e.g. disable the Qt GUI).
