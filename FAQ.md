@@ -108,7 +108,7 @@ Afterwards, follow the instructions below for `yuzu will not update further or s
 This problem may be caused by a corrupt configuration file.
 Press Win+R, type `%appdata%\yuzu\config` and delete the `qt-config.ini` file. Your global settings will be lost after doing this, reconfigure accordingly.
 
-Alternatively, some screen recording applications use dubious methods to inject themselves into software, causing crashes. Some examples are Bandicam, Action and Screenrec. Uninstall the software if you have it installed.
+Alternatively, some screen recording applications use dubious methods to inject themselves into software, causing crashes. Some examples are Reshade, GShade, Bandicam, Action and Screenrec. Uninstall the software if you have it installed. For Reshade-GShade if you need to keep it installed at the very least turn off its ability to touch Vulkan globally on windows to allow Yuzu&Vulkan to work again.
 
 We recommend using OBS Studio, Radeon ReLive, Nvidia ShadowPlay or Microsoft XBox Game Bar.
 
