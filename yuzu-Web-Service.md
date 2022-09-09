@@ -14,5 +14,5 @@ yuzu web tokens are unique identifiers that allow your personal yuzu installatio
 
 1. Open yuzu, and go into the `Emulation` → `Configure...` menu.
 2. In the new window, go into the `Web` tab.
-3. Type your username and paste your token in the respective fields.
+3. Paste your token in the respective field.
 4. Click `OK` to apply the settings.
