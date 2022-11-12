@@ -46,6 +46,7 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
   - Users need to manually disable building SDL2 from externals if they intend to use the version provided by their system by adding the parameters `-DYUZU_USE_EXTERNAL_SDL2=OFF`
 
 ```
+git submodule update --init --recursive
 cmake .. -GNinja -DCMAKE_C_COMPILER=gcc-11 -DCMAKE_CXX_COMPILER=g++-11
 ```
 
