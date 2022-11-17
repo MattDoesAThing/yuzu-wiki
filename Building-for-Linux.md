@@ -44,6 +44,7 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
   -  Users need to manually specify building with QT Web Engine enabled.  This is done using the parameter `-DYUZU_USE_QT_WEB_ENGINE=ON` when running CMake. 
   - Users need to manually specify building with GCC 11. This can be done by adding the parameters `-DCMAKE_C_COMPILER=gcc-11 -DCMAKE_CXX_COMPILER=g++-11` when running CMake. i.e.
   - Users need to manually disable building SDL2 from externals if they intend to use the version provided by their system by adding the parameters `-DYUZU_USE_EXTERNAL_SDL2=OFF`
+  - Users of Ubuntu versions newer than 22.04 need to manually install libssl1.1 from [here](http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb).
 
 ```
 git submodule update --init --recursive
