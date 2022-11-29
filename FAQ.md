@@ -232,11 +232,13 @@ Ensure the adapter is plugged in prior to launching yuzu. Then follow the [How d
 
 To add a save, simply right-click your game in the Games List, Select `Open Save Data Location`, then Select your User from the Profile Selector
 
-![](https://cdn.discordapp.com/attachments/356187763139280896/697140759454941245/User_list_saves.PNG)
+![](https://media.discordapp.net/attachments/799182828038258698/1047061922027163648/image.png)
 
-Once your `Save Data Location` is open, place your game saves in this directory
+![](https://media.discordapp.net/attachments/799182828038258698/1047061922366894141/image.png)
 
-![](https://cdn.discordapp.com/attachments/356187763139280896/697142111568527400/save_location.PNG)
+Once your `Save Data Location` is open, place your applicable game save in the folder presented to you.
+
+![](https://media.discordapp.net/attachments/799182828038258698/1047062761177366548/image.png?width=898&height=284)
 
 
 ### **yuzu closes when launching game**
