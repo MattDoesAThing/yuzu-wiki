@@ -17,3 +17,16 @@ Run the output:
 ```
 bin/yuzu.app/Contents/MacOS/yuzu
 ```
+
+---
+
+To run with MoltenVK, install additional dependencies:
+```sh
+brew install molten-vk vulkan-loader
+```
+
+Run with Vulkan loader path:
+```sh
+export LIBVULKAN_PATH=/opt/homebrew/lib/libvulkan.dylib
+bin/yuzu.app/Contents/MacOS/yuzu
+```
