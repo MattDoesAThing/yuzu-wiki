@@ -9,6 +9,7 @@ brew install autoconf automake boost@1.76 ccache ffmpeg fmt glslang hidapi libto
 Build with debug symbols (vcpkg is not currently used due to broken boost-context library):
 ```sh
 mkdir build && cd build
+export Qt5_DIR="/opt/homebrew/opt/qt@5/lib/cmake"
 cmake .. -GNinja -DCMAKE_BUILD_TYPE=RelWithDebInfo -DYUZU_USE_BUNDLED_VCPKG=OFF -DYUZU_TESTS=OFF
 ninja
 ```
