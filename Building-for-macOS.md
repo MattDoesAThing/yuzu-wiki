@@ -1,3 +1,5 @@
+Please note this article is intended for development, and yuzu on macOS is not currently ready for regular use.
+
 This article was written for developers. yuzu support for macOS is not ready for casual use.
 ---
 
