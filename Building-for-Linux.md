@@ -32,6 +32,8 @@ All other dependencies will be downloaded by [vcpkg](https://vcpkg.io/) if neede
   * [ZLIB](https://www.zlib.net/) 1.2+
   * [zstd](https://facebook.github.io/zstd/) 1.5+
 
+If an ARM64 build is intended, export `VCPKG_FORCE_SYSTEM_BINARIES=1`.
+
 Dependencies are listed here as commands that can be copied/pasted. Of course, they should be inspected before being run.
 
 - Arch / Manjaro:
