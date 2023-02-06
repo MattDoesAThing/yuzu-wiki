@@ -131,6 +131,50 @@ Doesn't require the rather large Qt dependency, but you will lack a GUI frontend
 
   * Pass the `-DENABLE_QT=no` flag to cmake
 
+## Method III: CLion Environment Setup
+
+### Minimal Dependencies
+
+To build yuzu, you need to install the following:
+
+* [CLion](https://www.jetbrains.com/clion/) - This IDE is not free; for a free alternative, check Method I
+* [Vulkan SDK](https://vulkan.lunarg.com/sdk/home#windows) - Make sure to select the Latest SDK.
+
+### Cloning yuzu with CLion
+
+* Clone the Repository:
+
+![1](https://user-images.githubusercontent.com/42481638/216899046-0d41d7d6-8e4d-4ed2-9587-b57088af5214.png)
+![2](https://user-images.githubusercontent.com/42481638/216899061-b2ea274a-e88c-40ae-bf0b-4450b46e9fea.png)
+![3](https://user-images.githubusercontent.com/42481638/216899076-0e5988c4-d431-4284-a5ff-9ecff973db76.png)
+
+
+
+### Building & Setup
+
+* Once Cloned, You will be taken to a prompt like the image below:
+
+![4](https://user-images.githubusercontent.com/42481638/216899092-3fe4cec6-a540-44e3-9e1e-3de9c2fffc2f.png)
+
+* Set the settings to the image below:
+* Change `Build type: Release`
+* Change `Name: Release`
+* Change `Toolchain Visual Studio`
+* Change `Generator: Let CMake decide`
+* Change `Build directory: build`
+
+![5](https://user-images.githubusercontent.com/42481638/216899164-6cee8482-3d59-428f-b1bc-e6dc793c9b20.png)
+
+* Click OK; now Clion will build a directory and index your code to allow for IntelliSense. Please be patient.
+* Once this process has been completed (No loading bar bottom right), you can now build yuzu
+* In the top right, click on the drop-down menu, select all configurations, then select yuzu
+
+![6](https://user-images.githubusercontent.com/42481638/216899226-975048e9-bc6d-4ec1-bc2d-bd8a1e15ed04.png)
+
+* Now run by clicking the play button or pressing Shift+F10, and yuzu will auto-launch once built.
+
+![7](https://user-images.githubusercontent.com/42481638/216899275-d514ec6a-e563-470e-81e2-3e04f0429b68.png)
+
 ## Building from the command line with MSVC
 
 ```cmd
