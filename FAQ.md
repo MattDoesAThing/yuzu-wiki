@@ -100,7 +100,7 @@ Afterwards, follow the instructions below for `yuzu will not update further or s
 * Press Win+R, in the opened window type `%localappdata%` and press Enter.
 * Select the `yuzu` folder and delete it. If it is being used by another process, please double-check that you do not have any yuzu related applications running.
 * Launch the installer and install yuzu again.
-* **Note: Doing this will not touch your existing keys - saves for yuzu, as they reside in %appdata%\yuzu\ not localappdata yuzu folder.**
+## * **Note: Doing this will not touch your existing keys - saves for yuzu, as they reside in %appdata%\yuzu\ not localappdata yuzu folder.**
 
 
 ### **yuzu closes when opening Configure**
