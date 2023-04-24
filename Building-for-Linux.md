@@ -23,7 +23,7 @@ If version 5.15.2 is not already installed, pre-compiled binaries for Qt 5.15.2 
 
 All other dependencies will be downloaded by [vcpkg](https://vcpkg.io/) if needed:
 
-  * [Boost](https://www.boost.org/users/download/) 1.73.0+
+  * [Boost](https://www.boost.org/users/download/) 1.79.0+
   * [Catch2](https://github.com/catchorg/Catch2) 2.13.7 - 2.13.9
   * [fmt](https://fmt.dev/) 8.0.1+
   * [lz4](http://www.lz4.org) 1.8+
@@ -42,7 +42,7 @@ Dependencies are listed here as commands that can be copied/pasted. Of course, t
   - GCC 11 or later is required.
 - Ubuntu / Linux Mint / Debian:
   - `sudo apt-get install autoconf cmake g++-11 gcc-11 git glslang-tools libasound2 libboost-context-dev libglu1-mesa-dev libhidapi-dev libpulse-dev libtool libudev-dev libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-xinerama0 libxcb-xkb1 libxext-dev libxkbcommon-x11-0 mesa-common-dev nasm ninja-build qtbase5-dev qtbase5-private-dev qtwebengine5-dev qtmultimedia5-dev libmbedtls-dev catch2 libfmt-dev liblz4-dev nlohmann-json3-dev libzstd-dev libssl-dev libavfilter-dev libavcodec-dev libswscale-dev`
-  - Ubuntu 20.04, Linux Mint 20, or Debian Bullseye or later is required.
+  - Ubuntu 22.04, Linux Mint 20, or Debian Bullseye or later is required.
   -  Users need to manually specify building with QT Web Engine enabled.  This is done using the parameter `-DYUZU_USE_QT_WEB_ENGINE=ON` when running CMake. 
   - Users need to manually specify building with GCC 11. This can be done by adding the parameters `-DCMAKE_C_COMPILER=gcc-11 -DCMAKE_CXX_COMPILER=g++-11` when running CMake. i.e.
   - Users need to manually disable building SDL2 from externals if they intend to use the version provided by their system by adding the parameters `-DYUZU_USE_EXTERNAL_SDL2=OFF`
