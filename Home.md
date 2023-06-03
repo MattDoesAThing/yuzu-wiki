@@ -17,6 +17,7 @@ You may download a precompiled binary from [our website](https://yuzu-emu.org/do
 
 * __Windows__: [Windows Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Windows)
 * __Linux__: [Linux Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Linux)
+* __Android__: [Android Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Android)
 
 **Note: macOS is no longer supported due to Apple deprecating OpenGL and their current version not supporting the OpenGL extensions we require.** ([source](https://www.anandtech.com/show/12894/apple-deprecates-opengl-across-all-oses))
 
