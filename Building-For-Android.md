@@ -7,7 +7,7 @@
 ```
 git clone --recursive https://github.com/yuzu-emu/yuzu.git
 ```
-Citra by default will be cloned into -
+yuzu by default will be cloned into -
 * `C:\Users\<user-name>\yuzu` on Windows
 * `~/yuzu` on Linux
 * And wherever on macOS
