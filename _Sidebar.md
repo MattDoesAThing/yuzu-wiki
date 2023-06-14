@@ -1,33 +1,33 @@
-[Home](https://github.com/yuzu-emu/yuzu/wiki)
+[Home](wiki)
 ---
   * **Users:**
     * [Quickstart guide](https://yuzu-emu.org/help/quickstart/)
-    * [FAQ](https://github.com/yuzu-emu/yuzu/wiki/FAQ)
-    * [Overview of Switch Game Formats](https://github.com/yuzu-emu/yuzu/wiki/Overview-of-Switch-Game-Formats)
-    * [User Directory](https://github.com/yuzu-emu/yuzu/wiki/User-Directory)
+    * [FAQ](wiki/FAQ)
+    * [Overview of Switch Game Formats](wiki/Overview-of-Switch-Game-Formats)
+    * [User Directory](wiki/User-Directory)
     * [yuzu Early Access](https://yuzu-emu.org/help/early-access/)
-    * [yuzu Web Service](https://github.com/yuzu-emu/yuzu/wiki/yuzu-Web-Service)
+    * [yuzu Web Service](wiki/yuzu-Web-Service)
     * [Telemetry](https://yuzu-emu.org/help/feature/telemetry/)
     * [Boxcat](https://yuzu-emu.org/help/feature/boxcat/)
-    * [Recommended GPU Drivers for Linux](https://github.com/yuzu-emu/yuzu/wiki/Recommended-GPU-Drivers-for-Linux)
+    * [Recommended GPU Drivers for Linux](wiki/Recommended-GPU-Drivers-for-Linux)
 
 #
   * **General:**
-    * [Contributing](https://github.com/yuzu-emu/yuzu/wiki/Contributing)
+    * [Contributing](wiki/Contributing)
     * [Bounties](https://yuzu-emu.org/bounties/)
 
 ---
 
-  * **[Developers](https://github.com/yuzu-emu/yuzu/wiki/Developer-Information):**
+  * **[Developers](wiki/Developer-Information):**
     * Building yuzu:
-        * [Windows](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Windows)
-        * [Linux](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Linux)
-        * [Android](https://github.com/yuzu-emu/yuzu/wiki/Building-for-Android)
-        * [macOS](https://github.com/yuzu-emu/yuzu/wiki/Building-for-macOS)
-    * [Switch Hardware and Software Documentation](https://github.com/yuzu-emu/yuzu/wiki/Switch-Hardware-and-Software)
-    * [Switch Homebrew and Libraries](https://github.com/yuzu-emu/yuzu/wiki/Switch-Homebrew)
-    * [Service Function Usage](https://github.com/yuzu-emu/yuzu/wiki/Service-Function-Usage)
-    * [Contributing](https://github.com/yuzu-emu/yuzu/wiki/Contributing#contributing)
+        * [Windows](wiki/Building-for-Windows)
+        * [Linux](wiki/Building-for-Linux)
+        * [Android](wiki/Building-for-Android)
+        * [macOS](wiki/Building-for-macOS)
+    * [Switch Hardware and Software Documentation](wiki/Switch-Hardware-and-Software)
+    * [Switch Homebrew and Libraries](wiki/Switch-Homebrew)
+    * [Service Function Usage](wiki/Service-Function-Usage)
+    * [Contributing](wiki/Contributing#contributing)
         * [Contributor License Agreement](https://cla-assistant.io/yuzu-emu/yuzu)
-            * [Policy](https://github.com/yuzu-emu/yuzu/wiki/Contributor-License-Agreement-Policy)
-    * [Typical Git workflow](https://github.com/yuzu-emu/yuzu/wiki/Typical-Git-Workflow)
+            * [Policy](wiki/Contributor-License-Agreement-Policy)
+    * [Typical Git workflow](wiki/Typical-Git-Workflow)
