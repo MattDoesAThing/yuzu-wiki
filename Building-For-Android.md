@@ -3,6 +3,9 @@
 * [Android Studio](https://developer.android.com/studio)
 * [NDK and CMake](https://developer.android.com/studio/projects/install-ndk#default-version)
 * [Git](https://git-scm.com/download)
+#### Windows - Additional Dependencies
+  * **[Visual Studio 2022 Community](https://visualstudio.microsoft.com/downloads/)** - **Make sure to select C++ support in the installer. Make sure to update to the latest version if already installed.**
+  * **[Vulkan SDK](https://vulkan.lunarg.com/sdk/home#windows)** - **Make sure to select Latest SDK.**
 ### Cloning yuzu with Git
 ```
 git clone --recursive https://github.com/yuzu-emu/yuzu.git
@@ -20,4 +23,3 @@ yuzu by default will be cloned into -
 ### Additional Resources
 https://developer.android.com/studio/intro
 
- 
