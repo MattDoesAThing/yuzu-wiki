@@ -1,4 +1,4 @@
-[Home](wiki)
+[Home](https://github.com/yuzu-emu/yuzu/wiki)
 ---
   * **Users:**
     * [Quickstart guide](https://yuzu-emu.org/help/quickstart/)
