@@ -1,7 +1,7 @@
 ## Note: These build instructions are a work-in-progress.
 ### Dependencies
 * [Android Studio](https://developer.android.com/studio)
-* [NDK and CMake](https://developer.android.com/studio/projects/install-ndk#default-version)
+* [NDK 25.2.9519653 and CMake 3.22.1](https://developer.android.com/studio/projects/install-ndk#default-version)
 * [Git](https://git-scm.com/download)
 #### Windows - Additional Dependencies
   * **[Visual Studio 2022 Community](https://visualstudio.microsoft.com/downloads/)** - **Make sure to select C++ support in the installer. Make sure to update to the latest version if already installed.**
