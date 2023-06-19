@@ -48,7 +48,7 @@ On Windows, all library dependencies are automatically included within the `exte
 
   ![11](https://i.imgur.com/cNnhs22.png)
 
-* Click the "Configure" button and choose `Visual Studio 16 2019`, with `x64` for the optional platform.
+* Click the "Configure" button and choose `Visual Studio 17 2022`, with `x64` for the optional platform.
 
   ![12](https://i.imgur.com/DKiREaK.png)
 
@@ -64,7 +64,7 @@ On Windows, all library dependencies are automatically included within the `exte
 
   ![15](https://i.imgur.com/5LKg92k.png)
 
-* Open the solution file `yuzu.sln` in Visual Studio 2019, which is located in the build folder.
+* Open the solution file `yuzu.sln` in Visual Studio 2022, which is located in the build folder.
 
   ![16](https://i.imgur.com/208yMml.png)
 
@@ -182,6 +182,6 @@ git clone --recursive https://github.com/yuzu-emu/yuzu
 cd yuzu
 mkdir build
 cd build
-cmake .. -G "Visual Studio 16 2019" -A x64
+cmake .. -G "Visual Studio 17 2022" -A x64
 cmake --build . --config Release
 ```
