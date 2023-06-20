@@ -46,7 +46,7 @@ On Windows, all library dependencies are automatically included within the `exte
 
 * For the build directory, use a `/build` subdirectory inside the source directory or some other directory of your choice. (Tell CMake to create it.)
 
-  ![11](https://i.imgur.com/cNnhs22.png)
+  ![11](https://github.com/yuzu-emu/yuzu/assets/20753089/738efcab-0da6-44ce-889d-becf3712db10)
 
 * Click the "Configure" button and choose `Visual Studio 17 2022`, with `x64` for the optional platform.
 
