@@ -129,10 +129,15 @@ After building, the binaries `yuzu` and `yuzu-cmd` (depending on your build opti
 
 ### Debugging
 
+1. Enable CPU debugging
+   ![](https://raw.githubusercontent.com/flathub/org.yuzu_emu.yuzu/master/assets/yuzu-settings-2.png)
+2. Disable both Host MMU emulation options
+   ![](https://raw.githubusercontent.com/flathub/org.yuzu_emu.yuzu/master/assets/yuzu-settings-1.png)
+3. Run gdb
+
 ```bash
 cd data
 gdb ../build/bin/yuzu            # Start GDB
-(gdb) handle SIGSEGV nostop      # Disable SIGSEGV exceptions, which are used by yuzu for memory access
 (gdb) run                        # Run yuzu under GDB
 <crash>
 (gdb) bt                         # Print a backtrace of the entire callstack to see which codepath the crash occurred on
