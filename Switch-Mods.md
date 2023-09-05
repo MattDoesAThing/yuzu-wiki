@@ -115,7 +115,7 @@ If you're looking for an automated process to install these mods, you can try th
 ### Mario Strikers™: Battle League
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
-| [No Intro/Credits bypass mod](https://github.com/piplup55/switch-mods/blob/master/mario%20strike%20battle%20league/cutscene%20skip.7z?raw=true) | Bypasses the issue with game intro and credits video(s) by replacing it with a 'dummy' 1 second video file. | `1.0.0` | piplup55
+| [No Intro/Credits bypass mod](https://github.com/piplup55/switch-mods-cheats/blob/master/Mario%20Strikers%20Battle%20League/cutscene%20skip.7z?raw=true ) | Bypasses the issue with game intro and credits video(s) by replacing it with a 'dummy' 1 second video file. | `1.0.0` | piplup55
 
 #
 #
@@ -124,6 +124,7 @@ If you're looking for an automated process to install these mods, you can try th
 | Mod | Description | Applies to | Credit |
 | --- | ----------- | ---------- | ------ |
 | [Disable Dynamic Resolution](https://cdn.discordapp.com/attachments/356187763139280896/798514729978560512/Disable_Dynamic_Resolution.zip) | Disables the game's automatic adjustment of resolution. | `1.0.0` `3.1.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
+| [60 FPS](https://github.com/theboy181/switch-ptchtxt-mods/blob/main/Mario%20Tennis%20Aces/[0100BDE00862A000]/1.0.0/60fps.rar?raw=true) | Makes the game run full speed at 60 FPS. | `1.0.0` | [theboy181](https://github.com/theboy181/switch-ptchtxt-mods)
 
 #
 
