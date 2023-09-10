@@ -290,7 +290,7 @@ Please read the following guide: [How to install Early Access](https://yuzu-emu.
 ### **What is yuzu?**
 
 yuzu is an experimental open-source emulator for the Nintendo Switch from the creators of Citra.
-It is written in C++ with portability in mind, with builds actively maintained for Windows and Linux. The emulator currently can play various commercial titles and homebrew applications with varying degrees of success.
+It is written in C++ with portability in mind, with builds actively maintained for Windows, Linux and Android. The emulator currently can play various commercial titles and homebrew applications with varying degrees of success.
 
 
 ### **Which software license is yuzu licensed under?**
@@ -300,7 +300,7 @@ yuzu is an open-source project, licensed under the GPLv2 (or any later version).
 
 ### **Which platforms does yuzu support?**
 
-yuzu is actively tested and supported on various 64-bit versions of Windows (10 and up) and Linux. macOS is no longer supported due to Apple deprecating OpenGL.
+yuzu is actively tested and supported on various 64-bit versions of Windows (10 and up), Linux and Android (11 and up). macOS is no longer supported due to Apple deprecating OpenGL.
 
 
 ### **What are the system requirements for yuzu?**
