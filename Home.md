@@ -2,7 +2,7 @@ yuzu emulator
 =============
 yuzu is an experimental open-source emulator for the Nintendo Switch from the creators of [Citra](https://citra-emu.org/). It is written in C++ with portability in mind, with builds actively maintained for Windows and Linux. yuzu is licensed under the GPLv2 (or any later version). Refer to the license.txt file included.
 
-Check out our [website](https://yuzu-emu.org/)!
+Check out our [website](https://yuzu-emu.org/)!  ** site nuked by nintendo
 
 For development discussion, please join us on [Discord](https://discord.gg/u77vRWY).
 
@@ -10,14 +10,14 @@ For development discussion, please join us on [Discord](https://discord.gg/u77vR
 
 Most of the development happens on GitHub. It's also where [our central repository](https://github.com/yuzu-emu/yuzu) is hosted.
 
-If you want to contribute, please take a look at the [Contributor's Guide](https://github.com/yuzu-emu/yuzu/blob/master/CONTRIBUTING.md) and [Developer Information](https://github.com/yuzu-emu/yuzu/wiki/Developer-Information). You should as well contact any of the developers on Discord in order to know about the current state of the emulator.
+If you want to contribute, please take a look at the [Contributor's Guide](https://git.h3cjp.net/H3cJP/yuzu/wiki/Contributing) and [Developer Information](https://git.h3cjp.net/H3cJP/yuzu/wiki/Developer-Information). You should as well contact any of the developers on Discord in order to know about the current state of the emulator.
 
 ## Usage
 You may download a precompiled binary from [our website](https://yuzu-emu.org/downloads/), or you can build it yourself from the source code.
 
-* __Windows__: [Windows Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Windows)
-* __Linux__: [Linux Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Linux)
-* __Android__: [Android Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Android)
+* __Windows__: [Windows Build](https://git.h3cjp.net/H3cJP/yuzu/wiki/Building-for-Windows)
+* __Linux__: [Linux Build](https://git.h3cjp.net/H3cJP/yuzu/wiki/Building-for-Linux)
+* __Android__: [Android Build](https://git.h3cjp.net/H3cJP/yuzu/wiki/Building-For-Android)
 
 **Note: macOS is no longer supported due to Apple deprecating OpenGL and their current version not supporting the OpenGL extensions we require.** ([source](https://www.anandtech.com/show/12894/apple-deprecates-opengl-across-all-oses))
 
@@ -41,7 +41,7 @@ Class names can be discovered from the log messages themselves. For example, thi
 
 ``[  10.285042] Service  core/hle/service/service.h:Service::Interface::SyncRequest:84: unknown/unimplemented function '0x01020000': port=APT:U``
 
-[A complete list can be found in the source](https://github.com/yuzu-emu/yuzu/blob/a39760b9471283c2d856075b382444e961d78390/src/common/logging/filter.cpp#L65)
+[A complete list can be found in the source](https://git.h3cjp.net/H3cJP/yuzu/src/branch/master/src/common/logging/filter.cpp#L65)
 
 To configure the log filter, you need to change the configuration in:
 
